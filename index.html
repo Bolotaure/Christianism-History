@@ -24,8 +24,13 @@ h1{margin:6px 0 12px;font-family:Georgia,"Times New Roman",serif;font-size:24px;
 .sub{font-size:13px;line-height:1.4;color:var(--muted)}
 .sub b{color:var(--gold2);font-weight:600}
 header .kicker,header h1,header .sub{padding-right:64px}
-#themeSel{-webkit-appearance:none;appearance:none;max-width:100%;margin:0;padding:0 28px 0 0;border:0;border-radius:6px;background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 2px center/18px;color:inherit;font:inherit;line-height:inherit;cursor:pointer;text-overflow:ellipsis}
-#themeSel:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+/* the title is plain text on two reserved lines; an invisible select on top opens the theme list */
+#h1{position:relative;height:2.3em;display:flex;align-items:center}
+#themeTitle{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#themeTitle .last{white-space:nowrap}
+#themeTitle .last::after{content:"";display:inline-block;width:18px;height:18px;margin-left:8px;vertical-align:-1px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat center/18px}
+#themeSel{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;padding:0;border:0;-webkit-appearance:none;appearance:none;font:16px sans-serif;cursor:pointer}
+#h1:focus-within{outline:2px solid var(--gold2);outline-offset:3px;border-radius:6px}
 #themeSel option{font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1d1814;background:#fbf6ec}
 #langBtn{position:absolute;right:14px;top:calc(13px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
 #langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
@@ -152,7 +157,7 @@ html,body{overscroll-behavior-x:none}
 <body>
 <header>
   <div class="kicker" id="kicker">A timeline for young explorers</div>
-  <h1 id="h1"><select id="themeSel" aria-label="Theme"></select></h1>
+  <h1 id="h1"><span id="themeTitle"></span><select id="themeSel" aria-label="Theme"></select></h1>
   <div class="sub" id="sub">From Abraham to today</div>
   <nav id="eras" aria-label="Jump to a period"></nav>
   <button type="button" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span id="langCode">EN</span></button>
@@ -709,13 +714,10 @@ function applyUI(){
   document.querySelectorAll('#langMenu button').forEach(b => b.setAttribute('aria-checked', b.dataset.lang === LANG));
 }
 function fitThemeSel(){
-  // size the select to the chosen title, so the arrow sits right after it
-  const sel = $('#themeSel'), m = document.createElement('span');
-  m.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;font:' + getComputedStyle(sel).font;
-  m.textContent = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '';
-  document.body.appendChild(m);
-  sel.style.width = Math.ceil(m.getBoundingClientRect().width + 34) + 'px';
-  m.remove();
+  // keep the arrow attached to the last word so it never wraps alone
+  const title = THEMES[THEME].text[LANG].title, i = title.lastIndexOf(' ');
+  $('#themeTitle').innerHTML = i < 0 ? `<span class="last">${esc(title)}</span>`
+    : `${esc(title.slice(0, i))} <span class="last">${esc(title.slice(i + 1))}</span>`;
 }
 function show(theme, lang, data){
   THEME = theme; LANG = lang; ERAS = THEMES[theme].colors;
