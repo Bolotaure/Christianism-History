@@ -540,7 +540,7 @@ document.addEventListener('keydown', ev => {
 
 /* ---------- init ---------- */
 function getJSON(name){
-  return fetch(DATA_HOST + name).then(r => { if(!r.ok) throw new Error(name + " not found (" + r.status + ")"); return r.json(); });
+  return fetch(DATA_HOST + name, {cache:'no-cache'}).then(r => { if(!r.ok) throw new Error(name + " not found (" + r.status + ")"); return r.json(); });
 }
 /* ---------- theme & language ---------- */
 const cache = {};
