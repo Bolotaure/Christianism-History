@@ -114,6 +114,9 @@ header .kicker,header h1,header .sub{padding-right:64px}
   .kicker,.sub{display:none} h1{font-size:18px} header{padding-top:calc(6px + var(--safe-t))} #eras{padding-top:6px}
   #mini{height:24px;margin-top:2px;margin-bottom:calc(6px + var(--safe-b))} #mini .tick{top:7px}
 }
+:lang(ja) h1,:lang(ja) .body h2,:lang(ja) #miniCard .w{font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",Georgia,serif}
+:lang(ja) .body p,:lang(ja) .body li{line-height:1.75;line-break:strict}
+:lang(ja) .kicker,:lang(ja) .body .era,:lang(ja) .band .eraname{letter-spacing:.06em}
 .compact .pin .head{width:40px;height:40px;font-size:20px}
 .compact .pin .tt{-webkit-line-clamp:2}
 </style>
@@ -128,6 +131,7 @@ header .kicker,header h1,header .sub{padding-right:64px}
   <div id="langMenu" role="menu" hidden>
     <button type="button" role="menuitemradio" data-lang="en" aria-checked="false"><b>EN</b>English</button>
     <button type="button" role="menuitemradio" data-lang="fr" aria-checked="false"><b>FR</b>Français</button>
+    <button type="button" role="menuitemradio" data-lang="ja" aria-checked="false"><b>JA</b>日本語</button>
   </div>
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
@@ -169,6 +173,18 @@ const T = {
     before:"◀ Avant", next:"Après ▶",
     close:'Touche la carte pour revenir à la frise<br>Touche un <span class="term" style="cursor:inherit">mot souligné</span> pour savoir ce qu\'il veut dire',
     inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons"
+  },
+  ja:{
+    title:"キリスト教のれきし", kicker:"わかい探検家のためのタイムライン",
+    sub:"アブラハムから今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+    eras:{roots:"根っこ", jesus:"イエスの生がい", early:"最初のキリスト教徒", empire:"キリスト教のローマ帝国",
+          middle:"中世", reform:"ルネサンスと宗教改革", modern:"近世・近代", today:"20世紀から今まで"},
+    jump:"時代を選ぶ", timeline:"タイムライン", lang:"言語", hint:"スライド →", past:"◀ ずっとむかし", now:"今 ▶",
+    loading:"タイムラインを読みこみ中…", failed:"タイムラインを読みこめませんでした：",
+    learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
+    before:"◀ 前へ", next:"次へ ▶",
+    close:'カードにタッチするとタイムラインにもどります<br><span class="term" style="cursor:inherit">下線のあることば</span>にタッチすると、意味がわかります',
+    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ"
   }
 };
 let LANG = 'en';
@@ -373,6 +389,11 @@ function renderCard(n){
   const refs = e.refs.map(r => {
     const name = r.replace(/_/g,' ');
     const enc = encodeURIComponent(r).replace(/%2F/g,'/');
+    if(LANG === 'ja'){
+      const q = encodeURIComponent(r);
+      return `<li>${esc(r)}：<a href="https://ja.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">ウィキペディア</a>
+        ・<a href="https://kotobank.jp/search?q=${q}" target="_blank" rel="noopener">コトバンク</a></li>`;
+    }
     if(LANG === 'fr'){
       const q = encodeURIComponent(r);
       return `<li>${esc(r)} : <a href="https://fr.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Wikipédia</a>
@@ -433,7 +454,7 @@ function openMini(t){
   const w = t.dataset.w, inl = inlineDefs[+t.dataset.i];
   const def = inl != null ? inl : esc(gloss(t.dataset.k || w));   // inline definitions are already escaped
   fadeSwap(() => {
-    miniCard.innerHTML = `<p class="w">${esc(w)}</p><p class="ctx">${T[LANG].inCard} ${LANG==='fr' ? '« '+esc(EV[current].title)+' »' : '“'+esc(EV[current].title)+'”'}</p><p class="d">${def}</p><p class="tap">${T[LANG].back}</p>`;
+    miniCard.innerHTML = `<p class="w">${esc(w)}</p><p class="ctx">${LANG==='ja' ? '「'+esc(EV[current].title)+'」より' : T[LANG].inCard+' '+(LANG==='fr' ? '« '+esc(EV[current].title)+' »' : '“'+esc(EV[current].title)+'”')}</p><p class="d">${def}</p><p class="tap">${T[LANG].back}</p>`;
     miniLayer.classList.add('show');
   });
 }
@@ -487,7 +508,8 @@ function pickLang(){
   const h = location.hash.slice(1);
   if(T[h]) return h;
   try{ const saved = localStorage.getItem('xtl-lang'); if(T[saved]) return saved; }catch(e){}
-  return (navigator.language || '').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+  const nav = (navigator.language || '').toLowerCase().slice(0, 2);
+  return T[nav] ? nav : 'en';
 }
 function setLang(lang){
   closeLangMenu();
