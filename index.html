@@ -76,10 +76,10 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #cardLayer{background:var(--bg);z-index:10;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 #card{max-width:720px;margin:0 auto;min-height:100%;background:var(--paper);color:var(--paper-ink);cursor:pointer;padding-bottom:calc(28px + var(--safe-b))}
 .art{position:relative;height:min(46vh,340px);overflow:hidden;background:#333}
-.art img{width:100%;height:100%;object-fit:cover;display:block}
+.art img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block}
 .art .emoji{position:absolute;inset:0;display:grid;place-items:center;font-size:110px}
 .art .emoji span{position:absolute;font-size:34px;opacity:.55}
-.art::after{content:"";position:absolute;inset:auto 0 0 0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.55))}
+.art::after{content:"";position:absolute;z-index:1;inset:auto 0 0 0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.55))}
 .art .badge{position:absolute;z-index:2;left:16px;bottom:14px;background:var(--gold);color:#241c12;font-weight:800;font-size:14px;padding:5px 12px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
 .art .num{position:absolute;z-index:2;right:16px;bottom:16px;color:#fff;font-size:12px;opacity:.9;text-shadow:0 1px 4px #000}
 .art .credit{position:absolute;z-index:2;right:10px;top:calc(8px + var(--safe-t));color:#fff;font-size:10px;opacity:.75;text-shadow:0 1px 3px #000}
