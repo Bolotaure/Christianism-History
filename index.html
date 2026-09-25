@@ -41,14 +41,15 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #eras button.on{background:rgba(232,184,92,.18);border-color:var(--gold)}
 
 /* ---------- timeline ---------- */
-.slide{position:fixed;z-index:4;top:50%;width:38px;height:38px;margin-top:-19px;border-radius:50%;border:1px solid rgba(232,184,92,.5);
-  background:rgba(20,17,15,.72);color:var(--gold);display:grid;place-items:center;padding:0;cursor:pointer;
-  box-shadow:0 2px 10px rgba(0,0,0,.4);animation:blink 1.6s ease-in-out infinite;transition:opacity .3s;-webkit-tap-highlight-color:transparent}
-.slide svg{width:18px;height:18px}
-.slide.l{left:8px}.slide.r{right:8px}
-.slide.off{opacity:0 !important;pointer-events:none;animation:none}
-@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.9)}}
-@media (prefers-reduced-motion:reduce){.slide{animation:none}}
+.slide{position:fixed;z-index:4;top:50%;width:36px;height:36px;margin-top:-18px;color:var(--gold);pointer-events:none;
+  filter:drop-shadow(0 1px 3px rgba(0,0,0,.8));transition:opacity .3s}
+.slide svg{width:100%;height:100%;display:block}
+.slide.l{left:4px;animation:nudgeL 1.6s ease-in-out infinite}
+.slide.r{right:4px;animation:nudgeR 1.6s ease-in-out infinite}
+.slide.off{opacity:0 !important;animation:none}
+@keyframes nudgeL{0%,100%{opacity:.25;transform:translateX(4px)}50%{opacity:1;transform:translateX(-3px)}}
+@keyframes nudgeR{0%,100%{opacity:.25;transform:translateX(-4px)}50%{opacity:1;transform:translateX(3px)}}
+@media (prefers-reduced-motion:reduce){.slide.l,.slide.r{animation:none;opacity:.8}}
 #scroller{flex:1 1 auto;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;cursor:grab;scrollbar-width:none;touch-action:pan-x}
 #scroller::-webkit-scrollbar{display:none}
 #scroller.drag{cursor:grabbing}
@@ -156,8 +157,8 @@ html,body{overscroll-behavior-x:none}
   </div>
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
-<button type="button" class="slide l" id="slideL"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 3 5.5 8l5 5"/></svg></button>
-<button type="button" class="slide r" id="slideR"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3l5 5-5 5"/></svg></button>
+<div class="slide l" id="slideL" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5 5 12l7 7"/><path d="M19 5l-7 7 7 7"/></svg></div>
+<div class="slide r" id="slideR" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5l7 7-7 7"/><path d="M12 5l7 7-7 7"/></svg></div>
 <div id="mini" aria-hidden="true"><div id="view"></div></div>
 
 <div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
@@ -409,7 +410,7 @@ mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerI
 
 scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); syncSlideBtns(); }, {passive:true});
 
-/* blinking arrows on both sides of the timeline: slide one screen left / right */
+/* blinking slide icons on both sides of the timeline (decorative: the timeline itself is swiped) */
 const slideL = $('#slideL'), slideR = $('#slideR');
 function syncSlideBtns(){
   const max = scroller.scrollWidth - scroller.clientWidth;
@@ -418,9 +419,7 @@ function syncSlideBtns(){
   const r = scroller.getBoundingClientRect();
   slideL.style.top = slideR.style.top = (r.top + r.height/2) + 'px';
 }
-[slideL, slideR].forEach((b, i) => b.addEventListener('click', () => {
-  scroller.scrollBy({left: (i ? 1 : -1) * scroller.clientWidth * .8, behavior: 'smooth'});
-}));
+
 
 /* mouse drag to slide (touch uses native scrolling) */
 let dragMoved = false, dragging = false, sx = 0, sl = 0;
@@ -667,8 +666,6 @@ function applyUI(){
   sel.setAttribute('aria-label', t('theme'));
   fitThemeSel();
   $('#sub').innerHTML = t('sub');
-  slideL.setAttribute('aria-label', t('past').replace(/[◀▶]/g,'').trim());
-  slideR.setAttribute('aria-label', t('now').replace(/[◀▶]/g,'').trim());
   $('#eras').setAttribute('aria-label', t('jump'));
   scroller.setAttribute('aria-label', t('timeline'));
   $('#langBtn').setAttribute('aria-label', t('lang'));
