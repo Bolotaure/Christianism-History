@@ -41,12 +41,9 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #eras button.on{background:rgba(232,184,92,.18);border-color:var(--gold)}
 
 /* ---------- timeline ---------- */
-.slide{position:fixed;z-index:4;top:50%;width:22px;height:22px;margin-top:-11px;color:var(--gold);opacity:.85;pointer-events:none;
-  filter:drop-shadow(0 1px 3px rgba(0,0,0,.8));transition:opacity .3s}
-.slide svg{width:100%;height:100%;display:block}
-.slide.l{left:4px}
-.slide.r{right:4px}
-.slide.off{opacity:0}
+#swipeIcon{position:fixed;z-index:4;right:10px;top:0;width:34px;height:34px;padding:5px;border-radius:10px;color:var(--gold);
+  background:rgba(20,17,15,.6);pointer-events:none;opacity:.9}
+#swipeIcon svg{width:100%;height:100%;display:block}
 #scroller{flex:1 1 auto;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;cursor:grab;scrollbar-width:none;touch-action:pan-x}
 #scroller::-webkit-scrollbar{display:none}
 #scroller.drag{cursor:grabbing}
@@ -144,7 +141,7 @@ html,body{overscroll-behavior-x:none}
 <header>
   <div class="kicker" id="kicker">A timeline for young explorers</div>
   <h1 id="h1"><select id="themeSel" aria-label="Theme"></select></h1>
-  <div class="sub" id="sub">From Abraham to today · <b>slide the timeline</b> and touch a pin</div>
+  <div class="sub" id="sub">From Abraham to today</div>
   <nav id="eras" aria-label="Jump to a period"></nav>
   <button type="button" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span id="langCode">EN</span></button>
   <div id="langMenu" role="menu" hidden>
@@ -154,8 +151,7 @@ html,body{overscroll-behavior-x:none}
   </div>
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
-<div class="slide l" id="slideL" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5 5 12l7 7"/><path d="M19 5l-7 7 7 7"/></svg></div>
-<div class="slide r" id="slideR" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5l7 7-7 7"/><path d="M12 5l7 7-7 7"/></svg></div>
+<div id="swipeIcon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h9M4 11l4-4M4 11l4 4"/><path d="M44 11h-9M44 11l-4-4M44 11l-4 4"/><path d="M21 31V10a3 3 0 0 1 6 0v14"/><path d="M27 22a3 3 0 0 1 6 0v3"/><path d="M33 24a3 3 0 0 1 6 0v9c0 5-2 8-3.5 12"/><path d="M21 31l-3.2-3.2a2.9 2.9 0 0 0-4.2 4l5.4 6.4c1.4 1.9 2 4.2 2 6.8"/></svg></div>
 <div id="mini" aria-hidden="true"><div id="view"></div></div>
 
 <div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
@@ -390,7 +386,7 @@ function buildMini(){
     mini.insertBefore(s, view);
   });
   EV.forEach((e,n)=>{ const t=document.createElement('div'); t.className='tick'; t.style.left=((PAD+n*SP)/W*100)+'%'; mini.insertBefore(t, view); });
-  syncMini(); syncSlideBtns();
+  syncMini(); placeSwipeIcon();
 }
 function syncMini(){
   const W = track.scrollWidth, vw = scroller.clientWidth;
@@ -405,17 +401,11 @@ function miniJump(clientX){
 mini.addEventListener('pointerdown', e => { mini.setPointerCapture(e.pointerId); miniJump(e.clientX); });
 mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerId)) miniJump(e.clientX); });
 
-scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); syncSlideBtns(); }, {passive:true});
+scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); }, {passive:true});
 
-/* chevrons on both sides of the timeline (decorative: the timeline itself is swiped) */
-const slideL = $('#slideL'), slideR = $('#slideR');
-function syncSlideBtns(){
-  const max = scroller.scrollWidth - scroller.clientWidth;
-  slideL.classList.toggle('off', scroller.scrollLeft < 8);
-  slideR.classList.toggle('off', scroller.scrollLeft > max - 8);
-  const r = scroller.getBoundingClientRect();
-  slideL.style.top = slideR.style.top = (r.top + r.height/2) + 'px';
-}
+/* swipe icon at the top right of the timeline */
+const swipeIcon = $('#swipeIcon');
+function placeSwipeIcon(){ swipeIcon.style.top = (scroller.getBoundingClientRect().top + 8) + 'px'; }
 
 
 /* mouse drag to slide (touch uses native scrolling) */
