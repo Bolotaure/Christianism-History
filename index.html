@@ -41,7 +41,7 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #eras button.on{background:rgba(232,184,92,.18);border-color:var(--gold)}
 
 /* ---------- timeline ---------- */
-#swipeIcon{position:fixed;z-index:4;right:8px;top:0;width:30px;height:30px;padding:4px;border-radius:10px;color:var(--gold);
+#swipeIcon{position:fixed;z-index:4;left:50%;transform:translateX(-50%);top:0;width:30px;height:30px;padding:4px;border-radius:10px;color:var(--gold);
   background:rgba(20,17,15,.6);pointer-events:none;opacity:.9}
 #swipeIcon svg{width:100%;height:100%;display:block}
 #swipeIcon.small{width:22px;height:22px;padding:3px;border-radius:7px}
@@ -406,7 +406,7 @@ scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); }, {passi
 
 /* swipe icon at the top right of the timeline */
 const swipeIcon = $('#swipeIcon');
-// bottom right, clear of the period names and the pins (smaller on very short timelines)
+// bottom centre, clear of the period names and the pins (smaller on very short timelines)
 function placeSwipeIcon(){
   const small = scroller.clientHeight < 420;
   swipeIcon.classList.toggle('small', small);
