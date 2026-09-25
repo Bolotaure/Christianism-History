@@ -53,14 +53,15 @@ header .kicker,header h1,header .sub{padding-right:64px}
 .pin .stem{position:absolute;left:-1px;width:2px;background:rgba(232,184,92,.55)}
 .pin .dot{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px var(--bg)}
 .pin button{position:absolute;left:-80px;width:160px;border:0;background:none;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;text-align:center}
-.pin .head{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-size:24px;background:radial-gradient(circle at 35% 30%,#3a3027,#1d1814);border:2px solid var(--gold);box-shadow:0 4px 14px rgba(0,0,0,.5);transition:transform .15s}
+.pin .head{position:relative;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-size:24px;background:radial-gradient(circle at 35% 30%,#3a3027,#1d1814);border:2px solid var(--gold);box-shadow:0 4px 14px rgba(0,0,0,.5);transition:transform .15s}
 .pin button:active .head{transform:scale(1.12)}
 .pin .yr{margin-top:5px;font-size:12px;font-weight:700;color:var(--gold2);letter-spacing:.02em}
 .pin .tt{font-size:12.5px;line-height:1.25;color:var(--ink);margin-top:2px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pin.down button{flex-direction:column-reverse}
 .pin.down .yr{margin-top:0;margin-bottom:0}
 .pin.down .tt{margin-top:0;margin-bottom:2px}
-.pin.seen .head::after{content:"✓";position:absolute;transform:translate(18px,-18px);font-size:11px;background:var(--gold);color:#241c12;border-radius:50%;width:16px;height:16px;display:grid;place-items:center;font-weight:800}
+.pin.seen .head::after{content:"✓";position:absolute;top:-6px;right:-6px;font-size:11px;background:var(--gold);color:#241c12;border-radius:50%;width:16px;height:16px;display:grid;place-items:center;font-weight:800}
+.pin.down.seen .head::after{top:auto;bottom:-6px}
 
 /* ---------- minimap ---------- */
 #mini{flex:0 0 auto;position:relative;height:34px;margin:4px 16px calc(10px + var(--safe-b));border-radius:8px;overflow:hidden;cursor:pointer;touch-action:none}
@@ -258,7 +259,9 @@ function layout(){
   SP = compact ? 150 : 112;
   const mid = Math.round(H/2);
   track.classList.toggle('compact', compact);
-  const near = compact ? Math.max(18, Math.min(H*.18, H/2 - 108)) : H*.13, far = compact ? near : H*.31;
+  // keep the tallest pin (icon + date + 3 lines of title, ~125px) below the period name at the top
+  const near = compact ? Math.max(18, Math.min(H*.18, H/2 - 108)) : H*.13;
+  const far = compact ? near : Math.max(near + 60, Math.min(H*.31, mid - 135));
   const levels = compact ? [-near, near] : [-far, near, -near, far];
   const W = PAD*2 + (EV.length-1)*SP;
   track.style.width = W+'px';
