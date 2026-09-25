@@ -18,29 +18,37 @@ body{display:flex;flex-direction:column;height:100dvh}
 button{font:inherit;color:inherit}
 
 /* ---------- header ---------- */
-header{position:relative;flex:0 0 auto;padding:calc(18px + var(--safe-t)) 16px 14px;background:linear-gradient(#1d1814,#14110f)}
+header{position:relative;flex:0 0 auto;padding:calc(24px + var(--safe-t)) 16px 14px;background:linear-gradient(#1d1814,#14110f)}
 .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
-h1{margin:6px 0 6px;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:700;line-height:1.15}
+h1{margin:6px 0 12px;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:700;line-height:1.15}
 .sub{font-size:13px;line-height:1.4;color:var(--muted)}
 .sub b{color:var(--gold2);font-weight:600}
 header .kicker,header h1,header .sub{padding-right:64px}
 #themeSel{-webkit-appearance:none;appearance:none;max-width:100%;margin:0;padding:0 28px 0 0;border:0;border-radius:6px;background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 2px center/18px;color:inherit;font:inherit;line-height:inherit;cursor:pointer;text-overflow:ellipsis}
 #themeSel:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
 #themeSel option{font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1d1814;background:#fbf6ec}
-#langBtn{position:absolute;right:14px;top:calc(18px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
+#langBtn{position:absolute;right:14px;top:calc(24px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
 #langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
 #langBtn:focus-visible,#langMenu button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
-#langMenu{position:absolute;right:14px;top:calc(58px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
+#langMenu{position:absolute;right:14px;top:calc(64px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
 #langMenu button{display:flex;width:100%;align-items:center;gap:10px;border:0;background:none;padding:10px 12px;border-radius:10px;font-size:15px;text-align:left;cursor:pointer}
 #langMenu button[aria-checked="true"]{background:rgba(232,184,92,.18);color:var(--gold2);font-weight:700}
 #langMenu button b{width:26px;font-size:12px;letter-spacing:.06em;color:var(--muted)}
-#eras{display:flex;gap:6px;overflow-x:auto;padding:16px 0 2px;scrollbar-width:none}
+#eras{display:flex;gap:6px;overflow-x:auto;padding:22px 0 2px;scrollbar-width:none}
 #eras::-webkit-scrollbar{display:none}
 #eras button{flex:0 0 auto;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);border-radius:999px;padding:5px 10px;font-size:12px;white-space:nowrap;cursor:pointer}
 #eras button i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0}
 #eras button.on{background:rgba(232,184,92,.18);border-color:var(--gold)}
 
 /* ---------- timeline ---------- */
+.slide{position:fixed;z-index:4;top:50%;width:38px;height:38px;margin-top:-19px;border-radius:50%;border:1px solid rgba(232,184,92,.5);
+  background:rgba(20,17,15,.72);color:var(--gold);display:grid;place-items:center;padding:0;cursor:pointer;
+  box-shadow:0 2px 10px rgba(0,0,0,.4);animation:blink 1.6s ease-in-out infinite;transition:opacity .3s;-webkit-tap-highlight-color:transparent}
+.slide svg{width:18px;height:18px}
+.slide.l{left:8px}.slide.r{right:8px}
+.slide.off{opacity:0 !important;pointer-events:none;animation:none}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.9)}}
+@media (prefers-reduced-motion:reduce){.slide{animation:none}}
 #scroller{flex:1 1 auto;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;cursor:grab;scrollbar-width:none;touch-action:pan-x}
 #scroller::-webkit-scrollbar{display:none}
 #scroller.drag{cursor:grabbing}
@@ -68,7 +76,6 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #mini .seg{position:absolute;top:0;bottom:0}
 #mini .tick{position:absolute;top:12px;width:2px;height:10px;margin-left:-1px;background:rgba(255,255,255,.55);border-radius:1px}
 #mini #view{position:absolute;top:0;bottom:0;border:2px solid var(--gold2);border-radius:8px;background:rgba(255,255,255,.12)}
-.hint{position:absolute;right:16px;bottom:calc(52px + var(--safe-b));font-size:12px;color:var(--muted);pointer-events:none;transition:opacity .6s}
 
 /* ---------- overlays ---------- */
 .layer{position:fixed;inset:0;display:none}
@@ -149,7 +156,8 @@ html,body{overscroll-behavior-x:none}
   </div>
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
-<div class="hint" id="hint">swipe →</div>
+<button type="button" class="slide l" id="slideL"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 3 5.5 8l5 5"/></svg></button>
+<button type="button" class="slide r" id="slideR"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3l5 5-5 5"/></svg></button>
 <div id="mini" aria-hidden="true"><div id="view"></div></div>
 
 <div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
@@ -170,15 +178,15 @@ const THEMES = {
             middle:{color:"#3f7aa6"}, reform:{color:"#3f9a78"}, modern:{color:"#c7773a"}, today:{color:"#5b8fd6"}},
     text:{
       en:{name:"History of Christianity", title:"The Story of Christianity",
-          sub:"From Abraham to today · <b>slide the timeline</b> and touch a pin",
+          sub:"From Abraham to today",
           eras:{roots:"The roots", jesus:"Life of Jesus", early:"The first Christians", empire:"Christian Roman Empire",
                 middle:"Middle Ages", reform:"Renaissance & Reformation", modern:"Modern times", today:"20th century & today"}},
       fr:{name:"Histoire du christianisme", title:"L'histoire du christianisme",
-          sub:"D'Abraham à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+          sub:"D'Abraham à aujourd'hui",
           eras:{roots:"Les racines", jesus:"La vie de Jésus", early:"Les premiers chrétiens", empire:"L'Empire romain chrétien",
                 middle:"Le Moyen Âge", reform:"Renaissance et Réforme", modern:"Les Temps modernes", today:"XXe siècle et aujourd'hui"}},
       ja:{name:"キリスト教のれきし", title:"キリスト教のれきし",
-          sub:"アブラハムから今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+          sub:"アブラハムから今まで",
           eras:{roots:"根っこ", jesus:"イエスの生がい", early:"最初のキリスト教徒", empire:"キリスト教のローマ帝国",
                 middle:"中世", reform:"ルネサンスと宗教改革", modern:"近世・近代", today:"20世紀から今まで"}}
     }
@@ -190,17 +198,17 @@ const THEMES = {
             showa:{color:"#c2413a"}, heisei:{color:"#5b8fd6"}},
     text:{
       en:{name:"History of Japan", title:"The Story of Japan",
-          sub:"From the Ice Age to today · <b>slide the timeline</b> and touch a pin",
+          sub:"From the Ice Age to today",
           eras:{ancient:"Stone Age & Jōmon", yayoi:"Yayoi & Kofun", asuka:"Asuka & Nara", heian:"Heian",
                 kamakura:"Kamakura & Muromachi", sengoku:"Warring States", edo:"Edo", meiji:"Meiji & Taishō",
                 showa:"Shōwa", heisei:"Heisei & Reiwa"}},
       fr:{name:"Histoire du Japon", title:"L'histoire du Japon",
-          sub:"De l'ère glaciaire à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+          sub:"De l'ère glaciaire à aujourd'hui",
           eras:{ancient:"Préhistoire et Jōmon", yayoi:"Yayoi et Kofun", asuka:"Asuka et Nara", heian:"Heian",
                 kamakura:"Kamakura et Muromachi", sengoku:"Royaumes combattants", edo:"Edo", meiji:"Meiji et Taishō",
                 showa:"Shōwa", heisei:"Heisei et Reiwa"}},
       ja:{name:"日本のれきし", title:"日本のれきし",
-          sub:"氷河時代から今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+          sub:"氷河時代から今まで",
           eras:{ancient:"旧石器・縄文", yayoi:"弥生・古墳", asuka:"飛鳥・奈良", heian:"平安",
                 kamakura:"鎌倉・室町", sengoku:"戦国・安土桃山", edo:"江戸", meiji:"明治・大正",
                 showa:"昭和", heisei:"平成・令和"}}
@@ -213,17 +221,17 @@ const THEMES = {
             guerres:{color:"#6f7a86"}, contemporain:{color:"#2f6fd6"}},
     text:{
       en:{name:"History of France", title:"The Story of France",
-          sub:"From prehistory to today · <b>slide the timeline</b> and touch a pin",
+          sub:"From prehistory to today",
           eras:{prehist:"Prehistory", gaule:"Gaul & Rome", hautma:"Early Middle Ages", moyenage:"Middle Ages",
                 renaissance:"Renaissance", absolu:"Absolute monarchy", revolution:"Revolution & Empire",
                 xixe:"19th century", guerres:"World Wars", contemporain:"Today's France"}},
       fr:{name:"Histoire de France", title:"L'histoire de France",
-          sub:"De la Préhistoire à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+          sub:"De la Préhistoire à aujourd'hui",
           eras:{prehist:"Préhistoire", gaule:"Gaule et Rome", hautma:"Haut Moyen Âge", moyenage:"Moyen Âge",
                 renaissance:"Renaissance", absolu:"Monarchie absolue", revolution:"Révolution et Empire",
                 xixe:"XIXᵉ siècle", guerres:"Guerres mondiales", contemporain:"France contemporaine"}},
       ja:{name:"フランスのれきし", title:"フランスのれきし",
-          sub:"先史時代から今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+          sub:"先史時代から今まで",
           eras:{prehist:"先史時代", gaule:"ガリアとローマ", hautma:"中世前期", moyenage:"中世",
                 renaissance:"ルネサンス", absolu:"絶対王政", revolution:"革命と帝政",
                 xixe:"19世紀", guerres:"世界大戦", contemporain:"現代のフランス"}}
@@ -235,10 +243,10 @@ let ERAS = THEMES[THEME].colors;
 const T = {
   en:{
     title:"The Story of Christianity", kicker:"A timeline for young explorers",
-    sub:"From Abraham to today · <b>slide the timeline</b> and touch a pin",
+    sub:"From Abraham to today",
     eras:{roots:"The roots", jesus:"Life of Jesus", early:"The first Christians", empire:"Christian Roman Empire",
           middle:"Middle Ages", reform:"Renaissance & Reformation", modern:"Modern times", today:"20th century & today"},
-    theme:"Theme", jump:"Jump to a period", timeline:"Timeline", lang:"Language", hint:"swipe →", past:"◀ long ago", now:"today ▶",
+    theme:"Theme", jump:"Jump to a period", timeline:"Timeline", lang:"Language", past:"◀ long ago", now:"today ▶",
     loading:"Loading the timeline…", failed:"Timeline failed to load: ",
     learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
     before:"◀ Before", next:"Next ▶",
@@ -247,10 +255,10 @@ const T = {
   },
   fr:{
     title:"L'histoire du christianisme", kicker:"Une frise pour jeunes explorateurs",
-    sub:"D'Abraham à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+    sub:"D'Abraham à aujourd'hui",
     eras:{roots:"Les racines", jesus:"La vie de Jésus", early:"Les premiers chrétiens", empire:"L'Empire romain chrétien",
           middle:"Le Moyen Âge", reform:"Renaissance et Réforme", modern:"Les Temps modernes", today:"XXe siècle et aujourd'hui"},
-    theme:"Thème", jump:"Aller à une période", timeline:"Frise chronologique", lang:"Langue", hint:"glisse →", past:"◀ il y a longtemps", now:"aujourd'hui ▶",
+    theme:"Thème", jump:"Aller à une période", timeline:"Frise chronologique", lang:"Langue", past:"◀ il y a longtemps", now:"aujourd'hui ▶",
     loading:"Chargement de la frise…", failed:"La frise n'a pas pu se charger : ",
     learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
     before:"◀ Avant", next:"Après ▶",
@@ -259,10 +267,10 @@ const T = {
   },
   ja:{
     title:"キリスト教のれきし", kicker:"わかい探検家のためのタイムライン",
-    sub:"アブラハムから今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+    sub:"アブラハムから今まで",
     eras:{roots:"根っこ", jesus:"イエスの生がい", early:"最初のキリスト教徒", empire:"キリスト教のローマ帝国",
           middle:"中世", reform:"ルネサンスと宗教改革", modern:"近世・近代", today:"20世紀から今まで"},
-    theme:"テーマ", jump:"時代を選ぶ", timeline:"タイムライン", lang:"言語", hint:"スライド →", past:"◀ ずっとむかし", now:"今 ▶",
+    theme:"テーマ", jump:"時代を選ぶ", timeline:"タイムライン", lang:"言語", past:"◀ ずっとむかし", now:"今 ▶",
     loading:"タイムラインを読みこみ中…", failed:"タイムラインを読みこめませんでした：",
     learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
     before:"◀ 前へ", next:"次へ ▶",
@@ -384,7 +392,7 @@ function buildMini(){
     mini.insertBefore(s, view);
   });
   EV.forEach((e,n)=>{ const t=document.createElement('div'); t.className='tick'; t.style.left=((PAD+n*SP)/W*100)+'%'; mini.insertBefore(t, view); });
-  syncMini();
+  syncMini(); syncSlideBtns();
 }
 function syncMini(){
   const W = track.scrollWidth, vw = scroller.clientWidth;
@@ -399,11 +407,20 @@ function miniJump(clientX){
 mini.addEventListener('pointerdown', e => { mini.setPointerCapture(e.pointerId); miniJump(e.clientX); });
 mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerId)) miniJump(e.clientX); });
 
-let hintGone = false;
-scroller.addEventListener('scroll', () => {
-  syncMini(); syncEraChip();
-  if(!hintGone && scroller.scrollLeft > 40){ hintGone = true; $('#hint').style.opacity = 0; }
-}, {passive:true});
+scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); syncSlideBtns(); }, {passive:true});
+
+/* blinking arrows on both sides of the timeline: slide one screen left / right */
+const slideL = $('#slideL'), slideR = $('#slideR');
+function syncSlideBtns(){
+  const max = scroller.scrollWidth - scroller.clientWidth;
+  slideL.classList.toggle('off', scroller.scrollLeft < 8);
+  slideR.classList.toggle('off', scroller.scrollLeft > max - 8);
+  const r = scroller.getBoundingClientRect();
+  slideL.style.top = slideR.style.top = (r.top + r.height/2) + 'px';
+}
+[slideL, slideR].forEach((b, i) => b.addEventListener('click', () => {
+  scroller.scrollBy({left: (i ? 1 : -1) * scroller.clientWidth * .8, behavior: 'smooth'});
+}));
 
 /* mouse drag to slide (touch uses native scrolling) */
 let dragMoved = false, dragging = false, sx = 0, sl = 0;
@@ -650,7 +667,8 @@ function applyUI(){
   sel.setAttribute('aria-label', t('theme'));
   fitThemeSel();
   $('#sub').innerHTML = t('sub');
-  $('#hint').textContent = t('hint');
+  slideL.setAttribute('aria-label', t('past').replace(/[◀▶]/g,'').trim());
+  slideR.setAttribute('aria-label', t('now').replace(/[◀▶]/g,'').trim());
   $('#eras').setAttribute('aria-label', t('jump'));
   scroller.setAttribute('aria-label', t('timeline'));
   $('#langBtn').setAttribute('aria-label', t('lang'));
