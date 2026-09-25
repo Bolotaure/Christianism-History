@@ -73,7 +73,8 @@ header .kicker,header h1,header .sub{padding-right:64px}
 /* ---------- overlays ---------- */
 .layer{position:fixed;inset:0;display:none}
 .layer.show{display:block}
-#cardLayer{background:var(--bg);z-index:10;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+#cardLayer{background:var(--bg);z-index:10;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y}
+html,body{overscroll-behavior-x:none}
 #card{max-width:720px;margin:0 auto;min-height:100%;background:var(--paper);color:var(--paper-ink);cursor:pointer;padding-bottom:calc(28px + var(--safe-b))}
 .art{position:relative;height:min(46vh,340px);overflow:hidden;background:#333}
 .art img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block}
@@ -83,7 +84,15 @@ header .kicker,header h1,header .sub{padding-right:64px}
 .art .badge{position:absolute;z-index:2;left:16px;bottom:14px;background:var(--gold);color:#241c12;font-weight:800;font-size:14px;padding:5px 12px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
 .art .num{position:absolute;z-index:2;right:16px;bottom:16px;color:#fff;font-size:12px;opacity:.9;text-shadow:0 1px 4px #000}
 .art .credit{position:absolute;z-index:2;right:10px;top:calc(8px + var(--safe-t));color:#fff;font-size:10px;opacity:.75;text-shadow:0 1px 3px #000}
-.body{padding:18px 20px 0}
+.body{padding:18px 34px 0}
+.side{position:fixed;z-index:11;top:50%;transform:translateY(-50%);width:28px;height:76px;display:none;align-items:center;justify-content:center;
+  border:0;padding:0;background:rgba(20,17,15,.55);color:var(--gold);cursor:pointer;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);
+  box-shadow:0 2px 10px rgba(0,0,0,.25);-webkit-tap-highlight-color:transparent}
+.side svg{width:16px;height:16px}
+.side.prev{left:max(0px,calc(50% - 360px));border-radius:0 14px 14px 0}
+.side.next{right:max(0px,calc(50% - 360px));border-radius:14px 0 0 14px}
+.side:active{background:rgba(20,17,15,.8)}
+#cardLayer.show ~ .side.on{display:flex}
 .body .era{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
 .body h2{font-family:Georgia,"Times New Roman",serif;font-size:26px;line-height:1.2;margin:4px 0 14px}
 .body p{font-size:18px;line-height:1.6;margin:0 0 14px}
@@ -143,6 +152,8 @@ header .kicker,header h1,header .sub{padding-right:64px}
 <div id="mini" aria-hidden="true"><div id="view"></div></div>
 
 <div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
+<button type="button" class="side prev" id="sidePrev" data-go="-1"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 3 5.5 8l5 5"/></svg></button>
+<button type="button" class="side next" id="sideNext" data-go="1"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3l5 5-5 5"/></svg></button>
 <div class="layer" id="miniLayer" role="dialog" aria-modal="true"><div id="miniCard"></div></div>
 <div id="fader"></div>
 
@@ -414,6 +425,7 @@ function fadeSwap(fn){
 /* ---------- card ---------- */
 const cardLayer = $('#cardLayer'), card = $('#card');
 const miniLayer = $('#miniLayer'), miniCard = $('#miniCard');
+const sidePrev = $('#sidePrev'), sideNext = $('#sideNext');
 let current = -1;
 
 function renderText(t){
@@ -507,6 +519,10 @@ function renderCard(n){
       <p class="closehint">${t('close')}</p>
     </div>`;
   cardLayer.scrollTop = 0;
+  sidePrev.classList.toggle('on', n > 0);
+  sideNext.classList.toggle('on', n < EV.length-1);
+  sidePrev.setAttribute('aria-label', t('before').replace(/[◀▶]/g,'').trim());
+  sideNext.setAttribute('aria-label', t('next').replace(/[◀▶]/g,'').trim());
 }
 
 function openCard(n){
@@ -538,6 +554,20 @@ card.addEventListener('click', ev => {
   if(t){ openMini(t); return; }
   closeCard();
 });
+[sidePrev, sideNext].forEach(b => b.addEventListener('click', () => { if(!busy) goCard(current + (+b.dataset.go)); }));
+
+// Swipe left / right on a card to change card
+let swipe = null;
+cardLayer.addEventListener('touchstart', ev => {
+  const p = ev.touches[0]; swipe = ev.touches.length === 1 ? {x:p.clientX, y:p.clientY} : null;
+}, {passive:true});
+cardLayer.addEventListener('touchend', ev => {
+  if(!swipe || busy) return;
+  const p = ev.changedTouches[0], dx = p.clientX - swipe.x, dy = p.clientY - swipe.y;
+  swipe = null;
+  if(Math.abs(dx) > 70 && Math.abs(dx) > 2*Math.abs(dy)) goCard(current + (dx < 0 ? 1 : -1));
+}, {passive:true});
+
 card.addEventListener('keydown', ev => {
   const t = ev.target.closest('.term[data-w]');
   if(t && (ev.key==='Enter' || ev.key===' ')){ ev.preventDefault(); openMini(t); }
@@ -555,7 +585,11 @@ function openMini(t){
 miniLayer.addEventListener('click', () => { if(!busy) fadeSwap(() => miniLayer.classList.remove('show')); });
 
 document.addEventListener('keydown', ev => {
-  if(ev.key !== 'Escape' || busy) return;
+  if(busy) return;
+  if((ev.key === 'ArrowLeft' || ev.key === 'ArrowRight') && cardLayer.classList.contains('show') && !miniLayer.classList.contains('show')){
+    goCard(current + (ev.key === 'ArrowRight' ? 1 : -1)); return;
+  }
+  if(ev.key !== 'Escape') return;
   if(!langMenu.hidden){ closeLangMenu(); return; }
   if(miniLayer.classList.contains('show')) fadeSwap(() => miniLayer.classList.remove('show'));
   else if(cardLayer.classList.contains('show')) closeCard();
