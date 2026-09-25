@@ -18,23 +18,23 @@ body{display:flex;flex-direction:column;height:100dvh}
 button{font:inherit;color:inherit}
 
 /* ---------- header ---------- */
-header{position:relative;flex:0 0 auto;padding:calc(10px + var(--safe-t)) 16px 6px;background:linear-gradient(#1d1814,#14110f)}
+header{position:relative;flex:0 0 auto;padding:calc(18px + var(--safe-t)) 16px 14px;background:linear-gradient(#1d1814,#14110f)}
 .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
-h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:700;line-height:1.15}
-.sub{font-size:13px;color:var(--muted)}
+h1{margin:6px 0 6px;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:700;line-height:1.15}
+.sub{font-size:13px;line-height:1.4;color:var(--muted)}
 .sub b{color:var(--gold2);font-weight:600}
 header .kicker,header h1,header .sub{padding-right:64px}
 #themeSel{-webkit-appearance:none;appearance:none;max-width:100%;margin:0;padding:0 28px 0 0;border:0;border-radius:6px;background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 2px center/18px;color:inherit;font:inherit;line-height:inherit;cursor:pointer;text-overflow:ellipsis}
 #themeSel:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
 #themeSel option{font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1d1814;background:#fbf6ec}
-#langBtn{position:absolute;right:14px;top:calc(10px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
+#langBtn{position:absolute;right:14px;top:calc(18px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
 #langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
 #langBtn:focus-visible,#langMenu button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
-#langMenu{position:absolute;right:14px;top:calc(50px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
+#langMenu{position:absolute;right:14px;top:calc(58px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
 #langMenu button{display:flex;width:100%;align-items:center;gap:10px;border:0;background:none;padding:10px 12px;border-radius:10px;font-size:15px;text-align:left;cursor:pointer}
 #langMenu button[aria-checked="true"]{background:rgba(232,184,92,.18);color:var(--gold2);font-weight:700}
 #langMenu button b{width:26px;font-size:12px;letter-spacing:.06em;color:var(--muted)}
-#eras{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;scrollbar-width:none}
+#eras{display:flex;gap:6px;overflow-x:auto;padding:16px 0 2px;scrollbar-width:none}
 #eras::-webkit-scrollbar{display:none}
 #eras button{flex:0 0 auto;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);border-radius:999px;padding:5px 10px;font-size:12px;white-space:nowrap;cursor:pointer}
 #eras button i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0}
@@ -132,7 +132,7 @@ html,body{overscroll-behavior-x:none}
 :lang(ja) .body p,:lang(ja) .body li{line-height:1.75;line-break:strict}
 :lang(ja) .kicker,:lang(ja) .body .era,:lang(ja) .band .eraname{letter-spacing:.06em}
 .compact .pin .head{width:40px;height:40px;font-size:20px}
-.compact .pin .tt{-webkit-line-clamp:2}
+.compact .pin .tt{-webkit-line-clamp:3}
 </style>
 </head>
 <body>
