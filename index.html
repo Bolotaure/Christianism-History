@@ -18,11 +18,19 @@ body{display:flex;flex-direction:column;height:100dvh}
 button{font:inherit;color:inherit}
 
 /* ---------- header ---------- */
-header{flex:0 0 auto;padding:calc(10px + var(--safe-t)) 16px 6px;background:linear-gradient(#1d1814,#14110f)}
+header{position:relative;flex:0 0 auto;padding:calc(10px + var(--safe-t)) 16px 6px;background:linear-gradient(#1d1814,#14110f)}
 .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
 h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:700;line-height:1.15}
 .sub{font-size:13px;color:var(--muted)}
 .sub b{color:var(--gold2);font-weight:600}
+header .kicker,header h1,header .sub{padding-right:64px}
+#langBtn{position:absolute;right:14px;top:calc(10px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
+#langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
+#langBtn:focus-visible,#langMenu button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+#langMenu{position:absolute;right:14px;top:calc(50px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
+#langMenu button{display:flex;width:100%;align-items:center;gap:10px;border:0;background:none;padding:10px 12px;border-radius:10px;font-size:15px;text-align:left;cursor:pointer}
+#langMenu button[aria-checked="true"]{background:rgba(232,184,92,.18);color:var(--gold2);font-weight:700}
+#langMenu button b{width:26px;font-size:12px;letter-spacing:.06em;color:var(--muted)}
 #eras{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;scrollbar-width:none}
 #eras::-webkit-scrollbar{display:none}
 #eras button{flex:0 0 auto;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);border-radius:999px;padding:5px 10px;font-size:12px;white-space:nowrap;cursor:pointer}
@@ -100,6 +108,7 @@ h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;f
 @media (prefers-reduced-motion:reduce){#fader{transition-duration:.15s}}
 @media (min-width:760px){ h1{font-size:30px} }
 @media (max-height:500px){
+  #langBtn{top:calc(6px + var(--safe-t));height:30px} #langMenu{top:calc(42px + var(--safe-t))}
   .kicker,.sub{display:none} h1{font-size:18px} header{padding-top:calc(6px + var(--safe-t))} #eras{padding-top:6px}
   #mini{height:24px;margin-top:2px;margin-bottom:calc(6px + var(--safe-b))} #mini .tick{top:7px}
 }
@@ -109,10 +118,15 @@ h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;f
 </head>
 <body>
 <header>
-  <div class="kicker">A timeline for young explorers</div>
-  <h1>The Story of Christianity</h1>
-  <div class="sub">From Abraham to today · <b>slide the timeline</b> and touch a pin</div>
+  <div class="kicker" id="kicker">A timeline for young explorers</div>
+  <h1 id="h1">The Story of Christianity</h1>
+  <div class="sub" id="sub">From Abraham to today · <b>slide the timeline</b> and touch a pin</div>
   <nav id="eras" aria-label="Jump to a period"></nav>
+  <button type="button" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span id="langCode">EN</span></button>
+  <div id="langMenu" role="menu" hidden>
+    <button type="button" role="menuitemradio" data-lang="en" aria-checked="false"><b>EN</b>English</button>
+    <button type="button" role="menuitemradio" data-lang="fr" aria-checked="false"><b>FR</b>Français</button>
+  </div>
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
 <div class="hint" id="hint">swipe →</div>
@@ -126,15 +140,37 @@ h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;f
 const DATA_HOST = "https://raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/";
 let EV = [], G = {}, IMG = {};
 const ERAS = {
-  roots:{name:"The roots", color:"#8c6d46"},
-  jesus:{name:"Life of Jesus", color:"#d9a441"},
-  early:{name:"The first Christians", color:"#b5523b"},
-  empire:{name:"Christian Roman Empire", color:"#8e4a9c"},
-  middle:{name:"Middle Ages", color:"#3f7aa6"},
-  reform:{name:"Renaissance & Reformation", color:"#3f9a78"},
-  modern:{name:"Modern times", color:"#c7773a"},
-  today:{name:"20th century & today", color:"#5b8fd6"}
+  roots:{color:"#8c6d46"}, jesus:{color:"#d9a441"}, early:{color:"#b5523b"}, empire:{color:"#8e4a9c"},
+  middle:{color:"#3f7aa6"}, reform:{color:"#3f9a78"}, modern:{color:"#c7773a"}, today:{color:"#5b8fd6"}
 };
+const T = {
+  en:{
+    title:"The Story of Christianity", kicker:"A timeline for young explorers",
+    sub:"From Abraham to today · <b>slide the timeline</b> and touch a pin",
+    eras:{roots:"The roots", jesus:"Life of Jesus", early:"The first Christians", empire:"Christian Roman Empire",
+          middle:"Middle Ages", reform:"Renaissance & Reformation", modern:"Modern times", today:"20th century & today"},
+    jump:"Jump to a period", timeline:"Timeline", lang:"Language", hint:"swipe →", past:"◀ long ago", now:"today ▶",
+    loading:"Loading the timeline…", failed:"Timeline failed to load: ",
+    learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
+    before:"◀ Before", next:"Next ▶",
+    close:'Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means',
+    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons"
+  },
+  fr:{
+    title:"L'histoire du christianisme", kicker:"Une frise pour jeunes explorateurs",
+    sub:"D'Abraham à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+    eras:{roots:"Les racines", jesus:"La vie de Jésus", early:"Les premiers chrétiens", empire:"L'Empire romain chrétien",
+          middle:"Le Moyen Âge", reform:"Renaissance et Réforme", modern:"Les Temps modernes", today:"XXe siècle et aujourd'hui"},
+    jump:"Aller à une période", timeline:"Frise chronologique", lang:"Langue", hint:"glisse →", past:"◀ il y a longtemps", now:"aujourd'hui ▶",
+    loading:"Chargement de la frise…", failed:"La frise n'a pas pu se charger : ",
+    learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
+    before:"◀ Avant", next:"Après ▶",
+    close:'Touche la carte pour revenir à la frise<br>Touche un <span class="term" style="cursor:inherit">mot souligné</span> pour savoir ce qu\'il veut dire',
+    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons"
+  }
+};
+let LANG = 'en';
+const t = k => T[LANG][k];
 
 const $ = s => document.querySelector(s);
 const scroller = $('#scroller'), track = $('#track');
@@ -148,7 +184,7 @@ let seen = new Set(store.get());
 /* ---------- glossary lookup ---------- */
 function gloss(k){
   k = k.toLowerCase();
-  return G[k] || G[k.replace(/s$/,'')] || G[k.replace(/es$/,'')] || null;
+  return G[k] || G[k.replace(/s$/,'')] || G[k.replace(/es$/,'')] || G[k.replace(/x$/,'')] || null;
 }
 
 /* ---------- build timeline ---------- */
@@ -173,7 +209,7 @@ function layout(){
     const b = document.createElement('div');
     b.className = 'band'; b.id = 'band-'+era;
     b.style.cssText = `left:${x0}px;width:${x1-x0}px;background:linear-gradient(180deg,${ERAS[era].color}33,${ERAS[era].color}10 40%,${ERAS[era].color}10 60%,${ERAS[era].color}33)`;
-    b.innerHTML = `<div class="eraname" style="color:${ERAS[era].color}">${ERAS[era].name}</div>`;
+    b.innerHTML = `<div class="eraname" style="color:${ERAS[era].color}">${t('eras')[era]}</div>`;
     track.appendChild(b);
     i = j+1;
   }
@@ -195,18 +231,19 @@ function layout(){
     p.querySelector('button').addEventListener('click', ev => { if(dragMoved) return; openCard(n); });
     track.appendChild(p);
   });
-  const a1 = document.createElement('div'); a1.className='arrow'; a1.style.cssText=`left:10px;top:${mid+10}px`; a1.textContent='◀ long ago'; track.appendChild(a1);
-  const a2 = document.createElement('div'); a2.className='arrow'; a2.style.cssText=`right:10px;top:${mid+10}px`; a2.textContent='today ▶'; track.appendChild(a2);
+  const a1 = document.createElement('div'); a1.className='arrow'; a1.style.cssText=`left:10px;top:${mid+10}px`; a1.textContent=t('past'); track.appendChild(a1);
+  const a2 = document.createElement('div'); a2.className='arrow'; a2.style.cssText=`right:10px;top:${mid+10}px`; a2.textContent=t('now'); track.appendChild(a2);
   buildMini();
 }
 
 /* ---------- era chips ---------- */
 function buildEras(){
   const nav = $('#eras');
+  nav.innerHTML = '';
   Object.entries(ERAS).forEach(([k,v]) => {
     const b = document.createElement('button');
     b.type='button'; b.dataset.era=k;
-    b.innerHTML = `<i style="background:${v.color}"></i>${v.name}`;
+    b.innerHTML = `<i style="background:${v.color}"></i>${t('eras')[k]}`;
     b.onclick = () => { const n = EV.findIndex(e=>e.era===k); scroller.scrollTo({left:Math.max(0,PAD+n*SP-60),behavior:'smooth'}); };
     nav.appendChild(b);
   });
@@ -294,12 +331,13 @@ function renderText(t){
   const inline = [];
   // 1) escape, 2) turn [word] / [word::explanation] into terms
   let h = esc(t).replace(/\[([^\]]+?)\]/g, (m, inner) => {
-    let word = inner, def = null;
+    let word = inner, key = inner, def = null;
     const i = inner.indexOf('::');
-    if(i >= 0){ word = inner.slice(0,i); def = inner.slice(i+2); }
-    if(def === null && !gloss(word)) return word;
+    if(i >= 0){ word = key = inner.slice(0,i); def = inner.slice(i+2); }
+    else if(inner.includes('|')){ [word, key] = inner.split('|'); }
+    if(def === null && !gloss(key)) return word;
     const idx = inline.push(def) - 1;
-    return `<span class="term" role="button" tabindex="0" data-w="${word}" data-i="${idx}">${word}</span>`;
+    return `<span class="term" role="button" tabindex="0" data-w="${word}" data-k="${key}" data-i="${idx}">${word}</span>`;
   });
   const out = h.split(/\n\s*\n/).map(par => {
     const lines = par.split('\n');
@@ -322,7 +360,7 @@ function artHTML(e){
   const big = src.replace('/330px-','/500px-');
   return `${emo}<img alt="${esc(e.title)}" src="${big}" data-small="${src}" referrerpolicy="no-referrer"
     onerror="if(this.dataset.small&&this.src!==this.dataset.small){this.src=this.dataset.small;this.dataset.small=''}else{this.remove();var c=document.querySelector('.art .credit');if(c)c.remove()}">
-    <div class="credit">Image: Wikimedia Commons</div>`;
+    <div class="credit">${t('credit')}</div>`;
 }
 
 let inlineDefs = [];
@@ -333,6 +371,11 @@ function renderCard(n){
   const refs = e.refs.map(r => {
     const name = r.replace(/_/g,' ');
     const enc = encodeURIComponent(r).replace(/%2F/g,'/');
+    if(LANG === 'fr'){
+      const q = encodeURIComponent(r);
+      return `<li>${esc(r)} : <a href="https://fr.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Wikipédia</a>
+        · <a href="https://fr.vikidia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Vikidia</a></li>`;
+    }
     return `<li>${esc(name)}: <a href="https://en.wikipedia.org/wiki/${enc}" target="_blank" rel="noopener">Wikipedia</a>
       · <a href="https://kids.kiddle.co/${enc}" target="_blank" rel="noopener">Kiddle</a></li>`;
   }).join('');
@@ -342,9 +385,9 @@ function renderCard(n){
       <div class="era" style="color:${era.color}">${era.name}</div>
       <h2>${e.icon} ${esc(e.title)}</h2>
       ${html}
-      <div class="refs"><h3>📚 To learn more</h3><ul>${refs}</ul><p style="margin:8px 0 0;font-size:13px;color:var(--paper-muted)">Kiddle is an encyclopedia written for kids.</p></div>
-      <div class="navrow"><button type="button" data-go="-1" ${n===0?'disabled':''}>◀ Before</button><button type="button" data-go="1" ${n===EV.length-1?'disabled':''}>Next ▶</button></div>
-      <p class="closehint">Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means</p>
+      <div class="refs"><h3>${t('learn')}</h3><ul>${refs}</ul><p style="margin:8px 0 0;font-size:13px;color:var(--paper-muted)">${t('kidsNote')}</p></div>
+      <div class="navrow"><button type="button" data-go="-1" ${n===0?'disabled':''}>${t('before')}</button><button type="button" data-go="1" ${n===EV.length-1?'disabled':''}>${t('next')}</button></div>
+      <p class="closehint">${t('close')}</p>
     </div>`;
   cardLayer.scrollTop = 0;
 }
@@ -386,9 +429,9 @@ card.addEventListener('keydown', ev => {
 /* ---------- mini card ---------- */
 function openMini(t){
   const w = t.dataset.w, inl = inlineDefs[+t.dataset.i];
-  const def = inl != null ? inl : esc(gloss(w));   // inline definitions are already escaped
+  const def = inl != null ? inl : esc(gloss(t.dataset.k || w));   // inline definitions are already escaped
   fadeSwap(() => {
-    miniCard.innerHTML = `<p class="w">${esc(w)}</p><p class="ctx">in “${esc(EV[current].title)}”</p><p class="d">${def}</p><p class="tap">Touch to go back to the story</p>`;
+    miniCard.innerHTML = `<p class="w">${esc(w)}</p><p class="ctx">${T[LANG].inCard} ${LANG==='fr' ? '« '+esc(EV[current].title)+' »' : '“'+esc(EV[current].title)+'”'}</p><p class="d">${def}</p><p class="tap">${T[LANG].back}</p>`;
     miniLayer.classList.add('show');
   });
 }
@@ -396,6 +439,7 @@ miniLayer.addEventListener('click', () => { if(!busy) fadeSwap(() => miniLayer.c
 
 document.addEventListener('keydown', ev => {
   if(ev.key !== 'Escape' || busy) return;
+  if(!langMenu.hidden){ closeLangMenu(); return; }
   if(miniLayer.classList.contains('show')) fadeSwap(() => miniLayer.classList.remove('show'));
   else if(cardLayer.classList.contains('show')) closeCard();
 });
@@ -404,15 +448,86 @@ document.addEventListener('keydown', ev => {
 function getJSON(name){
   return fetch(DATA_HOST + name).then(r => { if(!r.ok) throw new Error(name + " not found (" + r.status + ")"); return r.json(); });
 }
-track.innerHTML = '<p style="padding:24px;color:var(--muted)">Loading the timeline…</p>';
-Promise.all([getJSON("events.json"), getJSON("glossary.json")]).then(([ev, gl]) => {
-  EV = ev; G = gl;
+/* ---------- language ---------- */
+const cache = {};
+function loadLang(lang){
+  if(!cache[lang]){
+    const sfx = lang === 'en' ? '' : '.' + lang;
+    cache[lang] = Promise.all([getJSON('events' + sfx + '.json'), getJSON('glossary' + sfx + '.json')])
+      .catch(err => { delete cache[lang]; throw err; });
+  }
+  return cache[lang];
+}
+function applyUI(){
+  document.documentElement.lang = LANG;
+  document.title = t('title');
+  $('#kicker').textContent = t('kicker');
+  $('#h1').textContent = t('title');
+  $('#sub').innerHTML = t('sub');
+  $('#hint').textContent = t('hint');
+  $('#eras').setAttribute('aria-label', t('jump'));
+  scroller.setAttribute('aria-label', t('timeline'));
+  $('#langBtn').setAttribute('aria-label', t('lang'));
+  $('#langCode').textContent = LANG.toUpperCase();
+  document.querySelectorAll('#langMenu button').forEach(b => b.setAttribute('aria-checked', b.dataset.lang === LANG));
+}
+function showLang(lang, data){
+  LANG = lang;
+  [EV, G] = data;
+  IMG = {};
   EV.forEach(e => { if(e.image) IMG[e.img] = e.image; });
+  applyUI();
   buildEras();
   layout();
   syncEraChip();
-}).catch(err => {
-  track.innerHTML = '<p style="padding:24px;color:var(--muted)">Timeline failed to load: ' + esc(String(err)) + '</p>';
+}
+function pickLang(){
+  const h = location.hash.slice(1);
+  if(T[h]) return h;
+  try{ const saved = localStorage.getItem('xtl-lang'); if(T[saved]) return saved; }catch(e){}
+  return (navigator.language || '').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+}
+function setLang(lang){
+  closeLangMenu();
+  if(lang === LANG || busy) return;
+  try{ localStorage.setItem('xtl-lang', lang); }catch(e){}
+  busy = true;
+  fader.classList.add('on');
+  const f = scroller.scrollLeft / Math.max(1, track.scrollWidth);
+  Promise.all([loadLang(lang), new Promise(r => setTimeout(r, 400))]).then(([data]) => {
+    showLang(lang, data);
+    scroller.scrollLeft = f * track.scrollWidth;
+  }).catch(err => {
+    alertBox(T[lang].failed + err);
+  }).finally(() => {
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      fader.classList.remove('on');
+      setTimeout(() => busy = false, 380);
+    }));
+  });
+}
+function alertBox(msg){
+  track.insertAdjacentHTML('afterbegin', '<p style="position:absolute;z-index:3;padding:24px;color:var(--muted)">' + esc(String(msg)) + '</p>');
+}
+const langBtn = $('#langBtn'), langMenu = $('#langMenu');
+function closeLangMenu(){ langMenu.hidden = true; langBtn.setAttribute('aria-expanded', 'false'); }
+langBtn.addEventListener('click', ev => {
+  ev.stopPropagation();
+  const open = langMenu.hidden;
+  langMenu.hidden = !open;
+  langBtn.setAttribute('aria-expanded', String(open));
+});
+langMenu.addEventListener('click', ev => {
+  const b = ev.target.closest('[data-lang]');
+  if(b) setLang(b.dataset.lang);
+});
+document.addEventListener('click', ev => { if(!langMenu.hidden && !ev.target.closest('#langMenu')) closeLangMenu(); });
+
+LANG = pickLang();
+applyUI();
+track.innerHTML = '<p style="padding:24px;color:var(--muted)">' + t('loading') + '</p>';
+loadLang(LANG).then(data => showLang(LANG, data)).catch(err => {
+  track.innerHTML = '<p style="padding:24px;color:var(--muted)">' + esc(t('failed') + err) + '</p>';
 });
 let rz; window.addEventListener('resize', () => {
   clearTimeout(rz);
