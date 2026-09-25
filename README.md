@@ -17,7 +17,7 @@ each event's `pic` field points to its copy and `image` keeps the Wikimedia orig
 `index.html` loads its data from `raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/`.
 To change a story or an explanation, edit the JSON only.
 
-The globe button at the top right switches the language. Theme and language are remembered on the device.
+The globe button at the top right switches the language. Theme and language are remembered on the device, and the last card opened in each theme is marked with a check mark (a bookmark) that the timeline scrolls to.
 A link ending in `#japan`, `#france`, `#fr`, `#ja-japan`, etc. opens a specific theme and/or language.
 
 Open it at https://bolotaure.github.io/Christianism-History/

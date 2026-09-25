@@ -276,11 +276,18 @@ const t = k => { const x = THEMES[THEME].text[LANG][k]; return x !== undefined ?
 const $ = s => document.querySelector(s);
 const scroller = $('#scroller'), track = $('#track');
 const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-const store = {
-  get(){ try{ return JSON.parse(localStorage.getItem('xtl-seen')||'[]'); }catch(e){ return []; } },
-  add(id){ try{ const s=new Set(this.get()); s.add(id); localStorage.setItem('xtl-seen',JSON.stringify([...s])); }catch(e){} }
+// Bookmark: the last card opened in each theme gets the check mark
+const bookmark = {
+  all(){ try{ return JSON.parse(localStorage.getItem('xtl-mark')||'{}') || {}; }catch(e){ return {}; } },
+  get(theme){ return this.all()[theme] || null; },
+  set(theme, id){ try{ const m = this.all(); m[theme] = id; localStorage.setItem('xtl-mark', JSON.stringify(m)); }catch(e){} }
 };
-let seen = new Set(store.get());
+try{ localStorage.removeItem('xtl-seen'); }catch(e){}
+function centerOnBookmark(){
+  const id = bookmark.get(THEME), p = id && document.getElementById('pin-'+id);
+  if(p) scroller.scrollLeft = parseFloat(p.style.left) - scroller.clientWidth/2;
+  return !!p;
+}
 
 /* ---------- glossary lookup ---------- */
 function gloss(k){
@@ -322,7 +329,7 @@ function layout(){
   EV.forEach((e,n) => {
     const x = PAD + n*SP, off = levels[n % levels.length], up = off < 0;
     const p = document.createElement('div');
-    p.className = 'pin' + (up ? '' : ' down') + (seen.has(e.id) ? ' seen' : '');
+    p.className = 'pin' + (up ? '' : ' down') + (bookmark.get(THEME) === e.id ? ' seen' : '');
     p.id = 'pin-'+e.id;
     p.style.cssText = `left:${x}px;top:${mid}px`;
     const stemLen = Math.max(12, Math.abs(off) - 24);
@@ -534,20 +541,21 @@ function openCard(n){
     current = n;
     renderCard(n);
     cardLayer.classList.add('show');
-    seen.add(EV[n].id); store.add(EV[n].id);
+    bookmark.set(THEME, EV[n].id);
   });
 }
 function closeCard(){
   fadeSwap(() => {
     cardLayer.classList.remove('show');
     const p = document.getElementById('pin-'+EV[current].id);
+    document.querySelectorAll('.pin.seen').forEach(q => q.classList.remove('seen'));
     if(p){ p.classList.add('seen'); scroller.scrollLeft = parseFloat(p.style.left) - scroller.clientWidth/2; }
   });
 }
 function goCard(n){
   if(n < 0 || n >= EV.length) return;
   preload(n);
-  fadeSwap(() => { current = n; renderCard(n); seen.add(EV[n].id); store.add(EV[n].id); });
+  fadeSwap(() => { current = n; renderCard(n); bookmark.set(THEME, EV[n].id); });
 }
 
 card.addEventListener('click', ev => {
@@ -673,7 +681,7 @@ function switchTo(theme, lang){
   const f = scroller.scrollLeft / Math.max(1, track.scrollWidth);
   Promise.all([loadData(theme, lang), new Promise(r => setTimeout(r, 400))]).then(([data]) => {
     show(theme, lang, data);
-    scroller.scrollLeft = sameTheme ? f * track.scrollWidth : 0;
+    if(sameTheme) scroller.scrollLeft = f * track.scrollWidth; else if(!centerOnBookmark()) scroller.scrollLeft = 0;
   }).catch(err => {
     $('#themeSel').value = THEME;
     alertBox(T[lang].failed + err);
@@ -707,7 +715,7 @@ LANG = pickLang();
 THEME = pickTheme(); ERAS = THEMES[THEME].colors;
 applyUI();
 track.innerHTML = '<p style="padding:24px;color:var(--muted)">' + t('loading') + '</p>';
-loadData(THEME, LANG).then(data => show(THEME, LANG, data)).catch(err => {
+loadData(THEME, LANG).then(data => { show(THEME, LANG, data); centerOnBookmark(); }).catch(err => {
   track.innerHTML = '<p style="padding:24px;color:var(--muted)">' + esc(t('failed') + err) + '</p>';
 });
 let rz; window.addEventListener('resize', () => {
