@@ -27,10 +27,10 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #themeSel{-webkit-appearance:none;appearance:none;max-width:100%;margin:0;padding:0 28px 0 0;border:0;border-radius:6px;background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 2px center/18px;color:inherit;font:inherit;line-height:inherit;cursor:pointer;text-overflow:ellipsis}
 #themeSel:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
 #themeSel option{font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1d1814;background:#fbf6ec}
-#langBtn{position:absolute;right:14px;top:calc(24px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
+#langBtn{position:absolute;right:14px;top:calc(13px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
 #langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
 #langBtn:focus-visible,#langMenu button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
-#langMenu{position:absolute;right:14px;top:calc(64px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
+#langMenu{position:absolute;right:14px;top:calc(53px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
 #langMenu button{display:flex;width:100%;align-items:center;gap:10px;border:0;background:none;padding:10px 12px;border-radius:10px;font-size:15px;text-align:left;cursor:pointer}
 #langMenu button[aria-checked="true"]{background:rgba(232,184,92,.18);color:var(--gold2);font-weight:700}
 #langMenu button b{width:26px;font-size:12px;letter-spacing:.06em;color:var(--muted)}
@@ -87,6 +87,8 @@ html,body{overscroll-behavior-x:none}
 .art::after{content:"";position:absolute;z-index:1;inset:auto 0 0 0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.55))}
 .art .badge{position:absolute;z-index:2;left:16px;bottom:14px;background:var(--gold);color:#241c12;font-weight:800;font-size:14px;padding:5px 12px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
 .art .num{position:absolute;z-index:2;right:16px;bottom:16px;color:#fff;font-size:12px;opacity:.9;text-shadow:0 1px 4px #000}
+.art .backhint{position:absolute;z-index:2;left:10px;top:calc(8px + var(--safe-t));width:30px;height:30px;padding:4px;border-radius:10px;color:var(--gold);background:rgba(20,17,15,.6);pointer-events:none}
+.art .backhint svg{width:100%;height:100%;display:block}
 .art .credit{position:absolute;z-index:2;right:10px;top:calc(8px + var(--safe-t));color:#fff;font-size:10px;opacity:.75;text-shadow:0 1px 3px #000}
 .body{padding:18px 34px 0}
 .side{position:fixed;z-index:11;top:50%;transform:translateY(-50%);width:28px;height:76px;display:none;align-items:center;justify-content:center;
@@ -530,7 +532,7 @@ function renderCard(n){
       · <a href="https://kids.kiddle.co/${enc}" target="_blank" rel="noopener">Kiddle</a></li>`;
   }).join('');
   card.innerHTML = `
-    <div class="art">${artHTML(e)}<div class="badge">${esc(e.y)}</div><div class="num">${n+1} / ${EV.length}</div></div>
+    <div class="art">${artHTML(e)}<div class="backhint" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 44V5h17v11"/><path d="M4 5l11 4v33l-11 2"/><path d="M11 25v2"/><path d="M26 34V17a3 3 0 0 1 6 0v11"/><path d="M32 27a3 3 0 0 1 6 0v2"/><path d="M38 28.5a3 3 0 0 1 6 0v6.5c0 4-1.6 6.5-2.8 9.5"/><path d="M26 34l-2.6-2.6a2.5 2.5 0 0 0-3.6 3.4l4.4 5.2c1.1 1.5 1.6 3.2 1.6 4.8"/><path d="M25 9.5l-1.8-1.8M29 8V5.5M33 9.5l1.8-1.8"/></svg></div><div class="badge">${esc(e.y)}</div><div class="num">${n+1} / ${EV.length}</div></div>
     <div class="body">
       <div class="era" style="color:${era.color}">${t('eras')[e.era]}</div>
       <h2>${e.icon} ${esc(e.title)}</h2>
