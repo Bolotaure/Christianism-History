@@ -41,15 +41,13 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #eras button.on{background:rgba(232,184,92,.18);border-color:var(--gold)}
 
 /* ---------- timeline ---------- */
-.slide{position:fixed;z-index:4;top:50%;width:36px;height:36px;margin-top:-18px;color:var(--gold);pointer-events:none;
-  filter:drop-shadow(0 1px 3px rgba(0,0,0,.8));transition:opacity .3s}
-.slide svg{width:100%;height:100%;display:block}
-.slide.l{left:4px;animation:nudgeL 1.6s ease-in-out infinite}
-.slide.r{right:4px;animation:nudgeR 1.6s ease-in-out infinite}
+.slide{position:fixed;z-index:4;top:50%;width:6px;height:96px;margin-top:-48px;border-radius:3px;background:var(--gold);pointer-events:none;
+  box-shadow:0 0 10px rgba(232,184,92,.7),0 0 2px rgba(0,0,0,.6);animation:blink 1.6s ease-in-out infinite;transition:opacity .3s}
+.slide.l{left:5px}
+.slide.r{right:5px}
 .slide.off{opacity:0 !important;animation:none}
-@keyframes nudgeL{0%,100%{opacity:.25;transform:translateX(4px)}50%{opacity:1;transform:translateX(-3px)}}
-@keyframes nudgeR{0%,100%{opacity:.25;transform:translateX(-4px)}50%{opacity:1;transform:translateX(3px)}}
-@media (prefers-reduced-motion:reduce){.slide.l,.slide.r{animation:none;opacity:.8}}
+@keyframes blink{0%,100%{opacity:.2}50%{opacity:.95}}
+@media (prefers-reduced-motion:reduce){.slide{animation:none;opacity:.7}}
 #scroller{flex:1 1 auto;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;cursor:grab;scrollbar-width:none;touch-action:pan-x}
 #scroller::-webkit-scrollbar{display:none}
 #scroller.drag{cursor:grabbing}
@@ -157,8 +155,8 @@ html,body{overscroll-behavior-x:none}
   </div>
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
-<div class="slide l" id="slideL" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5 5 12l7 7"/><path d="M19 5l-7 7 7 7"/></svg></div>
-<div class="slide r" id="slideR" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5l7 7-7 7"/><path d="M12 5l7 7-7 7"/></svg></div>
+<div class="slide l" id="slideL" aria-hidden="true"></div>
+<div class="slide r" id="slideR" aria-hidden="true"></div>
 <div id="mini" aria-hidden="true"><div id="view"></div></div>
 
 <div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
@@ -410,7 +408,7 @@ mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerI
 
 scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); syncSlideBtns(); }, {passive:true});
 
-/* blinking slide icons on both sides of the timeline (decorative: the timeline itself is swiped) */
+/* blinking bars on both sides of the timeline (decorative: the timeline itself is swiped) */
 const slideL = $('#slideL'), slideR = $('#slideR');
 function syncSlideBtns(){
   const max = scroller.scrollWidth - scroller.clientWidth;
