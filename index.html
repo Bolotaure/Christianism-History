@@ -76,9 +76,10 @@ header .kicker,header h1,header .sub{padding-right:64px}
 #cardLayer{background:var(--bg);z-index:10;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y}
 html,body{overscroll-behavior-x:none}
 #card{max-width:720px;margin:0 auto;min-height:100%;background:var(--paper);color:var(--paper-ink);cursor:pointer;padding-bottom:calc(28px + var(--safe-b))}
-.art{position:relative;height:min(46vh,340px);overflow:hidden;background:#333}
-.art img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block}
+.art{position:relative;height:min(46vh,340px);overflow:hidden;background:#000}
+.art img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block;transition:opacity .3s ease}
 .art .emoji{position:absolute;inset:0;display:grid;place-items:center;font-size:110px}
+.art .emoji.wait{visibility:hidden}
 .art .emoji span{position:absolute;font-size:34px;opacity:.55}
 .art::after{content:"";position:absolute;z-index:1;inset:auto 0 0 0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.55))}
 .art .badge{position:absolute;z-index:2;left:16px;bottom:14px;background:var(--gold);color:#241c12;font-weight:800;font-size:14px;padding:5px 12px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
@@ -456,7 +457,7 @@ function renderText(t){
 
 function artHTML(e){
   const col = ERAS[e.era].color;
-  const emo = `<div class="emoji" style="background:radial-gradient(circle at 50% 40%,${col},#1d1814 75%)">${e.icon}
+  const emo = `<div class="emoji${e.pic || e.image ? ' wait' : ''}" style="background:radial-gradient(circle at 50% 40%,${col},#1d1814 75%)">${e.icon}
     ${(d => `<span style="left:12%;top:18%">${d[0]}</span><span style="right:14%;top:26%">${d[1]}</span><span style="left:20%;bottom:22%">${d[2]}</span><span style="right:22%;bottom:18%">${d[3]}</span>`)(THEMES[THEME].deco)}</div>`;
   const src = e.pic ? IMG_HOST + e.pic : e.image;
   if(!src) return emo;
@@ -474,9 +475,18 @@ function artFailed(img){
     setTimeout(() => { if(img.isConnected) img.src = src; }, 1500);
     return;
   }
-  const c = img.parentNode && img.parentNode.querySelector('.credit');
-  if(c) c.remove();
+  const art = img.parentNode;
+  if(art){
+    const c = art.querySelector('.credit'); if(c) c.remove();
+    const emo = art.querySelector('.emoji'); if(emo) emo.classList.remove('wait');   // no picture: show the emoji art
+  }
   img.remove();
+}
+
+// Warm the browser cache so a card's picture is ready when the fade to black ends
+function preload(n){
+  const e = EV[n];
+  if(e && (e.pic || e.image)){ const i = new Image(); i.referrerPolicy = 'no-referrer'; i.src = e.pic ? IMG_HOST + e.pic : e.image; }
 }
 
 let inlineDefs = [];
@@ -511,6 +521,7 @@ function renderCard(n){
       <p class="closehint">${t('close')}</p>
     </div>`;
   cardLayer.scrollTop = 0;
+  preload(n-1); preload(n+1);
   sidePrev.classList.toggle('on', n > 0);
   sideNext.classList.toggle('on', n < EV.length-1);
   sidePrev.setAttribute('aria-label', t('before').replace(/[◀▶]/g,'').trim());
@@ -518,6 +529,7 @@ function renderCard(n){
 }
 
 function openCard(n){
+  preload(n);
   fadeSwap(() => {
     current = n;
     renderCard(n);
@@ -534,6 +546,7 @@ function closeCard(){
 }
 function goCard(n){
   if(n < 0 || n >= EV.length) return;
+  preload(n);
   fadeSwap(() => { current = n; renderCard(n); seen.add(EV[n].id); store.add(EV[n].id); });
 }
 
