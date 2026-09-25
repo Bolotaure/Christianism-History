@@ -11,6 +11,9 @@ Files per theme:
 - `events.json` / `events.fr.json` / `events.ja.json`: the events (text, date, period, illustration, reference links).
 - `glossary.json` / `glossary.fr.json` / `glossary.ja.json`: explanations of the underlined words.
 
+Illustrations: copies of the Wikimedia Commons images are in `images/<theme>/<event id>.*` (served by GitHub Pages);
+each event's `pic` field points to its copy and `image` keeps the Wikimedia original, used as a fallback.
+
 `index.html` loads its data from `raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/`.
 To change a story or an explanation, edit the JSON only.
 

@@ -6,6 +6,7 @@
   "icon": "⛺",
   "img": "Abraham",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Guercino_Abramo_ripudia_Agar_%28cropped_2%29.jpg/330px-Guercino_Abramo_ripudia_Agar_%28cropped_2%29.jpg",
+  "pic": "images/christianity/abraham.jpg",
   "title": "Les racines : Abraham et le peuple d'Israël",
   "refs": [
    "Abraham",
@@ -21,6 +22,7 @@
   "icon": "⭐",
   "img": "Nativity_of_Jesus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Adoration_of_the_sheperds_-_Matthias_Stomer.jpg/330px-Adoration_of_the_sheperds_-_Matthias_Stomer.jpg",
+  "pic": "images/christianity/nativity.jpg",
   "title": "Jésus naît à Bethléem",
   "refs": [
    "Nativité",
@@ -36,6 +38,7 @@
   "icon": "🕊️",
   "img": "Baptism_of_Jesus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/El_bautismo_de_Jes%C3%BAs%2C_por_Jos%C3%A9_Ferraz_de_Almeida_J%C3%BAnior.jpg/330px-El_bautismo_de_Jes%C3%BAs%2C_por_Jos%C3%A9_Ferraz_de_Almeida_J%C3%BAnior.jpg",
+  "pic": "images/christianity/baptism.jpg",
   "title": "Jean le Baptiste baptise Jésus",
   "refs": [
    "Baptême du Christ",
@@ -51,6 +54,7 @@
   "icon": "⛰️",
   "img": "Sermon_on_the_Mount",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bloch-SermonOnTheMount.jpg/330px-Bloch-SermonOnTheMount.jpg",
+  "pic": "images/christianity/teaching.jpg",
   "title": "Jésus enseigne, guérit et choisit douze amis",
   "refs": [
    "Sermon sur la montagne",
@@ -66,6 +70,7 @@
   "icon": "✝️",
   "img": "Resurrection_of_Jesus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rafael_-_ressureicaocristo01.jpg/330px-Rafael_-_ressureicaocristo01.jpg",
+  "pic": "images/christianity/easter.jpg",
   "title": "La Cène, la croix et le matin de Pâques",
   "refs": [
    "Cène",
@@ -82,6 +87,7 @@
   "icon": "🔥",
   "img": "Pentecost",
   "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vienna_Karlskirche_frescos4b.jpg",
+  "pic": "images/christianity/pentecost.jpg",
   "title": "La Pentecôte : l'Église est née",
   "refs": [
    "Pentecôte",
@@ -97,6 +103,7 @@
   "icon": "⚡",
   "img": "Conversion_of_Paul_the_Apostle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/La_conversion_de_Saint_Paul_Giordano_Nancy_3018.jpg/330px-La_conversion_de_Saint_Paul_Giordano_Nancy_3018.jpg",
+  "pic": "images/christianity/paulconv.jpg",
   "title": "Étienne, le premier martyr, et Saul sur le chemin de Damas",
   "refs": [
    "Étienne (protomartyr)",
@@ -112,6 +119,7 @@
   "icon": "⛵",
   "img": "Paul_the_Apostle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fresco_of_Saint_Paul_at_Ephesus.jpg/330px-Fresco_of_Saint_Paul_at_Ephesus.jpg",
+  "pic": "images/christianity/paul.jpg",
   "title": "Les grands voyages et les lettres de Paul",
   "refs": [
    "Paul de Tarse",
@@ -127,6 +135,7 @@
   "icon": "🔥",
   "img": "Great_Fire_of_Rome",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Robert%2C_Hubert_-_Incendie_%C3%A0_Rome_-.jpg/330px-Robert%2C_Hubert_-_Incendie_%C3%A0_Rome_-.jpg",
+  "pic": "images/christianity/nero.jpg",
   "title": "L'incendie de Rome : Pierre et Paul meurent pour leur foi",
   "refs": [
    "Grand incendie de Rome",
@@ -142,6 +151,7 @@
   "icon": "📜",
   "img": "Arch_of_Titus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Arch_Titus%2C_Forum_Romanum%2C_Rome%2C_Italy.jpg/330px-Arch_Titus%2C_Forum_Romanum%2C_Rome%2C_Italy.jpg",
+  "pic": "images/christianity/gospels.jpg",
   "title": "Le Temple est détruit et les Évangiles sont écrits",
   "refs": [
    "Siège de Jérusalem (70)",
@@ -157,6 +167,7 @@
   "icon": "🐟",
   "img": "Catacombs_of_Rome",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Eucharistic_bread.jpg/330px-Eucharistic_bread.jpg",
+  "pic": "images/christianity/catacombs.jpg",
   "title": "Signes secrets et catacombes",
   "refs": [
    "Catacombes de Rome",
@@ -172,6 +183,7 @@
   "icon": "🦁",
   "img": "Perpetua_and_Felicity",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Perpetua%2C_Felicitas%2C_Revocatus%2C_Saturninus_and_Secundulus_%28Menologion_of_Basil_II%29.jpg/330px-Perpetua%2C_Felicitas%2C_Revocatus%2C_Saturninus_and_Secundulus_%28Menologion_of_Basil_II%29.jpg",
+  "pic": "images/christianity/perpetua.jpg",
   "title": "Perpétue et Félicité, jeunes martyres courageuses",
   "refs": [
    "Perpétue et Félicité",
@@ -187,6 +199,7 @@
   "icon": "🏜️",
   "img": "Anthony_the_Great",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Anthony_%28Damaskinos%29.png/330px-Saint_Anthony_%28Damaskinos%29.png",
+  "pic": "images/christianity/anthony.png",
   "title": "Antoine part au désert : les premiers moines",
   "refs": [
    "Antoine le Grand",
@@ -202,6 +215,7 @@
   "icon": "⚔️",
   "img": "Diocletian",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg/330px-Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg",
+  "pic": "images/christianity/diocletian.jpg",
   "title": "La Grande Persécution de Dioclétien",
   "refs": [
    "Grande persécution",
@@ -217,6 +231,7 @@
   "icon": "☧",
   "img": "Edict_of_Milan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/330px-Constantine_Chiaramonti_Inv1749.jpg",
+  "pic": "images/christianity/constantine.jpg",
   "title": "Constantin et l'édit de Milan : liberté pour les chrétiens",
   "refs": [
    "Constantin Ier (empereur romain)",
@@ -233,6 +248,7 @@
   "icon": "📖",
   "img": "First_Council_of_Nicaea",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%CE%9C%CE%B9%CF%87%CE%B1%CE%AE%CE%BB_%CE%94%CE%B1%CE%BC%CE%B1%CF%83%CE%BA%CE%B7%CE%BD%CF%8C%CF%82_-_%CE%91%CE%84_%CE%9F%CE%B9%CE%BA%CE%BF%CF%85%CE%BC%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A3%CF%8D%CE%BD%CE%BF%CE%B4%CE%BF%CF%82_7741.jpg/330px-%CE%9C%CE%B9%CF%87%CE%B1%CE%AE%CE%BB_%CE%94%CE%B1%CE%BC%CE%B1%CF%83%CE%BA%CE%B7%CE%BD%CF%8C%CF%82_-_%CE%91%CE%84_%CE%9F%CE%B9%CE%BA%CE%BF%CF%85%CE%BC%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A3%CF%8D%CE%BD%CE%BF%CE%B4%CE%BF%CF%82_7741.jpg",
+  "pic": "images/christianity/nicaea.jpg",
   "title": "Le concile de Nicée et le Credo",
   "refs": [
    "Premier concile de Nicée",
@@ -249,6 +265,7 @@
   "icon": "🏛️",
   "img": "Theodosius_I",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bust_of_Theodosius_I.jpg/330px-Bust_of_Theodosius_I.jpg",
+  "pic": "images/christianity/theodosius.jpg",
   "title": "Le christianisme devient la religion de l'Empire",
   "refs": [
    "Édit de Thessalonique",
@@ -264,6 +281,7 @@
   "icon": "🦁",
   "img": "Augustine_of_Hippo",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/330px-Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+  "pic": "images/christianity/jerome.jpg",
   "title": "Deux grands maîtres : Jérôme et Augustin",
   "refs": [
    "Jérôme de Stridon",
@@ -280,6 +298,7 @@
   "icon": "☘️",
   "img": "Saint_Patrick",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Our_Lady%27s_Island_Church_of_the_Assumption_East_Aisle_Window_Saint_Patrick_2010_09_26.jpg/330px-Our_Lady%27s_Island_Church_of_the_Assumption_East_Aisle_Window_Saint_Patrick_2010_09_26.jpg",
+  "pic": "images/christianity/patrick.jpg",
   "title": "Saint Patrick apporte le christianisme en Irlande",
   "refs": [
    "Patrick d'Irlande",
@@ -295,6 +314,7 @@
   "icon": "👑",
   "img": "Clovis_I",
   "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Saint_Remy_baptise_Clovis_d%C3%A9tail.jpg",
+  "pic": "images/christianity/clovis.jpg",
   "title": "La chute de Rome et le baptême de Clovis",
   "refs": [
    "Chute de l'Empire romain d'Occident",
@@ -310,6 +330,7 @@
   "icon": "🔔",
   "img": "Benedict_of_Nursia",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg/330px-Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg",
+  "pic": "images/christianity/benedict.jpg",
   "title": "Saint Benoît : prier et travailler",
   "refs": [
    "Benoît de Nursie",
@@ -325,6 +346,7 @@
   "icon": "🕌",
   "img": "Hagia_Sophia",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/330px-Hagia_Sophia_%28228968325%29.jpeg",
+  "pic": "images/christianity/hagia.jpg",
   "title": "Sainte-Sophie, la merveille de Constantinople",
   "refs": [
    "Sainte-Sophie (Istanbul)",
@@ -341,6 +363,7 @@
   "icon": "🎵",
   "img": "Pope_Gregory_I",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gregory_the_Great_with_the_Holy_Spirit.jpg/330px-Gregory_the_Great_with_the_Holy_Spirit.jpg",
+  "pic": "images/christianity/gregory.jpg",
   "title": "Le pape Grégoire le Grand envoie des moines en Angleterre",
   "refs": [
    "Grégoire Ier",
@@ -357,6 +380,7 @@
   "icon": "📚",
   "img": "Book_of_Kells",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KellsFol032vChristEnthroned.jpg/330px-KellsFol032vChristEnthroned.jpg",
+  "pic": "images/christianity/charlemagne.jpg",
   "title": "Charlemagne et les moines qui ont sauvé les livres",
   "refs": [
    "Charlemagne",
@@ -373,6 +397,7 @@
   "icon": "🔤",
   "img": "Saints_Cyril_and_Methodius",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sv_Kiril_Metodij_Zahari_Zograf_Trojanski_mon_1848.jpg/330px-Sv_Kiril_Metodij_Zahari_Zograf_Trojanski_mon_1848.jpg",
+  "pic": "images/christianity/cyril.jpg",
   "title": "Cyrille et Méthode créent un alphabet pour les Slaves",
   "refs": [
    "Cyrille et Méthode",
@@ -388,6 +413,7 @@
   "icon": "🌊",
   "img": "Christianization_of_Kievan_Rus'",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lebedev_baptism.jpg/330px-Lebedev_baptism.jpg",
+  "pic": "images/christianity/rus.jpg",
   "title": "Le prince Vladimir et le baptême de Kiev",
   "refs": [
    "Baptême de la Rus'",
@@ -404,6 +430,7 @@
   "icon": "💔",
   "img": "East–West_Schism",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Schism_with_former_borders_%281054%29.png/330px-Great_Schism_with_former_borders_%281054%29.png",
+  "pic": "images/christianity/schism.png",
   "title": "Le Grand Schisme : l'Orient et l'Occident se séparent",
   "refs": [
    "Schisme de 1054",
@@ -419,6 +446,7 @@
   "icon": "🛡️",
   "img": "First_Crusade",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peter_the_Hermit.jpg/330px-Peter_the_Hermit.jpg",
+  "pic": "images/christianity/crusade.jpg",
   "title": "Les croisades",
   "refs": [
    "Croisades",
@@ -435,6 +463,7 @@
   "icon": "⛪",
   "img": "Notre-Dame_de_Paris",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/330px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+  "pic": "images/christianity/cathedrals.jpg",
   "title": "Le temps des grandes cathédrales",
   "refs": [
    "Cathédrale Notre-Dame de Paris",
@@ -451,6 +480,7 @@
   "icon": "🐺",
   "img": "Francis_of_Assisi",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Philip_Fruytiers_-_St._Francis_of_Assisi.jpg/330px-Philip_Fruytiers_-_St._Francis_of_Assisi.jpg",
+  "pic": "images/christianity/francis.jpg",
   "title": "François d'Assise, le petit pauvre",
   "refs": [
    "François d'Assise",
@@ -467,6 +497,7 @@
   "icon": "🎓",
   "img": "Thomas_Aquinas",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/330px-St-thomas-aquinasFXD.jpg",
+  "pic": "images/christianity/aquinas.jpg",
   "title": "Thomas d'Aquin et les premières universités",
   "refs": [
    "Thomas d'Aquin",
@@ -483,6 +514,7 @@
   "icon": "⚔️",
   "img": "Joan_of_Arc",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/330px-Joan_of_Arc_miniature_graded.jpg",
+  "pic": "images/christianity/joan.jpg",
   "title": "Jeanne d'Arc, la jeune fille qui sauva la France",
   "refs": [
    "Jeanne d'Arc",
@@ -498,6 +530,7 @@
   "icon": "🏰",
   "img": "Fall_of_Constantinople",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
+  "pic": "images/christianity/constantinople.jpg",
   "title": "La chute de Constantinople",
   "refs": [
    "Chute de Constantinople",
@@ -513,6 +546,7 @@
   "icon": "🖨️",
   "img": "Gutenberg_Bible",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/330px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+  "pic": "images/christianity/gutenberg.jpg",
   "title": "Gutenberg imprime la Bible",
   "refs": [
    "Johannes Gutenberg",
@@ -528,6 +562,7 @@
   "icon": "🌎",
   "img": "Bartolomé_de_las_Casas",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fray_Bartolom%C3%A9_de_las_Casas.jpg/330px-Fray_Bartolom%C3%A9_de_las_Casas.jpg",
+  "pic": "images/christianity/americas.jpg",
   "title": "Le christianisme traverse l'océan vers les Amériques",
   "refs": [
    "Christianisme en Amérique latine",
@@ -543,6 +578,7 @@
   "icon": "🎨",
   "img": "Sistine_Chapel_ceiling",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/330px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg",
+  "pic": "images/christianity/sistine.jpg",
   "title": "Michel-Ange peint la chapelle Sixtine",
   "refs": [
    "Plafond de la chapelle Sixtine",
@@ -559,6 +595,7 @@
   "icon": "🔨",
   "img": "Martin_Luther",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/330px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+  "pic": "images/christianity/luther.jpg",
   "title": "Martin Luther et les 95 thèses",
   "refs": [
    "Martin Luther",
@@ -575,6 +612,7 @@
   "icon": "🏴",
   "img": "English_Reformation",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg/330px-Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg",
+  "pic": "images/christianity/england.jpg",
   "title": "Henri VIII et l'Église d'Angleterre",
   "refs": [
    "Réforme anglaise",
@@ -591,6 +629,7 @@
   "icon": "⛰️",
   "img": "John_Calvin",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png/330px-John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png",
+  "pic": "images/christianity/calvin.png",
   "title": "Jean Calvin à Genève",
   "refs": [
    "Jean Calvin",
@@ -607,6 +646,7 @@
   "icon": "🧭",
   "img": "Council_of_Trent",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Concilio_Trento_Museo_Buonconsiglio.jpg/330px-Concilio_Trento_Museo_Buonconsiglio.jpg",
+  "pic": "images/christianity/trent.jpg",
   "title": "Le concile de Trente et les jésuites",
   "refs": [
    "Concile de Trente",
@@ -623,6 +663,7 @@
   "icon": "🏯",
   "img": "Francis_Xavier",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Franciscus_de_Xabier.jpg/330px-Franciscus_de_Xabier.jpg",
+  "pic": "images/christianity/asia.jpg",
   "title": "François Xavier au Japon, Matteo Ricci en Chine",
   "refs": [
    "François Xavier",
@@ -639,6 +680,7 @@
   "icon": "🕊️",
   "img": "Edict_of_Nantes",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Edit_de_nantes.jpg/330px-Edit_de_nantes.jpg",
+  "pic": "images/christianity/nantes.jpg",
   "title": "Les guerres de Religion, et apprendre à vivre ensemble",
   "refs": [
    "Guerres de Religion (France)",
@@ -655,6 +697,7 @@
   "icon": "⛵",
   "img": "Mayflower",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg/330px-Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg",
+  "pic": "images/christianity/kjv.jpg",
   "title": "La Bible du roi Jacques et les pèlerins du Mayflower",
   "refs": [
    "Bible du roi Jacques",
@@ -671,6 +714,7 @@
   "icon": "🐎",
   "img": "John_Wesley",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/John_Wesley_by_George_Romney.jpg/330px-John_Wesley_by_George_Romney.jpg",
+  "pic": "images/christianity/wesley.jpg",
   "title": "John Wesley et le Grand Réveil",
   "refs": [
    "John Wesley",
@@ -687,6 +731,7 @@
   "icon": "⛓️",
   "img": "William_Wilberforce",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/William_wilberforce.jpg/330px-William_wilberforce.jpg",
+  "pic": "images/christianity/slavery.jpg",
   "title": "Des chrétiens contre l'esclavage",
   "refs": [
    "William Wilberforce",
@@ -703,6 +748,7 @@
   "icon": "🥣",
   "img": "The_Salvation_Army",
   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/The_Salvation_Army.svg/330px-The_Salvation_Army.svg.png",
+  "pic": "images/christianity/salvation.png",
   "title": "Soupe, savon et salut : aider les pauvres",
   "refs": [
    "Armée du salut",
@@ -719,6 +765,7 @@
   "icon": "🎶",
   "img": "Azusa_Street_Revival",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/William_Joseph_Seymour_%283x4_cropped%29.jpg/330px-William_Joseph_Seymour_%283x4_cropped%29.jpg",
+  "pic": "images/christianity/azusa.jpg",
   "title": "Azusa Street et le mouvement pentecôtiste",
   "refs": [
    "Réveil d'Azusa Street",
@@ -734,6 +781,7 @@
   "icon": "🕯️",
   "img": "Dietrich_Bonhoeffer",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/330px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg",
+  "pic": "images/christianity/ww2.jpg",
   "title": "Du courage dans les temps sombres : Bonhoeffer et Kolbe",
   "refs": [
    "Dietrich Bonhoeffer",
@@ -750,6 +798,7 @@
   "icon": "🪟",
   "img": "Second_Vatican_Council",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Vatican_II_photo.jpg/330px-Vatican_II_photo.jpg",
+  "pic": "images/christianity/vatican2.jpg",
   "title": "Le concile Vatican II ouvre les fenêtres",
   "refs": [
    "IIe concile œcuménique du Vatican",
@@ -765,6 +814,7 @@
   "icon": "✊",
   "img": "Martin_Luther_King_Jr.",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/330px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg",
+  "pic": "images/christianity/mlk.jpg",
   "title": "Martin Luther King : « J'ai fait un rêve »",
   "refs": [
    "Martin Luther King",
@@ -781,6 +831,7 @@
   "icon": "🤲",
   "img": "Mother_Teresa",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/330px-Mother_Teresa_1.jpg",
+  "pic": "images/christianity/teresa.jpg",
   "title": "Mère Teresa, la sainte des plus pauvres",
   "refs": [
    "Mère Teresa",
@@ -796,6 +847,7 @@
   "icon": "🌍",
   "img": "Pope_Leo_XIV",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pope_Leo_XIV_3_%283x4_cropped%29.png/330px-Pope_Leo_XIV_3_%283x4_cropped%29.png",
+  "pic": "images/christianity/today.png",
   "title": "Le christianisme aujourd'hui : une famille mondiale",
   "refs": [
    "Christianisme",

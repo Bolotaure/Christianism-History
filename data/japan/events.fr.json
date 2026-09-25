@@ -6,6 +6,7 @@
   "icon": "🦣",
   "img": "Japanese_Paleolithic",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Japan_glaciation.gif/330px-Japan_glaciation.gif",
+  "pic": "images/japan/jp-first.gif",
   "title": "Les premiers humains arrivent au Japon",
   "refs": [
    "Paléolithique japonais",
@@ -21,6 +22,7 @@
   "icon": "🏺",
   "img": "Jōmon_pottery",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jomon_Flame_Style_Pottery%2C_3000_BC.jpg/330px-Jomon_Flame_Style_Pottery%2C_3000_BC.jpg",
+  "pic": "images/japan/jp-jomon.jpg",
   "title": "Jōmon : l'une des plus anciennes poteries du monde",
   "refs": [
    "Période Jōmon",
@@ -36,6 +38,7 @@
   "icon": "🏘️",
   "img": "Sannai-Maruyama_site",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/140913_Sannai-Maruyama_site_Aomori_Japan01bs6bs6.jpg/330px-140913_Sannai-Maruyama_site_Aomori_Japan01bs6bs6.jpg",
+  "pic": "images/japan/jp-sannai.jpg",
   "title": "Sannai-Maruyama, un grand village Jōmon",
   "refs": [
    "Site de Sannai-Maruyama",
@@ -51,6 +54,7 @@
   "icon": "🌾",
   "img": "Yayoi_period",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%9D%99%E5%B2%A1%E7%9C%8C%E6%B5%9C%E6%9D%BE%E5%B8%82%E6%B5%9C%E6%9D%BE%E5%B8%82%E5%8C%97%E5%8C%BA%E7%B4%B0%E6%B1%9F%E7%94%BA%E4%B8%AD%E5%B7%9D%E6%82%AA%E3%83%B6%E8%B0%B7%E5%87%BA%E5%9C%9F_%E5%85%AD%E5%8C%BA%E7%94%BB%E8%A2%88%E8%A3%9F%E8%A5%B7%E7%B4%8B%E9%8A%85%E9%90%B8_%28%E8%A4%87%E8%A3%BD%29.JPG/330px-%E9%9D%99%E5%B2%A1%E7%9C%8C%E6%B5%9C%E6%9D%BE%E5%B8%82%E6%B5%9C%E6%9D%BE%E5%B8%82%E5%8C%97%E5%8C%BA%E7%B4%B0%E6%B1%9F%E7%94%BA%E4%B8%AD%E5%B7%9D%E6%82%AA%E3%83%B6%E8%B0%B7%E5%87%BA%E5%9C%9F_%E5%85%AD%E5%8C%BA%E7%94%BB%E8%A2%88%E8%A3%9F%E8%A5%B7%E7%B4%8B%E9%8A%85%E9%90%B8_%28%E8%A4%87%E8%A3%BD%29.JPG",
+  "pic": "images/japan/jp-yayoi.jpg",
   "title": "Yayoi : les rizières et les cloches de bronze",
   "refs": [
    "Période Yayoi",
@@ -66,6 +70,7 @@
   "icon": "👸",
   "img": "Himiko",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Warrior_in_Keiko_Armor%2C_National_Treasure%2C_Kofun_period%2C_6th_century%2C_haniwa_%28terracotta_tomb_figurine%29_from_Iizuka-machi%2C_Ota-shi%2C_Gunma_-_Tokyo_National_Museum_-_DSC06425.JPG/330px-thumbnail.jpg",
+  "pic": "images/japan/jp-himiko.jpg",
   "title": "La reine Himiko du Yamatai",
   "refs": [
    "Himiko",
@@ -81,6 +86,7 @@
   "icon": "🗝️",
   "img": "Daisen_Kofun",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mozu_Kofun_Group_Aerial_photograph_2007.jpg/330px-Mozu_Kofun_Group_Aerial_photograph_2007.jpg",
+  "pic": "images/japan/jp-kofun.jpg",
   "title": "Les tombes géantes en forme de trou de serrure",
   "refs": [
    "Période Kofun",
@@ -96,6 +102,7 @@
   "icon": "🪷",
   "img": "Buddhism_in_Japan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Japanese_Buddhist_flag.svg/330px-Japanese_Buddhist_flag.svg.png",
+  "pic": "images/japan/jp-buddhism.png",
   "title": "Le bouddhisme arrive au Japon",
   "refs": [
    "Bouddhisme au Japon",
@@ -111,6 +118,7 @@
   "icon": "📜",
   "img": "Prince_Shōtoku",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sh%C5%8Dtoku_Taishi_Sh%C5%8Dmanky%C5%8D_K%C5%8Dsan.jpg/330px-Sh%C5%8Dtoku_Taishi_Sh%C5%8Dmanky%C5%8D_K%C5%8Dsan.jpg",
+  "pic": "images/japan/jp-shotoku.jpg",
   "title": "Le prince Shōtoku et la Constitution en 17 articles",
   "refs": [
    "Shōtoku Taishi",
@@ -126,6 +134,7 @@
   "icon": "🦌",
   "img": "Kojiki",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/330px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+  "pic": "images/japan/jp-nara.jpg",
   "title": "Nara, la première grande capitale, et les plus vieux livres",
   "refs": [
    "Époque de Nara",
@@ -142,6 +151,7 @@
   "icon": "🙏",
   "img": "Tōdai-ji",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/330px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+  "pic": "images/japan/jp-daibutsu.jpg",
   "title": "Le Grand Bouddha du Tōdai-ji",
   "refs": [
    "Tōdai-ji",
@@ -157,6 +167,7 @@
   "icon": "🏯",
   "img": "Heian-kyō",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Daidairi_of_Heiankyo.jpg/330px-Daidairi_of_Heiankyo.jpg",
+  "pic": "images/japan/jp-heiankyo.jpg",
   "title": "Heian-kyō : Kyoto devient la capitale",
   "refs": [
    "Heian-kyō",
@@ -172,6 +183,7 @@
   "icon": "✍️",
   "img": "The_Tale_of_Genji",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Genji_emaki_01003_002.jpg/330px-Genji_emaki_01003_002.jpg",
+  "pic": "images/japan/jp-genji.jpg",
   "title": "Les kana et le Dit du Genji",
   "refs": [
    "Le Dit du Genji",
@@ -188,6 +200,7 @@
   "icon": "🏹",
   "img": "Battle_of_Dan-no-ura",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/AntokuTennou_Engi.7%268_Dannoura_Kassen.jpg/330px-AntokuTennou_Engi.7%268_Dannoura_Kassen.jpg",
+  "pic": "images/japan/jp-genpei.jpg",
   "title": "La guerre de Genpei : Taira contre Minamoto",
   "refs": [
    "Guerre de Genpei",
@@ -204,6 +217,7 @@
   "icon": "⚔️",
   "img": "Minamoto_no_Yoritomo",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Minamoto_no_Yoritomo.jpg/330px-Minamoto_no_Yoritomo.jpg",
+  "pic": "images/japan/jp-kamakura.jpg",
   "title": "Le premier shōgun : le shogunat de Kamakura",
   "refs": [
    "Shogunat de Kamakura",
@@ -220,6 +234,7 @@
   "icon": "🌪️",
   "img": "Mongol_invasions_of_Japan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mongol_invasions_of_Japan_1274%2C_1281.jpg/330px-Mongol_invasions_of_Japan_1274%2C_1281.jpg",
+  "pic": "images/japan/jp-mongols.jpg",
   "title": "Les invasions mongoles et le « vent divin »",
   "refs": [
    "Invasions mongoles du Japon",
@@ -235,6 +250,7 @@
   "icon": "🧘",
   "img": "Kōtoku-in",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/230128_Kamakura_Daibutsu_Japan04s3.jpg/330px-230128_Kamakura_Daibutsu_Japan04s3.jpg",
+  "pic": "images/japan/jp-zen.jpg",
   "title": "Un bouddhisme pour tous, et le Grand Bouddha de Kamakura",
   "refs": [
    "Bouddhisme de Kamakura",
@@ -251,6 +267,7 @@
   "icon": "✨",
   "img": "Kinkaku-ji",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg/330px-Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg",
+  "pic": "images/japan/jp-kinkakuji.jpg",
   "title": "Les shōguns de Muromachi et le Pavillon d'or",
   "refs": [
    "Époque de Muromachi",
@@ -267,6 +284,7 @@
   "icon": "🎭",
   "img": "Noh",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Noh_Performance_%28235951661%29.jpeg/330px-Noh_Performance_%28235951661%29.jpeg",
+  "pic": "images/japan/jp-noh.jpg",
   "title": "Zeami et le théâtre nô",
   "refs": [
    "Nô",
@@ -283,6 +301,7 @@
   "icon": "🐉",
   "img": "Ryukyu_Kingdom",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Merchant_flag_of_the_Ryukyu_Kingdom.svg/330px-Merchant_flag_of_the_Ryukyu_Kingdom.svg.png",
+  "pic": "images/japan/jp-ryukyu.png",
   "title": "Le royaume de Ryūkyū, pont entre les mers",
   "refs": [
    "Royaume de Ryūkyū",
@@ -299,6 +318,7 @@
   "icon": "🔥",
   "img": "Ōnin_War",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+  "pic": "images/japan/jp-onin.png",
   "title": "La guerre d'Ōnin et l'époque des Royaumes combattants",
   "refs": [
    "Guerre d'Ōnin",
@@ -315,6 +335,7 @@
   "icon": "🔫",
   "img": "Tanegashima_(gun)",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Strings_for_night_firing.jpg/330px-Strings_for_night_firing.jpg",
+  "pic": "images/japan/jp-guns.jpg",
   "title": "Des marins portugais apportent les fusils à Tanegashima",
   "refs": [
    "Tanegashima (arme)",
@@ -330,6 +351,7 @@
   "icon": "⛪",
   "img": "Nanban_trade",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%8A%B1%E9%B3%A5%E8%92%94%E7%B5%B5%E8%9E%BA%E9%88%BF%E8%81%96%E9%BE%95.jpg/330px-%E8%8A%B1%E9%B3%A5%E8%92%94%E7%B5%B5%E8%9E%BA%E9%88%BF%E8%81%96%E9%BE%95.jpg",
+  "pic": "images/japan/jp-nanban.jpg",
   "title": "François Xavier et les « barbares du Sud »",
   "refs": [
    "Commerce Nanban",
@@ -346,6 +368,7 @@
   "icon": "🔥",
   "img": "Oda_Nobunaga",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Odanobunaga.jpg/330px-Odanobunaga.jpg",
+  "pic": "images/japan/jp-nobunaga.jpg",
   "title": "Oda Nobunaga, le premier unificateur",
   "refs": [
    "Oda Nobunaga",
@@ -362,6 +385,7 @@
   "icon": "🏯",
   "img": "Osaka_Castle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/330px-Osaka_Castle_03bs3200.jpg",
+  "pic": "images/japan/jp-hideyoshi.jpg",
   "title": "Toyotomi Hideyoshi unifie le Japon",
   "refs": [
    "Toyotomi Hideyoshi",
@@ -378,6 +402,7 @@
   "icon": "⚔️",
   "img": "Battle_of_Sekigahara",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
+  "pic": "images/japan/jp-sekigahara.jpg",
   "title": "La bataille de Sekigahara",
   "refs": [
    "Bataille de Sekigahara",
@@ -394,6 +419,7 @@
   "icon": "🗾",
   "img": "Tokugawa_Ieyasu",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tokugawa_Ieyasu2.JPG/330px-Tokugawa_Ieyasu2.JPG",
+  "pic": "images/japan/jp-edo.jpg",
   "title": "Tokugawa Ieyasu fonde le shogunat d'Edo",
   "refs": [
    "Shogunat Tokugawa",
@@ -410,6 +436,7 @@
   "icon": "🚶",
   "img": "Sankin-kōtai",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tokugawa_Seiseiroku_001.jpg/330px-Tokugawa_Seiseiroku_001.jpg",
+  "pic": "images/japan/jp-sankin.jpg",
   "title": "Le sankin-kōtai : les grands cortèges des seigneurs",
   "refs": [
    "Sankin-kōtai",
@@ -425,6 +452,7 @@
   "icon": "🚪",
   "img": "Dejima",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Plattegrond_van_Deshima.jpg/330px-Plattegrond_van_Deshima.jpg",
+  "pic": "images/japan/jp-sakoku.jpg",
   "title": "Le sakoku : le Japon ferme ses portes",
   "refs": [
    "Sakoku",
@@ -441,6 +469,7 @@
   "icon": "🐸",
   "img": "Matsuo_Bashō",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Basho_by_Morikawa_Kyoriku_%281656-1715%29.jpg/330px-Basho_by_Morikawa_Kyoriku_%281656-1715%29.jpg",
+  "pic": "images/japan/jp-genroku.jpg",
   "title": "Bashō, le kabuki et les plaisirs de la culture d'Edo",
   "refs": [
    "Matsuo Bashō",
@@ -457,6 +486,7 @@
   "icon": "🗺️",
   "img": "Inō_Tadataka",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ino-tadataka%2Csawara%2Ckatori-city%2Cjapan.JPG/330px-Ino-tadataka%2Csawara%2Ckatori-city%2Cjapan.JPG",
+  "pic": "images/japan/jp-ino.jpg",
   "title": "Inō Tadataka parcourt le Japon à pied pour le cartographier",
   "refs": [
    "Inō Tadataka",
@@ -472,6 +502,7 @@
   "icon": "🌊",
   "img": "The_Great_Wave_off_Kanagawa",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/330px-Tsunami_by_hokusai_19th_century.jpg",
+  "pic": "images/japan/jp-hokusai.jpg",
   "title": "Hokusai et La Grande Vague",
   "refs": [
    "Hokusai",
@@ -488,6 +519,7 @@
   "icon": "🚢",
   "img": "Perry_Expedition",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Japanese_1854_print_Commodore_Perry.jpg/330px-Japanese_1854_print_Commodore_Perry.jpg",
+  "pic": "images/japan/jp-perry.jpg",
   "title": "Les navires noirs du commodore Perry",
   "refs": [
    "Expédition de Perry",
@@ -504,6 +536,7 @@
   "icon": "🌅",
   "img": "Meiji_Restoration",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emperor_Meiji_by_Takahashi_Yuichi.jpg/330px-Emperor_Meiji_by_Takahashi_Yuichi.jpg",
+  "pic": "images/japan/jp-meiji.jpg",
   "title": "La restauration de Meiji",
   "refs": [
    "Restauration de Meiji",
@@ -520,6 +553,7 @@
   "icon": "🐻",
   "img": "Ainu_people",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/AinuSan.jpg/330px-AinuSan.jpg",
+  "pic": "images/japan/jp-ainu.jpg",
   "title": "Hokkaidō et le peuple aïnou",
   "refs": [
    "Aïnous",
@@ -536,6 +570,7 @@
   "icon": "🚂",
   "img": "Tomioka_Silk_Mill",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%AF%8C%E5%B2%A1%E8%A3%BD%E7%B3%B8%E5%A0%B4%E3%83%BB%E7%B9%B0%E7%B3%B8%E5%A0%B4.jpg/330px-%E5%AF%8C%E5%B2%A1%E8%A3%BD%E7%B3%B8%E5%A0%B4%E3%83%BB%E7%B9%B0%E7%B3%B8%E5%A0%B4.jpg",
+  "pic": "images/japan/jp-rail.jpg",
   "title": "Trains, écoles et soie : le Japon se modernise",
   "refs": [
    "Transport ferroviaire au Japon",
@@ -552,6 +587,7 @@
   "icon": "⚖️",
   "img": "Meiji_Constitution",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Meiji-Constitution-Empire-of-Japan.png/330px-Meiji-Constitution-Empire-of-Japan.png",
+  "pic": "images/japan/jp-constitution1889.png",
   "title": "La Constitution de Meiji et le premier parlement du Japon",
   "refs": [
    "Constitution de Meiji",
@@ -568,6 +604,7 @@
   "icon": "⚓",
   "img": "Russo-Japanese_War",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RUSSOJAPANESEWARIMAGE.jpg/330px-RUSSOJAPANESEWARIMAGE.jpg",
+  "pic": "images/japan/jp-empire.jpg",
   "title": "Les guerres contre la Chine et la Russie, et un empire",
   "refs": [
    "Première guerre sino-japonaise",
@@ -584,6 +621,7 @@
   "icon": "🏚️",
   "img": "1923_Great_Kantō_earthquake",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/The_Great_Kanto_Earthquake_%283767766524%29_%28cropped%29.jpg/330px-The_Great_Kanto_Earthquake_%283767766524%29_%28cropped%29.jpg",
+  "pic": "images/japan/jp-kanto.jpg",
   "title": "Le grand tremblement de terre du Kantō",
   "refs": [
    "Séisme de 1923 de Kantō",
@@ -599,6 +637,7 @@
   "icon": "🕯️",
   "img": "Second_Sino-Japanese_War",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Japanese_Special_Naval_Landing_Forces_in_Battle_of_Shanghai_1937.jpg/330px-Japanese_Special_Naval_Landing_Forces_in_Battle_of_Shanghai_1937.jpg",
+  "pic": "images/japan/jp-war.jpg",
   "title": "Le chemin vers la guerre",
   "refs": [
    "Seconde guerre sino-japonaise",
@@ -615,6 +654,7 @@
   "icon": "🕊️",
   "img": "Hiroshima_Peace_Memorial",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Genbaku_Dome04-r.JPG/330px-Genbaku_Dome04-r.JPG",
+  "pic": "images/japan/jp-hiroshima.jpg",
   "title": "Hiroshima, Nagasaki et la fin de la guerre",
   "refs": [
    "Bombardements atomiques d'Hiroshima et Nagasaki",
@@ -631,6 +671,7 @@
   "icon": "📘",
   "img": "Constitution_of_Japan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Nihon_Kenpo01.jpg/330px-Nihon_Kenpo01.jpg",
+  "pic": "images/japan/jp-constitution1947.jpg",
   "title": "Une nouvelle constitution pour la paix",
   "refs": [
    "Constitution du Japon",
@@ -647,6 +688,7 @@
   "icon": "🦖",
   "img": "Kyoto_International_Manga_Museum",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%E4%BA%AC%E9%83%BD%E5%9B%BD%E9%9A%9B%E3%83%9E%E3%83%B3%E3%82%AC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0.jpg/330px-%E4%BA%AC%E9%83%BD%E5%9B%BD%E9%9A%9B%E3%83%9E%E3%83%B3%E3%82%AC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0.jpg",
+  "pic": "images/japan/jp-manga.jpg",
   "title": "Astro Boy et Godzilla : mangas et monstres",
   "refs": [
    "Osamu Tezuka",
@@ -663,6 +705,7 @@
   "icon": "🚄",
   "img": "Shinkansen",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Shinkansen_map_202405_en.png/330px-Shinkansen_map_202405_en.png",
+  "pic": "images/japan/jp-1964.png",
   "title": "Le Shinkansen et les Jeux olympiques de Tokyo",
   "refs": [
    "Shinkansen",
@@ -679,6 +722,7 @@
   "icon": "🗼",
   "img": "Expo_'70",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Expo70-logo.svg/330px-Expo70-logo.svg.png",
+  "pic": "images/japan/jp-expo70.png",
   "title": "L'Expo 70 : Osaka accueille le monde",
   "refs": [
    "Exposition universelle de 1970",
@@ -695,6 +739,7 @@
   "icon": "🎮",
   "img": "Family_Computer",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/330px-NES-Console-Set.png",
+  "pic": "images/japan/jp-famicom.png",
   "title": "La Famicom et l'âge des jeux vidéo",
   "refs": [
    "Famicom",
@@ -711,6 +756,7 @@
   "icon": "📈",
   "img": "Japanese_asset_price_bubble",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Nikkei_225_Index.webp/330px-Nikkei_225_Index.webp",
+  "pic": "images/japan/jp-heisei.webp",
   "title": "Le début de Heisei et l'économie de bulle",
   "refs": [
    "Heisei",
@@ -727,6 +773,7 @@
   "icon": "🐉",
   "img": "Ghibli_Museum",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ghibli_Museum_2024.JPG/330px-Ghibli_Museum_2024.JPG",
+  "pic": "images/japan/jp-ghibli.jpg",
   "title": "Le studio Ghibli et Le Voyage de Chihiro",
   "refs": [
    "Studio Ghibli",
@@ -743,6 +790,7 @@
   "icon": "🌊",
   "img": "2011_Tōhoku_earthquake_and_tsunami",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/SH-60B_helicopter_flies_over_Sendai.jpg/330px-SH-60B_helicopter_flies_over_Sendai.jpg",
+  "pic": "images/japan/jp-2011.jpg",
   "title": "Le grand tremblement de terre de l'Est du Japon",
   "refs": [
    "Séisme de 2011 de la côte Pacifique du Tōhoku",
@@ -759,6 +807,7 @@
   "icon": "🌸",
   "img": "Reiwa",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Emperor_Naruhito_%28cropped%29.jpg/330px-Emperor_Naruhito_%28cropped%29.jpg",
+  "pic": "images/japan/jp-reiwa.jpg",
   "title": "Reiwa et les Jeux olympiques de Tokyo sans spectateurs",
   "refs": [
    "Reiwa",
@@ -775,6 +824,7 @@
   "icon": "🗻",
   "img": "Expo_2025",
   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Expo_2025_logo-en.svg/330px-Expo_2025_logo-en.svg.png",
+  "pic": "images/japan/jp-today.png",
   "title": "Le Japon aujourd'hui : tradition et avenir",
   "refs": [
    "Japon",

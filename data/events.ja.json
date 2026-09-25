@@ -6,6 +6,7 @@
   "icon": "⛺",
   "img": "Abraham",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Guercino_Abramo_ripudia_Agar_%28cropped_2%29.jpg/330px-Guercino_Abramo_ripudia_Agar_%28cropped_2%29.jpg",
+  "pic": "images/christianity/abraham.jpg",
   "title": "根っこ：アブラハムとイスラエルの人びと",
   "refs": [
    "アブラハム",
@@ -21,6 +22,7 @@
   "icon": "⭐",
   "img": "Nativity_of_Jesus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Adoration_of_the_sheperds_-_Matthias_Stomer.jpg/330px-Adoration_of_the_sheperds_-_Matthias_Stomer.jpg",
+  "pic": "images/christianity/nativity.jpg",
   "title": "イエス、ベツレヘムで生まれる",
   "refs": [
    "イエスの降誕",
@@ -36,6 +38,7 @@
   "icon": "🕊️",
   "img": "Baptism_of_Jesus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/El_bautismo_de_Jes%C3%BAs%2C_por_Jos%C3%A9_Ferraz_de_Almeida_J%C3%BAnior.jpg/330px-El_bautismo_de_Jes%C3%BAs%2C_por_Jos%C3%A9_Ferraz_de_Almeida_J%C3%BAnior.jpg",
+  "pic": "images/christianity/baptism.jpg",
   "title": "バプテスマのヨハネ、イエスに洗礼をさずける",
   "refs": [
    "イエスの洗礼",
@@ -51,6 +54,7 @@
   "icon": "⛰️",
   "img": "Sermon_on_the_Mount",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bloch-SermonOnTheMount.jpg/330px-Bloch-SermonOnTheMount.jpg",
+  "pic": "images/christianity/teaching.jpg",
   "title": "イエス、教え、いやし、12人の友をえらぶ",
   "refs": [
    "山上の垂訓",
@@ -66,6 +70,7 @@
   "icon": "✝️",
   "img": "Resurrection_of_Jesus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rafael_-_ressureicaocristo01.jpg/330px-Rafael_-_ressureicaocristo01.jpg",
+  "pic": "images/christianity/easter.jpg",
   "title": "最後の晩さん、十字架、そして復活の朝",
   "refs": [
    "最後の晩餐",
@@ -82,6 +87,7 @@
   "icon": "🔥",
   "img": "Pentecost",
   "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vienna_Karlskirche_frescos4b.jpg",
+  "pic": "images/christianity/pentecost.jpg",
   "title": "ペンテコステ：教会の誕生",
   "refs": [
    "ペンテコステ",
@@ -97,6 +103,7 @@
   "icon": "⚡",
   "img": "Conversion_of_Paul_the_Apostle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/La_conversion_de_Saint_Paul_Giordano_Nancy_3018.jpg/330px-La_conversion_de_Saint_Paul_Giordano_Nancy_3018.jpg",
+  "pic": "images/christianity/paulconv.jpg",
   "title": "最初の殉教者ステファノと、ダマスコへの道のサウロ",
   "refs": [
    "ステファノ",
@@ -112,6 +119,7 @@
   "icon": "⛵",
   "img": "Paul_the_Apostle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fresco_of_Saint_Paul_at_Ephesus.jpg/330px-Fresco_of_Saint_Paul_at_Ephesus.jpg",
+  "pic": "images/christianity/paul.jpg",
   "title": "パウロの大旅行と手紙",
   "refs": [
    "パウロ",
@@ -127,6 +135,7 @@
   "icon": "🔥",
   "img": "Great_Fire_of_Rome",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Robert%2C_Hubert_-_Incendie_%C3%A0_Rome_-.jpg/330px-Robert%2C_Hubert_-_Incendie_%C3%A0_Rome_-.jpg",
+  "pic": "images/christianity/nero.jpg",
   "title": "ローマの大火：ペトロとパウロ、信仰のために死ぬ",
   "refs": [
    "ローマ大火",
@@ -142,6 +151,7 @@
   "icon": "📜",
   "img": "Arch_of_Titus",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Arch_Titus%2C_Forum_Romanum%2C_Rome%2C_Italy.jpg/330px-Arch_Titus%2C_Forum_Romanum%2C_Rome%2C_Italy.jpg",
+  "pic": "images/christianity/gospels.jpg",
   "title": "神殿がこわされ、福音書が書かれる",
   "refs": [
    "エルサレム攻囲戦 (70年)",
@@ -157,6 +167,7 @@
   "icon": "🐟",
   "img": "Catacombs_of_Rome",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Eucharistic_bread.jpg/330px-Eucharistic_bread.jpg",
+  "pic": "images/christianity/catacombs.jpg",
   "title": "ひみつのしるしとカタコンベ",
   "refs": [
    "カタコンベ",
@@ -172,6 +183,7 @@
   "icon": "🦁",
   "img": "Perpetua_and_Felicity",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Perpetua%2C_Felicitas%2C_Revocatus%2C_Saturninus_and_Secundulus_%28Menologion_of_Basil_II%29.jpg/330px-Perpetua%2C_Felicitas%2C_Revocatus%2C_Saturninus_and_Secundulus_%28Menologion_of_Basil_II%29.jpg",
+  "pic": "images/christianity/perpetua.jpg",
   "title": "ペルペトゥアとフェリキタス、勇気ある若い殉教者",
   "refs": [
    "ペルペトゥアとフェリキタス",
@@ -187,6 +199,7 @@
   "icon": "🏜️",
   "img": "Anthony_the_Great",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Anthony_%28Damaskinos%29.png/330px-Saint_Anthony_%28Damaskinos%29.png",
+  "pic": "images/christianity/anthony.png",
   "title": "アントニオス、あれ地へ：最初の修道士たち",
   "refs": [
    "大アントニオス",
@@ -202,6 +215,7 @@
   "icon": "⚔️",
   "img": "Diocletian",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg/330px-Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg",
+  "pic": "images/christianity/diocletian.jpg",
   "title": "ディオクレティアヌスの大迫害",
   "refs": [
    "ディオクレティアヌスの迫害",
@@ -217,6 +231,7 @@
   "icon": "☧",
   "img": "Edict_of_Milan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/330px-Constantine_Chiaramonti_Inv1749.jpg",
+  "pic": "images/christianity/constantine.jpg",
   "title": "コンスタンティヌスとミラノ勅令：キリスト教徒に自由を",
   "refs": [
    "コンスタンティヌス1世",
@@ -233,6 +248,7 @@
   "icon": "📖",
   "img": "First_Council_of_Nicaea",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%CE%9C%CE%B9%CF%87%CE%B1%CE%AE%CE%BB_%CE%94%CE%B1%CE%BC%CE%B1%CF%83%CE%BA%CE%B7%CE%BD%CF%8C%CF%82_-_%CE%91%CE%84_%CE%9F%CE%B9%CE%BA%CE%BF%CF%85%CE%BC%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A3%CF%8D%CE%BD%CE%BF%CE%B4%CE%BF%CF%82_7741.jpg/330px-%CE%9C%CE%B9%CF%87%CE%B1%CE%AE%CE%BB_%CE%94%CE%B1%CE%BC%CE%B1%CF%83%CE%BA%CE%B7%CE%BD%CF%8C%CF%82_-_%CE%91%CE%84_%CE%9F%CE%B9%CE%BA%CE%BF%CF%85%CE%BC%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A3%CF%8D%CE%BD%CE%BF%CE%B4%CE%BF%CF%82_7741.jpg",
+  "pic": "images/christianity/nicaea.jpg",
   "title": "ニカイア公会議と信条",
   "refs": [
    "第1ニカイア公会議",
@@ -249,6 +265,7 @@
   "icon": "🏛️",
   "img": "Theodosius_I",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bust_of_Theodosius_I.jpg/330px-Bust_of_Theodosius_I.jpg",
+  "pic": "images/christianity/theodosius.jpg",
   "title": "キリスト教、帝国の宗教になる",
   "refs": [
    "テッサロニキ勅令",
@@ -264,6 +281,7 @@
   "icon": "🦁",
   "img": "Augustine_of_Hippo",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/330px-Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+  "pic": "images/christianity/jerome.jpg",
   "title": "2人の偉大な先生：ヒエロニムスとアウグスティヌス",
   "refs": [
    "ヒエロニムス",
@@ -280,6 +298,7 @@
   "icon": "☘️",
   "img": "Saint_Patrick",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Our_Lady%27s_Island_Church_of_the_Assumption_East_Aisle_Window_Saint_Patrick_2010_09_26.jpg/330px-Our_Lady%27s_Island_Church_of_the_Assumption_East_Aisle_Window_Saint_Patrick_2010_09_26.jpg",
+  "pic": "images/christianity/patrick.jpg",
   "title": "聖パトリック、アイルランドにキリスト教を伝える",
   "refs": [
    "パトリキウス",
@@ -295,6 +314,7 @@
   "icon": "👑",
   "img": "Clovis_I",
   "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Saint_Remy_baptise_Clovis_d%C3%A9tail.jpg",
+  "pic": "images/christianity/clovis.jpg",
   "title": "ローマの終わりとクローヴィスの洗礼",
   "refs": [
    "西ローマ帝国の滅亡",
@@ -310,6 +330,7 @@
   "icon": "🔔",
   "img": "Benedict_of_Nursia",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg/330px-Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg",
+  "pic": "images/christianity/benedict.jpg",
   "title": "聖ベネディクト：いのり、そして働け",
   "refs": [
    "ヌルシアのベネディクトゥス",
@@ -325,6 +346,7 @@
   "icon": "🕌",
   "img": "Hagia_Sophia",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/330px-Hagia_Sophia_%28228968325%29.jpeg",
+  "pic": "images/christianity/hagia.jpg",
   "title": "アヤソフィア、コンスタンティノープルのふしぎ",
   "refs": [
    "アヤソフィア",
@@ -341,6 +363,7 @@
   "icon": "🎵",
   "img": "Pope_Gregory_I",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gregory_the_Great_with_the_Holy_Spirit.jpg/330px-Gregory_the_Great_with_the_Holy_Spirit.jpg",
+  "pic": "images/christianity/gregory.jpg",
   "title": "教皇グレゴリウス1世、イングランドに修道士を送る",
   "refs": [
    "グレゴリウス1世 (ローマ教皇)",
@@ -356,6 +379,7 @@
   "icon": "📚",
   "img": "Book_of_Kells",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KellsFol032vChristEnthroned.jpg/330px-KellsFol032vChristEnthroned.jpg",
+  "pic": "images/christianity/charlemagne.jpg",
   "title": "カール大帝と本を救った修道士たち",
   "refs": [
    "カール大帝",
@@ -372,6 +396,7 @@
   "icon": "🔤",
   "img": "Saints_Cyril_and_Methodius",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sv_Kiril_Metodij_Zahari_Zograf_Trojanski_mon_1848.jpg/330px-Sv_Kiril_Metodij_Zahari_Zograf_Trojanski_mon_1848.jpg",
+  "pic": "images/christianity/cyril.jpg",
   "title": "キュリロスとメトディオス、スラヴ人のための文字をつくる",
   "refs": [
    "キュリロスとメトディオス",
@@ -387,6 +412,7 @@
   "icon": "🌊",
   "img": "Christianization_of_Kievan_Rus'",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lebedev_baptism.jpg/330px-Lebedev_baptism.jpg",
+  "pic": "images/christianity/rus.jpg",
   "title": "ウラジーミル公とキーウの洗礼",
   "refs": [
    "ルーシの洗礼",
@@ -403,6 +429,7 @@
   "icon": "💔",
   "img": "East–West_Schism",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Schism_with_former_borders_%281054%29.png/330px-Great_Schism_with_former_borders_%281054%29.png",
+  "pic": "images/christianity/schism.png",
   "title": "大シスマ：東と西が分かれる",
   "refs": [
    "東西教会の分裂",
@@ -418,6 +445,7 @@
   "icon": "🛡️",
   "img": "First_Crusade",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peter_the_Hermit.jpg/330px-Peter_the_Hermit.jpg",
+  "pic": "images/christianity/crusade.jpg",
   "title": "十字軍",
   "refs": [
    "十字軍",
@@ -434,6 +462,7 @@
   "icon": "⛪",
   "img": "Notre-Dame_de_Paris",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/330px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+  "pic": "images/christianity/cathedrals.jpg",
   "title": "大聖堂の時代",
   "refs": [
    "ノートルダム大聖堂 (パリ)",
@@ -450,6 +479,7 @@
   "icon": "🐺",
   "img": "Francis_of_Assisi",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Philip_Fruytiers_-_St._Francis_of_Assisi.jpg/330px-Philip_Fruytiers_-_St._Francis_of_Assisi.jpg",
+  "pic": "images/christianity/francis.jpg",
   "title": "アッシジのフランチェスコ、小さなまずしい人",
   "refs": [
    "アッシジのフランチェスコ",
@@ -466,6 +496,7 @@
   "icon": "🎓",
   "img": "Thomas_Aquinas",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/330px-St-thomas-aquinasFXD.jpg",
+  "pic": "images/christianity/aquinas.jpg",
   "title": "トマス・アクィナスと最初の大学",
   "refs": [
    "トマス・アクィナス",
@@ -482,6 +513,7 @@
   "icon": "⚔️",
   "img": "Joan_of_Arc",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/330px-Joan_of_Arc_miniature_graded.jpg",
+  "pic": "images/christianity/joan.jpg",
   "title": "ジャンヌ・ダルク、フランスを救った少女",
   "refs": [
    "ジャンヌ・ダルク",
@@ -497,6 +529,7 @@
   "icon": "🏰",
   "img": "Fall_of_Constantinople",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
+  "pic": "images/christianity/constantinople.jpg",
   "title": "コンスタンティノープルの陥落",
   "refs": [
    "コンスタンティノープルの陥落",
@@ -512,6 +545,7 @@
   "icon": "🖨️",
   "img": "Gutenberg_Bible",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/330px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+  "pic": "images/christianity/gutenberg.jpg",
   "title": "グーテンベルク、聖書を印刷する",
   "refs": [
    "ヨハネス・グーテンベルク",
@@ -527,6 +561,7 @@
   "icon": "🌎",
   "img": "Bartolomé_de_las_Casas",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fray_Bartolom%C3%A9_de_las_Casas.jpg/330px-Fray_Bartolom%C3%A9_de_las_Casas.jpg",
+  "pic": "images/christianity/americas.jpg",
   "title": "キリスト教、海をこえてアメリカ大陸へ",
   "refs": [
    "ラテンアメリカのキリスト教",
@@ -542,6 +577,7 @@
   "icon": "🎨",
   "img": "Sistine_Chapel_ceiling",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/330px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg",
+  "pic": "images/christianity/sistine.jpg",
   "title": "ミケランジェロ、システィーナ礼拝堂をえがく",
   "refs": [
    "システィーナ礼拝堂",
@@ -558,6 +594,7 @@
   "icon": "🔨",
   "img": "Martin_Luther",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/330px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+  "pic": "images/christianity/luther.jpg",
   "title": "マルティン・ルターと95か条の論題",
   "refs": [
    "マルティン・ルター",
@@ -574,6 +611,7 @@
   "icon": "🏴",
   "img": "English_Reformation",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg/330px-Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg",
+  "pic": "images/christianity/england.jpg",
   "title": "ヘンリー8世とイングランド国教会",
   "refs": [
    "イングランドの宗教改革",
@@ -590,6 +628,7 @@
   "icon": "⛰️",
   "img": "John_Calvin",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png/330px-John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png",
+  "pic": "images/christianity/calvin.png",
   "title": "ジャン・カルヴァン、ジュネーヴへ",
   "refs": [
    "ジャン・カルヴァン",
@@ -606,6 +645,7 @@
   "icon": "🧭",
   "img": "Council_of_Trent",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Concilio_Trento_Museo_Buonconsiglio.jpg/330px-Concilio_Trento_Museo_Buonconsiglio.jpg",
+  "pic": "images/christianity/trent.jpg",
   "title": "トリエント公会議とイエズス会",
   "refs": [
    "トリエント公会議",
@@ -622,6 +662,7 @@
   "icon": "🏯",
   "img": "Francis_Xavier",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Franciscus_de_Xabier.jpg/330px-Franciscus_de_Xabier.jpg",
+  "pic": "images/christianity/asia.jpg",
   "title": "日本のザビエル、中国のマテオ・リッチ",
   "refs": [
    "フランシスコ・ザビエル",
@@ -638,6 +679,7 @@
   "icon": "🕊️",
   "img": "Edict_of_Nantes",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Edit_de_nantes.jpg/330px-Edit_de_nantes.jpg",
+  "pic": "images/christianity/nantes.jpg",
   "title": "宗教戦争と、ともに生きることを学ぶ",
   "refs": [
    "ユグノー戦争",
@@ -654,6 +696,7 @@
   "icon": "⛵",
   "img": "Mayflower",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg/330px-Copyrighted_and_Published_by_A_S_Burbank%2C_The_Mayflower_at_Sea_%28NBY_21340%29.jpg",
+  "pic": "images/christianity/kjv.jpg",
   "title": "欽定訳聖書とメイフラワー号の巡礼者たち",
   "refs": [
    "欽定訳聖書",
@@ -670,6 +713,7 @@
   "icon": "🐎",
   "img": "John_Wesley",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/John_Wesley_by_George_Romney.jpg/330px-John_Wesley_by_George_Romney.jpg",
+  "pic": "images/christianity/wesley.jpg",
   "title": "ジョン・ウェスレーと大覚醒",
   "refs": [
    "ジョン・ウェスレー",
@@ -686,6 +730,7 @@
   "icon": "⛓️",
   "img": "William_Wilberforce",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/William_wilberforce.jpg/330px-William_wilberforce.jpg",
+  "pic": "images/christianity/slavery.jpg",
   "title": "どれい制度に反対したキリスト教徒たち",
   "refs": [
    "ウィリアム・ウィルバーフォース",
@@ -702,6 +747,7 @@
   "icon": "🥣",
   "img": "The_Salvation_Army",
   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/The_Salvation_Army.svg/330px-The_Salvation_Army.svg.png",
+  "pic": "images/christianity/salvation.png",
   "title": "スープ、せっけん、救い：まずしい人を助ける",
   "refs": [
    "救世軍",
@@ -718,6 +764,7 @@
   "icon": "🎶",
   "img": "Azusa_Street_Revival",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/William_Joseph_Seymour_%283x4_cropped%29.jpg/330px-William_Joseph_Seymour_%283x4_cropped%29.jpg",
+  "pic": "images/christianity/azusa.jpg",
   "title": "アズサ通りとペンテコステ運動",
   "refs": [
    "アズサ・ストリート・リバイバル",
@@ -733,6 +780,7 @@
   "icon": "🕯️",
   "img": "Dietrich_Bonhoeffer",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/330px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg",
+  "pic": "images/christianity/ww2.jpg",
   "title": "暗い時代の勇気：ボンヘッファーとコルベ",
   "refs": [
    "ディートリッヒ・ボンヘッファー",
@@ -749,6 +797,7 @@
   "icon": "🪟",
   "img": "Second_Vatican_Council",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Vatican_II_photo.jpg/330px-Vatican_II_photo.jpg",
+  "pic": "images/christianity/vatican2.jpg",
   "title": "第2バチカン公会議、窓を開く",
   "refs": [
    "第2バチカン公会議",
@@ -764,6 +813,7 @@
   "icon": "✊",
   "img": "Martin_Luther_King_Jr.",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/330px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg",
+  "pic": "images/christianity/mlk.jpg",
   "title": "キング牧師：「わたしには夢がある」",
   "refs": [
    "マーティン・ルーサー・キング・ジュニア",
@@ -780,6 +830,7 @@
   "icon": "🤲",
   "img": "Mother_Teresa",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/330px-Mother_Teresa_1.jpg",
+  "pic": "images/christianity/teresa.jpg",
   "title": "マザー・テレサ、いちばんまずしい人たちの聖人",
   "refs": [
    "マザー・テレサ",
@@ -795,6 +846,7 @@
   "icon": "🌍",
   "img": "Pope_Leo_XIV",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pope_Leo_XIV_3_%283x4_cropped%29.png/330px-Pope_Leo_XIV_3_%283x4_cropped%29.png",
+  "pic": "images/christianity/today.png",
   "title": "今のキリスト教：世界じゅうの大家族",
   "refs": [
    "キリスト教",

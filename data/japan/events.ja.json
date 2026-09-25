@@ -6,6 +6,7 @@
   "icon": "🦣",
   "img": "Japanese_Paleolithic",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Japan_glaciation.gif/330px-Japan_glaciation.gif",
+  "pic": "images/japan/jp-first.gif",
   "title": "最初の人びとが日本にやって来た",
   "refs": [
    "日本の旧石器時代",
@@ -21,6 +22,7 @@
   "icon": "🏺",
   "img": "Jōmon_pottery",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jomon_Flame_Style_Pottery%2C_3000_BC.jpg/330px-Jomon_Flame_Style_Pottery%2C_3000_BC.jpg",
+  "pic": "images/japan/jp-jomon.jpg",
   "title": "縄文：世界でもっとも古い土器のひとつ",
   "refs": [
    "縄文時代",
@@ -36,6 +38,7 @@
   "icon": "🏘️",
   "img": "Sannai-Maruyama_site",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/140913_Sannai-Maruyama_site_Aomori_Japan01bs6bs6.jpg/330px-140913_Sannai-Maruyama_site_Aomori_Japan01bs6bs6.jpg",
+  "pic": "images/japan/jp-sannai.jpg",
   "title": "三内丸山、縄文の大きな村",
   "refs": [
    "三内丸山遺跡",
@@ -51,6 +54,7 @@
   "icon": "🌾",
   "img": "Yayoi_period",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%9D%99%E5%B2%A1%E7%9C%8C%E6%B5%9C%E6%9D%BE%E5%B8%82%E6%B5%9C%E6%9D%BE%E5%B8%82%E5%8C%97%E5%8C%BA%E7%B4%B0%E6%B1%9F%E7%94%BA%E4%B8%AD%E5%B7%9D%E6%82%AA%E3%83%B6%E8%B0%B7%E5%87%BA%E5%9C%9F_%E5%85%AD%E5%8C%BA%E7%94%BB%E8%A2%88%E8%A3%9F%E8%A5%B7%E7%B4%8B%E9%8A%85%E9%90%B8_%28%E8%A4%87%E8%A3%BD%29.JPG/330px-%E9%9D%99%E5%B2%A1%E7%9C%8C%E6%B5%9C%E6%9D%BE%E5%B8%82%E6%B5%9C%E6%9D%BE%E5%B8%82%E5%8C%97%E5%8C%BA%E7%B4%B0%E6%B1%9F%E7%94%BA%E4%B8%AD%E5%B7%9D%E6%82%AA%E3%83%B6%E8%B0%B7%E5%87%BA%E5%9C%9F_%E5%85%AD%E5%8C%BA%E7%94%BB%E8%A2%88%E8%A3%9F%E8%A5%B7%E7%B4%8B%E9%8A%85%E9%90%B8_%28%E8%A4%87%E8%A3%BD%29.JPG",
+  "pic": "images/japan/jp-yayoi.jpg",
   "title": "弥生：田んぼと銅のかね",
   "refs": [
    "弥生時代",
@@ -66,6 +70,7 @@
   "icon": "👸",
   "img": "Himiko",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Warrior_in_Keiko_Armor%2C_National_Treasure%2C_Kofun_period%2C_6th_century%2C_haniwa_%28terracotta_tomb_figurine%29_from_Iizuka-machi%2C_Ota-shi%2C_Gunma_-_Tokyo_National_Museum_-_DSC06425.JPG/330px-thumbnail.jpg",
+  "pic": "images/japan/jp-himiko.jpg",
   "title": "邪馬台国の女王、卑弥呼",
   "refs": [
    "卑弥呼",
@@ -81,6 +86,7 @@
   "icon": "🗝️",
   "img": "Daisen_Kofun",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mozu_Kofun_Group_Aerial_photograph_2007.jpg/330px-Mozu_Kofun_Group_Aerial_photograph_2007.jpg",
+  "pic": "images/japan/jp-kofun.jpg",
   "title": "かぎ穴の形をした巨大なお墓",
   "refs": [
    "古墳時代",
@@ -96,6 +102,7 @@
   "icon": "🪷",
   "img": "Buddhism_in_Japan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Japanese_Buddhist_flag.svg/330px-Japanese_Buddhist_flag.svg.png",
+  "pic": "images/japan/jp-buddhism.png",
   "title": "仏教が日本に伝わる",
   "refs": [
    "日本の仏教",
@@ -111,6 +118,7 @@
   "icon": "📜",
   "img": "Prince_Shōtoku",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sh%C5%8Dtoku_Taishi_Sh%C5%8Dmanky%C5%8D_K%C5%8Dsan.jpg/330px-Sh%C5%8Dtoku_Taishi_Sh%C5%8Dmanky%C5%8D_K%C5%8Dsan.jpg",
+  "pic": "images/japan/jp-shotoku.jpg",
   "title": "聖徳太子と十七条の憲法",
   "refs": [
    "聖徳太子",
@@ -126,6 +134,7 @@
   "icon": "🦌",
   "img": "Kojiki",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/330px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+  "pic": "images/japan/jp-nara.jpg",
   "title": "奈良の都と、いちばん古い本",
   "refs": [
    "奈良時代",
@@ -142,6 +151,7 @@
   "icon": "🙏",
   "img": "Tōdai-ji",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/330px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+  "pic": "images/japan/jp-daibutsu.jpg",
   "title": "東大寺の大仏",
   "refs": [
    "東大寺",
@@ -157,6 +167,7 @@
   "icon": "🏯",
   "img": "Heian-kyō",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Daidairi_of_Heiankyo.jpg/330px-Daidairi_of_Heiankyo.jpg",
+  "pic": "images/japan/jp-heiankyo.jpg",
   "title": "平安京：京都が都になる",
   "refs": [
    "平安京",
@@ -172,6 +183,7 @@
   "icon": "✍️",
   "img": "The_Tale_of_Genji",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Genji_emaki_01003_002.jpg/330px-Genji_emaki_01003_002.jpg",
+  "pic": "images/japan/jp-genji.jpg",
   "title": "かな文字と『源氏物語』",
   "refs": [
    "源氏物語",
@@ -188,6 +200,7 @@
   "icon": "🏹",
   "img": "Battle_of_Dan-no-ura",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/AntokuTennou_Engi.7%268_Dannoura_Kassen.jpg/330px-AntokuTennou_Engi.7%268_Dannoura_Kassen.jpg",
+  "pic": "images/japan/jp-genpei.jpg",
   "title": "源平合戦：平氏と源氏",
   "refs": [
    "治承・寿永の乱",
@@ -204,6 +217,7 @@
   "icon": "⚔️",
   "img": "Minamoto_no_Yoritomo",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Minamoto_no_Yoritomo.jpg/330px-Minamoto_no_Yoritomo.jpg",
+  "pic": "images/japan/jp-kamakura.jpg",
   "title": "最初の将軍：鎌倉幕府",
   "refs": [
    "鎌倉幕府",
@@ -220,6 +234,7 @@
   "icon": "🌪️",
   "img": "Mongol_invasions_of_Japan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mongol_invasions_of_Japan_1274%2C_1281.jpg/330px-Mongol_invasions_of_Japan_1274%2C_1281.jpg",
+  "pic": "images/japan/jp-mongols.jpg",
   "title": "元寇と「神風」",
   "refs": [
    "元寇",
@@ -235,6 +250,7 @@
   "icon": "🧘",
   "img": "Kōtoku-in",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/230128_Kamakura_Daibutsu_Japan04s3.jpg/330px-230128_Kamakura_Daibutsu_Japan04s3.jpg",
+  "pic": "images/japan/jp-zen.jpg",
   "title": "みんなのための新しい仏教と、鎌倉の大仏",
   "refs": [
    "鎌倉仏教",
@@ -251,6 +267,7 @@
   "icon": "✨",
   "img": "Kinkaku-ji",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg/330px-Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg",
+  "pic": "images/japan/jp-kinkakuji.jpg",
   "title": "室町の将軍と金閣",
   "refs": [
    "室町時代",
@@ -267,6 +284,7 @@
   "icon": "🎭",
   "img": "Noh",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Noh_Performance_%28235951661%29.jpeg/330px-Noh_Performance_%28235951661%29.jpeg",
+  "pic": "images/japan/jp-noh.jpg",
   "title": "世阿弥と能",
   "refs": [
    "能",
@@ -283,6 +301,7 @@
   "icon": "🐉",
   "img": "Ryukyu_Kingdom",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Merchant_flag_of_the_Ryukyu_Kingdom.svg/330px-Merchant_flag_of_the_Ryukyu_Kingdom.svg.png",
+  "pic": "images/japan/jp-ryukyu.png",
   "title": "琉球王国、海のかけ橋",
   "refs": [
    "琉球王国",
@@ -299,6 +318,7 @@
   "icon": "🔥",
   "img": "Ōnin_War",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+  "pic": "images/japan/jp-onin.png",
   "title": "応仁の乱と戦国時代",
   "refs": [
    "応仁の乱",
@@ -315,6 +335,7 @@
   "icon": "🔫",
   "img": "Tanegashima_(gun)",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Strings_for_night_firing.jpg/330px-Strings_for_night_firing.jpg",
+  "pic": "images/japan/jp-guns.jpg",
   "title": "種子島に鉄砲が伝わる",
   "refs": [
    "火縄銃",
@@ -330,6 +351,7 @@
   "icon": "⛪",
   "img": "Nanban_trade",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E8%8A%B1%E9%B3%A5%E8%92%94%E7%B5%B5%E8%9E%BA%E9%88%BF%E8%81%96%E9%BE%95.jpg/330px-%E8%8A%B1%E9%B3%A5%E8%92%94%E7%B5%B5%E8%9E%BA%E9%88%BF%E8%81%96%E9%BE%95.jpg",
+  "pic": "images/japan/jp-nanban.jpg",
   "title": "フランシスコ・ザビエルと「南蛮人」",
   "refs": [
    "南蛮貿易",
@@ -346,6 +368,7 @@
   "icon": "🔥",
   "img": "Oda_Nobunaga",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Odanobunaga.jpg/330px-Odanobunaga.jpg",
+  "pic": "images/japan/jp-nobunaga.jpg",
   "title": "織田信長、最初の天下統一者",
   "refs": [
    "織田信長",
@@ -362,6 +385,7 @@
   "icon": "🏯",
   "img": "Osaka_Castle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/330px-Osaka_Castle_03bs3200.jpg",
+  "pic": "images/japan/jp-hideyoshi.jpg",
   "title": "豊臣秀吉、天下を統一する",
   "refs": [
    "豊臣秀吉",
@@ -378,6 +402,7 @@
   "icon": "⚔️",
   "img": "Battle_of_Sekigahara",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
+  "pic": "images/japan/jp-sekigahara.jpg",
   "title": "関ヶ原の戦い",
   "refs": [
    "関ヶ原の戦い",
@@ -394,6 +419,7 @@
   "icon": "🗾",
   "img": "Tokugawa_Ieyasu",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tokugawa_Ieyasu2.JPG/330px-Tokugawa_Ieyasu2.JPG",
+  "pic": "images/japan/jp-edo.jpg",
   "title": "徳川家康、江戸幕府を開く",
   "refs": [
    "江戸幕府",
@@ -410,6 +436,7 @@
   "icon": "🚶",
   "img": "Sankin-kōtai",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tokugawa_Seiseiroku_001.jpg/330px-Tokugawa_Seiseiroku_001.jpg",
+  "pic": "images/japan/jp-sankin.jpg",
   "title": "参勤交代：大名の大行列",
   "refs": [
    "参勤交代",
@@ -425,6 +452,7 @@
   "icon": "🚪",
   "img": "Dejima",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Plattegrond_van_Deshima.jpg/330px-Plattegrond_van_Deshima.jpg",
+  "pic": "images/japan/jp-sakoku.jpg",
   "title": "鎖国：日本がとびらをとじる",
   "refs": [
    "鎖国",
@@ -441,6 +469,7 @@
   "icon": "🐸",
   "img": "Matsuo_Bashō",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Basho_by_Morikawa_Kyoriku_%281656-1715%29.jpg/330px-Basho_by_Morikawa_Kyoriku_%281656-1715%29.jpg",
+  "pic": "images/japan/jp-genroku.jpg",
   "title": "芭蕉、歌舞伎、そして江戸文化の楽しみ",
   "refs": [
    "松尾芭蕉",
@@ -457,6 +486,7 @@
   "icon": "🗺️",
   "img": "Inō_Tadataka",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ino-tadataka%2Csawara%2Ckatori-city%2Cjapan.JPG/330px-Ino-tadataka%2Csawara%2Ckatori-city%2Cjapan.JPG",
+  "pic": "images/japan/jp-ino.jpg",
   "title": "伊能忠敬、歩いて日本地図をつくる",
   "refs": [
    "伊能忠敬",
@@ -472,6 +502,7 @@
   "icon": "🌊",
   "img": "The_Great_Wave_off_Kanagawa",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/330px-Tsunami_by_hokusai_19th_century.jpg",
+  "pic": "images/japan/jp-hokusai.jpg",
   "title": "北斎と「神奈川沖浪裏」",
   "refs": [
    "葛飾北斎",
@@ -488,6 +519,7 @@
   "icon": "🚢",
   "img": "Perry_Expedition",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Japanese_1854_print_Commodore_Perry.jpg/330px-Japanese_1854_print_Commodore_Perry.jpg",
+  "pic": "images/japan/jp-perry.jpg",
   "title": "ペリーの黒船",
   "refs": [
    "黒船来航",
@@ -504,6 +536,7 @@
   "icon": "🌅",
   "img": "Meiji_Restoration",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emperor_Meiji_by_Takahashi_Yuichi.jpg/330px-Emperor_Meiji_by_Takahashi_Yuichi.jpg",
+  "pic": "images/japan/jp-meiji.jpg",
   "title": "明治維新",
   "refs": [
    "明治維新",
@@ -520,6 +553,7 @@
   "icon": "🐻",
   "img": "Ainu_people",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/AinuSan.jpg/330px-AinuSan.jpg",
+  "pic": "images/japan/jp-ainu.jpg",
   "title": "北海道とアイヌの人びと",
   "refs": [
    "アイヌ",
@@ -536,6 +570,7 @@
   "icon": "🚂",
   "img": "Tomioka_Silk_Mill",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%AF%8C%E5%B2%A1%E8%A3%BD%E7%B3%B8%E5%A0%B4%E3%83%BB%E7%B9%B0%E7%B3%B8%E5%A0%B4.jpg/330px-%E5%AF%8C%E5%B2%A1%E8%A3%BD%E7%B3%B8%E5%A0%B4%E3%83%BB%E7%B9%B0%E7%B3%B8%E5%A0%B4.jpg",
+  "pic": "images/japan/jp-rail.jpg",
   "title": "鉄道、学校、そして絹：日本の近代化",
   "refs": [
    "日本の鉄道",
@@ -552,6 +587,7 @@
   "icon": "⚖️",
   "img": "Meiji_Constitution",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Meiji-Constitution-Empire-of-Japan.png/330px-Meiji-Constitution-Empire-of-Japan.png",
+  "pic": "images/japan/jp-constitution1889.png",
   "title": "大日本帝国憲法と日本で最初の議会",
   "refs": [
    "大日本帝国憲法",
@@ -568,6 +604,7 @@
   "icon": "⚓",
   "img": "Russo-Japanese_War",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RUSSOJAPANESEWARIMAGE.jpg/330px-RUSSOJAPANESEWARIMAGE.jpg",
+  "pic": "images/japan/jp-empire.jpg",
   "title": "日清戦争・日露戦争、そして帝国へ",
   "refs": [
    "日清戦争",
@@ -584,6 +621,7 @@
   "icon": "🏚️",
   "img": "1923_Great_Kantō_earthquake",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/The_Great_Kanto_Earthquake_%283767766524%29_%28cropped%29.jpg/330px-The_Great_Kanto_Earthquake_%283767766524%29_%28cropped%29.jpg",
+  "pic": "images/japan/jp-kanto.jpg",
   "title": "関東大震災",
   "refs": [
    "関東大震災",
@@ -599,6 +637,7 @@
   "icon": "🕯️",
   "img": "Second_Sino-Japanese_War",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Japanese_Special_Naval_Landing_Forces_in_Battle_of_Shanghai_1937.jpg/330px-Japanese_Special_Naval_Landing_Forces_in_Battle_of_Shanghai_1937.jpg",
+  "pic": "images/japan/jp-war.jpg",
   "title": "戦争への道",
   "refs": [
    "日中戦争",
@@ -615,6 +654,7 @@
   "icon": "🕊️",
   "img": "Hiroshima_Peace_Memorial",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Genbaku_Dome04-r.JPG/330px-Genbaku_Dome04-r.JPG",
+  "pic": "images/japan/jp-hiroshima.jpg",
   "title": "広島・長崎、そして戦争の終わり",
   "refs": [
    "日本への原子爆弾投下",
@@ -631,6 +671,7 @@
   "icon": "📘",
   "img": "Constitution_of_Japan",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Nihon_Kenpo01.jpg/330px-Nihon_Kenpo01.jpg",
+  "pic": "images/japan/jp-constitution1947.jpg",
   "title": "平和のための新しい憲法",
   "refs": [
    "日本国憲法",
@@ -647,6 +688,7 @@
   "icon": "🦖",
   "img": "Kyoto_International_Manga_Museum",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%E4%BA%AC%E9%83%BD%E5%9B%BD%E9%9A%9B%E3%83%9E%E3%83%B3%E3%82%AC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0.jpg/330px-%E4%BA%AC%E9%83%BD%E5%9B%BD%E9%9A%9B%E3%83%9E%E3%83%B3%E3%82%AC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0.jpg",
+  "pic": "images/japan/jp-manga.jpg",
   "title": "鉄腕アトムとゴジラ：まんがと怪獣",
   "refs": [
    "手塚治虫",
@@ -663,6 +705,7 @@
   "icon": "🚄",
   "img": "Shinkansen",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Shinkansen_map_202405_en.png/330px-Shinkansen_map_202405_en.png",
+  "pic": "images/japan/jp-1964.png",
   "title": "新幹線と東京オリンピック",
   "refs": [
    "新幹線",
@@ -679,6 +722,7 @@
   "icon": "🗼",
   "img": "Expo_'70",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Expo70-logo.svg/330px-Expo70-logo.svg.png",
+  "pic": "images/japan/jp-expo70.png",
   "title": "大阪万博：世界をむかえる",
   "refs": [
    "日本万国博覧会",
@@ -695,6 +739,7 @@
   "icon": "🎮",
   "img": "Family_Computer",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/330px-NES-Console-Set.png",
+  "pic": "images/japan/jp-famicom.png",
   "title": "ファミコンとテレビゲームの時代",
   "refs": [
    "ファミリーコンピュータ",
@@ -711,6 +756,7 @@
   "icon": "📈",
   "img": "Japanese_asset_price_bubble",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Nikkei_225_Index.webp/330px-Nikkei_225_Index.webp",
+  "pic": "images/japan/jp-heisei.webp",
   "title": "平成の始まりとバブル経済",
   "refs": [
    "平成",
@@ -727,6 +773,7 @@
   "icon": "🐉",
   "img": "Ghibli_Museum",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ghibli_Museum_2024.JPG/330px-Ghibli_Museum_2024.JPG",
+  "pic": "images/japan/jp-ghibli.jpg",
   "title": "スタジオジブリと『千と千尋の神隠し』",
   "refs": [
    "スタジオジブリ",
@@ -743,6 +790,7 @@
   "icon": "🌊",
   "img": "2011_Tōhoku_earthquake_and_tsunami",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/SH-60B_helicopter_flies_over_Sendai.jpg/330px-SH-60B_helicopter_flies_over_Sendai.jpg",
+  "pic": "images/japan/jp-2011.jpg",
   "title": "東日本大震災",
   "refs": [
    "東北地方太平洋沖地震",
@@ -759,6 +807,7 @@
   "icon": "🌸",
   "img": "Reiwa",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Emperor_Naruhito_%28cropped%29.jpg/330px-Emperor_Naruhito_%28cropped%29.jpg",
+  "pic": "images/japan/jp-reiwa.jpg",
   "title": "令和と、観客のいない東京オリンピック",
   "refs": [
    "令和",
@@ -775,6 +824,7 @@
   "icon": "🗻",
   "img": "Expo_2025",
   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Expo_2025_logo-en.svg/330px-Expo_2025_logo-en.svg.png",
+  "pic": "images/japan/jp-today.png",
   "title": "今の日本：伝統と未来",
   "refs": [
    "日本",
