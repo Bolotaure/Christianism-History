@@ -191,6 +191,29 @@ const THEMES = {
                 kamakura:"鎌倉・室町", sengoku:"戦国・安土桃山", edo:"江戸", meiji:"明治・大正",
                 showa:"昭和", heisei:"平成・令和"}}
     }
+  },
+  france:{
+    dir:'france/', deco:['⚜️','🐓','🥐','🥖'],
+    colors:{prehist:{color:"#8c6d46"}, gaule:{color:"#5f8a3e"}, hautma:{color:"#b08a3e"}, moyenage:{color:"#6b5bb5"},
+            renaissance:{color:"#b0548e"}, absolu:{color:"#c9a227"}, revolution:{color:"#c2413a"}, xixe:{color:"#3f7aa6"},
+            guerres:{color:"#6f7a86"}, contemporain:{color:"#2f6fd6"}},
+    text:{
+      en:{name:"History of France", title:"The Story of France",
+          sub:"From prehistory to today · <b>slide the timeline</b> and touch a pin",
+          eras:{prehist:"Prehistory", gaule:"Gaul & Rome", hautma:"Early Middle Ages", moyenage:"Middle Ages",
+                renaissance:"Renaissance", absolu:"Absolute monarchy", revolution:"Revolution & Empire",
+                xixe:"19th century", guerres:"World Wars", contemporain:"Today's France"}},
+      fr:{name:"Histoire de France", title:"L'histoire de France",
+          sub:"De la Préhistoire à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+          eras:{prehist:"Préhistoire", gaule:"Gaule et Rome", hautma:"Haut Moyen Âge", moyenage:"Moyen Âge",
+                renaissance:"Renaissance", absolu:"Monarchie absolue", revolution:"Révolution et Empire",
+                xixe:"XIXᵉ siècle", guerres:"Guerres mondiales", contemporain:"France contemporaine"}},
+      ja:{name:"フランスのれきし", title:"フランスのれきし",
+          sub:"先史時代から今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+          eras:{prehist:"先史時代", gaule:"ガリアとローマ", hautma:"中世前期", moyenage:"中世",
+                renaissance:"ルネサンス", absolu:"絶対王政", revolution:"革命と帝政",
+                xixe:"19世紀", guerres:"世界大戦", contemporain:"現代のフランス"}}
+    }
   }
 };
 let THEME = 'christianity';
@@ -261,7 +284,7 @@ function layout(){
   track.classList.toggle('compact', compact);
   // keep the tallest pin (icon + date + 3 lines of title, ~125px) below the period name at the top
   const near = compact ? Math.max(18, Math.min(H*.18, H/2 - 108)) : H*.13;
-  const far = compact ? near : Math.max(near + 60, Math.min(H*.31, mid - 135));
+  const far = compact ? near : Math.max(near + 48, Math.min(H*.31, mid - 150));
   const levels = compact ? [-near, near] : [-far, near, -near, far];
   const W = PAD*2 + (EV.length-1)*SP;
   track.style.width = W+'px';
