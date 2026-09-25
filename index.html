@@ -29,15 +29,20 @@ header .kicker,header .sub{padding-right:64px}
 #themeTitle{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 #themeTitle .last{white-space:nowrap}
 #themeTitle .last::after{content:"";display:inline-block;width:18px;height:18px;margin-left:8px;vertical-align:-1px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat center/18px}
-#themeSel{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;padding:0;border:0;-webkit-appearance:none;appearance:none;font:16px sans-serif;cursor:pointer}
-#h1:focus-within{outline:2px solid var(--gold2);outline-offset:3px;border-radius:6px}
-#themeSel option{font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1d1814;background:#fbf6ec}
+#themeBtn{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;border:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#themeBtn:focus-visible{outline:2px solid var(--gold2);outline-offset:3px;border-radius:6px}
 #langBtn{position:absolute;right:14px;top:calc(13px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
 #langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
-#langBtn:focus-visible,#langMenu button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
-#langMenu{position:absolute;right:14px;top:calc(53px + var(--safe-t));z-index:6;min-width:150px;padding:6px;border-radius:14px;background:#2a231d;border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.55)}
-#langMenu button{display:flex;width:100%;align-items:center;gap:10px;border:0;background:none;padding:10px 12px;border-radius:10px;font-size:15px;text-align:left;cursor:pointer}
-#langMenu button[aria-checked="true"]{background:rgba(232,184,92,.18);color:var(--gold2);font-weight:700}
+#langBtn:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+/* theme and language menus: translucent, blurred panels (like the phone's own menus) */
+.menu{position:absolute;z-index:6;padding:8px;border-radius:22px;background:rgba(38,32,26,.62);-webkit-backdrop-filter:blur(26px) saturate(1.6);backdrop-filter:blur(26px) saturate(1.6);
+  border:1px solid rgba(255,255,255,.13);box-shadow:0 18px 50px rgba(0,0,0,.55);animation:menuIn .16s ease-out;transform-origin:top center}
+@keyframes menuIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+.menu button{display:flex;width:100%;align-items:center;gap:12px;border:0;background:none;padding:12px 16px;border-radius:14px;font-size:17px;line-height:1.3;text-align:left;cursor:pointer;color:var(--ink)}
+.menu button[aria-checked="true"]{background:rgba(232,184,92,.2);color:var(--gold2);font-weight:700}
+.menu button:focus-visible{outline:2px solid var(--gold2);outline-offset:-2px}
+#langMenu{right:14px;top:calc(53px + var(--safe-t));min-width:170px}
+#themeMenu{left:16px;width:min(340px,calc(100vw - 32px))}
 #langMenu button b{width:26px;font-size:12px;letter-spacing:.06em;color:var(--muted)}
 #eras{display:flex;gap:6px;overflow-x:auto;padding:22px 0 2px;scrollbar-width:none}
 #eras::-webkit-scrollbar{display:none}
@@ -157,11 +162,12 @@ html,body{overscroll-behavior-x:none}
 <body>
 <header>
   <div class="kicker" id="kicker">A timeline for young explorers</div>
-  <h1 id="h1"><span id="themeTitle"></span><select id="themeSel" aria-label="Theme"></select></h1>
+  <h1 id="h1"><span id="themeTitle"></span><button type="button" id="themeBtn" aria-haspopup="true" aria-expanded="false" aria-label="Theme"></button></h1>
   <div class="sub" id="sub">From Abraham to today</div>
   <nav id="eras" aria-label="Jump to a period"></nav>
   <button type="button" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span id="langCode">EN</span></button>
-  <div id="langMenu" role="menu" hidden>
+  <div id="themeMenu" class="menu" role="menu" hidden></div>
+  <div id="langMenu" class="menu" role="menu" hidden>
     <button type="button" role="menuitemradio" data-lang="en" aria-checked="false"><b>EN</b>English</button>
     <button type="button" role="menuitemradio" data-lang="fr" aria-checked="false"><b>FR</b>Français</button>
     <button type="button" role="menuitemradio" data-lang="ja" aria-checked="false"><b>JA</b>日本語</button>
@@ -677,7 +683,7 @@ document.addEventListener('keydown', ev => {
     goCard(current + (ev.key === 'ArrowRight' ? 1 : -1)); return;
   }
   if(ev.key !== 'Escape') return;
-  if(!langMenu.hidden){ closeLangMenu(); return; }
+  if(!langMenu.hidden || !themeMenu.hidden){ closeMenus(); return; }
   if(miniLayer.classList.contains('show')) fadeSwap(() => miniLayer.classList.remove('show'));
   else if(cardLayer.classList.contains('show')) closeCard();
 });
@@ -701,10 +707,9 @@ function applyUI(){
   document.documentElement.lang = LANG;
   document.title = t('title');
   $('#kicker').textContent = t('kicker');
-  const sel = $('#themeSel');
-  sel.innerHTML = Object.keys(THEMES).map(k => `<option value="${k}">${esc(THEMES[k].text[LANG].title)}</option>`).join('');
-  sel.value = THEME;
-  sel.setAttribute('aria-label', t('theme'));
+  $('#themeMenu').innerHTML = Object.keys(THEMES).map(k =>
+    `<button type="button" role="menuitemradio" data-theme="${k}" aria-checked="${k === THEME}">${esc(THEMES[k].text[LANG].title)}</button>`).join('');
+  $('#themeBtn').setAttribute('aria-label', t('theme'));
   fitThemeSel();
   $('#sub').innerHTML = t('sub');
   $('#eras').setAttribute('aria-label', t('jump'));
@@ -742,8 +747,8 @@ function pickTheme(){
   return 'christianity';
 }
 function switchTo(theme, lang){
-  closeLangMenu();
-  if((theme === THEME && lang === LANG) || busy){ $('#themeSel').value = THEME; return; }
+  closeMenus();
+  if((theme === THEME && lang === LANG) || busy) return;
   try{ localStorage.setItem('xtl-lang', lang); localStorage.setItem('xtl-theme', theme); }catch(e){}
   busy = true;
   fader.classList.add('on');
@@ -753,7 +758,6 @@ function switchTo(theme, lang){
     show(theme, lang, data);
     if(sameTheme) scroller.scrollLeft = f * track.scrollWidth; else if(!centerOnBookmark()) scroller.scrollLeft = 0;
   }).catch(err => {
-    $('#themeSel').value = THEME;
     alertBox(T[lang].failed + err);
   }).finally(() => {
     requestAnimationFrame(() => requestAnimationFrame(() => {
@@ -763,23 +767,27 @@ function switchTo(theme, lang){
   });
 }
 function setLang(lang){ switchTo(THEME, lang); }
-$('#themeSel').addEventListener('change', ev => switchTo(ev.target.value, LANG));
 function alertBox(msg){
   track.insertAdjacentHTML('afterbegin', '<p style="position:absolute;z-index:3;padding:24px;color:var(--muted)">' + esc(String(msg)) + '</p>');
 }
-const langBtn = $('#langBtn'), langMenu = $('#langMenu');
-function closeLangMenu(){ langMenu.hidden = true; langBtn.setAttribute('aria-expanded', 'false'); }
-langBtn.addEventListener('click', ev => {
-  ev.stopPropagation();
-  const open = langMenu.hidden;
-  langMenu.hidden = !open;
-  langBtn.setAttribute('aria-expanded', String(open));
-});
-langMenu.addEventListener('click', ev => {
-  const b = ev.target.closest('[data-lang]');
-  if(b) setLang(b.dataset.lang);
-});
-document.addEventListener('click', ev => { if(!langMenu.hidden && !ev.target.closest('#langMenu')) closeLangMenu(); });
+const langBtn = $('#langBtn'), langMenu = $('#langMenu'), themeBtn = $('#themeBtn'), themeMenu = $('#themeMenu');
+function closeMenus(){
+  langMenu.hidden = true; langBtn.setAttribute('aria-expanded', 'false');
+  themeMenu.hidden = true; themeBtn.setAttribute('aria-expanded', 'false');
+}
+const closeLangMenu = closeMenus;
+function toggleMenu(menu, btn){
+  const open = menu.hidden;
+  closeMenus();
+  if(!open) return;
+  if(menu === themeMenu){ const h = $('#h1'); themeMenu.style.top = (h.offsetTop + h.offsetHeight + 6) + 'px'; }
+  menu.hidden = false; btn.setAttribute('aria-expanded', 'true');
+}
+langBtn.addEventListener('click', ev => { ev.stopPropagation(); toggleMenu(langMenu, langBtn); });
+themeBtn.addEventListener('click', ev => { ev.stopPropagation(); toggleMenu(themeMenu, themeBtn); });
+langMenu.addEventListener('click', ev => { const b = ev.target.closest('[data-lang]'); if(b) setLang(b.dataset.lang); });
+themeMenu.addEventListener('click', ev => { const b = ev.target.closest('[data-theme]'); if(b) switchTo(b.dataset.theme, LANG); });
+document.addEventListener('click', ev => { if(!ev.target.closest('.menu')) closeMenus(); });
 
 LANG = pickLang();
 THEME = pickTheme(); ERAS = THEMES[THEME].colors;
