@@ -578,6 +578,8 @@ function renderCard(n){
       <div class="navrow"><button type="button" data-go="-1" ${n===0?'disabled':''}>${t('before')}</button><button type="button" data-go="1" ${n===EV.length-1?'disabled':''}>${t('next')}</button></div>
       <p class="closehint">${t('close')}</p>
     </div>`;
+  // same background as the mini cards: the timeline colour tinted with the period colour
+  card.style.background = `linear-gradient(180deg,${era.color}26,${era.color}10 30%,${era.color}10 70%,${era.color}26),var(--bg)`;
   cardLayer.scrollTop = 0;
   preload(n-1); preload(n+1);
   sidePrev.classList.toggle('on', n > 0);
