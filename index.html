@@ -276,11 +276,14 @@ const t = k => { const x = THEMES[THEME].text[LANG][k]; return x !== undefined ?
 const $ = s => document.querySelector(s);
 const scroller = $('#scroller'), track = $('#track');
 const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-// Bookmark: the last card opened in each theme gets the check mark
+// Bookmark: the last card opened in each theme gets the check mark,
+// and remembers how far the reader had scrolled in it (as a fraction of the card).
 const bookmark = {
   all(){ try{ return JSON.parse(localStorage.getItem('xtl-mark')||'{}') || {}; }catch(e){ return {}; } },
-  get(theme){ return this.all()[theme] || null; },
-  set(theme, id){ try{ const m = this.all(); m[theme] = id; localStorage.setItem('xtl-mark', JSON.stringify(m)); }catch(e){} }
+  entry(theme){ const v = this.all()[theme]; return typeof v === 'string' ? {id:v, pos:0} : (v || null); },
+  get(theme){ const v = this.entry(theme); return v ? v.id : null; },
+  pos(theme, id){ const v = this.entry(theme); return v && v.id === id ? (+v.pos || 0) : 0; },
+  set(theme, id, pos){ try{ const m = this.all(); m[theme] = {id, pos: pos || 0}; localStorage.setItem('xtl-mark', JSON.stringify(m)); }catch(e){} }
 };
 try{ localStorage.removeItem('xtl-seen'); }catch(e){}
 function centerOnBookmark(){
@@ -535,16 +538,30 @@ function renderCard(n){
   sideNext.setAttribute('aria-label', t('next').replace(/[◀▶]/g,'').trim());
 }
 
+function readPos(){
+  const max = cardLayer.scrollHeight - cardLayer.clientHeight;
+  return max > 0 ? Math.min(1, cardLayer.scrollTop / max) : 0;
+}
+function saveReading(){
+  if(current >= 0 && cardLayer.classList.contains('show')) bookmark.set(THEME, EV[current].id, readPos());
+}
+let saveTimer;
+cardLayer.addEventListener('scroll', () => { clearTimeout(saveTimer); saveTimer = setTimeout(saveReading, 250); }, {passive:true});
+document.addEventListener('visibilitychange', () => { if(document.hidden) saveReading(); });
+
 function openCard(n){
   preload(n);
+  const pos = bookmark.pos(THEME, EV[n].id);   // reopening the bookmarked card: go back to where the reader stopped
   fadeSwap(() => {
     current = n;
     renderCard(n);
     cardLayer.classList.add('show');
-    bookmark.set(THEME, EV[n].id);
+    cardLayer.scrollTop = pos * (cardLayer.scrollHeight - cardLayer.clientHeight);
+    bookmark.set(THEME, EV[n].id, pos);
   });
 }
 function closeCard(){
+  clearTimeout(saveTimer); saveReading();
   fadeSwap(() => {
     cardLayer.classList.remove('show');
     const p = document.getElementById('pin-'+EV[current].id);
