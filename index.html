@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="theme-color" content="#14110f"/>
+<title>The Story of Christianity</title>
+<style>
+:root{
+  --bg:#14110f; --bg2:#1d1814; --ink:#f6eee2; --muted:#b9ab97; --gold:#e8b85c; --gold2:#f5d58f;
+  --paper:#fbf6ec; --paper-ink:#2a221a; --paper-muted:#6d6153; --term:#b4541e; --line:#e8dcc6;
+  --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;overflow:hidden;overscroll-behavior:none}
+body{display:flex;flex-direction:column;height:100dvh}
+button{font:inherit;color:inherit}
+
+/* ---------- header ---------- */
+header{flex:0 0 auto;padding:calc(10px + var(--safe-t)) 16px 6px;background:linear-gradient(#1d1814,#14110f)}
+.kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
+h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:700;line-height:1.15}
+.sub{font-size:13px;color:var(--muted)}
+.sub b{color:var(--gold2);font-weight:600}
+#eras{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;scrollbar-width:none}
+#eras::-webkit-scrollbar{display:none}
+#eras button{flex:0 0 auto;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);border-radius:999px;padding:5px 10px;font-size:12px;white-space:nowrap;cursor:pointer}
+#eras button i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0}
+#eras button.on{background:rgba(232,184,92,.18);border-color:var(--gold)}
+
+/* ---------- timeline ---------- */
+#scroller{flex:1 1 auto;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;cursor:grab;scrollbar-width:none;touch-action:pan-x}
+#scroller::-webkit-scrollbar{display:none}
+#scroller.drag{cursor:grabbing}
+#track{position:relative;height:100%}
+.band{position:absolute;top:0;bottom:0}
+.band .eraname{position:absolute;top:8px;left:12px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.85;white-space:nowrap}
+#axis{position:absolute;left:0;height:4px;border-radius:2px;background:linear-gradient(90deg,#6b5a45,var(--gold),#6b5a45);box-shadow:0 0 12px rgba(232,184,92,.35)}
+.arrow{position:absolute;font-size:12px;color:var(--muted);white-space:nowrap}
+.pin{position:absolute;width:0;height:0}
+.pin .stem{position:absolute;left:-1px;width:2px;background:rgba(232,184,92,.55)}
+.pin .dot{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px var(--bg)}
+.pin button{position:absolute;left:-80px;width:160px;border:0;background:none;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;text-align:center}
+.pin .head{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-size:24px;background:radial-gradient(circle at 35% 30%,#3a3027,#1d1814);border:2px solid var(--gold);box-shadow:0 4px 14px rgba(0,0,0,.5);transition:transform .15s}
+.pin button:active .head{transform:scale(1.12)}
+.pin .yr{margin-top:5px;font-size:12px;font-weight:700;color:var(--gold2);letter-spacing:.02em}
+.pin .tt{font-size:12.5px;line-height:1.25;color:var(--ink);margin-top:2px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pin.down button{flex-direction:column-reverse}
+.pin.down .yr{margin-top:0;margin-bottom:0}
+.pin.down .tt{margin-top:0;margin-bottom:2px}
+.pin.seen .head::after{content:"✓";position:absolute;transform:translate(18px,-18px);font-size:11px;background:var(--gold);color:#241c12;border-radius:50%;width:16px;height:16px;display:grid;place-items:center;font-weight:800}
+
+/* ---------- minimap ---------- */
+#mini{flex:0 0 auto;position:relative;height:34px;margin:4px 16px calc(10px + var(--safe-b));border-radius:8px;overflow:hidden;cursor:pointer;touch-action:none}
+#mini .seg{position:absolute;top:0;bottom:0}
+#mini .tick{position:absolute;top:12px;width:2px;height:10px;margin-left:-1px;background:rgba(255,255,255,.55);border-radius:1px}
+#mini #view{position:absolute;top:0;bottom:0;border:2px solid var(--gold2);border-radius:8px;background:rgba(255,255,255,.12)}
+.hint{position:absolute;right:16px;bottom:calc(52px + var(--safe-b));font-size:12px;color:var(--muted);pointer-events:none;transition:opacity .6s}
+
+/* ---------- overlays ---------- */
+.layer{position:fixed;inset:0;display:none}
+.layer.show{display:block}
+#cardLayer{background:var(--bg);z-index:10;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+#card{max-width:720px;margin:0 auto;min-height:100%;background:var(--paper);color:var(--paper-ink);cursor:pointer;padding-bottom:calc(28px + var(--safe-b))}
+.art{position:relative;height:min(46vh,340px);overflow:hidden;background:#333}
+.art img{width:100%;height:100%;object-fit:cover;display:block}
+.art .emoji{position:absolute;inset:0;display:grid;place-items:center;font-size:110px}
+.art .emoji span{position:absolute;font-size:34px;opacity:.55}
+.art::after{content:"";position:absolute;inset:auto 0 0 0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.55))}
+.art .badge{position:absolute;z-index:2;left:16px;bottom:14px;background:var(--gold);color:#241c12;font-weight:800;font-size:14px;padding:5px 12px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+.art .num{position:absolute;z-index:2;right:16px;bottom:16px;color:#fff;font-size:12px;opacity:.9;text-shadow:0 1px 4px #000}
+.art .credit{position:absolute;z-index:2;right:10px;top:calc(8px + var(--safe-t));color:#fff;font-size:10px;opacity:.75;text-shadow:0 1px 3px #000}
+.body{padding:18px 20px 0}
+.body .era{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.body h2{font-family:Georgia,"Times New Roman",serif;font-size:26px;line-height:1.2;margin:4px 0 14px}
+.body p{font-size:18px;line-height:1.6;margin:0 0 14px}
+.body ul{font-size:18px;line-height:1.55;margin:-6px 0 14px;padding-left:22px}
+.term{text-decoration:underline;text-decoration-color:var(--term);text-decoration-thickness:2px;text-underline-offset:3px;color:var(--term);font-weight:600;cursor:help}
+.refs{margin:22px 0 0;padding:14px 16px;background:#f1e8d6;border-radius:12px}
+.refs h3{margin:0 0 8px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-muted)}
+.refs li{font-size:15px;line-height:1.5;margin:4px 0}
+.refs ul{margin:0;padding-left:18px}
+.refs a{color:#7a3b12;font-weight:600}
+.refs small{color:var(--paper-muted)}
+.closehint{text-align:center;color:var(--paper-muted);font-size:13px;margin:18px 0 0}
+.navrow{display:flex;justify-content:space-between;gap:10px;margin-top:14px}
+.navrow button{flex:1;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px;font-size:14px;color:var(--paper-ink);cursor:pointer}
+.navrow button[disabled]{opacity:.35}
+
+#miniLayer{z-index:20;background:rgba(0,0,0,.72);cursor:pointer}
+#miniCard{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vw,420px);max-height:80vh;overflow:auto;background:var(--paper);color:var(--paper-ink);border-radius:18px;padding:20px 20px 16px;box-shadow:0 20px 60px rgba(0,0,0,.6);border-top:6px solid var(--term)}
+#miniCard .w{font-family:Georgia,serif;font-size:24px;font-weight:700;color:var(--term);margin:0 0 4px}
+#miniCard .ctx{font-size:12px;color:var(--paper-muted);margin:0 0 10px}
+#miniCard .d{font-size:18px;line-height:1.55;margin:0}
+#miniCard .tap{font-size:12px;color:var(--paper-muted);text-align:center;margin:14px 0 0}
+
+#fader{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;z-index:100;transition:opacity .38s ease}
+#fader.on{opacity:1;pointer-events:all}
+@media (prefers-reduced-motion:reduce){#fader{transition-duration:.15s}}
+@media (min-width:760px){ h1{font-size:30px} }
+@media (max-height:500px){
+  .kicker,.sub{display:none} h1{font-size:18px} header{padding-top:calc(6px + var(--safe-t))} #eras{padding-top:6px}
+  #mini{height:24px;margin-top:2px;margin-bottom:calc(6px + var(--safe-b))} #mini .tick{top:7px}
+}
+.compact .pin .head{width:40px;height:40px;font-size:20px}
+.compact .pin .tt{-webkit-line-clamp:2}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">A timeline for young explorers</div>
+  <h1>The Story of Christianity</h1>
+  <div class="sub">From Abraham to today · <b>slide the timeline</b> and touch a pin</div>
+  <nav id="eras" aria-label="Jump to a period"></nav>
+</header>
+<main id="scroller" aria-label="Timeline"><div id="track"></div></main>
+<div class="hint" id="hint">swipe →</div>
+<div id="mini" aria-hidden="true"><div id="view"></div></div>
+
+<div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
+<div class="layer" id="miniLayer" role="dialog" aria-modal="true"><div id="miniCard"></div></div>
+<div id="fader"></div>
+
+<script>
+const DATA_HOST = "https://raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/";
+let EV = [], G = {}, IMG = {};
+const ERAS = {
+  roots:{name:"The roots", color:"#8c6d46"},
+  jesus:{name:"Life of Jesus", color:"#d9a441"},
+  early:{name:"The first Christians", color:"#b5523b"},
+  empire:{name:"Christian Roman Empire", color:"#8e4a9c"},
+  middle:{name:"Middle Ages", color:"#3f7aa6"},
+  reform:{name:"Renaissance & Reformation", color:"#3f9a78"},
+  modern:{name:"Modern times", color:"#c7773a"},
+  today:{name:"20th century & today", color:"#5b8fd6"}
+};
+
+const $ = s => document.querySelector(s);
+const scroller = $('#scroller'), track = $('#track');
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const store = {
+  get(){ try{ return JSON.parse(localStorage.getItem('xtl-seen')||'[]'); }catch(e){ return []; } },
+  add(id){ try{ const s=new Set(this.get()); s.add(id); localStorage.setItem('xtl-seen',JSON.stringify([...s])); }catch(e){} }
+};
+let seen = new Set(store.get());
+
+/* ---------- glossary lookup ---------- */
+function gloss(k){
+  k = k.toLowerCase();
+  return G[k] || G[k.replace(/s$/,'')] || G[k.replace(/es$/,'')] || null;
+}
+
+/* ---------- build timeline ---------- */
+let SP = 112, PAD = 90;
+function layout(){
+  const H = scroller.clientHeight;
+  const compact = H < 470;
+  SP = compact ? 150 : 112;
+  const mid = Math.round(H/2);
+  track.classList.toggle('compact', compact);
+  const near = compact ? Math.max(18, Math.min(H*.18, H/2 - 108)) : H*.13, far = compact ? near : H*.31;
+  const levels = compact ? [-near, near] : [-far, near, -near, far];
+  const W = PAD*2 + (EV.length-1)*SP;
+  track.style.width = W+'px';
+  track.innerHTML = '';
+  // era bands
+  let i = 0;
+  while(i < EV.length){
+    const era = EV[i].era; let j = i;
+    while(j+1 < EV.length && EV[j+1].era === era) j++;
+    const x0 = i===0 ? 0 : PAD + (i-.5)*SP, x1 = j===EV.length-1 ? W : PAD + (j+.5)*SP;
+    const b = document.createElement('div');
+    b.className = 'band'; b.id = 'band-'+era;
+    b.style.cssText = `left:${x0}px;width:${x1-x0}px;background:linear-gradient(180deg,${ERAS[era].color}33,${ERAS[era].color}10 40%,${ERAS[era].color}10 60%,${ERAS[era].color}33)`;
+    b.innerHTML = `<div class="eraname" style="color:${ERAS[era].color}">${ERAS[era].name}</div>`;
+    track.appendChild(b);
+    i = j+1;
+  }
+  const ax = document.createElement('div');
+  ax.id = 'axis'; ax.style.cssText = `top:${mid-2}px;width:${W}px`;
+  track.appendChild(ax);
+  EV.forEach((e,n) => {
+    const x = PAD + n*SP, off = levels[n % levels.length], up = off < 0;
+    const p = document.createElement('div');
+    p.className = 'pin' + (up ? '' : ' down') + (seen.has(e.id) ? ' seen' : '');
+    p.id = 'pin-'+e.id;
+    p.style.cssText = `left:${x}px;top:${mid}px`;
+    const stemLen = Math.max(12, Math.abs(off) - 24);
+    p.innerHTML = `<div class="stem" style="top:${up ? -stemLen : 0}px;height:${stemLen}px"></div>
+      <div class="dot"></div>
+      <button type="button" style="${up ? `bottom:${stemLen}px` : `top:${stemLen}px`}" aria-label="${esc(e.y+': '+e.title)}">
+        <div class="head">${e.icon}</div><div class="yr">${esc(e.y)}</div><div class="tt">${esc(e.title)}</div>
+      </button>`;
+    p.querySelector('button').addEventListener('click', ev => { if(dragMoved) return; openCard(n); });
+    track.appendChild(p);
+  });
+  const a1 = document.createElement('div'); a1.className='arrow'; a1.style.cssText=`left:10px;top:${mid+10}px`; a1.textContent='◀ long ago'; track.appendChild(a1);
+  const a2 = document.createElement('div'); a2.className='arrow'; a2.style.cssText=`right:10px;top:${mid+10}px`; a2.textContent='today ▶'; track.appendChild(a2);
+  buildMini();
+}
+
+/* ---------- era chips ---------- */
+function buildEras(){
+  const nav = $('#eras');
+  Object.entries(ERAS).forEach(([k,v]) => {
+    const b = document.createElement('button');
+    b.type='button'; b.dataset.era=k;
+    b.innerHTML = `<i style="background:${v.color}"></i>${v.name}`;
+    b.onclick = () => { const n = EV.findIndex(e=>e.era===k); scroller.scrollTo({left:Math.max(0,PAD+n*SP-60),behavior:'smooth'}); };
+    nav.appendChild(b);
+  });
+}
+function syncEraChip(){
+  const cx = scroller.scrollLeft + scroller.clientWidth/2;
+  const n = Math.min(EV.length-1, Math.max(0, Math.round((cx-PAD)/SP)));
+  const era = EV[n].era;
+  document.querySelectorAll('#eras button').forEach(b => {
+    const on = b.dataset.era===era;
+    if(on && !b.classList.contains('on')) b.scrollIntoView({inline:'nearest',block:'nearest'});
+    b.classList.toggle('on', on);
+  });
+}
+
+/* ---------- minimap ---------- */
+const mini = $('#mini'), view = $('#view');
+function buildMini(){
+  mini.querySelectorAll('.seg,.tick').forEach(n=>n.remove());
+  const W = track.scrollWidth;
+  document.querySelectorAll('.band').forEach(b => {
+    const s = document.createElement('div'); s.className='seg';
+    const era = b.id.slice(5);
+    s.style.cssText = `left:${parseFloat(b.style.left)/W*100}%;width:${parseFloat(b.style.width)/W*100}%;background:${ERAS[era].color}`;
+    mini.insertBefore(s, view);
+  });
+  EV.forEach((e,n)=>{ const t=document.createElement('div'); t.className='tick'; t.style.left=((PAD+n*SP)/W*100)+'%'; mini.insertBefore(t, view); });
+  syncMini();
+}
+function syncMini(){
+  const W = track.scrollWidth, vw = scroller.clientWidth;
+  view.style.left = (scroller.scrollLeft/W*100)+'%';
+  view.style.width = (vw/W*100)+'%';
+}
+function miniJump(clientX){
+  const r = mini.getBoundingClientRect();
+  const f = (clientX - r.left)/r.width;
+  scroller.scrollLeft = f*track.scrollWidth - scroller.clientWidth/2;
+}
+mini.addEventListener('pointerdown', e => { mini.setPointerCapture(e.pointerId); miniJump(e.clientX); });
+mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerId)) miniJump(e.clientX); });
+
+let hintGone = false;
+scroller.addEventListener('scroll', () => {
+  syncMini(); syncEraChip();
+  if(!hintGone && scroller.scrollLeft > 40){ hintGone = true; $('#hint').style.opacity = 0; }
+}, {passive:true});
+
+/* mouse drag to slide (touch uses native scrolling) */
+let dragMoved = false, dragging = false, sx = 0, sl = 0;
+scroller.addEventListener('pointerdown', e => {
+  if(e.pointerType !== 'mouse') return;
+  dragging = true; dragMoved = false; sx = e.clientX; sl = scroller.scrollLeft;
+});
+window.addEventListener('pointermove', e => {
+  if(!dragging) return;
+  const dx = e.clientX - sx;
+  if(Math.abs(dx) > 4){ dragMoved = true; scroller.classList.add('drag'); }
+  scroller.scrollLeft = sl - dx;
+});
+window.addEventListener('pointerup', () => { dragging = false; scroller.classList.remove('drag'); setTimeout(()=>dragMoved=false, 0); });
+scroller.addEventListener('wheel', e => { if(Math.abs(e.deltaY) > Math.abs(e.deltaX)){ scroller.scrollLeft += e.deltaY; e.preventDefault(); } }, {passive:false});
+
+/* ---------- fade-to-black transitions ---------- */
+const fader = $('#fader');
+let busy = false;
+function fadeSwap(fn){
+  if(busy) return; busy = true;
+  fader.classList.add('on');
+  setTimeout(() => {
+    fn();
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      fader.classList.remove('on');
+      setTimeout(() => busy = false, 380);
+    }));
+  }, 400);
+}
+
+/* ---------- card ---------- */
+const cardLayer = $('#cardLayer'), card = $('#card');
+const miniLayer = $('#miniLayer'), miniCard = $('#miniCard');
+let current = -1;
+
+function renderText(t){
+  const inline = [];
+  // 1) escape, 2) turn [word] / [word::explanation] into terms
+  let h = esc(t).replace(/\[([^\]]+?)\]/g, (m, inner) => {
+    let word = inner, def = null;
+    const i = inner.indexOf('::');
+    if(i >= 0){ word = inner.slice(0,i); def = inner.slice(i+2); }
+    if(def === null && !gloss(word)) return word;
+    const idx = inline.push(def) - 1;
+    return `<span class="term" role="button" tabindex="0" data-w="${word}" data-i="${idx}">${word}</span>`;
+  });
+  const out = h.split(/\n\s*\n/).map(par => {
+    const lines = par.split('\n');
+    if(lines.some(l => /^- /.test(l))){
+      const intro = lines.filter(l => !/^- /.test(l)).join(' ');
+      const items = lines.filter(l => /^- /.test(l)).map(l => `<li>${l.slice(2)}</li>`).join('');
+      return (intro ? `<p>${intro}</p>` : '') + `<ul>${items}</ul>`;
+    }
+    return `<p>${lines.join(' ')}</p>`;
+  }).join('');
+  return {html: out, inline};
+}
+
+function artHTML(e){
+  const col = ERAS[e.era].color;
+  const emo = `<div class="emoji" style="background:radial-gradient(circle at 50% 40%,${col},#1d1814 75%)">${e.icon}
+    <span style="left:12%;top:18%">✨</span><span style="right:14%;top:26%">✝️</span><span style="left:20%;bottom:22%">🕊️</span><span style="right:22%;bottom:18%">⭐</span></div>`;
+  const src = IMG[e.img];
+  if(!src) return emo;
+  const big = src.replace('/330px-','/500px-');
+  return `${emo}<img alt="${esc(e.title)}" src="${big}" data-small="${src}" referrerpolicy="no-referrer"
+    onerror="if(this.dataset.small&&this.src!==this.dataset.small){this.src=this.dataset.small;this.dataset.small=''}else{this.remove();var c=document.querySelector('.art .credit');if(c)c.remove()}">
+    <div class="credit">Image: Wikimedia Commons</div>`;
+}
+
+let inlineDefs = [];
+function renderCard(n){
+  const e = EV[n], era = ERAS[e.era];
+  const {html, inline} = renderText(e.text);
+  inlineDefs = inline;
+  const refs = e.refs.map(r => {
+    const name = r.replace(/_/g,' ');
+    const enc = encodeURIComponent(r).replace(/%2F/g,'/');
+    return `<li>${esc(name)}: <a href="https://en.wikipedia.org/wiki/${enc}" target="_blank" rel="noopener">Wikipedia</a>
+      · <a href="https://kids.kiddle.co/${enc}" target="_blank" rel="noopener">Kiddle</a></li>`;
+  }).join('');
+  card.innerHTML = `
+    <div class="art">${artHTML(e)}<div class="badge">${esc(e.y)}</div><div class="num">${n+1} / ${EV.length}</div></div>
+    <div class="body">
+      <div class="era" style="color:${era.color}">${era.name}</div>
+      <h2>${e.icon} ${esc(e.title)}</h2>
+      ${html}
+      <div class="refs"><h3>📚 To learn more</h3><ul>${refs}</ul><p style="margin:8px 0 0;font-size:13px;color:var(--paper-muted)">Kiddle is an encyclopedia written for kids.</p></div>
+      <div class="navrow"><button type="button" data-go="-1" ${n===0?'disabled':''}>◀ Before</button><button type="button" data-go="1" ${n===EV.length-1?'disabled':''}>Next ▶</button></div>
+      <p class="closehint">Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means</p>
+    </div>`;
+  cardLayer.scrollTop = 0;
+}
+
+function openCard(n){
+  fadeSwap(() => {
+    current = n;
+    renderCard(n);
+    cardLayer.classList.add('show');
+    seen.add(EV[n].id); store.add(EV[n].id);
+  });
+}
+function closeCard(){
+  fadeSwap(() => {
+    cardLayer.classList.remove('show');
+    const p = document.getElementById('pin-'+EV[current].id);
+    if(p){ p.classList.add('seen'); scroller.scrollLeft = parseFloat(p.style.left) - scroller.clientWidth/2; }
+  });
+}
+function goCard(n){
+  if(n < 0 || n >= EV.length) return;
+  fadeSwap(() => { current = n; renderCard(n); seen.add(EV[n].id); store.add(EV[n].id); });
+}
+
+card.addEventListener('click', ev => {
+  if(busy) return;
+  if(ev.target.closest('a')) return;               // reference links open normally
+  const nav = ev.target.closest('[data-go]');
+  if(nav){ goCard(current + (+nav.dataset.go)); return; }
+  const t = ev.target.closest('.term[data-w]');
+  if(t){ openMini(t); return; }
+  closeCard();
+});
+card.addEventListener('keydown', ev => {
+  const t = ev.target.closest('.term[data-w]');
+  if(t && (ev.key==='Enter' || ev.key===' ')){ ev.preventDefault(); openMini(t); }
+});
+
+/* ---------- mini card ---------- */
+function openMini(t){
+  const w = t.dataset.w, inl = inlineDefs[+t.dataset.i];
+  const def = inl != null ? inl : esc(gloss(w));   // inline definitions are already escaped
+  fadeSwap(() => {
+    miniCard.innerHTML = `<p class="w">${esc(w)}</p><p class="ctx">in “${esc(EV[current].title)}”</p><p class="d">${def}</p><p class="tap">Touch to go back to the story</p>`;
+    miniLayer.classList.add('show');
+  });
+}
+miniLayer.addEventListener('click', () => { if(!busy) fadeSwap(() => miniLayer.classList.remove('show')); });
+
+document.addEventListener('keydown', ev => {
+  if(ev.key !== 'Escape' || busy) return;
+  if(miniLayer.classList.contains('show')) fadeSwap(() => miniLayer.classList.remove('show'));
+  else if(cardLayer.classList.contains('show')) closeCard();
+});
+
+/* ---------- init ---------- */
+function getJSON(name){
+  return fetch(DATA_HOST + name).then(r => { if(!r.ok) throw new Error(name + " not found (" + r.status + ")"); return r.json(); });
+}
+track.innerHTML = '<p style="padding:24px;color:var(--muted)">Loading the timeline…</p>';
+Promise.all([getJSON("events.json"), getJSON("glossary.json")]).then(([ev, gl]) => {
+  EV = ev; G = gl;
+  EV.forEach(e => { if(e.image) IMG[e.img] = e.image; });
+  buildEras();
+  layout();
+  syncEraChip();
+}).catch(err => {
+  track.innerHTML = '<p style="padding:24px;color:var(--muted)">Timeline failed to load: ' + esc(String(err)) + '</p>';
+});
+let rz; window.addEventListener('resize', () => {
+  clearTimeout(rz);
+  rz = setTimeout(() => { const f = scroller.scrollLeft / Math.max(1, track.scrollWidth); layout(); scroller.scrollLeft = f*track.scrollWidth; }, 150);
+});
+</script>
+</body>
+</html>
