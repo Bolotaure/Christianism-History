@@ -80,7 +80,9 @@ header .kicker,header h1,header .sub{padding-right:64px}
 html,body{overscroll-behavior-x:none}
 #card{max-width:720px;margin:0 auto;min-height:100%;background:var(--paper);color:var(--paper-ink);cursor:pointer;padding-bottom:calc(28px + var(--safe-b))}
 .art{position:relative;height:min(46vh,340px);overflow:hidden;background:#000}
-.art img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block;transition:opacity .3s ease}
+.art img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;display:block;transition:opacity .3s ease}
+/* blurred copy of the picture filling the space around it, so the whole image is visible (no cut heads) */
+.art img.bg{position:absolute;inset:0;object-fit:cover;filter:blur(16px) brightness(.55);transform:scale(1.15)}
 .art .emoji{position:absolute;inset:0;display:grid;place-items:center;font-size:110px}
 .art .emoji.wait{visibility:hidden}
 .art .emoji span{position:absolute;font-size:34px;opacity:.55}
@@ -509,11 +511,16 @@ function artHTML(e){
     ${(d => `<span style="left:12%;top:18%">${d[0]}</span><span style="right:14%;top:26%">${d[1]}</span><span style="left:20%;bottom:22%">${d[2]}</span><span style="right:22%;bottom:18%">${d[3]}</span>`)(THEMES[THEME].deco)}</div>`;
   const src = e.pic ? IMG_HOST + e.pic : e.image;
   if(!src) return emo;
-  return `${emo}<img alt="${esc(e.title)}" src="${src}" data-alt="${e.pic && e.image ? e.image : ''}" referrerpolicy="no-referrer"
-    onload="this.style.opacity=1" onerror="artFailed(this)" style="opacity:0">
+  return `${emo}<img class="bg" alt="" aria-hidden="true" style="opacity:0"><img alt="${esc(e.title)}" src="${src}" data-alt="${e.pic && e.image ? e.image : ''}" referrerpolicy="no-referrer"
+    onload="artShown(this)" onerror="artFailed(this)" style="opacity:0">
     <div class="credit">${t('credit')}</div>`;
 }
 
+function artShown(img){
+  img.style.opacity = 1;
+  const bg = img.parentNode && img.parentNode.querySelector('img.bg');
+  if(bg){ bg.referrerPolicy = 'no-referrer'; bg.src = img.src; bg.style.opacity = 1; }
+}
 // If the copy fails, try the Wikimedia original, then retry once before falling back to the emoji art.
 function artFailed(img){
   if(img.dataset.alt){ const alt = img.dataset.alt; img.dataset.alt = ''; img.src = alt; return; }
