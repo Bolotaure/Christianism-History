@@ -5,6 +5,7 @@
   "era": "prehist",
   "icon": "🦴",
   "img": "Tautavel_Man",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Homme_de_Tautavel.jpg/330px-Homme_de_Tautavel.jpg",
   "title": "L'Homme de Tautavel, l'un des plus anciens habitants de France",
   "refs": [
    "Homme de Tautavel",
@@ -34,6 +35,7 @@
   "era": "prehist",
   "icon": "🪨",
   "img": "Carnac_stones",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/4748.1099_Menhire%2C_bis_zu_4_Meter_hoch%2C_von_OstnachWest_in_1167_Meter_Langen_Alignements_%28Granit-Steinreihen%29_in_einem_Halbkreis_endend_Le_M%C3%A9nec%2C_Carnac%2C_Departement_Morbihan%2C_Bretagne_Steffen_Heilfort.jpg/330px-thumbnail.jpg",
   "title": "Les mégalithes de Carnac",
   "refs": [
    "Alignements de Carnac",
@@ -48,6 +50,7 @@
   "era": "gaule",
   "icon": "⛵",
   "img": "Massalia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Massalia_large_coin_5th_1st_century_BCE.jpg/330px-Massalia_large_coin_5th_1st_century_BCE.jpg",
   "title": "Les Gaulois et la fondation de Marseille",
   "refs": [
    "Gaulois",
@@ -241,7 +244,8 @@
   "y": "1539",
   "era": "renaissance",
   "icon": "📜",
-  "img": "Ordinance_of_Villers-Cotterêts",
+  "img": "Château_de_Villers-Cotterêts",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts.JPG/330px-Ch%C3%A2teau_de_Villers-Cotter%C3%AAts.JPG",
   "title": "L'ordonnance de Villers-Cotterêts : le français devient la langue officielle",
   "refs": [
    "Ordonnance de Villers-Cotterêts",
@@ -301,6 +305,7 @@
   "era": "absolu",
   "icon": "💡",
   "img": "Encyclopédie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg/330px-Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg",
   "title": "Les Lumières et l'Encyclopédie",
   "refs": [
    "Siècle des Lumières",
@@ -345,6 +350,7 @@
   "era": "revolution",
   "icon": "🇫🇷",
   "img": "Battle_of_Valmy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Valmy_Battle_painting.jpg/330px-Valmy_Battle_painting.jpg",
   "title": "La naissance de la République",
   "refs": [
    "Première République (France)",
@@ -360,6 +366,7 @@
   "era": "revolution",
   "icon": "📏",
   "img": "History_of_the_metre",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Metric_standards_Rijksmuseum.jpg/330px-Metric_standards_Rijksmuseum.jpg",
   "title": "Le mètre et le système métrique",
   "refs": [
    "Système métrique",
@@ -374,6 +381,7 @@
   "era": "revolution",
   "icon": "🦅",
   "img": "The_Coronation_of_Napoleon",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/330px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
   "title": "Napoléon Bonaparte, empereur des Français",
   "refs": [
    "Napoléon Ier",
@@ -388,6 +396,7 @@
   "era": "revolution",
   "icon": "🌧️",
   "img": "Battle_of_Waterloo",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG",
   "title": "De la Russie à Waterloo : la chute de Napoléon",
   "refs": [
    "Bataille de Waterloo",
@@ -402,6 +411,7 @@
   "era": "xixe",
   "icon": "📷",
   "img": "View_from_the_Window_at_Le_Gras",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/330px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg",
   "title": "Niépce et Daguerre inventent la photographie",
   "refs": [
    "Nicéphore Niépce",
@@ -416,6 +426,7 @@
   "era": "xixe",
   "icon": "⛓️",
   "img": "Victor_Schœlcher",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg/330px-Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg",
   "title": "1848 : abolition de l'esclavage et suffrage universel",
   "refs": [
    "Abolition de l'esclavage en France",
@@ -430,6 +441,7 @@
   "era": "xixe",
   "icon": "🗺️",
   "img": "French_colonial_empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/330px-Royal_Standard_of_the_King_of_France.svg.png",
   "title": "L'empire colonial français",
   "refs": [
    "Empire colonial français",
@@ -444,6 +456,7 @@
   "era": "xixe",
   "icon": "🏙️",
   "img": "Haussmann's_renovation_of_Paris",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg/330px-PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg",
   "title": "Le baron Haussmann transforme Paris",
   "refs": [
    "Transformations de Paris sous le Second Empire",
@@ -458,6 +471,7 @@
   "era": "xixe",
   "icon": "🏫",
   "img": "Jules_Ferry",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg/330px-Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg",
   "title": "Jules Ferry : l'école gratuite, laïque et obligatoire",
   "refs": [
    "Lois Jules Ferry",
@@ -472,6 +486,7 @@
   "era": "xixe",
   "icon": "🔬",
   "img": "Louis_Pasteur",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/330px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
   "title": "Louis Pasteur et le vaccin contre la rage",
   "refs": [
    "Louis Pasteur",
@@ -486,6 +501,7 @@
   "era": "xixe",
   "icon": "🗼",
   "img": "Eiffel_Tower",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Eiffel_Tower_logo.svg/330px-Eiffel_Tower_logo.svg.png",
   "title": "La tour Eiffel et l'Exposition universelle",
   "refs": [
    "Tour Eiffel",
@@ -500,6 +516,7 @@
   "era": "xixe",
   "icon": "🎬",
   "img": "Auguste_and_Louis_Lumière",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Lumi%C3%A8re_brothers.jpg/330px-Lumi%C3%A8re_brothers.jpg",
   "title": "Les frères Lumière inventent le cinéma",
   "refs": [
    "Auguste et Louis Lumière",
@@ -514,6 +531,7 @@
   "era": "xixe",
   "icon": "⚛️",
   "img": "Marie_Curie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/330px-Marie_Curie_c._1920s.jpg",
   "title": "Marie Curie, deux fois prix Nobel",
   "refs": [
    "Marie Curie",
@@ -528,6 +546,7 @@
   "era": "xixe",
   "icon": "⚖️",
   "img": "1905_French_law_on_the_Separation_of_the_Churches_and_the_State",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Middle_coat_of_arms_of_the_French_Republic_%281905%E2%80%931953%29.svg/330px-Middle_coat_of_arms_of_the_French_Republic_%281905%E2%80%931953%29.svg.png",
   "title": "La loi de 1905 : la séparation des Églises et de l'État",
   "refs": [
    "Loi de séparation des Églises et de l'État",
@@ -542,6 +561,7 @@
   "era": "guerres",
   "icon": "🪖",
   "img": "Battle_of_Verdun",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Battle_of_Verdun_map.png/330px-Battle_of_Verdun_map.png",
   "title": "La Grande Guerre et la bataille de Verdun",
   "refs": [
    "Première Guerre mondiale",
@@ -555,7 +575,8 @@
   "y": "1936",
   "era": "guerres",
   "icon": "🏖️",
-  "img": "Popular_Front_(France)",
+  "img": "Léon_Blum",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/L%C3%A9on_Blum_en_1936.jpg/330px-L%C3%A9on_Blum_en_1936.jpg",
   "title": "Le Front populaire et les premiers congés payés",
   "refs": [
    "Front populaire (France)",
@@ -570,6 +591,7 @@
   "era": "guerres",
   "icon": "📻",
   "img": "Appeal_of_18_June",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Charles_de_Gaulle_au_micro_de_la_BBC.jpg/330px-Charles_de_Gaulle_au_micro_de_la_BBC.jpg",
   "title": "La défaite, l'Occupation et l'appel du 18 juin",
   "refs": [
    "Appel du 18 Juin",
@@ -585,6 +607,7 @@
   "era": "guerres",
   "icon": "🕊️",
   "img": "Liberation_of_Paris",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/330px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg",
   "title": "Le Débarquement, la Libération et le vote des femmes",
   "refs": [
    "Débarquement de Normandie",
@@ -599,6 +622,7 @@
   "era": "contemporain",
   "icon": "🏛️",
   "img": "Charles_de_Gaulle",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg/330px-De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg",
   "title": "La Ve République et la fin de la guerre d'Algérie",
   "refs": [
    "Cinquième République (France)",
@@ -613,6 +637,7 @@
   "era": "contemporain",
   "icon": "✊",
   "img": "May_68",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/11-12.06.68_Mai_68._Nuit_d%27%C3%A9meutes._Manif._Barricades.D%C3%A9g%C3%A2ts_%281968%29_-_53Fi1037.jpg/330px-11-12.06.68_Mai_68._Nuit_d%27%C3%A9meutes._Manif._Barricades.D%C3%A9g%C3%A2ts_%281968%29_-_53Fi1037.jpg",
   "title": "Mai 68",
   "refs": [
    "Mai 68",
@@ -627,6 +652,7 @@
   "era": "contemporain",
   "icon": "✈️",
   "img": "Concorde",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/330px-British_Airways_Concorde_G-BOAC_03.jpg",
   "title": "Concorde, TGV et Ariane : la France de la technologie",
   "refs": [
    "Concorde",
@@ -641,6 +667,7 @@
   "era": "contemporain",
   "icon": "⚖️",
   "img": "Robert_Badinter",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Badinter_2001_%28cropped%29.jpg/330px-Badinter_2001_%28cropped%29.jpg",
   "title": "L'abolition de la peine de mort",
   "refs": [
    "Abolition de la peine de mort en France",
@@ -655,6 +682,7 @@
   "era": "contemporain",
   "icon": "💶",
   "img": "Euro",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Euro_Series_Banknotes_%282019%29_-_centered.png/330px-Euro_Series_Banknotes_%282019%29_-_centered.png",
   "title": "La construction européenne et l'euro",
   "refs": [
    "Union européenne",
@@ -669,6 +697,7 @@
   "era": "contemporain",
   "icon": "⚽",
   "img": "1998_FIFA_World_Cup",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/1998_FIFA_World_Cup.svg/330px-1998_FIFA_World_Cup.svg.png",
   "title": "La France championne du monde de football",
   "refs": [
    "Coupe du monde de football 1998",
@@ -683,6 +712,7 @@
   "era": "contemporain",
   "icon": "⛪",
   "img": "Notre-Dame_de_Paris_fire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Incendie_Notre_Dame_de_Paris.jpg/330px-Incendie_Notre_Dame_de_Paris.jpg",
   "title": "L'incendie et la renaissance de Notre-Dame de Paris",
   "refs": [
    "Incendie de Notre-Dame de Paris",
@@ -697,6 +727,7 @@
   "era": "contemporain",
   "icon": "🏅",
   "img": "2024_Summer_Olympics",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/2024_Summer_Olympics_logo.svg/330px-2024_Summer_Olympics_logo.svg.png",
   "title": "Les Jeux olympiques de Paris 2024",
   "refs": [
    "Jeux olympiques d'été de 2024",
@@ -711,6 +742,7 @@
   "era": "contemporain",
   "icon": "🗼",
   "img": "France",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/330px-Flag_of_France.svg.png",
   "title": "La France aujourd'hui",
   "refs": [
    "France",

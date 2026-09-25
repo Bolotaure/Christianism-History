@@ -5,6 +5,7 @@
   "era": "prehist",
   "icon": "🦴",
   "img": "Tautavel_Man",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Homme_de_Tautavel.jpg/330px-Homme_de_Tautavel.jpg",
   "title": "トータベル人：フランスでもっとも古い住人のひとり",
   "refs": [
    "トータヴェル人",
@@ -34,6 +35,7 @@
   "era": "prehist",
   "icon": "🪨",
   "img": "Carnac_stones",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/4748.1099_Menhire%2C_bis_zu_4_Meter_hoch%2C_von_OstnachWest_in_1167_Meter_Langen_Alignements_%28Granit-Steinreihen%29_in_einem_Halbkreis_endend_Le_M%C3%A9nec%2C_Carnac%2C_Departement_Morbihan%2C_Bretagne_Steffen_Heilfort.jpg/330px-thumbnail.jpg",
   "title": "カルナックの巨石",
   "refs": [
    "カルナック列石",
@@ -48,6 +50,7 @@
   "era": "gaule",
   "icon": "⛵",
   "img": "Massalia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Massalia_large_coin_5th_1st_century_BCE.jpg/330px-Massalia_large_coin_5th_1st_century_BCE.jpg",
   "title": "ギリシャ人がマルセイユをつくり、ガリア人がくらす",
   "refs": [
    "マッサリア",
@@ -241,7 +244,8 @@
   "y": "1539年",
   "era": "renaissance",
   "icon": "📜",
-  "img": "Ordinance_of_Villers-Cotterêts",
+  "img": "Château_de_Villers-Cotterêts",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ch%C3%A2teau_de_Villers-Cotter%C3%AAts.JPG/330px-Ch%C3%A2teau_de_Villers-Cotter%C3%AAts.JPG",
   "title": "ヴィレル・コトレの勅令：フランス語が公式のことばになる",
   "refs": [
    "ヴィレール・コトレの勅令",
@@ -301,6 +305,7 @@
   "era": "absolu",
   "icon": "💡",
   "img": "Encyclopédie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg/330px-Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg",
   "title": "啓蒙思想と『百科全書』",
   "refs": [
    "啓蒙思想",
@@ -345,6 +350,7 @@
   "era": "revolution",
   "icon": "🇫🇷",
   "img": "Battle_of_Valmy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Valmy_Battle_painting.jpg/330px-Valmy_Battle_painting.jpg",
   "title": "共和国の誕生",
   "refs": [
    "フランス第一共和政",
@@ -359,6 +365,7 @@
   "era": "revolution",
   "icon": "📏",
   "img": "History_of_the_metre",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Metric_standards_Rijksmuseum.jpg/330px-Metric_standards_Rijksmuseum.jpg",
   "title": "メートルとメートル法",
   "refs": [
    "メートル",
@@ -373,6 +380,7 @@
   "era": "revolution",
   "icon": "🦅",
   "img": "The_Coronation_of_Napoleon",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/330px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
   "title": "ナポレオン・ボナパルト、フランス人の皇帝",
   "refs": [
    "ナポレオン・ボナパルト",
@@ -387,6 +395,7 @@
   "era": "revolution",
   "icon": "🌧️",
   "img": "Battle_of_Waterloo",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG",
   "title": "ロシアからワーテルローへ：ナポレオンの没落",
   "refs": [
    "ロシア遠征",
@@ -401,6 +410,7 @@
   "era": "xixe",
   "icon": "📷",
   "img": "View_from_the_Window_at_Le_Gras",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/330px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg",
   "title": "ニエプスとダゲール、写真を発明する",
   "refs": [
    "ニセフォール・ニエプス",
@@ -415,6 +425,7 @@
   "era": "xixe",
   "icon": "⛓️",
   "img": "Victor_Schœlcher",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg/330px-Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg",
   "title": "1848年：奴隷制の廃止と普通選挙",
   "refs": [
    "奴隷制度廃止運動",
@@ -429,6 +440,7 @@
   "era": "xixe",
   "icon": "🗺️",
   "img": "French_colonial_empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/330px-Royal_Standard_of_the_King_of_France.svg.png",
   "title": "フランスの植民地帝国",
   "refs": [
    "フランス植民地帝国",
@@ -443,6 +455,7 @@
   "era": "xixe",
   "icon": "🏙️",
   "img": "Haussmann's_renovation_of_Paris",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg/330px-PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg",
   "title": "オスマン男爵、パリを大改造する",
   "refs": [
    "パリ改造",
@@ -457,6 +470,7 @@
   "era": "xixe",
   "icon": "🏫",
   "img": "Jules_Ferry",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg/330px-Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg",
   "title": "ジュール・フェリー：無償・非宗教・義務の学校",
   "refs": [
    "ジュール・フェリー",
@@ -471,6 +485,7 @@
   "era": "xixe",
   "icon": "🔬",
   "img": "Louis_Pasteur",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/330px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
   "title": "ルイ・パスツールと狂犬病ワクチン",
   "refs": [
    "ルイ・パスツール",
@@ -485,6 +500,7 @@
   "era": "xixe",
   "icon": "🗼",
   "img": "Eiffel_Tower",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Eiffel_Tower_logo.svg/330px-Eiffel_Tower_logo.svg.png",
   "title": "エッフェル塔と万国博覧会",
   "refs": [
    "エッフェル塔",
@@ -499,6 +515,7 @@
   "era": "xixe",
   "icon": "🎬",
   "img": "Auguste_and_Louis_Lumière",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Lumi%C3%A8re_brothers.jpg/330px-Lumi%C3%A8re_brothers.jpg",
   "title": "リュミエール兄弟、映画を発明する",
   "refs": [
    "リュミエール兄弟",
@@ -513,6 +530,7 @@
   "era": "xixe",
   "icon": "⚛️",
   "img": "Marie_Curie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/330px-Marie_Curie_c._1920s.jpg",
   "title": "マリー・キュリー、2度のノーベル賞",
   "refs": [
    "マリ・キュリー",
@@ -527,6 +545,7 @@
   "era": "xixe",
   "icon": "⚖️",
   "img": "1905_French_law_on_the_Separation_of_the_Churches_and_the_State",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Middle_coat_of_arms_of_the_French_Republic_%281905%E2%80%931953%29.svg/330px-Middle_coat_of_arms_of_the_French_Republic_%281905%E2%80%931953%29.svg.png",
   "title": "1905年の法律：教会と国家の分離",
   "refs": [
    "政教分離法 (フランス)",
@@ -541,6 +560,7 @@
   "era": "guerres",
   "icon": "🪖",
   "img": "Battle_of_Verdun",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Battle_of_Verdun_map.png/330px-Battle_of_Verdun_map.png",
   "title": "第一次世界大戦とヴェルダンの戦い",
   "refs": [
    "第一次世界大戦",
@@ -554,7 +574,8 @@
   "y": "1936年",
   "era": "guerres",
   "icon": "🏖️",
-  "img": "Popular_Front_(France)",
+  "img": "Léon_Blum",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/L%C3%A9on_Blum_en_1936.jpg/330px-L%C3%A9on_Blum_en_1936.jpg",
   "title": "人民戦線とはじめての有給休暇",
   "refs": [
    "人民戦線 (フランス)",
@@ -569,6 +590,7 @@
   "era": "guerres",
   "icon": "📻",
   "img": "Appeal_of_18_June",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Charles_de_Gaulle_au_micro_de_la_BBC.jpg/330px-Charles_de_Gaulle_au_micro_de_la_BBC.jpg",
   "title": "敗北、占領、そして6月18日の呼びかけ",
   "refs": [
    "6月18日の呼びかけ",
@@ -583,6 +605,7 @@
   "era": "guerres",
   "icon": "🕊️",
   "img": "Liberation_of_Paris",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/330px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg",
   "title": "ノルマンディー上陸、解放、そして女性の選挙権",
   "refs": [
    "ノルマンディー上陸作戦",
@@ -597,6 +620,7 @@
   "era": "contemporain",
   "icon": "🏛️",
   "img": "Charles_de_Gaulle",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg/330px-De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg",
   "title": "第五共和政とアルジェリア戦争の終わり",
   "refs": [
    "フランス第五共和政",
@@ -611,6 +635,7 @@
   "era": "contemporain",
   "icon": "✊",
   "img": "May_68",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/11-12.06.68_Mai_68._Nuit_d%27%C3%A9meutes._Manif._Barricades.D%C3%A9g%C3%A2ts_%281968%29_-_53Fi1037.jpg/330px-11-12.06.68_Mai_68._Nuit_d%27%C3%A9meutes._Manif._Barricades.D%C3%A9g%C3%A2ts_%281968%29_-_53Fi1037.jpg",
   "title": "五月革命（1968年5月）",
   "refs": [
    "五月危機",
@@ -625,6 +650,7 @@
   "era": "contemporain",
   "icon": "✈️",
   "img": "Concorde",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/330px-British_Airways_Concorde_G-BOAC_03.jpg",
   "title": "コンコルド、TGV、アリアン：技術の国フランス",
   "refs": [
    "コンコルド",
@@ -639,6 +665,7 @@
   "era": "contemporain",
   "icon": "⚖️",
   "img": "Robert_Badinter",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Badinter_2001_%28cropped%29.jpg/330px-Badinter_2001_%28cropped%29.jpg",
   "title": "死刑の廃止",
   "refs": [
    "ロベール・バダンテール",
@@ -653,6 +680,7 @@
   "era": "contemporain",
   "icon": "💶",
   "img": "Euro",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Euro_Series_Banknotes_%282019%29_-_centered.png/330px-Euro_Series_Banknotes_%282019%29_-_centered.png",
   "title": "ヨーロッパの統合とユーロ",
   "refs": [
    "欧州連合",
@@ -667,6 +695,7 @@
   "era": "contemporain",
   "icon": "⚽",
   "img": "1998_FIFA_World_Cup",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/1998_FIFA_World_Cup.svg/330px-1998_FIFA_World_Cup.svg.png",
   "title": "フランス、サッカーの世界チャンピオンに",
   "refs": [
    "1998 FIFAワールドカップ",
@@ -681,6 +710,7 @@
   "era": "contemporain",
   "icon": "⛪",
   "img": "Notre-Dame_de_Paris_fire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Incendie_Notre_Dame_de_Paris.jpg/330px-Incendie_Notre_Dame_de_Paris.jpg",
   "title": "ノートルダム大聖堂の火災と復活",
   "refs": [
    "ノートルダム大聖堂 (パリ)",
@@ -695,6 +725,7 @@
   "era": "contemporain",
   "icon": "🏅",
   "img": "2024_Summer_Olympics",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/2024_Summer_Olympics_logo.svg/330px-2024_Summer_Olympics_logo.svg.png",
   "title": "パリ2024オリンピック",
   "refs": [
    "2024年パリオリンピック",
@@ -709,6 +740,7 @@
   "era": "contemporain",
   "icon": "🗼",
   "img": "France",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/330px-Flag_of_France.svg.png",
   "title": "今日のフランス",
   "refs": [
    "フランス",
