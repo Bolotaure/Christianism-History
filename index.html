@@ -98,6 +98,10 @@ html,body{overscroll-behavior-x:none}
 .side.prev{left:max(0px,calc(50% - 360px));border-radius:0 14px 14px 0}
 .side.next{right:max(0px,calc(50% - 360px));border-radius:14px 0 0 14px}
 .side:active{background:rgba(20,17,15,.8)}
+/* larger invisible touch zone around the side arrows (the tab itself keeps its size) */
+.side::before{content:"";position:absolute;top:-44px;bottom:-44px;width:58px}
+.side.prev::before{left:0}
+.side.next::before{right:0}
 #cardLayer.show ~ .side.on{display:flex}
 .body .era{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
 .body h2{font-family:Georgia,"Times New Roman",serif;font-size:26px;line-height:1.2;margin:4px 0 14px}
