@@ -384,7 +384,7 @@ function renderCard(n){
   card.innerHTML = `
     <div class="art">${artHTML(e)}<div class="badge">${esc(e.y)}</div><div class="num">${n+1} / ${EV.length}</div></div>
     <div class="body">
-      <div class="era" style="color:${era.color}">${era.name}</div>
+      <div class="era" style="color:${era.color}">${t('eras')[e.era]}</div>
       <h2>${e.icon} ${esc(e.title)}</h2>
       ${html}
       <div class="refs"><h3>${t('learn')}</h3><ul>${refs}</ul><p style="margin:8px 0 0;font-size:13px;color:var(--paper-muted)">${t('kidsNote')}</p></div>
