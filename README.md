@@ -8,6 +8,7 @@ Themes (chosen with the drop-down title at the top of the page):
 - **History of France**: 50 events, from Tautavel Man to today. Data in `data/france/`.
 - **History of the United States**: 50 events, from the first Americans to today. Data in `data/usa/`.
 - **The French Revolution**: 50 events, from Louis XVI to Bonaparte and the legacy of the Revolution. Data in `data/revolution/`.
+- **Space Exploration**: 50 events, from the first dreams of the Moon to Mars. Data in `data/space/`.
 
 Files per theme:
 - `events.json` / `events.fr.json` / `events.ja.json`: the events (text, date, period, illustration, reference links).
@@ -20,7 +21,7 @@ each event's `pic` field points to its copy and `image` keeps the Wikimedia orig
 To change a story or an explanation, edit the JSON only.
 
 The globe button at the top right switches the language. Theme and language are remembered on the device, and the last card opened in each theme is marked with a check mark (a bookmark) that the timeline scrolls to.
-A link ending in `#japan`, `#france`, `#usa`, `#revolution`, `#fr`, `#ja-japan`, etc. opens a specific theme and/or language.
+A link ending in `#japan`, `#france`, `#usa`, `#revolution`, `#space`, `#fr`, `#ja-japan`, etc. opens a specific theme and/or language.
 
 Open it at https://bolotaure.github.io/Christianism-History/
 or https://htmlpreview.github.io/?https://github.com/Bolotaure/Christianism-History/blob/main/index.html
