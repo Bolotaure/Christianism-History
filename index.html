@@ -24,6 +24,9 @@ h1{margin:2px 0 2px;font-family:Georgia,"Times New Roman",serif;font-size:24px;f
 .sub{font-size:13px;color:var(--muted)}
 .sub b{color:var(--gold2);font-weight:600}
 header .kicker,header h1,header .sub{padding-right:64px}
+#themeSel{-webkit-appearance:none;appearance:none;max-width:100%;margin:0;padding:0 28px 0 0;border:0;border-radius:6px;background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b85c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 2px center/18px;color:inherit;font:inherit;line-height:inherit;cursor:pointer;text-overflow:ellipsis}
+#themeSel:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+#themeSel option{font:16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#1d1814;background:#fbf6ec}
 #langBtn{position:absolute;right:14px;top:calc(10px + var(--safe-t));display:flex;align-items:center;gap:5px;height:34px;padding:0 10px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;z-index:5}
 #langBtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}
 #langBtn:focus-visible,#langMenu button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
@@ -124,7 +127,7 @@ header .kicker,header h1,header .sub{padding-right:64px}
 <body>
 <header>
   <div class="kicker" id="kicker">A timeline for young explorers</div>
-  <h1 id="h1">The Story of Christianity</h1>
+  <h1 id="h1"><select id="themeSel" aria-label="Theme"></select></h1>
   <div class="sub" id="sub">From Abraham to today · <b>slide the timeline</b> and touch a pin</div>
   <nav id="eras" aria-label="Jump to a period"></nav>
   <button type="button" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span id="langCode">EN</span></button>
@@ -145,17 +148,59 @@ header .kicker,header h1,header .sub{padding-right:64px}
 <script>
 const DATA_HOST = "https://raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/";
 let EV = [], G = {}, IMG = {};
-const ERAS = {
-  roots:{color:"#8c6d46"}, jesus:{color:"#d9a441"}, early:{color:"#b5523b"}, empire:{color:"#8e4a9c"},
-  middle:{color:"#3f7aa6"}, reform:{color:"#3f9a78"}, modern:{color:"#c7773a"}, today:{color:"#5b8fd6"}
+const THEMES = {
+  christianity:{
+    dir:'', deco:['✨','✝️','🕊️','⭐'],
+    colors:{roots:{color:"#8c6d46"}, jesus:{color:"#d9a441"}, early:{color:"#b5523b"}, empire:{color:"#8e4a9c"},
+            middle:{color:"#3f7aa6"}, reform:{color:"#3f9a78"}, modern:{color:"#c7773a"}, today:{color:"#5b8fd6"}},
+    text:{
+      en:{name:"History of Christianity", title:"The Story of Christianity",
+          sub:"From Abraham to today · <b>slide the timeline</b> and touch a pin",
+          eras:{roots:"The roots", jesus:"Life of Jesus", early:"The first Christians", empire:"Christian Roman Empire",
+                middle:"Middle Ages", reform:"Renaissance & Reformation", modern:"Modern times", today:"20th century & today"}},
+      fr:{name:"Histoire du christianisme", title:"L'histoire du christianisme",
+          sub:"D'Abraham à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+          eras:{roots:"Les racines", jesus:"La vie de Jésus", early:"Les premiers chrétiens", empire:"L'Empire romain chrétien",
+                middle:"Le Moyen Âge", reform:"Renaissance et Réforme", modern:"Les Temps modernes", today:"XXe siècle et aujourd'hui"}},
+      ja:{name:"キリスト教のれきし", title:"キリスト教のれきし",
+          sub:"アブラハムから今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+          eras:{roots:"根っこ", jesus:"イエスの生がい", early:"最初のキリスト教徒", empire:"キリスト教のローマ帝国",
+                middle:"中世", reform:"ルネサンスと宗教改革", modern:"近世・近代", today:"20世紀から今まで"}}
+    }
+  },
+  japan:{
+    dir:'japan/', deco:['🌸','⛩️','🗻','🎐'],
+    colors:{ancient:{color:"#8c6d46"}, yayoi:{color:"#b08a3e"}, asuka:{color:"#b5523b"}, heian:{color:"#b0548e"},
+            kamakura:{color:"#6b5bb5"}, sengoku:{color:"#3f7aa6"}, edo:{color:"#3f9a78"}, meiji:{color:"#c7773a"},
+            showa:{color:"#c2413a"}, heisei:{color:"#5b8fd6"}},
+    text:{
+      en:{name:"History of Japan", title:"The Story of Japan",
+          sub:"From the Ice Age to today · <b>slide the timeline</b> and touch a pin",
+          eras:{ancient:"Stone Age & Jōmon", yayoi:"Yayoi & Kofun", asuka:"Asuka & Nara", heian:"Heian",
+                kamakura:"Kamakura & Muromachi", sengoku:"Warring States", edo:"Edo", meiji:"Meiji & Taishō",
+                showa:"Shōwa", heisei:"Heisei & Reiwa"}},
+      fr:{name:"Histoire du Japon", title:"L'histoire du Japon",
+          sub:"De l'ère glaciaire à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
+          eras:{ancient:"Préhistoire et Jōmon", yayoi:"Yayoi et Kofun", asuka:"Asuka et Nara", heian:"Heian",
+                kamakura:"Kamakura et Muromachi", sengoku:"Royaumes combattants", edo:"Edo", meiji:"Meiji et Taishō",
+                showa:"Shōwa", heisei:"Heisei et Reiwa"}},
+      ja:{name:"日本のれきし", title:"日本のれきし",
+          sub:"氷河時代から今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
+          eras:{ancient:"旧石器・縄文", yayoi:"弥生・古墳", asuka:"飛鳥・奈良", heian:"平安",
+                kamakura:"鎌倉・室町", sengoku:"戦国・安土桃山", edo:"江戸", meiji:"明治・大正",
+                showa:"昭和", heisei:"平成・令和"}}
+    }
+  }
 };
+let THEME = 'christianity';
+let ERAS = THEMES[THEME].colors;
 const T = {
   en:{
     title:"The Story of Christianity", kicker:"A timeline for young explorers",
     sub:"From Abraham to today · <b>slide the timeline</b> and touch a pin",
     eras:{roots:"The roots", jesus:"Life of Jesus", early:"The first Christians", empire:"Christian Roman Empire",
           middle:"Middle Ages", reform:"Renaissance & Reformation", modern:"Modern times", today:"20th century & today"},
-    jump:"Jump to a period", timeline:"Timeline", lang:"Language", hint:"swipe →", past:"◀ long ago", now:"today ▶",
+    theme:"Theme", jump:"Jump to a period", timeline:"Timeline", lang:"Language", hint:"swipe →", past:"◀ long ago", now:"today ▶",
     loading:"Loading the timeline…", failed:"Timeline failed to load: ",
     learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
     before:"◀ Before", next:"Next ▶",
@@ -167,7 +212,7 @@ const T = {
     sub:"D'Abraham à aujourd'hui · <b>fais glisser la frise</b> et touche un repère",
     eras:{roots:"Les racines", jesus:"La vie de Jésus", early:"Les premiers chrétiens", empire:"L'Empire romain chrétien",
           middle:"Le Moyen Âge", reform:"Renaissance et Réforme", modern:"Les Temps modernes", today:"XXe siècle et aujourd'hui"},
-    jump:"Aller à une période", timeline:"Frise chronologique", lang:"Langue", hint:"glisse →", past:"◀ il y a longtemps", now:"aujourd'hui ▶",
+    theme:"Thème", jump:"Aller à une période", timeline:"Frise chronologique", lang:"Langue", hint:"glisse →", past:"◀ il y a longtemps", now:"aujourd'hui ▶",
     loading:"Chargement de la frise…", failed:"La frise n'a pas pu se charger : ",
     learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
     before:"◀ Avant", next:"Après ▶",
@@ -179,7 +224,7 @@ const T = {
     sub:"アブラハムから今まで ・ <b>タイムラインをスライドして</b>、ピンにタッチしよう",
     eras:{roots:"根っこ", jesus:"イエスの生がい", early:"最初のキリスト教徒", empire:"キリスト教のローマ帝国",
           middle:"中世", reform:"ルネサンスと宗教改革", modern:"近世・近代", today:"20世紀から今まで"},
-    jump:"時代を選ぶ", timeline:"タイムライン", lang:"言語", hint:"スライド →", past:"◀ ずっとむかし", now:"今 ▶",
+    theme:"テーマ", jump:"時代を選ぶ", timeline:"タイムライン", lang:"言語", hint:"スライド →", past:"◀ ずっとむかし", now:"今 ▶",
     loading:"タイムラインを読みこみ中…", failed:"タイムラインを読みこめませんでした：",
     learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
     before:"◀ 前へ", next:"次へ ▶",
@@ -188,7 +233,7 @@ const T = {
   }
 };
 let LANG = 'en';
-const t = k => T[LANG][k];
+const t = k => { const x = THEMES[THEME].text[LANG][k]; return x !== undefined ? x : T[LANG][k]; };
 
 const $ = s => document.querySelector(s);
 const scroller = $('#scroller'), track = $('#track');
@@ -372,7 +417,7 @@ function renderText(t){
 function artHTML(e){
   const col = ERAS[e.era].color;
   const emo = `<div class="emoji" style="background:radial-gradient(circle at 50% 40%,${col},#1d1814 75%)">${e.icon}
-    <span style="left:12%;top:18%">✨</span><span style="right:14%;top:26%">✝️</span><span style="left:20%;bottom:22%">🕊️</span><span style="right:22%;bottom:18%">⭐</span></div>`;
+    ${(d => `<span style="left:12%;top:18%">${d[0]}</span><span style="right:14%;top:26%">${d[1]}</span><span style="left:20%;bottom:22%">${d[2]}</span><span style="right:22%;bottom:18%">${d[3]}</span>`)(THEMES[THEME].deco)}</div>`;
   const src = IMG[e.img];
   if(!src) return emo;
   const big = src.replace('/330px-','/500px-');
@@ -471,21 +516,26 @@ document.addEventListener('keydown', ev => {
 function getJSON(name){
   return fetch(DATA_HOST + name).then(r => { if(!r.ok) throw new Error(name + " not found (" + r.status + ")"); return r.json(); });
 }
-/* ---------- language ---------- */
+/* ---------- theme & language ---------- */
 const cache = {};
-function loadLang(lang){
-  if(!cache[lang]){
-    const sfx = lang === 'en' ? '' : '.' + lang;
-    cache[lang] = Promise.all([getJSON('events' + sfx + '.json'), getJSON('glossary' + sfx + '.json')])
-      .catch(err => { delete cache[lang]; throw err; });
+function loadData(theme, lang){
+  const key = theme + '/' + lang;
+  if(!cache[key]){
+    const dir = THEMES[theme].dir, sfx = lang === 'en' ? '' : '.' + lang;
+    cache[key] = Promise.all([getJSON(dir + 'events' + sfx + '.json'), getJSON(dir + 'glossary' + sfx + '.json')])
+      .catch(err => { delete cache[key]; throw err; });
   }
-  return cache[lang];
+  return cache[key];
 }
 function applyUI(){
   document.documentElement.lang = LANG;
   document.title = t('title');
   $('#kicker').textContent = t('kicker');
-  $('#h1').textContent = t('title');
+  const sel = $('#themeSel');
+  sel.innerHTML = Object.keys(THEMES).map(k => `<option value="${k}">${esc(THEMES[k].text[LANG].title)}</option>`).join('');
+  sel.value = THEME;
+  sel.setAttribute('aria-label', t('theme'));
+  fitThemeSel();
   $('#sub').innerHTML = t('sub');
   $('#hint').textContent = t('hint');
   $('#eras').setAttribute('aria-label', t('jump'));
@@ -494,8 +544,17 @@ function applyUI(){
   $('#langCode').textContent = LANG.toUpperCase();
   document.querySelectorAll('#langMenu button').forEach(b => b.setAttribute('aria-checked', b.dataset.lang === LANG));
 }
-function showLang(lang, data){
-  LANG = lang;
+function fitThemeSel(){
+  // size the select to the chosen title, so the arrow sits right after it
+  const sel = $('#themeSel'), m = document.createElement('span');
+  m.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;font:' + getComputedStyle(sel).font;
+  m.textContent = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '';
+  document.body.appendChild(m);
+  sel.style.width = Math.ceil(m.getBoundingClientRect().width + 34) + 'px';
+  m.remove();
+}
+function show(theme, lang, data){
+  THEME = theme; LANG = lang; ERAS = THEMES[theme].colors;
   [EV, G] = data;
   IMG = {};
   EV.forEach(e => { if(e.image) IMG[e.img] = e.image; });
@@ -504,24 +563,33 @@ function showLang(lang, data){
   layout();
   syncEraChip();
 }
+function hashTokens(){ return location.hash.slice(1).toLowerCase().split(/[-._~]/); }
 function pickLang(){
-  const h = location.hash.slice(1);
-  if(T[h]) return h;
+  const h = hashTokens().find(x => T[x]);
+  if(h) return h;
   try{ const saved = localStorage.getItem('xtl-lang'); if(T[saved]) return saved; }catch(e){}
   const nav = (navigator.language || '').toLowerCase().slice(0, 2);
   return T[nav] ? nav : 'en';
 }
-function setLang(lang){
+function pickTheme(){
+  const h = hashTokens().find(x => THEMES[x]);
+  if(h) return h;
+  try{ const saved = localStorage.getItem('xtl-theme'); if(THEMES[saved]) return saved; }catch(e){}
+  return 'christianity';
+}
+function switchTo(theme, lang){
   closeLangMenu();
-  if(lang === LANG || busy) return;
-  try{ localStorage.setItem('xtl-lang', lang); }catch(e){}
+  if((theme === THEME && lang === LANG) || busy){ $('#themeSel').value = THEME; return; }
+  try{ localStorage.setItem('xtl-lang', lang); localStorage.setItem('xtl-theme', theme); }catch(e){}
   busy = true;
   fader.classList.add('on');
+  const sameTheme = theme === THEME;
   const f = scroller.scrollLeft / Math.max(1, track.scrollWidth);
-  Promise.all([loadLang(lang), new Promise(r => setTimeout(r, 400))]).then(([data]) => {
-    showLang(lang, data);
-    scroller.scrollLeft = f * track.scrollWidth;
+  Promise.all([loadData(theme, lang), new Promise(r => setTimeout(r, 400))]).then(([data]) => {
+    show(theme, lang, data);
+    scroller.scrollLeft = sameTheme ? f * track.scrollWidth : 0;
   }).catch(err => {
+    $('#themeSel').value = THEME;
     alertBox(T[lang].failed + err);
   }).finally(() => {
     requestAnimationFrame(() => requestAnimationFrame(() => {
@@ -530,6 +598,8 @@ function setLang(lang){
     }));
   });
 }
+function setLang(lang){ switchTo(THEME, lang); }
+$('#themeSel').addEventListener('change', ev => switchTo(ev.target.value, LANG));
 function alertBox(msg){
   track.insertAdjacentHTML('afterbegin', '<p style="position:absolute;z-index:3;padding:24px;color:var(--muted)">' + esc(String(msg)) + '</p>');
 }
@@ -548,14 +618,15 @@ langMenu.addEventListener('click', ev => {
 document.addEventListener('click', ev => { if(!langMenu.hidden && !ev.target.closest('#langMenu')) closeLangMenu(); });
 
 LANG = pickLang();
+THEME = pickTheme(); ERAS = THEMES[THEME].colors;
 applyUI();
 track.innerHTML = '<p style="padding:24px;color:var(--muted)">' + t('loading') + '</p>';
-loadLang(LANG).then(data => showLang(LANG, data)).catch(err => {
+loadData(THEME, LANG).then(data => show(THEME, LANG, data)).catch(err => {
   track.innerHTML = '<p style="padding:24px;color:var(--muted)">' + esc(t('failed') + err) + '</p>';
 });
 let rz; window.addEventListener('resize', () => {
   clearTimeout(rz);
-  rz = setTimeout(() => { const f = scroller.scrollLeft / Math.max(1, track.scrollWidth); layout(); scroller.scrollLeft = f*track.scrollWidth; }, 150);
+  rz = setTimeout(() => { fitThemeSel(); const f = scroller.scrollLeft / Math.max(1, track.scrollWidth); layout(); scroller.scrollLeft = f*track.scrollWidth; }, 150);
 });
 </script>
 </body>
