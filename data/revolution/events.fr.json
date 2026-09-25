@@ -1,0 +1,802 @@
+[
+ {
+  "id": "rv-louis16",
+  "y": "1774",
+  "era": "avant",
+  "icon": "👑",
+  "img": "Louis_XVI",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg/330px-Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
+  "pic": "images/revolution/rv-louis16.jpg",
+  "title": "Louis XVI et Marie-Antoinette montent sur le trône",
+  "refs": [
+   "Louis XVI",
+   "Marie-Antoinette d'Autriche",
+   "Château de Versailles"
+  ],
+  "text": "Le 10 mai 1774, le vieux roi Louis XV meurt. Son petit-fils devient roi de France sous le nom de Louis XVI. Il n'a que 19 ans ! Il se serait écrié : « Mon Dieu, protégez-nous, nous régnons trop jeunes ! »\n\nLouis XVI est un homme timide, gentil et sérieux. Il aime la chasse, la géographie et surtout la serrurerie : il passe des heures dans son atelier à fabriquer des serrures et des clés ! Mais il a du mal à prendre des décisions.\n\nSa femme, Marie-Antoinette, est une princesse autrichienne, la fille de l'impératrice Marie-Thérèse. Elle a été mariée à 14 ans pour rapprocher la France et l'Autriche, qui étaient autrefois ennemies. Elle est jolie, joyeuse, aime la mode, la musique et les fêtes. Elle se fait construire un petit village de conte de fées dans le parc de Versailles, le Hameau de la Reine.\n\nLe roi est un [monarque absolu] : il a tous les pouvoirs. Il fait les lois, décide de la guerre et de la paix, et peut même faire emprisonner quelqu'un sans procès avec une « lettre de cachet ». On dit qu'il est roi « de droit divin », c'est-à-dire choisi par Dieu.\n\nLa cour vit au château de Versailles, dans le luxe, loin du peuple de Paris et des campagnes.\n\nAu début, les Français aiment leur jeune roi et espèrent qu'il améliorera leur vie. Mais le royaume a de gros problèmes : il manque d'argent, les impôts sont injustes, et de nouvelles idées de liberté circulent.\n\nPersonne ne sait encore que ce roi sera le dernier roi de l'Ancien Régime, et que tout va changer en quelques années..."
+ },
+ {
+  "id": "rv-ancienregime",
+  "y": "vers 1780",
+  "era": "avant",
+  "icon": "⚖️",
+  "img": "Estates_of_the_realm",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Cleric%2C_Knight%2C_and_Workman_representing_the_Three_Classes.jpg/330px-Cleric%2C_Knight%2C_and_Workman_representing_the_Three_Classes.jpg",
+  "pic": "images/revolution/rv-ancienregime.jpg",
+  "title": "Clergé, noblesse et tiers état : une société inégale",
+  "refs": [
+   "Ancien Régime",
+   "Tiers état",
+   "Privilège (Ancien Régime)"
+  ],
+  "text": "Avant la Révolution, la société française est divisée en trois groupes, appelés les trois « ordres ». On naît dans un ordre, et il est presque impossible d'en changer.\n\nLe premier ordre, c'est le [clergé] : les évêques, les prêtres, les moines et les religieuses. Ils prient, s'occupent des églises, des écoles et des hôpitaux. L'Église est très riche : elle possède beaucoup de terres et reçoit la dîme, un impôt payé par les paysans.\n\nLe deuxième ordre, c'est la [noblesse] : les nobles, les seigneurs. Ils sont environ 400 000. Autrefois, ils combattaient pour le roi. Beaucoup vivent sur leurs terres, d'autres à la cour de Versailles.\n\nCes deux ordres ont des [privilèges] : ils ne paient presque pas d'impôts, ils ont des places réservées dans l'armée ou l'Église, et les nobles reçoivent des droits payés par les paysans.\n\nLe troisième ordre, c'est le [tiers état] : tout le reste de la population ! Paysans, artisans, ouvriers, commerçants, mais aussi riches banquiers, médecins et avocats, qu'on appelle les [bourgeois]. Ils représentent 98 % des Français.\n\nC'est le tiers état qui paie presque tous les impôts : la taille pour le roi, la dîme pour l'Église, et les droits seigneuriaux pour les nobles. Il y a même la gabelle, un impôt sur le sel, indispensable pour conserver la viande !\n\nLes paysans, qui sont les plus nombreux, vivent souvent dans la pauvreté. Quand la récolte est mauvaise, ils ont faim.\n\nUne caricature célèbre de l'époque montre un vieux paysan courbé qui porte sur son dos un prêtre et un noble. Elle dit : « Il faut espérer que ce jeu-là finira bientôt. »\n\nBeaucoup de bourgeois, riches et instruits, trouvent injuste de ne pas avoir les mêmes droits que les nobles."
+ },
+ {
+  "id": "rv-lumieres",
+  "y": "1750–1780",
+  "era": "avant",
+  "icon": "💡",
+  "img": "Jean-Jacques_Rousseau",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg/330px-Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+  "pic": "images/revolution/rv-lumieres.jpg",
+  "title": "Les idées des Lumières",
+  "refs": [
+   "Siècle des Lumières",
+   "Jean-Jacques Rousseau",
+   "Voltaire"
+  ],
+  "text": "Au XVIIIe siècle, des penseurs appelés les [philosophes des Lumières] ont des idées nouvelles. Ils veulent éclairer les esprits avec la [raison], comme une lumière qui chasse l'obscurité.\n\nVoltaire se moque des injustices et de l'intolérance. Il écrit : « Écrasons l'infâme ! », c'est-à-dire le fanatisme. Il défend les gens condamnés injustement.\n\nMontesquieu explique qu'il ne faut pas donner tous les pouvoirs à une seule personne. Celui qui fait les lois, celui qui les applique et celui qui juge doivent être différents : c'est la [séparation des pouvoirs].\n\nJean-Jacques Rousseau écrit en 1762 Du contrat social. Il commence ainsi : « L'homme est né libre, et partout il est dans les fers. » Pour lui, le pouvoir doit venir du peuple, de la « volonté générale », et non d'un roi.\n\nDiderot et d'Alembert publient l'Encyclopédie, qui rassemble tous les savoirs de l'époque et critique les privilèges.\n\nCes idées circulent partout : dans les livres, les journaux, les salons où l'on discute, les cafés et les clubs. Même si certains livres sont interdits, ils sont lus en cachette.\n\nPeu à peu, de plus en plus de Français se posent des questions : pourquoi le roi aurait-il tous les pouvoirs ? Pourquoi les nobles auraient-ils plus de droits que les autres ? Pourquoi ne pourrait-on pas choisir sa religion ?\n\nLes philosophes ne voulaient pas tous une révolution. Voltaire et Rousseau sont d'ailleurs morts en 1778, onze ans avant 1789. Mais leurs idées de liberté, d'égalité et de tolérance vont inspirer les révolutionnaires.\n\nOn dit souvent que les Lumières ont « préparé les esprits » à la Révolution."
+ },
+ {
+  "id": "rv-amerique",
+  "y": "1778–1783",
+  "era": "avant",
+  "icon": "🗽",
+  "img": "Gilbert_du_Motier,_Marquis_de_Lafayette",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Gilbert_du_Motier_Marquis_de_Lafayette.PNG/330px-Gilbert_du_Motier_Marquis_de_Lafayette.PNG",
+  "pic": "images/revolution/rv-amerique.png",
+  "title": "La France aide les Américains à devenir libres",
+  "refs": [
+   "Gilbert du Motier de La Fayette",
+   "Guerre d'indépendance des États-Unis",
+   "Déclaration d'indépendance des États-Unis"
+  ],
+  "text": "De l'autre côté de l'océan Atlantique, treize colonies anglaises d'Amérique se révoltent contre le roi d'Angleterre. Le 4 juillet 1776, elles proclament leur indépendance : les États-Unis d'Amérique sont nés !\n\nLeur [Déclaration d'indépendance] dit que « tous les hommes sont créés égaux » et qu'ils ont le droit à « la vie, la liberté et la recherche du bonheur ». Ce sont les idées des Lumières mises en pratique !\n\nUn jeune noble français, le marquis de La Fayette, est enthousiasmé. À 19 ans, il achète un bateau avec son propre argent et part se battre aux côtés de George Washington. Il devient un héros en Amérique.\n\nEn 1778, le roi Louis XVI décide d'aider officiellement les Américains. Il veut surtout prendre sa revanche sur l'Angleterre, qui avait battu la France quelques années plus tôt. La France envoie des soldats, des navires et beaucoup d'argent.\n\nEn 1781, à Yorktown, les armées américaines et françaises, avec la flotte de l'amiral de Grasse, remportent une grande victoire. En 1783, l'Angleterre reconnaît l'indépendance des États-Unis.\n\nCette guerre a deux conséquences importantes pour la France.\n\nD'abord, elle a coûté très cher : environ un milliard de livres ! Les caisses du royaume sont vides.\n\nEnsuite, les soldats et les officiers français qui reviennent d'Amérique ont vu qu'un peuple pouvait se libérer d'un roi et se donner une [constitution]. Ils rapportent ces idées en France.\n\nLa Fayette, lui, jouera un grand rôle au début de la Révolution. On l'appelle « le héros des deux mondes »."
+ },
+ {
+  "id": "rv-deficit",
+  "y": "1785–1787",
+  "era": "avant",
+  "icon": "💸",
+  "img": "Affair_of_the_Diamond_Necklace",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Le_Collier_de_la_reine.jpg/330px-Le_Collier_de_la_reine.jpg",
+  "pic": "images/revolution/rv-deficit.jpg",
+  "title": "Les caisses sont vides",
+  "refs": [
+   "Affaire du collier de la reine",
+   "Charles-Alexandre de Calonne",
+   "Déficit"
+  ],
+  "text": "Dans les années 1780, le royaume de France a un énorme problème : il n'a plus d'argent ! Il dépense beaucoup plus qu'il ne gagne. C'est ce qu'on appelle le [déficit].\n\nPourquoi ? Les guerres, comme celle d'Amérique, ont coûté très cher. La cour de Versailles dépense beaucoup en fêtes, en bâtiments et en cadeaux. Et surtout, le roi a emprunté énormément d'argent : il doit maintenant payer chaque année des intérêts gigantesques. Près de la moitié des dépenses sert à rembourser les dettes !\n\nEn 1785 éclate un scandale : l'[affaire du collier de la reine]. Une aventurière fait croire à un cardinal que Marie-Antoinette veut acheter en secret un collier de diamants extraordinaire, avec 647 diamants ! Le cardinal l'achète à crédit, mais le collier est volé et démonté. La reine n'y était pour rien, mais le peuple croit qu'elle dépense sans compter. On la surnomme « Madame Déficit ».\n\nLe problème, c'est que le tiers état paie déjà beaucoup d'impôts, alors que le clergé et la noblesse en paient très peu. Les ministres du roi, comme Calonne, proposent de faire payer tout le monde, même les privilégiés.\n\nEn 1787, Calonne réunit une assemblée de nobles importants, les « notables », pour leur demander d'accepter. Mais ils refusent de perdre leurs privilèges !\n\nLes juges des [parlements], qui sont eux aussi des nobles, s'opposent également au roi. Ils disent que seuls les états généraux, une grande assemblée représentant les trois ordres, peuvent accepter de nouveaux impôts.\n\nLe roi est coincé. Il n'a plus d'argent et personne ne veut payer. En août 1788, il se résigne : il annonce qu'il va réunir les états généraux, qui n'ont pas été convoqués depuis 1614 !"
+ },
+ {
+  "id": "rv-grele",
+  "y": "1788",
+  "era": "avant",
+  "icon": "🌨️",
+  "img": "Day_of_the_Tiles",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Journ%C3%A9e_des_Tuiles_%28Alexandre_Debelle%29%2C_Mus%C3%A9e_de_la_R%C3%A9volution_fran%C3%A7aise_-_Vizille.jpg/330px-Journ%C3%A9e_des_Tuiles_%28Alexandre_Debelle%29%2C_Mus%C3%A9e_de_la_R%C3%A9volution_fran%C3%A7aise_-_Vizille.jpg",
+  "pic": "images/revolution/rv-grele.jpg",
+  "title": "La grêle, la faim et la journée des Tuiles",
+  "refs": [
+   "Journée des Tuiles",
+   "Crise frumentaire",
+   "Hiver 1788-1789"
+  ],
+  "text": "L'année 1788 est une année terrible pour les paysans français.\n\nLe 13 juillet 1788, un gigantesque orage de grêle traverse le nord de la France. Des grêlons gros comme des œufs détruisent les champs de blé juste avant la moisson, sur des centaines de kilomètres. Les récoltes sont perdues.\n\nPuis vient l'hiver 1788-1789, l'un des plus froids du siècle. La Seine gèle, les moulins sont bloqués par la glace et ne peuvent plus moudre le grain. Il fait si froid que des gens meurent dans les rues.\n\nLe blé devient rare, et le prix du pain explose. Or le pain est la nourriture principale des Français : un ouvrier mange environ un kilo de pain par jour ! Au printemps 1789, une famille pauvre doit dépenser presque tout son salaire pour acheter du pain. Beaucoup ont faim.\n\nDans les villes et les campagnes, des [émeutes] éclatent. Les gens affamés attaquent les marchés et les convois de blé.\n\nLa colère grandit aussi contre le pouvoir. Le 7 juin 1788, à Grenoble, le roi veut renvoyer les juges du parlement qui s'opposent à lui. Les habitants se révoltent : ils montent sur les toits et jettent des tuiles sur les soldats du roi ! C'est la « journée des Tuiles ».\n\nPeu après, les notables du Dauphiné se réunissent à Vizille et demandent la réunion des états généraux, avec autant de députés pour le tiers état que pour les deux autres ordres réunis.\n\nLa faim, la colère et l'espoir : tout est prêt pour que les choses changent. Tout le monde attend beaucoup des états généraux..."
+ },
+ {
+  "id": "rv-sieyes",
+  "y": "janvier 1789",
+  "era": "annee89",
+  "icon": "📖",
+  "img": "Emmanuel_Joseph_Sieyès",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Emmanuel_Joseph_Siey%C3%A8s%2C_by_Jacques_Louis_David.jpg/330px-Emmanuel_Joseph_Siey%C3%A8s%2C_by_Jacques_Louis_David.jpg",
+  "pic": "images/revolution/rv-sieyes.jpg",
+  "title": "« Qu'est-ce que le tiers état ? »",
+  "refs": [
+   "Emmanuel-Joseph Sieyès",
+   "Qu'est-ce que le tiers état ?",
+   "Pamphlet"
+  ],
+  "text": "Au début de 1789, toute la France parle des états généraux qui vont se réunir. Une question est très importante : comment va-t-on voter ?\n\nTraditionnellement, chaque ordre vote séparément et a une voix. Le clergé et la noblesse, qui ont les mêmes intérêts, auraient donc toujours deux voix contre une pour le tiers état, même s'il représente presque tout le peuple !\n\nLe tiers état réclame deux choses : avoir autant de députés que les deux autres ordres réunis (on appelle cela le « doublement »), et voter « par tête », c'est-à-dire que chaque député ait une voix.\n\nLe roi accepte le doublement : il y aura environ 600 députés du tiers état, pour 300 du clergé et 300 de la noblesse. Mais il ne dit rien sur la façon de voter...\n\nEn janvier 1789, un prêtre, l'abbé Sieyès, publie une petite brochure, un [pamphlet], qui a un succès énorme. Elle s'intitule Qu'est-ce que le tiers état ? et commence ainsi :\n\n« Qu'est-ce que le tiers état ? Tout.\nQu'a-t-il été jusqu'à présent dans l'ordre politique ? Rien.\nQue demande-t-il ? À devenir quelque chose. »\n\nSieyès explique que c'est le tiers état qui travaille, produit, commerce et fait vivre le pays. Pour lui, le tiers état est à lui seul la [nation] tout entière, et les privilégiés sont inutiles.\n\nCes phrases simples et fortes sont lues et répétées partout. Plus de 30 000 exemplaires sont vendus en quelques semaines. Des milliers d'autres brochures sont publiées.\n\nL'abbé Sieyès sera élu député du tiers état de Paris et jouera un rôle très important dans la Révolution... jusqu'à la fin, en 1799 !"
+ },
+ {
+  "id": "rv-cahiers",
+  "y": "mars–avril 1789",
+  "era": "annee89",
+  "icon": "📝",
+  "img": "Cahiers_de_doléances",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Dol%C3%A9ancesS%C3%A9n%C3%A9gal2.jpg/330px-Dol%C3%A9ancesS%C3%A9n%C3%A9gal2.jpg",
+  "pic": "images/revolution/rv-cahiers.jpg",
+  "title": "Les cahiers de doléances",
+  "refs": [
+   "Cahiers de doléances",
+   "États généraux de 1789",
+   "Élections aux états généraux de 1789"
+  ],
+  "text": "Pour préparer les états généraux, le roi fait quelque chose d'extraordinaire : il demande aux Français de dire ce qui ne va pas !\n\nAu printemps 1789, dans chaque village, chaque ville et chaque corporation, les habitants se réunissent, souvent à l'église. Ils élisent leurs représentants et écrivent ensemble leurs plaintes et leurs souhaits dans des cahiers. On les appelle les [cahiers de doléances]. Une « doléance », c'est une plainte.\n\nIl y en a environ 60 000 ! C'est comme une immense enquête sur la France de 1789. On peut encore les lire aujourd'hui dans les archives.\n\nQu'est-ce que les Français demandent ?\n\nLes paysans se plaignent des impôts trop lourds, de la dîme, des droits seigneuriaux, des corvées (les travaux gratuits qu'ils doivent faire pour le seigneur), et des pigeons et des lapins du seigneur qui mangent leurs récoltes, alors qu'eux n'ont pas le droit de chasser !\n\nBeaucoup demandent que tout le monde paie l'impôt, y compris les nobles et le clergé. D'autres réclament la fin des lettres de cachet, la liberté de la presse, une justice égale pour tous, ou des poids et des mesures identiques partout.\n\nPresque personne ne demande la fin de la monarchie. Au contraire, les cahiers sont souvent très respectueux envers le roi, qu'on appelle « notre bon roi ». On pense que ce sont ses ministres qui le trompent.\n\nMais tous espèrent de grands changements. Pour la première fois, des millions de Français ont été consultés et ont pris la parole.\n\nLes députés partent pour Versailles avec ces cahiers et beaucoup d'espoir."
+ },
+ {
+  "id": "rv-etatsgeneraux",
+  "y": "5 mai 1789",
+  "era": "annee89",
+  "icon": "🏛️",
+  "img": "Estates_General_of_1789",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Necker%2C_Jacques_-_Duplessis.jpg/330px-Necker%2C_Jacques_-_Duplessis.jpg",
+  "pic": "images/revolution/rv-etatsgeneraux.jpg",
+  "title": "L'ouverture des états généraux",
+  "refs": [
+   "États généraux de 1789",
+   "Hôtel des Menus-Plaisirs (Versailles)",
+   "Jacques Necker"
+  ],
+  "text": "Le 5 mai 1789, à Versailles, les [états généraux] s'ouvrent dans une grande salle, l'hôtel des Menus-Plaisirs. Environ 1 200 députés sont présents.\n\nDès le début, les différences entre les ordres sautent aux yeux. Les députés du clergé portent de belles robes violettes ou noires. Les nobles ont des habits de soie brodés d'or, des chapeaux à plumes et des épées. Les députés du tiers état, eux, doivent porter un simple habit noir et entrer par une petite porte de côté !\n\nLe roi Louis XVI fait un discours. Puis son ministre des Finances, Necker, parle pendant trois heures... uniquement de chiffres et d'argent ! Les députés du tiers état sont déçus : ils étaient venus pour changer la France, pas seulement pour trouver de l'argent.\n\nLe vrai problème arrive vite : comment voter ? Par ordre (une voix par ordre) ou par tête (une voix par député) ? Le clergé et la noblesse veulent voter par ordre. Le tiers état refuse.\n\nPendant plus d'un mois, rien n'avance. Les députés du tiers état invitent les autres à les rejoindre pour travailler ensemble. Quelques curés, proches du peuple, viennent les rejoindre.\n\nLe 17 juin 1789, les députés du tiers état prennent une décision audacieuse. Ils déclarent qu'ils représentent 96 % de la nation et qu'ils forment désormais l'[Assemblée nationale] !\n\nC'est un acte révolutionnaire : ils disent que le pouvoir vient du peuple, pas du roi. Ils n'ont demandé la permission à personne.\n\nParmi ces députés, certains deviendront célèbres : l'orateur Mirabeau, l'abbé Sieyès, l'astronome Bailly... et un jeune avocat d'Arras presque inconnu, Maximilien de Robespierre."
+ },
+ {
+  "id": "rv-jeudepaume",
+  "y": "20 juin 1789",
+  "era": "annee89",
+  "icon": "✋",
+  "img": "Tennis_Court_Oath",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_Serment_du_Jeu_de_paume.jpg/330px-Le_Serment_du_Jeu_de_paume.jpg",
+  "pic": "images/revolution/rv-jeudepaume.jpg",
+  "title": "Le serment du Jeu de paume",
+  "refs": [
+   "Serment du Jeu de paume",
+   "Salle du Jeu de paume (Versailles)",
+   "Honoré-Gabriel Riqueti de Mirabeau"
+  ],
+  "text": "Le matin du 20 juin 1789, il pleut à Versailles. Les députés de la toute nouvelle Assemblée nationale arrivent devant leur salle de réunion... et trouvent la porte fermée, gardée par des soldats ! On leur dit que la salle est fermée pour des travaux.\n\nLes députés pensent que le roi veut les empêcher de se réunir. Ils sont furieux. Où aller ?\n\nTout près se trouve une grande salle où l'on joue au [jeu de paume], l'ancêtre du tennis. Les députés s'y rendent. Il n'y a pas de chaises, seulement quelques bancs. Le président de l'Assemblée, l'astronome Jean-Sylvain Bailly, monte sur une table.\n\nLà, les députés prêtent un serment solennel : ils jurent de « ne jamais se séparer » et de se réunir partout où il le faudra, « jusqu'à ce que la [constitution] du royaume soit établie ».\n\nUne constitution, c'est un texte qui fixe les règles du pouvoir : qui fait les lois, quels sont les droits des citoyens. Le roi ne pourrait plus faire tout ce qu'il veut.\n\nTous les députés, le bras tendu, prêtent serment. Un seul refuse. Le peintre Jacques-Louis David a représenté cette scène dans un grand tableau célèbre.\n\nTrois jours plus tard, le 23 juin, le roi ordonne aux députés de se séparer et de se réunir par ordre. Le tiers état reste assis. Quand un envoyé du roi leur rappelle l'ordre, Mirabeau lui répond, selon la tradition :\n\n« Allez dire à ceux qui vous envoient que nous sommes ici par la volonté du peuple et que nous n'en sortirons que par la force des baïonnettes ! »\n\nLe roi finit par céder. Le 27 juin, il ordonne au clergé et à la noblesse de rejoindre l'Assemblée. Le peuple a gagné une première bataille, sans violence."
+ },
+ {
+  "id": "rv-bastille",
+  "y": "14 juillet 1789",
+  "era": "annee89",
+  "icon": "🏰",
+  "img": "Storming_of_the_Bastille",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg",
+  "pic": "images/revolution/rv-bastille.jpg",
+  "title": "La prise de la Bastille",
+  "refs": [
+   "Prise de la Bastille",
+   "Bastille",
+   "Fête nationale française"
+  ],
+  "text": "Début juillet 1789, le roi fait venir environ 20 000 soldats autour de Paris et de Versailles. Le 11 juillet, il renvoie Necker, le ministre populaire. Les Parisiens ont peur : le roi veut-il dissoudre l'Assemblée par la force ?\n\nLe 12 juillet, dans le jardin du Palais-Royal, un jeune journaliste, Camille Desmoulins, monte sur une table et crie : « Aux armes, citoyens ! » La foule s'agite. Les Parisiens cherchent des armes pour se défendre.\n\nLe matin du 14 juillet, des milliers de personnes se rendent aux Invalides et y prennent environ 30 000 fusils et des canons. Mais il leur faut de la poudre ! Elle est stockée à la Bastille.\n\nLa Bastille est une vieille forteresse aux huit grosses tours, qui sert de prison. On y enfermait parfois des gens sur simple ordre du roi, avec une lettre de cachet. Pour le peuple, c'est le symbole de l'[arbitraire] royal.\n\nLa foule entoure la forteresse et demande la poudre au gouverneur, de Launay. Il refuse. Vers 13 h 30, les défenseurs tirent sur la foule. Le combat dure plusieurs heures. Environ une centaine d'assaillants sont tués. Puis des soldats rallient le peuple avec des canons. Vers 17 h, le gouverneur se rend. La Bastille est prise !\n\nÀ l'intérieur, on ne trouve que sept prisonniers. Mais le symbole est immense : le peuple a vaincu le pouvoir du roi. Malheureusement, le gouverneur et quelques défenseurs sont tués par la foule en colère.\n\nLe soir, selon une anecdote célèbre, le roi aurait demandé : « C'est une révolte ? » Et le duc de La Rochefoucauld aurait répondu : « Non, Sire, c'est une révolution ! »\n\nDès le lendemain, un entrepreneur, Palloy, commence à démolir la forteresse. Il vend ses pierres comme souvenirs dans toute la France !\n\nDepuis 1880, le 14 juillet est la [fête nationale] française."
+ },
+ {
+  "id": "rv-grandepeur",
+  "y": "juillet–août 1789",
+  "era": "annee89",
+  "icon": "🔥",
+  "img": "Great_Fear",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Galerie_Historique_ou_Tableaux_des_%C3%A9v%C3%A8nements_de_la_R%C3%A9volution_fran%C3%A7aise_%281795-1799%29._Insurrection_paysanne%2C_%C3%A9migration_des_Princes_et_des_Courtisans_de_leurs_Ch%C3%A2teaux_de_Campagne_brul%C3%A9s_en_ao%C3%BBt_1789.png/330px-thumbnail.png",
+  "pic": "images/revolution/rv-grandepeur.png",
+  "title": "La Grande Peur dans les campagnes",
+  "refs": [
+   "Grande Peur",
+   "Droits seigneuriaux",
+   "Garde nationale (France)"
+  ],
+  "text": "Après la prise de la Bastille, la nouvelle se répand dans toute la France. Mais à l'époque, il n'y a ni téléphone, ni radio : les nouvelles voyagent à cheval ou de bouche à oreille, et elles se déforment en chemin...\n\nDans les campagnes, fin juillet 1789, une rumeur court de village en village : des « brigands », payés par les nobles, viendraient détruire les récoltes pour affamer le peuple et punir la révolution !\n\nCes brigands n'existent pas. Mais la peur, elle, est bien réelle. C'est ce qu'on appelle la [Grande Peur]. Les paysans sonnent le tocsin (les cloches d'alarme), prennent des fourches, des faux et des vieux fusils pour se défendre.\n\nComme les brigands ne viennent pas, la colère des paysans se tourne contre les seigneurs. Dans beaucoup de régions, ils attaquent les châteaux. Ils ne veulent pas toujours tuer ou piller : ils cherchent surtout les « terriers », les vieux registres qui énumèrent tout ce qu'ils doivent payer aux seigneurs. Ils les brûlent dans de grands feux de joie !\n\nCertains châteaux sont incendiés. Des nobles, effrayés, commencent à quitter la France : ce sont les premiers [émigrés].\n\nDans les villes, les bourgeois créent une [garde nationale], une milice de citoyens, pour maintenir l'ordre et protéger la révolution. À Paris, elle est commandée par La Fayette.\n\nC'est aussi à ce moment qu'apparaît la [cocarde] tricolore : on associe le bleu et le rouge, les couleurs de la ville de Paris, au blanc, la couleur du roi. Ce sont les couleurs du futur drapeau français !\n\nÀ Versailles, les députés s'inquiètent de ces violences dans les campagnes. Ils doivent faire quelque chose pour calmer les paysans..."
+ },
+ {
+  "id": "rv-4aout",
+  "y": "4 août 1789",
+  "era": "annee89",
+  "icon": "🌙",
+  "img": "Abolition_of_feudalism_in_France",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Assembl%C3%A9e_nationale_-_abandon_de_tous_les_privil%C3%A8ges_%C3%A0_Versailles%2C_s%C3%A9ance_de_la_nuit_du_4_au_5_ao%C3%BBt_1789_%28cropped%29.jpg/330px-Assembl%C3%A9e_nationale_-_abandon_de_tous_les_privil%C3%A8ges_%C3%A0_Versailles%2C_s%C3%A9ance_de_la_nuit_du_4_au_5_ao%C3%BBt_1789_%28cropped%29.jpg",
+  "pic": "images/revolution/rv-4aout.jpg",
+  "title": "La nuit du 4 août : la fin des privilèges",
+  "refs": [
+   "Nuit du 4 août 1789",
+   "Abolition des privilèges",
+   "Féodalité"
+  ],
+  "text": "Le soir du 4 août 1789, à Versailles, l'Assemblée nationale se réunit. Les députés veulent calmer les paysans révoltés. Ils vont vivre une nuit incroyable.\n\nUn jeune noble, le vicomte de Noailles, se lève et propose que les nobles renoncent à certains de leurs droits sur les paysans. Puis le duc d'Aiguillon, l'un des plus riches seigneurs de France, fait de même.\n\nAlors, une sorte d'enthousiasme s'empare de l'Assemblée. Les uns après les autres, les députés montent à la tribune pour abandonner des privilèges !\n\nLes nobles renoncent aux corvées, au droit de chasse réservé, aux pigeonniers et aux justices seigneuriales. Les membres du clergé renoncent à la dîme. Les villes et les provinces renoncent à leurs privilèges particuliers. Tout le monde pourra accéder à tous les métiers, dans l'armée comme dans l'Église.\n\nLa séance dure jusqu'à deux heures du matin. Les députés s'embrassent, pleurent de joie. Ils proclament le roi « restaurateur de la liberté française ».\n\nDans les jours suivants, ils écrivent le décret qui déclare : « L'Assemblée nationale détruit entièrement le régime [féodal]. »\n\nC'est une révolution dans la révolution ! En une nuit, la société des trois ordres, qui existait depuis des siècles, disparaît. Désormais, tous les Français sont égaux devant la loi et devant l'impôt.\n\nAttention, tout n'est pas gratuit : pour certains droits sur la terre, les paysans devront d'abord payer un rachat aux seigneurs. Beaucoup n'en ont pas les moyens, et ce n'est qu'en 1793 que ces droits seront supprimés sans rien payer.\n\nMais la nuit du 4 août reste dans l'histoire comme la fin des privilèges."
+ },
+ {
+  "id": "rv-ddhc",
+  "y": "26 août 1789",
+  "era": "annee89",
+  "icon": "📜",
+  "img": "Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/330px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
+  "pic": "images/revolution/rv-ddhc.jpg",
+  "title": "La Déclaration des droits de l'homme et du citoyen",
+  "refs": [
+   "Déclaration des droits de l'homme et du citoyen de 1789",
+   "Droits de l'homme",
+   "Olympe de Gouges"
+  ],
+  "text": "Après avoir supprimé les privilèges, les députés veulent écrire les principes de la nouvelle société. Avant même la constitution, ils rédigent une déclaration des droits, comme les Américains l'avaient fait.\n\nLe 26 août 1789, l'Assemblée adopte la Déclaration des droits de l'homme et du citoyen. Elle contient 17 articles. Le premier est le plus célèbre :\n\n« Les hommes naissent et demeurent libres et égaux en droits. »\n\nC'est une idée révolutionnaire ! Avant, les droits dépendaient de la naissance. Désormais, ils sont les mêmes pour tous.\n\nVoici quelques-uns des droits proclamés :\n- la liberté, la propriété, la sûreté et la résistance à l'oppression sont des droits naturels ;\n- la [souveraineté] appartient à la nation, c'est-à-dire au peuple, et non au roi ;\n- la loi est la même pour tous ;\n- nul ne peut être arrêté sans raison prévue par la loi ;\n- toute personne est présumée innocente tant qu'elle n'a pas été déclarée coupable ;\n- chacun a le droit d'avoir ses opinions, même religieuses ;\n- chacun peut parler, écrire et imprimer librement ;\n- les impôts doivent être répartis selon les moyens de chacun.\n\nLe texte est placé « sous les auspices de l'Être suprême ». On le représente souvent comme les tables de la Loi, avec l'œil de la raison au-dessus.\n\nMais la Déclaration a des limites : elle ne parle pas des femmes, qui n'auront pas de droits politiques. Et elle ne met pas fin à l'esclavage dans les colonies.\n\nMalgré cela, ce texte a changé le monde. Il a inspiré de nombreux pays et la Déclaration universelle des droits de l'homme de 1948. Il fait toujours partie de la Constitution française aujourd'hui !"
+ },
+ {
+  "id": "rv-octobre",
+  "y": "5–6 octobre 1789",
+  "era": "annee89",
+  "icon": "🥖",
+  "img": "Women's_March_on_Versailles",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/A_Versailles%2C_%C3%A0_Versailles_5_octobre_1789_-_Restoration.jpg/330px-A_Versailles%2C_%C3%A0_Versailles_5_octobre_1789_-_Restoration.jpg",
+  "pic": "images/revolution/rv-octobre.jpg",
+  "title": "Les femmes ramènent le roi à Paris",
+  "refs": [
+   "Journées des 5 et 6 octobre 1789",
+   "Palais des Tuileries",
+   "Femmes dans la Révolution française"
+  ],
+  "text": "En automne 1789, le pain manque encore à Paris et il est très cher. Les mères de famille font la queue pendant des heures devant les boulangeries.\n\nDe plus, le roi hésite à accepter la Déclaration des droits et les décisions du 4 août. Et on raconte qu'au cours d'un banquet à Versailles, des officiers ont piétiné la cocarde tricolore ! Les Parisiens sont furieux.\n\nLe matin du 5 octobre 1789, des milliers de femmes, surtout des marchandes des Halles et des ouvrières, se rassemblent devant l'Hôtel de Ville de Paris. Elles décident d'aller à Versailles, à 20 kilomètres, pour demander du pain au roi !\n\nSous la pluie, environ 6 000 à 7 000 femmes marchent vers Versailles, en tirant même des canons. Elles sont suivies le soir par La Fayette et 20 000 gardes nationaux.\n\nArrivées à Versailles, les femmes envahissent l'Assemblée. Une délégation est reçue par le roi, qui promet de faire venir du blé à Paris. Il accepte aussi de signer la Déclaration des droits.\n\nMais tôt le matin du 6 octobre, des manifestants entrent dans le château et arrivent jusqu'aux appartements de la reine. Deux gardes sont tués. Marie-Antoinette s'enfuit de justesse par un passage secret vers la chambre du roi !\n\nLa Fayette calme la foule. Le roi apparaît au balcon avec sa famille. La foule crie : « À Paris ! À Paris ! »\n\nLe roi doit accepter. Le soir même, un long cortège ramène la famille royale à Paris. Les femmes chantent : « Nous ramenons le boulanger, la boulangère et le petit mitron ! » (le roi, la reine et leur fils). L'Assemblée suit le roi à Paris.\n\nLe roi s'installe au palais des Tuileries. Désormais, il vit sous le regard des Parisiens. Il n'est plus vraiment libre."
+ },
+ {
+  "id": "rv-departements",
+  "y": "1790",
+  "era": "monarchie",
+  "icon": "🗺️",
+  "img": "Departments_of_France",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/France_d%C3%A9partementale.svg/330px-France_d%C3%A9partementale.svg.png",
+  "pic": "images/revolution/rv-departements.png",
+  "title": "La France est découpée en départements",
+  "refs": [
+   "Département français",
+   "Provinces de France",
+   "Système métrique"
+  ],
+  "text": "Avant la Révolution, la France était un vrai casse-tête ! Elle était divisée en provinces de tailles très différentes, comme la Bretagne, la Provence ou la Normandie. Chacune avait ses propres lois, ses propres impôts, ses propres douanes et même ses propres mesures. On comptait plus de 700 unités de mesure différentes dans le royaume !\n\nLes révolutionnaires veulent un pays plus simple, plus juste et plus égal, où les mêmes règles s'appliquent partout.\n\nEn 1790, l'Assemblée décide de redécouper la France en 83 [départements] à peu près de même taille. L'idée est simple : depuis n'importe quel village, on doit pouvoir rejoindre le chef-lieu du département à cheval en une journée maximum.\n\nPour ne pas rappeler les anciennes provinces, les départements reçoivent des noms tirés de la nature : des rivières et des fleuves (Seine, Loire, Gironde, Somme...), des montagnes (Jura, Vosges, Pyrénées...), ou de la mer (Finistère, qui veut dire « la fin de la terre »).\n\nChaque département est divisé en districts et en [communes]. Tous les villages et toutes les villes deviennent des communes, avec un maire élu. Il y en a environ 44 000 !\n\nLes départements existent toujours aujourd'hui ! Il y en a maintenant 101, y compris ceux d'outre-mer. Leur numéro, qui vient de l'ordre alphabétique, se trouvait sur les plaques d'immatriculation des voitures et se trouve encore dans les codes postaux.\n\nLes révolutionnaires unifient aussi les lois, suppriment les douanes intérieures et préparent un système de mesures unique pour tous : le futur système métrique.\n\nC'est l'une des réformes de la Révolution qui a le mieux duré."
+ },
+ {
+  "id": "rv-clerge",
+  "y": "1790",
+  "era": "monarchie",
+  "icon": "⛪",
+  "img": "Civil_Constitution_of_the_Clergy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Je_jure_de_maintenir_la_constitution.jpg/330px-Je_jure_de_maintenir_la_constitution.jpg",
+  "pic": "images/revolution/rv-clerge.jpg",
+  "title": "La Révolution et l'Église",
+  "refs": [
+   "Constitution civile du clergé",
+   "Biens nationaux",
+   "Prêtre réfractaire"
+  ],
+  "text": "Le royaume a toujours d'énormes dettes. Où trouver de l'argent ? Les révolutionnaires regardent vers l'Église catholique, qui possède environ 6 % des terres de France : des champs, des forêts, des abbayes...\n\nEn novembre 1789, sur proposition de Talleyrand, un évêque, l'Assemblée décide que les biens de l'Église appartiennent désormais à la nation. On les appelle les [biens nationaux]. Ils sont vendus aux enchères pour rembourser les dettes. Ce sont surtout des bourgeois et des paysans aisés qui les achètent.\n\nEn échange, l'État s'engage à payer les prêtres et à s'occuper des pauvres et des malades, ce que faisait l'Église.\n\nPuis, en juillet 1790, l'Assemblée vote la [Constitution civile du clergé]. Elle réorganise complètement l'Église de France : un évêque par département, et surtout, les curés et les évêques seront désormais élus par les citoyens, comme les autres fonctionnaires !\n\nLes prêtres doivent prêter serment de fidélité à la nation, à la loi et au roi, et à cette constitution.\n\nC'est le début d'une grande division. Le pape condamne la Constitution civile du clergé. Environ la moitié des prêtres acceptent de prêter serment : ce sont les « jureurs » ou « constitutionnels ». L'autre moitié refuse : ce sont les [prêtres réfractaires].\n\nDans de nombreux villages, les fidèles sont déchirés : faut-il aller à la messe du prêtre qui a prêté serment, ou de celui qui a refusé ? Beaucoup de catholiques, qui soutenaient la Révolution, commencent à s'en méfier.\n\nLe roi Louis XVI, très croyant, est lui aussi troublé. Cette question religieuse est l'une des raisons qui vont pousser certaines régions, comme la Vendée, à se révolter plus tard."
+ },
+ {
+  "id": "rv-federation",
+  "y": "14 juillet 1790",
+  "era": "monarchie",
+  "icon": "🎉",
+  "img": "Fête_de_la_Fédération",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/F%C3%AAte_de_la_F%C3%A9d%C3%A9ration_1790%2C_Mus%C3%A9e_de_la_R%C3%A9volution_fran%C3%A7aise_-_Vizille.jpg/330px-F%C3%AAte_de_la_F%C3%A9d%C3%A9ration_1790%2C_Mus%C3%A9e_de_la_R%C3%A9volution_fran%C3%A7aise_-_Vizille.jpg",
+  "pic": "images/revolution/rv-federation.jpg",
+  "title": "La fête de la Fédération",
+  "refs": [
+   "Fête de la Fédération",
+   "Champ-de-Mars",
+   "Charles-Maurice de Talleyrand-Périgord"
+  ],
+  "text": "Un an après la prise de la Bastille, les révolutionnaires veulent célébrer l'unité de tous les Français autour de la nation. On organise une grande fête : la fête de la Fédération.\n\nElle a lieu à Paris, sur le Champ-de-Mars, là où se trouve aujourd'hui la tour Eiffel. Il faut transformer ce grand terrain en un immense amphithéâtre, avec des talus de terre pour que 300 000 personnes puissent s'asseoir !\n\nLes travaux prennent du retard. Alors, des milliers de Parisiens viennent aider bénévolement : hommes, femmes, enfants, bourgeois, ouvriers, moines, et même des nobles et des dames élégantes poussent des brouettes et manient la pelle, en chantant « Ah ! ça ira, ça ira, ça ira ! ».\n\nLe 14 juillet 1790, malgré la pluie, environ 300 000 spectateurs sont réunis. Des délégués de gardes nationaux, les « fédérés », sont venus de tous les départements de France.\n\nAu centre, on a dressé l'« autel de la Patrie ». L'évêque Talleyrand y célèbre une messe. Puis La Fayette, sur un cheval blanc, prête serment au nom de tous : fidélité « à la nation, à la loi et au roi ».\n\nEnsuite, le roi Louis XVI jure à son tour de respecter la constitution. La reine lève dans ses bras son fils, le dauphin, âgé de cinq ans. La foule applaudit et crie : « Vive le roi ! Vive la nation ! »\n\nDes fêtes semblables ont lieu dans toute la France. Les gens dansent, s'embrassent, partagent des repas.\n\nC'est le moment le plus heureux et le plus uni de la Révolution. Beaucoup pensent que la Révolution est terminée et que le roi et le peuple sont réconciliés.\n\nAujourd'hui, la fête nationale du 14 juillet commémore officiellement à la fois la prise de la Bastille et cette fête de la Fédération."
+ },
+ {
+  "id": "rv-varennes",
+  "y": "20–21 juin 1791",
+  "era": "monarchie",
+  "icon": "🐎",
+  "img": "Flight_to_Varennes",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Arrest_of_Louis_XVI_and_his_Family%2C_Varennes%2C_1791.jpg/330px-Arrest_of_Louis_XVI_and_his_Family%2C_Varennes%2C_1791.jpg",
+  "pic": "images/revolution/rv-varennes.jpg",
+  "title": "La fuite du roi à Varennes",
+  "refs": [
+   "Fuite de Varennes",
+   "Varennes-en-Argonne",
+   "Jean-Baptiste Drouet"
+  ],
+  "text": "Louis XVI n'accepte pas vraiment la Révolution. Il se sent prisonnier aux Tuileries, et il est troublé par les mesures contre l'Église. En secret, il prépare sa fuite.\n\nSon plan : quitter Paris et rejoindre Montmédy, près de la frontière, où l'attend une armée fidèle. De là, il pourrait négocier en position de force, peut-être avec l'aide de l'Autriche, le pays de la reine.\n\nDans la nuit du 20 au 21 juin 1791, la famille royale quitte les Tuileries en cachette, déguisée. Le roi est habillé en valet, la reine en gouvernante, et les enfants se font passer pour les enfants d'une baronne russe. Ils montent dans une grosse voiture, une « berline », très chargée et lente.\n\nLe voyage prend du retard. À Sainte-Menehould, le maître de poste, Jean-Baptiste Drouet, regarde attentivement ce voyageur. Il le compare au portrait du roi imprimé sur les billets de banque... C'est lui !\n\nDrouet galope par des chemins de traverse et arrive avant la berline à Varennes. Il donne l'alerte. Le soir du 21 juin, la famille royale est arrêtée dans la petite ville de Varennes-en-Argonne.\n\nLe retour vers Paris dure quatre jours. Sur tout le trajet, une foule silencieuse et hostile regarde passer le roi. À Paris, on a affiché : « Quiconque applaudira le roi sera bâtonné ; quiconque l'insultera sera pendu. »\n\nC'est un choc immense. Le roi a trahi la parole donnée à la fête de la Fédération. Beaucoup de Français ne lui font plus confiance.\n\nPour la première fois, certains osent réclamer la fin de la monarchie et l'établissement d'une [république]. Mais l'Assemblée préfère faire croire que le roi a été « enlevé », pour garder la monarchie constitutionnelle."
+ },
+ {
+  "id": "rv-champdemars",
+  "y": "17 juillet 1791",
+  "era": "monarchie",
+  "icon": "🩸",
+  "img": "Champ_de_Mars_massacre",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Malheureuse_journ%C3%A9e_du_17_juillet_1791.jpg/330px-Malheureuse_journ%C3%A9e_du_17_juillet_1791.jpg",
+  "pic": "images/revolution/rv-champdemars.jpg",
+  "title": "La fusillade du Champ-de-Mars",
+  "refs": [
+   "Fusillade du Champ-de-Mars",
+   "Club des Cordeliers",
+   "Club des Jacobins"
+  ],
+  "text": "Après la fuite à Varennes, les Parisiens discutent avec passion. Dans les [clubs] politiques, comme le club des Cordeliers ou celui des Jacobins, on débat chaque soir.\n\nAu club des Cordeliers, des révolutionnaires comme Danton, Marat et Desmoulins pensent que le roi a trahi et qu'il faut le remplacer. Ils rédigent une [pétition] qui demande qu'on juge le roi et qu'on organise un nouveau pouvoir.\n\nLe dimanche 17 juillet 1791, des milliers de Parisiens se rendent au Champ-de-Mars pour signer cette pétition sur l'autel de la Patrie, là où avait eu lieu la fête de la Fédération un an plus tôt.\n\nMais l'Assemblée a décidé de garder le roi. Le maire de Paris, Bailly, et le commandant de la garde nationale, La Fayette, considèrent ce rassemblement comme dangereux. Ils proclament la « loi martiale » et font hisser le drapeau rouge, qui signifie que la force peut être utilisée.\n\nLa garde nationale arrive au Champ-de-Mars. Des pierres sont lancées. Les gardes tirent sur la foule. Il y a des dizaines de morts, peut-être une cinquantaine.\n\nC'est la première fois que des révolutionnaires tirent sur d'autres révolutionnaires. Les partisans de la monarchie constitutionnelle et ceux de la république sont désormais ennemis.\n\nBeaucoup de leaders républicains se cachent ou s'enfuient pendant quelque temps. Le club des Jacobins se divise : les modérés le quittent pour fonder le club des Feuillants.\n\nPour Bailly et La Fayette, autrefois héros du peuple, c'est la fin de leur popularité. Le peuple parisien ne leur pardonnera pas. Bailly sera guillotiné en 1793, sur le Champ-de-Mars, à l'endroit même de la fusillade."
+ },
+ {
+  "id": "rv-gouges",
+  "y": "1791",
+  "era": "monarchie",
+  "icon": "✒️",
+  "img": "Olympe_de_Gouges",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Olympe_de_Gouges.png/330px-Olympe_de_Gouges.png",
+  "pic": "images/revolution/rv-gouges.png",
+  "title": "Olympe de Gouges et les droits des femmes",
+  "refs": [
+   "Olympe de Gouges",
+   "Déclaration des droits de la femme et de la citoyenne",
+   "Femmes dans la Révolution française"
+  ],
+  "text": "Les femmes ont joué un grand rôle dans la Révolution : elles ont manifesté, marché sur Versailles, fondé des clubs, écrit dans les journaux. Pourtant, la Déclaration des droits de l'homme ne parle pas d'elles, et elles n'ont pas le droit de voter.\n\nUne femme décide de protester : Olympe de Gouges. Née en 1748 à Montauban, dans une famille modeste, elle est veuve très jeune et s'installe à Paris, où elle devient écrivaine. Elle écrit des pièces de théâtre, dont une contre l'esclavage des Noirs, ce qui est très courageux à l'époque.\n\nEn septembre 1791, elle publie la [Déclaration des droits de la femme et de la citoyenne]. Elle reprend la Déclaration de 1789 article par article, mais en ajoutant les femmes. Le premier article dit :\n\n« La femme naît libre et demeure égale à l'homme en droits. »\n\nElle écrit aussi une phrase restée célèbre : « La femme a le droit de monter sur l'échafaud ; elle doit avoir également celui de monter à la tribune. » Autrement dit : si une femme peut être punie comme un homme, elle doit aussi pouvoir faire de la politique comme un homme !\n\nElle réclame le droit de vote, l'égalité dans le mariage, le droit au divorce et la reconnaissance des enfants nés hors mariage.\n\nD'autres femmes se battent aussi, comme Théroigne de Méricourt ou Pauline Léon, qui réclament le droit de porter les armes.\n\nLa Révolution apporte quelques progrès : en 1792, le mariage devient civil et le divorce est autorisé, à égalité pour l'homme et la femme. Les filles héritent autant que les garçons.\n\nMais les femmes n'obtiennent pas le droit de vote. En 1793, les clubs de femmes sont même interdits.\n\nOlympe de Gouges, qui critique Robespierre, est guillotinée le 3 novembre 1793. Les Françaises devront attendre 1944 pour voter."
+ },
+ {
+  "id": "rv-constitution1791",
+  "y": "septembre 1791",
+  "era": "monarchie",
+  "icon": "📘",
+  "img": "French_Constitution_of_1791",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Constitution_de_1791._Page_1_-_Archives_Nationales_-_AE-I-10-1.jpg/330px-Constitution_de_1791._Page_1_-_Archives_Nationales_-_AE-I-10-1.jpg",
+  "pic": "images/revolution/rv-constitution1791.jpg",
+  "title": "La première Constitution de la France",
+  "refs": [
+   "Constitution française du 3 septembre 1791",
+   "Monarchie constitutionnelle",
+   "Assemblée nationale législative"
+  ],
+  "text": "Depuis le serment du Jeu de paume, en juin 1789, les députés ont promis de donner une [constitution] à la France. Il leur a fallu plus de deux ans de travail !\n\nLe 3 septembre 1791, la première Constitution écrite de l'histoire de France est enfin terminée. Elle commence par la Déclaration des droits de l'homme et du citoyen.\n\nLa France devient une [monarchie constitutionnelle] : il y a toujours un roi, mais il n'a plus tous les pouvoirs. Il ne s'appelle plus « roi de France » mais « roi des Français ». Son pouvoir vient désormais de la nation, et non plus de Dieu.\n\nLes pouvoirs sont séparés, comme le voulait Montesquieu :\n- le pouvoir de faire les lois appartient à une Assemblée législative de 745 députés élus ;\n- le roi dirige le gouvernement et choisit les ministres ;\n- les juges, élus eux aussi, rendent la justice.\n\nLe roi a un « veto suspensif » : il peut bloquer une loi pendant quelques années, mais pas pour toujours.\n\nMais tout le monde ne peut pas voter ! Seuls les hommes de plus de 25 ans qui paient un certain impôt sont des « citoyens actifs ». Les plus pauvres, les domestiques et toutes les femmes sont des « citoyens passifs » : ils ont des droits, mais ne votent pas. C'est ce qu'on appelle le [suffrage censitaire].\n\nLe 14 septembre 1791, Louis XVI jure fidélité à la Constitution devant l'Assemblée. L'Assemblée constituante se sépare. Ses membres ont décidé de ne pas pouvoir être réélus : la nouvelle Assemblée législative est donc composée d'hommes nouveaux.\n\nBeaucoup pensent que la Révolution est achevée. Mais le roi n'a pas vraiment accepté ce nouveau système, et la guerre approche...\n\nCette constitution ne durera qu'un an."
+ },
+ {
+  "id": "rv-guerre",
+  "y": "20 avril 1792",
+  "era": "monarchie",
+  "icon": "⚔️",
+  "img": "War_of_the_First_Coalition",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/War_of_the_first_coalition.jpg/330px-War_of_the_first_coalition.jpg",
+  "pic": "images/revolution/rv-guerre.jpg",
+  "title": "La France déclare la guerre à l'Autriche",
+  "refs": [
+   "Guerre de la première coalition",
+   "Girondins",
+   "Émigration française (1789-1815)"
+  ],
+  "text": "Les rois d'Europe regardent la Révolution française avec inquiétude. Et si leurs peuples, eux aussi, voulaient se révolter ? En août 1791, l'empereur d'Autriche, frère de Marie-Antoinette, et le roi de Prusse déclarent qu'ils sont prêts à aider Louis XVI.\n\nDe l'autre côté de la frontière, à Coblence, des milliers de nobles [émigrés] forment une armée pour revenir en France et rétablir l'Ancien Régime.\n\nÀ l'Assemblée législative, un groupe de députés, qu'on appellera plus tard les [Girondins] (car plusieurs viennent de la Gironde), veut la guerre. Leur chef, Brissot, pense qu'il faut aller libérer les peuples d'Europe de leurs rois, et démasquer les traîtres.\n\nÉtrangement, le roi et la reine veulent aussi la guerre, mais pour une autre raison : ils espèrent que la France sera battue et que les armées étrangères viendront les délivrer !\n\nSeuls quelques-uns, comme Robespierre, s'y opposent. Il dit : « Personne n'aime les missionnaires armés. »\n\nLe 20 avril 1792, la France déclare la guerre au « roi de Bohême et de Hongrie », c'est-à-dire à l'Autriche. La Prusse s'allie à l'Autriche.\n\nLe début est catastrophique. L'armée française est désorganisée : beaucoup d'officiers nobles ont émigré. Des soldats paniquent et s'enfuient. Les ennemis s'approchent de la frontière.\n\nEn juillet 1792, l'Assemblée proclame : « La patrie est en danger ! » On appelle tous les citoyens à s'engager comme volontaires. Des dizaines de milliers de jeunes gens s'enrôlent.\n\nCette guerre va durer, presque sans arrêt, jusqu'en 1815 ! Elle va rendre la Révolution plus dure et plus violente, car on voit des traîtres partout."
+ },
+ {
+  "id": "rv-marseillaise",
+  "y": "1792",
+  "era": "republique",
+  "icon": "🎶",
+  "img": "La_Marseillaise",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_July_2011-16a.jpg/330px-Paris_July_2011-16a.jpg",
+  "pic": "images/revolution/rv-marseillaise.jpg",
+  "title": "La Marseillaise",
+  "refs": [
+   "La Marseillaise",
+   "Claude Joseph Rouget de Lisle",
+   "Fédérés"
+  ],
+  "text": "Dans la nuit du 25 au 26 avril 1792, quelques jours après la déclaration de guerre, un jeune officier du génie, Claude Joseph Rouget de Lisle, est à Strasbourg. Le maire de la ville lui a demandé d'écrire un chant pour encourager les soldats de l'armée du Rhin.\n\nEn une nuit, Rouget de Lisle écrit les paroles et la musique d'un chant de guerre. Il l'appelle le « Chant de guerre pour l'armée du Rhin ».\n\nLe chant commence ainsi :\n« Allons enfants de la Patrie,\nLe jour de gloire est arrivé ! »\n\nLe chant plaît beaucoup et se répand vite. Il arrive jusqu'à Marseille. En juillet 1792, des volontaires marseillais, les « [fédérés] », partent à pied pour Paris, à plus de 800 kilomètres. Pendant tout le trajet, ils chantent ce chant. En arrivant à Paris, fin juillet, ils le chantent dans les rues.\n\nLes Parisiens, enthousiasmés, l'appellent « le chant des Marseillais », puis simplement « La Marseillaise ».\n\nLe chant devient le chant de la Révolution. On le chante dans les batailles, dans les fêtes, dans les rues. Le 14 juillet 1795, il devient le chant national.\n\nSous Napoléon et sous les rois qui reviennent ensuite, il est interdit, car il est trop révolutionnaire. Il redevient l'[hymne national] de la France en 1879, et il l'est toujours.\n\nSes paroles sont très guerrières, car elles ont été écrites pendant une guerre, quand la France était envahie. Certains trouvent aujourd'hui qu'elles sont trop violentes, d'autres rappellent qu'elles parlent de défendre la liberté contre les tyrans.\n\nLa Marseillaise est connue dans le monde entier comme un chant de liberté."
+ },
+ {
+  "id": "rv-10aout",
+  "y": "10 août 1792",
+  "era": "republique",
+  "icon": "🔥",
+  "img": "Insurrection_of_10_August_1792",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jacques_Bertaux_-_Der_Tuileriensturm_am_10._August_1792.jpg/330px-Jacques_Bertaux_-_Der_Tuileriensturm_am_10._August_1792.jpg",
+  "pic": "images/revolution/rv-10aout.jpg",
+  "title": "La chute de la monarchie",
+  "refs": [
+   "Journée du 10 août 1792",
+   "Palais des Tuileries",
+   "Sans-culottes"
+  ],
+  "text": "En été 1792, la situation est explosive. Les armées ennemies s'approchent. Le roi a utilisé son veto pour bloquer plusieurs lois. Beaucoup de Parisiens pensent qu'il trahit la France et qu'il est en contact avec l'ennemi.\n\nLe 1er août, on apprend à Paris le contenu d'une déclaration du duc de Brunswick, le chef de l'armée prussienne : si l'on touche à la famille royale, Paris sera détruit ! Au lieu d'effrayer les Parisiens, cette menace les met en colère.\n\nLes [sans-culottes] se préparent. On les appelle ainsi car ils portent un pantalon long, au lieu de la culotte courte et des bas de soie des nobles et des riches bourgeois. Ce sont des artisans, des boutiquiers, des ouvriers. Ils portent souvent un bonnet rouge.\n\nDans la nuit du 9 au 10 août 1792, le tocsin sonne dans Paris. Une nouvelle [Commune|commune de paris] insurrectionnelle prend le pouvoir à l'Hôtel de Ville.\n\nLe matin du 10 août, des milliers de sans-culottes et de fédérés, dont les Marseillais, attaquent le palais des Tuileries, où vit le roi. Le palais est défendu par des gardes suisses.\n\nLe roi et sa famille quittent le palais pour se réfugier à l'Assemblée. Mais le combat éclate. Il est très violent : des centaines de gardes suisses et d'assaillants sont tués.\n\nLe soir même, l'Assemblée suspend le roi. Quelques jours plus tard, la famille royale est enfermée dans la tour du Temple, une vieille forteresse.\n\nC'est la fin de la monarchie en France, après plus de mille ans de rois ! L'Assemblée décide d'élire une nouvelle assemblée, la [Convention], chargée d'écrire une nouvelle constitution. Pour la première fois, tous les hommes pourront voter, riches ou pauvres : c'est le [suffrage universel] masculin."
+ },
+ {
+  "id": "rv-septembre",
+  "y": "2–6 septembre 1792",
+  "era": "republique",
+  "icon": "🕯️",
+  "img": "September_massacres",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MassacrePrincessLamballe.jpg/330px-MassacrePrincessLamballe.jpg",
+  "pic": "images/revolution/rv-septembre.jpg",
+  "title": "Les massacres de Septembre",
+  "refs": [
+   "Massacres de Septembre",
+   "Prison de l'Abbaye",
+   "Georges Jacques Danton"
+  ],
+  "text": "La Révolution a aussi connu des moments très sombres. Il faut en parler honnêtement.\n\nFin août 1792, les nouvelles sont terribles. Les Prussiens ont franchi la frontière et pris la ville de Longwy. Le 2 septembre, on apprend qu'ils assiègent Verdun, la dernière forteresse avant Paris.\n\nLes Parisiens ont peur. Beaucoup d'hommes partent comme volontaires pour aller combattre. Une rumeur se répand : pendant que les soldats seront au front, les prisonniers des prisons de Paris, dont des prêtres réfractaires et des nobles, vont s'évader pour massacrer les familles des volontaires et livrer Paris à l'ennemi !\n\nLe ministre Danton appelle à l'énergie : « De l'audace, encore de l'audace, toujours de l'audace, et la France est sauvée ! »\n\nDu 2 au 6 septembre 1792, des bandes de gens armés envahissent les prisons de Paris. Elles organisent des sortes de faux tribunaux expéditifs, puis tuent les prisonniers. Entre 1 100 et 1 400 personnes sont massacrées, dont beaucoup de prêtres, mais aussi des prisonniers de droit commun, des femmes et même des enfants.\n\nParmi les victimes se trouve la princesse de Lamballe, amie de Marie-Antoinette.\n\nLes autorités ne font presque rien pour arrêter les massacres. Certains journalistes, comme Marat, les ont même encouragés.\n\nCes massacres horrifient une partie de la France et de l'Europe. Ils montrent comment la peur et la rumeur peuvent pousser des gens ordinaires à commettre des crimes terribles.\n\nLes historiens étudient encore aujourd'hui comment une telle violence a été possible. Se souvenir de ces moments aide à comprendre pourquoi la justice doit toujours être rendue par de vrais juges, selon la loi."
+ },
+ {
+  "id": "rv-valmy",
+  "y": "20 septembre 1792",
+  "era": "republique",
+  "icon": "💨",
+  "img": "Battle_of_Valmy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Valmy_Battle_painting.jpg/330px-Valmy_Battle_painting.jpg",
+  "pic": "images/revolution/rv-valmy.jpg",
+  "title": "La victoire de Valmy",
+  "refs": [
+   "Bataille de Valmy",
+   "Moulin de Valmy",
+   "François Christophe Kellermann"
+  ],
+  "text": "En septembre 1792, l'armée prussienne avance vers Paris. Elle est considérée comme la meilleure armée d'Europe, avec des soldats très bien entraînés. En face, l'armée française est composée d'anciens soldats du roi et de nombreux jeunes volontaires sans expérience.\n\nLe 20 septembre 1792, les deux armées se font face près du village de Valmy, en Champagne. L'armée française, commandée par les généraux Kellermann et Dumouriez, est installée sur une colline, près d'un moulin à vent.\n\nIl pleut depuis plusieurs jours. Le sol est boueux. La bataille commence par une longue canonnade : les deux camps se tirent dessus avec leurs canons. L'artillerie française, excellente, tient bon.\n\nLes Prussiens avancent pour attaquer. Alors, le général Kellermann met son chapeau au bout de son sabre, le lève vers le ciel et crie : « Vive la nation ! » Toute l'armée reprend son cri. Les soldats ne reculent pas.\n\nSurpris par ce courage, les Prussiens s'arrêtent, puis reculent. La pluie et la maladie (beaucoup de soldats prussiens souffrent de dysenterie) les découragent aussi. Quelques jours plus tard, ils repartent vers leur pays.\n\nCe n'est pas une grande bataille : il y a eu peu de morts, environ 300 du côté français. Mais c'est une victoire immense ! Pour la première fois, une armée de citoyens, qui se battent pour la nation et la liberté, a arrêté une armée de rois.\n\nLe grand écrivain allemand Goethe, qui était avec l'armée prussienne, aurait dit le soir : « De ce lieu et de ce jour date une nouvelle époque de l'histoire du monde. »\n\nParis est sauvé. Et le lendemain, il se passe quelque chose de très important..."
+ },
+ {
+  "id": "rv-republique",
+  "y": "21–22 septembre 1792",
+  "era": "republique",
+  "icon": "🇫🇷",
+  "img": "Proclamation_of_the_abolition_of_the_monarchy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg/330px-Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg",
+  "pic": "images/revolution/rv-republique.jpg",
+  "title": "La naissance de la République",
+  "refs": [
+   "Première République (France)",
+   "Convention nationale",
+   "Marianne"
+  ],
+  "text": "Le 20 septembre 1792, le jour même de la victoire de Valmy, une nouvelle assemblée se réunit pour la première fois à Paris : la Convention nationale. Ses 749 députés ont été élus par tous les hommes, riches ou pauvres.\n\nLe lendemain, 21 septembre 1792, la Convention prend sa première décision, à l'unanimité : « La royauté est abolie en France. »\n\nLe 22 septembre, elle décide de dater les documents officiels de « l'an I de la République ». La France est devenue une [république] ! C'est la Première République.\n\nDans une république, il n'y a plus de roi. Le pouvoir appartient au peuple, qui élit ses représentants. Le roi Louis XVI n'est plus qu'un simple citoyen : on l'appelle désormais « Louis Capet », du nom de son lointain ancêtre Hugues Capet.\n\nLa République adopte de nouveaux symboles :\n- le drapeau bleu, blanc, rouge ;\n- la devise « Liberté, Égalité », à laquelle on ajoutera plus tard « Fraternité » ;\n- une femme coiffée d'un bonnet phrygien rouge, symbole de la liberté, qu'on appellera plus tard Marianne ;\n- le coq gaulois, déjà ancien symbole de la France.\n\nOn ne dit plus « Monsieur » ou « Madame », mais « Citoyen » et « Citoyenne ». Beaucoup de gens se tutoient pour montrer qu'ils sont égaux.\n\nÀ la Convention, deux grands groupes s'opposent bientôt : les Girondins, plus modérés, qui s'appuient sur les départements, et les [Montagnards], plus radicaux, qui siègent en haut de l'assemblée, sur les bancs les plus élevés (la « Montagne »), et s'appuient sur les sans-culottes de Paris. Parmi eux : Robespierre, Danton et Marat.\n\nLa question qui divise tout le monde : que faire du roi ?"
+ },
+ {
+  "id": "rv-procesroi",
+  "y": "21 janvier 1793",
+  "era": "republique",
+  "icon": "⚖️",
+  "img": "Execution_of_Louis_XVI",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Execution_of_Louis_XVI.jpg/330px-Execution_of_Louis_XVI.jpg",
+  "pic": "images/revolution/rv-procesroi.jpg",
+  "title": "Le procès et l'exécution de Louis XVI",
+  "refs": [
+   "Procès de Louis XVI",
+   "Exécution de Louis XVI",
+   "Place de la Concorde"
+  ],
+  "text": "En novembre 1792, on découvre aux Tuileries une « armoire de fer », une cachette secrète contenant des lettres du roi. Elles prouvent qu'il était en contact avec les ennemis de la Révolution. La Convention décide de juger Louis XVI.\n\nLe procès commence en décembre 1792. C'est la Convention elle-même qui sert de tribunal. Le roi, appelé « Louis Capet », est accusé de « conspiration contre la liberté de la nation ».\n\nIl est défendu par trois avocats, dont le vieux Malesherbes, qui a 71 ans et qui a courageusement proposé de le défendre. Louis XVI répond calmement aux questions.\n\nLes députés votent un par un, à haute voix, devant tout le monde. Presque tous le déclarent coupable. Puis vient la question de la peine. Le vote dure plus de 24 heures. La mort est votée à une faible majorité : 387 voix contre 334.\n\nLe 21 janvier 1793, au matin, Louis XVI est conduit en voiture à travers Paris jusqu'à la place de la Révolution (aujourd'hui place de la Concorde). Des milliers de soldats bordent les rues. Il est calme et courageux.\n\nSur l'échafaud, il essaie de parler à la foule : « Je meurs innocent de tous les crimes qu'on m'impute. Je pardonne aux auteurs de ma mort. » Mais les tambours couvrent sa voix.\n\nIl est exécuté avec la [guillotine], une machine présentée comme plus rapide et moins cruelle que les anciennes méthodes d'exécution, et la même pour tous.\n\nL'exécution du roi choque toute l'Europe. Les rois étrangers, surtout l'Angleterre et l'Espagne, entrent en guerre contre la France. En France aussi, beaucoup de gens sont bouleversés.\n\nAujourd'hui, la France a aboli la peine de mort, depuis 1981."
+ },
+ {
+  "id": "rv-vendee",
+  "y": "mars 1793",
+  "era": "republique",
+  "icon": "❤️",
+  "img": "War_in_the_Vendée",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/GuerreVend%C3%A9e_1.jpg/330px-GuerreVend%C3%A9e_1.jpg",
+  "pic": "images/revolution/rv-vendee.jpg",
+  "title": "La guerre de Vendée",
+  "refs": [
+   "Guerre de Vendée",
+   "Chouannerie",
+   "Colonnes infernales"
+  ],
+  "text": "En février 1793, la République, en guerre contre presque toute l'Europe, a besoin de beaucoup de soldats. La Convention décide de lever 300 000 hommes. Dans chaque commune, des jeunes gens célibataires doivent être tirés au sort pour partir à l'armée.\n\nDans l'ouest de la France, dans la région qu'on appelle la Vendée, les paysans refusent. Ils ne veulent pas partir se battre loin de chez eux. Ils sont aussi très catholiques et attachés à leurs prêtres réfractaires, persécutés par la Révolution. Et ils ont été déçus : la Révolution ne leur a pas apporté grand-chose.\n\nEn mars 1793, des milliers de paysans se révoltent. Ils prennent les armes et choisissent comme chefs des nobles de la région, comme La Rochejaquelein, ou des gens du peuple, comme Cathelineau, un colporteur. Leur armée s'appelle « l'Armée catholique et royale ». Ils portent sur leur poitrine un cœur rouge surmonté d'une croix, le Sacré-Cœur.\n\nAu début, les Vendéens remportent de nombreuses victoires contre les armées républicaines. Mais en décembre 1793, ils sont écrasés.\n\nAlors, la répression est terrible. En 1794, la Convention envoie des [colonnes infernales] : des troupes qui parcourent la région en brûlant les villages et en tuant les habitants, y compris des femmes et des enfants. À Nantes, des milliers de prisonniers sont noyés dans la Loire.\n\nLa guerre de Vendée a fait environ 170 000 morts du côté vendéen, et des dizaines de milliers du côté républicain. C'est une véritable [guerre civile], où des Français combattent d'autres Français.\n\nEn Bretagne et en Normandie, d'autres révoltés, les « chouans », mènent une guérilla contre la République.\n\nLa paix ne revient vraiment qu'en 1800. La mémoire de ces événements reste très vive dans l'Ouest de la France."
+ },
+ {
+  "id": "rv-comite",
+  "y": "avril 1793",
+  "era": "terreur",
+  "icon": "🏛️",
+  "img": "Committee_of_Public_Safety",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Lazare-Carnot-par-Boilly.jpg/330px-Lazare-Carnot-par-Boilly.jpg",
+  "pic": "images/revolution/rv-comite.jpg",
+  "title": "Le Comité de salut public",
+  "refs": [
+   "Comité de salut public",
+   "Maximilien de Robespierre",
+   "Montagnards (Révolution française)"
+  ],
+  "text": "Au printemps 1793, la République est en danger de tous les côtés. Presque toute l'Europe est en guerre contre elle : l'Autriche, la Prusse, l'Angleterre, l'Espagne, la Hollande... La Vendée s'est révoltée. Le pain est cher, et les sans-culottes de Paris sont en colère.\n\nPour gouverner plus vite et plus fermement, la Convention crée en avril 1793 un petit groupe de députés chargé de diriger le pays : le [Comité de salut public]. « Salut public » veut dire « sauver le pays ».\n\nLe Comité compte douze membres. Ils se réunissent tous les jours, souvent tard dans la nuit, au palais des Tuileries. Ils dirigent la guerre, la police, l'économie, la diplomatie.\n\nEn juin 1793, des sans-culottes armés entourent la Convention et obligent les députés à arrêter les chefs girondins. Les [Montagnards] prennent le pouvoir. Plusieurs régions, comme Lyon, Marseille ou Bordeaux, se révoltent contre Paris.\n\nEn juillet 1793, Maximilien de Robespierre entre au Comité. C'est un avocat d'Arras, très travailleur, toujours élégant, qu'on surnomme « l'Incorruptible » parce qu'il ne se laisse jamais acheter. Il défend les pauvres et la démocratie, mais il devient aussi de plus en plus impitoyable avec ceux qu'il considère comme des ennemis de la Révolution.\n\nParmi les autres membres, on trouve Saint-Just, un jeune homme de 25 ans, Couthon, et Carnot, un ingénieur qui organise les armées. Carnot réussit à mobiliser plus d'un million de soldats avec la « levée en masse » d'août 1793.\n\nLe Comité obtient des résultats : les armées ennemies sont repoussées et les révoltes écrasées. Mais pour y parvenir, il installe un gouvernement d'exception, sans élections, qui va utiliser la peur comme arme."
+ },
+ {
+  "id": "rv-marat",
+  "y": "13 juillet 1793",
+  "era": "terreur",
+  "icon": "🛁",
+  "img": "The_Death_of_Marat",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/330px-Death_of_Marat_by_David.jpg",
+  "pic": "images/revolution/rv-marat.jpg",
+  "title": "La mort de Marat",
+  "refs": [
+   "Jean-Paul Marat",
+   "Charlotte Corday",
+   "La Mort de Marat"
+  ],
+  "text": "Jean-Paul Marat est l'un des révolutionnaires les plus célèbres et les plus redoutés. Médecin et savant, il est devenu journaliste. Son journal, L'Ami du peuple, dénonce violemment tous ceux qu'il considère comme des traîtres et appelle souvent à les tuer. Les sans-culottes l'adorent. Ses ennemis le détestent.\n\nMarat souffre d'une maladie de peau très douloureuse. Pour la soulager, il passe de longues heures dans une baignoire remplie d'eau et de médicaments, où il continue d'écrire, sur une planche posée en travers.\n\nCharlotte Corday est une jeune femme de 24 ans, de Caen, en Normandie. Elle soutient les Girondins, qui ont été chassés de la Convention. Pour elle, Marat est responsable de la violence et de la guerre civile. Elle pense qu'en le tuant, elle ramènera la paix.\n\nElle vient à Paris et achète un couteau. Le 13 juillet 1793, elle se présente chez Marat en disant qu'elle a des informations sur des traîtres. Marat la reçoit dans sa baignoire. Pendant qu'il note des noms, elle le poignarde. Il meurt presque aussitôt.\n\nCharlotte Corday ne cherche pas à s'enfuir. Lors de son procès, elle déclare : « J'ai tué un homme pour en sauver cent mille. » Elle est guillotinée quatre jours plus tard.\n\nMais elle s'est trompée : la mort de Marat ne ramène pas la paix. Au contraire, il devient un [martyr] de la Révolution, et ses partisans réclament encore plus de sévérité.\n\nLe peintre Jacques-Louis David, ami de Marat, peint un tableau célèbre : La Mort de Marat. On y voit Marat mort dans sa baignoire, la plume encore à la main. C'est l'un des tableaux les plus connus de la Révolution. Il est aujourd'hui exposé à Bruxelles."
+ },
+ {
+  "id": "rv-louvre",
+  "y": "10 août 1793",
+  "era": "terreur",
+  "icon": "🖼️",
+  "img": "Louvre",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/330px-Louvre_Museum_Wikimedia_Commons.jpg",
+  "pic": "images/revolution/rv-louvre.jpg",
+  "title": "Le Louvre devient un musée pour tous",
+  "refs": [
+   "Musée du Louvre",
+   "Palais du Louvre",
+   "Muséum national d'histoire naturelle"
+  ],
+  "text": "Pendant des siècles, les plus beaux tableaux et les plus belles statues de France appartenaient au roi. Ils décoraient ses palais, et seuls les nobles et les invités pouvaient les admirer.\n\nLes révolutionnaires pensent que ces trésors doivent appartenir à la nation, c'est-à-dire à tout le monde. Ils veulent aussi que les œuvres d'art servent à éduquer le peuple.\n\nLe 10 août 1793, pour le premier anniversaire de la chute de la monarchie, le « Muséum central des arts » ouvre ses portes dans le palais du Louvre, l'ancien palais des rois à Paris. C'est la naissance du [musée] du Louvre !\n\nL'entrée est gratuite. Le musée est ouvert à tous : riches et pauvres, Français et étrangers. Certains jours sont réservés aux artistes qui viennent copier les œuvres pour apprendre à peindre.\n\nAu début, on y expose environ 500 tableaux, des chefs-d'œuvre des collections royales, comme ceux de Léonard de Vinci ou de Raphaël. La Joconde, elle, n'y entrera qu'en 1797.\n\nLa Révolution crée aussi d'autres grandes institutions pour le savoir :\n- le Muséum national d'histoire naturelle, en 1793, avec sa ménagerie au Jardin des plantes ;\n- le Conservatoire national des arts et métiers, pour les inventions et les machines ;\n- l'École polytechnique, pour former des ingénieurs ;\n- les Archives nationales et la Bibliothèque nationale, ouvertes au public.\n\nMais la Révolution a aussi détruit beaucoup d'œuvres d'art. Des statues de rois ont été abattues, des églises pillées. À Notre-Dame de Paris, les statues des rois de Juda ont été décapitées, car on les prenait pour des rois de France ! Un prêtre, l'abbé Grégoire, invente alors le mot « [vandalisme] » pour dénoncer ces destructions.\n\nAujourd'hui, le Louvre est le musée le plus visité du monde."
+ },
+ {
+  "id": "rv-terreur",
+  "y": "septembre 1793",
+  "era": "terreur",
+  "icon": "⚠️",
+  "img": "Reign_of_Terror",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg/330px-Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg",
+  "pic": "images/revolution/rv-terreur.jpg",
+  "title": "La Terreur",
+  "refs": [
+   "Terreur (Révolution française)",
+   "Loi des suspects",
+   "Tribunal révolutionnaire"
+  ],
+  "text": "Le 5 septembre 1793, des sans-culottes envahissent la Convention. Ils réclament du pain et des mesures sévères contre les ennemis de la Révolution. Un député s'écrie : « Plaçons la Terreur à l'ordre du jour ! »\n\nC'est le début de la période la plus sombre de la Révolution : la [Terreur]. L'idée des dirigeants est qu'il faut faire peur aux ennemis de la République pour la sauver.\n\nLe 17 septembre 1793, la Convention vote la [loi des suspects]. Elle permet d'arrêter toute personne « suspecte » d'être contre la Révolution : les nobles, leurs familles, les parents des émigrés, les anciens fonctionnaires, mais aussi quiconque a critiqué le gouvernement ou n'a pas montré assez d'enthousiasme. Il suffit parfois d'une dénonciation d'un voisin !\n\nPlus de 300 000 personnes sont arrêtées. Les prisons sont pleines.\n\nLes suspects sont jugés par le [Tribunal révolutionnaire], à Paris et dans d'autres villes. Les procès sont très rapides, et les accusés ont peu de moyens de se défendre. Beaucoup sont condamnés à mort et guillotinés.\n\nEnviron 17 000 personnes sont exécutées après un jugement, et beaucoup d'autres meurent en prison ou sont tuées sans procès, surtout dans les régions révoltées. Au total, on estime que la Terreur a fait plusieurs dizaines de milliers de victimes. Parmi elles, il y a des nobles, mais la plupart sont des gens du peuple : paysans, artisans...\n\nDes révolutionnaires eux-mêmes sont victimes : les Girondins, puis Danton et ses amis, qui demandaient qu'on arrête la Terreur, sont guillotinés en avril 1794.\n\nEn même temps, le gouvernement fixe un prix maximum pour le pain et les produits de base, pour aider les pauvres.\n\nLa Terreur reste un exemple de ce qui arrive quand, au nom d'une bonne cause, on supprime les libertés et les droits de se défendre."
+ },
+ {
+  "id": "rv-calendrier",
+  "y": "octobre 1793",
+  "era": "terreur",
+  "icon": "📅",
+  "img": "French_Republican_calendar",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Calendrier-republicain-debucourt2.jpg/330px-Calendrier-republicain-debucourt2.jpg",
+  "pic": "images/revolution/rv-calendrier.jpg",
+  "title": "Le calendrier républicain",
+  "refs": [
+   "Calendrier républicain",
+   "Fabre d'Églantine",
+   "Décade (calendrier)"
+  ],
+  "text": "Les révolutionnaires veulent tout changer, même le temps ! Pour eux, le calendrier habituel est trop lié à la religion et aux rois : les jours portent des noms de saints, et les années se comptent à partir de la naissance de Jésus.\n\nEn octobre 1793, la Convention adopte un nouveau calendrier : le [calendrier républicain]. L'an I commence le 22 septembre 1792, le jour de la naissance de la République.\n\nL'année est divisée en 12 mois de 30 jours. Le poète Fabre d'Églantine leur donne des noms poétiques, liés à la nature et aux saisons :\n- en automne : vendémiaire (les vendanges), brumaire (la brume), frimaire (les frimas, le froid) ;\n- en hiver : nivôse (la neige), pluviôse (la pluie), ventôse (le vent) ;\n- au printemps : germinal (les graines qui germent), floréal (les fleurs), prairial (les prairies) ;\n- en été : messidor (les moissons), thermidor (la chaleur), fructidor (les fruits).\n\nComme 12 × 30 = 360, il reste 5 ou 6 jours à la fin de l'année : ce sont les « sans-culottides », des jours de fête.\n\nPlus de semaines de 7 jours ! Chaque mois est divisé en trois « [décades] » de 10 jours : primidi, duodi, tridi... jusqu'à décadi, le jour de repos. Cela fait un seul jour de repos tous les 10 jours au lieu de tous les 7 jours, ce qui ne plaît pas beaucoup aux travailleurs !\n\nChaque jour porte aussi le nom d'une plante, d'un animal ou d'un outil : le jour de la carotte, du cheval, de la charrue...\n\nOn a même essayé d'inventer des heures décimales : 10 heures par jour et 100 minutes par heure ! Mais cela n'a pas marché.\n\nLe calendrier républicain est utilisé pendant 12 ans. Napoléon le supprime le 1er janvier 1806. Mais on en parle encore aujourd'hui : « le 9 thermidor », « le 18 brumaire »..."
+ },
+ {
+  "id": "rv-mariea",
+  "y": "16 octobre 1793",
+  "era": "terreur",
+  "icon": "👑",
+  "img": "Marie_Antoinette",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg/330px-Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg",
+  "pic": "images/revolution/rv-mariea.jpg",
+  "title": "Le destin de Marie-Antoinette et de ses enfants",
+  "refs": [
+   "Marie-Antoinette d'Autriche",
+   "Louis XVII",
+   "Marie-Thérèse de France (1778-1851)"
+  ],
+  "text": "Après l'exécution de Louis XVI, Marie-Antoinette reste prisonnière avec ses enfants et sa belle-sœur, Madame Élisabeth, dans la tour du Temple. On l'appelle désormais « la veuve Capet ».\n\nMarie-Antoinette est très impopulaire. Depuis des années, des pamphlets l'accusent de tous les maux : d'avoir ruiné la France par ses dépenses, d'avoir trahi le pays au profit de l'Autriche. On lui attribue même une phrase qu'elle n'a jamais dite : « S'ils n'ont pas de pain, qu'ils mangent de la brioche ! »\n\nEn juillet 1793, on lui enlève son fils, Louis-Charles, âgé de 8 ans. Pour les royalistes, il est le nouveau roi, « Louis XVII ». Il est confié à un cordonnier et reste enfermé seul. Il sera très mal traité et mourra de maladie en prison en 1795, à 10 ans.\n\nEn août, Marie-Antoinette est transférée à la Conciergerie, une prison sur l'île de la Cité. En octobre 1793, elle est jugée par le Tribunal révolutionnaire. On l'accuse d'avoir comploté avec l'ennemi. On porte même contre elle des accusations mensongères et odieuses. Elle se défend avec dignité.\n\nElle est condamnée à mort. Le 16 octobre 1793, on lui coupe les cheveux, et elle est conduite dans une simple charrette jusqu'à la place de la Révolution. Le peintre David fait un croquis d'elle sur le chemin. Elle a 37 ans.\n\nSur l'échafaud, elle marche par accident sur le pied du bourreau et lui dit : « Monsieur, je vous demande pardon, je ne l'ai pas fait exprès. » Ce seraient ses derniers mots.\n\nSa fille, Marie-Thérèse, surnommée « Madame Royale », est la seule survivante de la famille. En 1795, elle est échangée contre des prisonniers français et part en Autriche.\n\nAujourd'hui, les historiens montrent que beaucoup d'accusations contre Marie-Antoinette étaient exagérées ou fausses."
+ },
+ {
+  "id": "rv-esclavage",
+  "y": "4 février 1794",
+  "era": "terreur",
+  "icon": "⛓️",
+  "img": "Toussaint_Louverture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Toussaint_Louverture_-_Girardin.jpg/330px-Toussaint_Louverture_-_Girardin.jpg",
+  "pic": "images/revolution/rv-esclavage.jpg",
+  "title": "La première abolition de l'esclavage",
+  "refs": [
+   "Abolition de l'esclavage en France",
+   "Toussaint Louverture",
+   "Révolution haïtienne"
+  ],
+  "text": "En 1789, la France possède des colonies dans les Caraïbes, comme Saint-Domingue (aujourd'hui Haïti), la Guadeloupe et la Martinique. Des centaines de milliers d'Africains et leurs descendants y sont réduits en [esclavage]. Ils cultivent la canne à sucre et le café dans des conditions terribles. Saint-Domingue est la colonie la plus riche du monde.\n\nPourtant, la Déclaration des droits de l'homme dit que « les hommes naissent libres et égaux en droits » ! Certains révolutionnaires, comme l'abbé Grégoire et les membres de la « Société des amis des Noirs », dénoncent cette contradiction. Mais les riches colons et les marchands des ports, comme Bordeaux et Nantes, s'opposent à l'abolition.\n\nEn août 1791, à Saint-Domingue, les esclaves se révoltent en masse. C'est la plus grande révolte d'esclaves de l'histoire. Parmi leurs chefs apparaît un ancien esclave affranchi, très intelligent et habile : Toussaint Louverture.\n\nEn 1793, les commissaires de la République à Saint-Domingue, comme Sonthonax, proclament la liberté des esclaves de l'île.\n\nLe 4 février 1794 (16 pluviôse an II), trois députés de Saint-Domingue, dont un ancien esclave, Jean-Baptiste Belley, arrivent à la Convention. Ce jour-là, la Convention vote l'[abolition] de l'esclavage dans toutes les colonies françaises ! Les anciens esclaves deviennent des citoyens français.\n\nC'est une décision historique, la première abolition de l'esclavage par un grand pays européen.\n\nMalheureusement, Napoléon Bonaparte rétablit l'esclavage en 1802. Mais à Saint-Domingue, les anciens esclaves se battent. Toussaint Louverture est capturé et meurt en prison en France, mais ses compagnons gagnent la guerre : en 1804, Haïti devient le premier pays indépendant fondé par d'anciens esclaves.\n\nL'esclavage ne sera définitivement aboli en France qu'en 1848."
+ },
+ {
+  "id": "rv-etresupreme",
+  "y": "8 juin 1794",
+  "era": "terreur",
+  "icon": "☀️",
+  "img": "Festival_of_the_Supreme_Being",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Le_peuple_fran%C3%A7ais_reconna%C3%AEt_l%27%C3%AAtre_supr%C3%AAme.jpg/330px-Le_peuple_fran%C3%A7ais_reconna%C3%AEt_l%27%C3%AAtre_supr%C3%AAme.jpg",
+  "pic": "images/revolution/rv-etresupreme.jpg",
+  "title": "La fête de l'Être suprême",
+  "refs": [
+   "Fête de l'Être suprême",
+   "Culte de l'Être suprême",
+   "Déchristianisation"
+  ],
+  "text": "En 1793, certains révolutionnaires veulent faire disparaître la religion chrétienne : c'est la [déchristianisation]. Des églises sont fermées ou transformées en « temples de la Raison ». Des prêtres sont forcés de renoncer à leur métier. Des cloches sont fondues pour faire des canons. À Notre-Dame de Paris, on organise une « fête de la Raison », avec une actrice qui représente la Liberté.\n\nRobespierre n'aime pas ces excès. Il pense que le peuple a besoin de croire en quelque chose, et que les gens qui se moquent de toute religion sont dangereux pour la morale. Il n'est pas catholique, mais il croit en un Dieu créateur, qu'il appelle l'« Être suprême », et en l'immortalité de l'âme.\n\nEn mai 1794, il fait voter un décret : « Le peuple français reconnaît l'existence de l'Être suprême et l'immortalité de l'âme. »\n\nLe 8 juin 1794 (20 prairial an II), une immense fête est organisée à Paris, préparée par le peintre David. Des centaines de milliers de Parisiens y participent. Les femmes portent des fleurs, les hommes des branches de chêne.\n\nRobespierre, président de la Convention, marche en tête, en habit bleu, avec un bouquet de fleurs et d'épis de blé. Il met le feu à une grande statue représentant l'Athéisme, sous laquelle apparaît une statue de la Sagesse (un peu noircie par la fumée !). Puis le cortège se rend au Champ-de-Mars, où l'on a construit une montagne artificielle avec un arbre de la Liberté au sommet.\n\nMais beaucoup de députés trouvent que Robespierre se prend pour un grand prêtre ou un dictateur. Certains se moquent de lui dans son dos.\n\nDeux jours plus tard, une nouvelle loi rend la Terreur encore plus terrible. Les députés commencent à avoir peur pour leur propre vie..."
+ },
+ {
+  "id": "rv-thermidor",
+  "y": "27–28 juillet 1794",
+  "era": "terreur",
+  "icon": "⏳",
+  "img": "Maximilien_Robespierre",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Robespierre.jpg/330px-Robespierre.jpg",
+  "pic": "images/revolution/rv-thermidor.jpg",
+  "title": "Le 9 Thermidor : la chute de Robespierre",
+  "refs": [
+   "Chute de Robespierre",
+   "Maximilien de Robespierre",
+   "Réaction thermidorienne"
+  ],
+  "text": "En juin et juillet 1794, la Terreur est à son maximum. Une loi du 10 juin a supprimé presque tous les droits des accusés : plus d'avocats, plus de témoins obligatoires. À Paris, plus de 1 300 personnes sont guillotinées en seulement sept semaines. C'est ce qu'on appelle la « Grande Terreur ».\n\nPourtant, la situation s'est améliorée : les armées françaises gagnent. Le 26 juin 1794, elles remportent une grande victoire à Fleurus, en Belgique. Beaucoup pensent que la Terreur n'est plus nécessaire.\n\nLe 26 juillet 1794 (8 thermidor an II), Robespierre fait un long discours à la Convention. Il dit qu'il y a encore des traîtres parmi les députés, mais il refuse de donner leurs noms. Chaque député se demande : « Et si c'était moi ? »\n\nLe lendemain, 27 juillet (9 thermidor), les députés menacés s'unissent contre lui. Quand Robespierre veut parler, on l'empêche en criant : « À bas le tyran ! » Il est arrêté avec son frère, Saint-Just et Couthon.\n\nDans la nuit, la Commune de Paris, qui soutient Robespierre, les libère et les emmène à l'Hôtel de Ville. Mais peu de sans-culottes viennent les défendre. Des soldats de la Convention prennent l'Hôtel de Ville. Robespierre est blessé à la mâchoire par un coup de pistolet.\n\nLe 28 juillet 1794 (10 thermidor), Robespierre et 21 de ses partisans sont guillotinés sur la place de la Révolution, sans procès. Le lendemain, 71 autres suivent.\n\nC'est la fin de la Terreur. Les prisons s'ouvrent, des milliers de suspects sont libérés. Le Tribunal révolutionnaire est réformé, puis supprimé. Le club des Jacobins est fermé.\n\nLes historiens débattent encore aujourd'hui de Robespierre : défenseur du peuple et de la démocratie pour les uns, tyran sanguinaire pour les autres."
+ },
+ {
+  "id": "rv-muscadins",
+  "y": "1795",
+  "era": "directoire",
+  "icon": "🎩",
+  "img": "Incroyables_and_Merveilleuses",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Incroyable_et_Merveilleuse_2A.jpg/330px-Incroyable_et_Merveilleuse_2A.jpg",
+  "pic": "images/revolution/rv-muscadins.jpg",
+  "title": "Incroyables, Merveilleuses et hiver de famine",
+  "refs": [
+   "Incroyables et Merveilleuses",
+   "Réaction thermidorienne",
+   "Muscadin"
+  ],
+  "text": "Après la chute de Robespierre, la France respire. On appelle cette période la « réaction thermidorienne ». Les Français veulent oublier la peur et s'amuser.\n\nÀ Paris, des jeunes gens riches, souvent fils de bourgeois, se font remarquer. On les appelle les « [Incroyables] » et les « Muscadins », car ils se parfument au musc. Ils portent des habits exagérés : d'énormes cravates qui montent jusqu'au nez, des cheveux longs sur les côtés, des lunettes, et un gros bâton plombé qu'ils appellent leur « pouvoir exécutif ». Ils attaquent les anciens Jacobins dans les rues !\n\nIls parlent aussi d'une façon bizarre : ils ne prononcent pas la lettre « r », qui leur rappelle le mot « Révolution ». Ils disent « Ma pa'ole d'honneu' ! » ou « C'est inc'oyable ! ». D'où leur surnom.\n\nLes jeunes femmes à la mode, les « Merveilleuses », portent des robes légères et transparentes, inspirées de l'Antiquité grecque, et des perruques blondes. On organise des bals partout. Il y a même des « bals des victimes », réservés à ceux dont un parent a été guillotiné !\n\nMais pendant que certains s'amusent, le peuple souffre. En décembre 1794, le prix maximum du pain est supprimé. Les prix s'envolent. La monnaie de papier, l'[assignat], ne vaut presque plus rien. L'hiver 1794-1795 est terriblement froid. Beaucoup de pauvres meurent de faim.\n\nAu printemps 1795, les sans-culottes affamés envahissent la Convention en criant : « Du pain et la Constitution de 1793 ! » Ils sont repoussés par l'armée. C'est la fin du mouvement sans-culotte.\n\nLa Convention prépare une nouvelle constitution, qui donnera le pouvoir aux plus riches et évitera qu'un seul homme puisse devenir trop puissant."
+ },
+ {
+  "id": "rv-metre",
+  "y": "7 avril 1795",
+  "era": "directoire",
+  "icon": "📏",
+  "img": "History_of_the_metre",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Metric_standards_Rijksmuseum.jpg/330px-Metric_standards_Rijksmuseum.jpg",
+  "pic": "images/revolution/rv-metre.jpg",
+  "title": "Le mètre : une mesure pour tous",
+  "refs": [
+   "Mètre",
+   "Système métrique",
+   "Méridienne de Delambre et Méchain"
+  ],
+  "text": "Avant la Révolution, chaque région avait ses propres mesures. Le pied, l'aune, la toise, la lieue, le boisseau... changeaient d'une ville à l'autre ! Les marchands pouvaient facilement tricher, et les cahiers de doléances réclamaient souvent « un roi, une loi, un poids, une mesure ».\n\nLes révolutionnaires décident de créer un système de mesures unique, simple et égal pour tous, qui pourrait servir au monde entier. Ils disent qu'il sera « pour tous les temps, pour tous les peuples ».\n\nDes savants, comme Condorcet, Lagrange et Laplace, proposent de choisir une mesure tirée de la nature : la Terre elle-même ! Le [mètre] sera égal à la dix-millionième partie de la distance entre le pôle Nord et l'équateur.\n\nPour la calculer, deux astronomes, Delambre et Méchain, mesurent avec une grande précision la distance entre Dunkerque et Barcelone, en visant des clochers et des sommets avec des instruments. Leur mission dure de 1792 à 1799, en pleine Révolution et en pleine guerre ! Ils sont parfois arrêtés, car les gens les prennent pour des espions.\n\nLe 7 avril 1795 (18 germinal an III), la loi crée officiellement le [système métrique]. Tout est basé sur le nombre 10, ce qui rend les calculs faciles : c'est le système [décimal].\n\n- le mètre pour les longueurs ;\n- le gramme pour les masses (le poids d'un centimètre cube d'eau) ;\n- le litre pour les volumes ;\n- l'are pour les surfaces ;\n- et le franc, une nouvelle monnaie divisée en 100 centimes.\n\nEn 1799, un mètre étalon en platine est fabriqué et déposé aux Archives.\n\nAu début, les Français ont du mal à abandonner leurs vieilles habitudes. Mais aujourd'hui, presque tous les pays du monde utilisent le système métrique. C'est l'un des plus beaux héritages de la Révolution !"
+ },
+ {
+  "id": "rv-vendemiaire",
+  "y": "5 octobre 1795",
+  "era": "directoire",
+  "icon": "💥",
+  "img": "13_Vendémiaire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Attaque_de_la_Convention_nationale%2C_1795.jpg/330px-Attaque_de_la_Convention_nationale%2C_1795.jpg",
+  "pic": "images/revolution/rv-vendemiaire.jpg",
+  "title": "Le jeune général Bonaparte entre en scène",
+  "refs": [
+   "Insurrection royaliste du 13 vendémiaire an IV",
+   "Napoléon Bonaparte",
+   "Église Saint-Roch (Paris)"
+  ],
+  "text": "En 1795, la Convention termine une nouvelle constitution. Pour éviter un retour des royalistes, elle décide que les deux tiers des futurs députés devront être choisis parmi les membres de la Convention.\n\nLes [royalistes], qui voulaient reprendre le pouvoir par les élections, sont furieux. Ils décident de se révolter. Le 5 octobre 1795 (13 vendémiaire an IV), environ 25 000 insurgés armés marchent sur la Convention, aux Tuileries.\n\nPour défendre l'assemblée, le député Barras fait appel à un jeune général de 26 ans, sans emploi à ce moment-là, qu'il a connu au siège de Toulon : Napoléon Bonaparte.\n\nBonaparte est né en Corse en 1769, dans une famille de petite noblesse. Il est officier d'artillerie, c'est-à-dire spécialiste des canons. En 1793, il s'était fait remarquer en aidant à reprendre le port de Toulon aux Anglais.\n\nBonaparte agit vite. Il envoie un officier de cavalerie, Murat, chercher 40 canons dans un camp près de Paris. Il les place autour des Tuileries.\n\nQuand les insurgés attaquent, notamment devant l'église Saint-Roch, rue Saint-Honoré, Bonaparte fait tirer au canon. En quelques heures, la révolte est écrasée. Il y a environ 300 morts.\n\nLes royalistes le surnomment avec mépris « le général Vendémiaire ». Mais pour la République, il est un sauveur. Il devient général en chef de l'armée de l'Intérieur.\n\nQuelques mois plus tard, en mars 1796, il épouse Joséphine de Beauharnais, une veuve élégante dont le premier mari a été guillotiné.\n\nPersonne ne se doute encore que ce petit général corse va bientôt dominer la France et toute l'Europe..."
+ },
+ {
+  "id": "rv-directoire",
+  "y": "1795–1799",
+  "era": "directoire",
+  "icon": "🖐️",
+  "img": "French_Directory",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Paul_Barras_%281755%E2%80%931829%29.jpg/330px-Paul_Barras_%281755%E2%80%931829%29.jpg",
+  "pic": "images/revolution/rv-directoire.jpg",
+  "title": "Le Directoire : cinq hommes au pouvoir",
+  "refs": [
+   "Directoire",
+   "Constitution de l'an III",
+   "Paul Barras"
+  ],
+  "text": "Après la Terreur, les députés ont peur qu'un seul homme ou un petit groupe devienne trop puissant. La nouvelle Constitution de l'an III, adoptée en 1795, partage donc le pouvoir entre beaucoup de personnes.\n\nLe pouvoir de faire les lois est confié à deux assemblées :\n- le Conseil des Cinq-Cents, qui propose les lois ;\n- le Conseil des Anciens, 250 députés de plus de 40 ans, qui les accepte ou les refuse.\n\nLe pouvoir de gouverner est confié à cinq hommes, les « Directeurs ». Ce gouvernement s'appelle le [Directoire]. Chaque année, l'un des cinq est remplacé. Le plus célèbre des Directeurs est Barras.\n\nLe droit de vote est à nouveau réservé aux hommes qui paient des impôts. Et pour être électeur au second degré, il faut être assez riche. C'est la bourgeoisie qui gouverne.\n\nLe Directoire dure quatre ans, mais il est fragile. Il est attaqué de deux côtés : par les royalistes, qui veulent le retour d'un roi, et par les anciens Jacobins, qui veulent plus d'égalité.\n\nEn 1796, un révolutionnaire appelé Gracchus Babeuf prépare un complot, la « conjuration des Égaux », pour partager les richesses entre tous. Il est arrêté et exécuté.\n\nQuand les élections donnent la victoire aux royalistes, en 1797, le Directoire fait appel à l'armée pour annuler les résultats. Il le refait en 1798 contre les Jacobins. Le gouvernement compte de plus en plus sur les généraux pour se maintenir.\n\nL'économie va mal, les routes sont dangereuses, et beaucoup de dirigeants sont accusés de corruption.\n\nPendant ce temps, les armées françaises remportent de grandes victoires à l'étranger, et les généraux deviennent de plus en plus populaires et puissants. L'un d'eux, surtout..."
+ },
+ {
+  "id": "rv-italie",
+  "y": "1796–1797",
+  "era": "directoire",
+  "icon": "🏔️",
+  "img": "Italian_campaign_of_1796–1797",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Paintings_of_Napoleon_I_on_the_battlefield.jpg/330px-Paintings_of_Napoleon_I_on_the_battlefield.jpg",
+  "pic": "images/revolution/rv-italie.jpg",
+  "title": "Bonaparte et la campagne d'Italie",
+  "refs": [
+   "Campagne d'Italie (1796-1797)",
+   "Bataille du pont d'Arcole",
+   "Traité de Campo-Formio"
+  ],
+  "text": "En 1796, la France est encore en guerre contre l'Autriche. Le Directoire confie à Napoléon Bonaparte, qui n'a que 26 ans, le commandement de l'armée d'Italie. C'est une petite armée pauvre et mal équipée : les soldats manquent de chaussures, de vêtements et de nourriture.\n\nBonaparte leur dit : « Soldats, vous êtes nus, mal nourris... Je veux vous conduire dans les plus fertiles plaines du monde. »\n\nEn quelques semaines, il remporte victoire sur victoire contre les Piémontais et les Autrichiens, dans le nord de l'Italie. Il se déplace très vite et surprend toujours ses ennemis.\n\nEn novembre 1796, à Arcole, ses soldats hésitent à traverser un pont sous le feu autrichien. Bonaparte prend un drapeau et s'élance lui-même sur le pont ! Le peintre Gros a immortalisé cette scène, même si, en réalité, Bonaparte est tombé dans un marais pendant la bataille.\n\nEn 1797, l'Autriche signe la paix de [Campo-Formio]. La France obtient la Belgique et contrôle le nord de l'Italie, où Bonaparte crée des « républiques sœurs ».\n\nMais cette campagne a aussi un côté sombre : les armées françaises pillent l'Italie. Des centaines d'œuvres d'art sont envoyées à Paris, au Louvre, et de l'or remplit les caisses du Directoire.\n\nBonaparte comprend aussi l'importance de sa propre image. Il fait publier des journaux qui racontent ses exploits et le présentent comme un héros. C'est une forme de [propagande].\n\nQuand il revient à Paris en décembre 1797, il est acclamé comme un héros. Il est devenu l'homme le plus populaire de France. Le Directoire commence à s'inquiéter de cet ambitieux général..."
+ },
+ {
+  "id": "rv-egypte",
+  "y": "1798–1799",
+  "era": "directoire",
+  "icon": "🐫",
+  "img": "French_campaign_in_Egypt_and_Syria",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/French_campaign_in_Egypt_and_Syria.jpg/330px-French_campaign_in_Egypt_and_Syria.jpg",
+  "pic": "images/revolution/rv-egypte.jpg",
+  "title": "L'expédition d'Égypte et la pierre de Rosette",
+  "refs": [
+   "Campagne d'Égypte",
+   "Pierre de Rosette",
+   "Jean-François Champollion"
+  ],
+  "text": "En 1798, le Directoire, un peu content d'éloigner Bonaparte, lui confie une expédition extraordinaire : conquérir l'Égypte ! Le but est de couper la route des Anglais vers l'Inde, leur plus riche colonie.\n\nEn mai 1798, une flotte de plus de 300 navires quitte Toulon avec 35 000 soldats. Mais il y a aussi à bord environ 160 savants, ingénieurs, dessinateurs et artistes, chargés d'étudier l'Égypte : ses plantes, ses animaux, ses monuments, son histoire.\n\nEn juillet 1798, près des pyramides, Bonaparte bat les Mamelouks, des cavaliers qui dominent l'Égypte. Il aurait dit à ses soldats : « Du haut de ces pyramides, quarante siècles vous contemplent ! »\n\nMais quelques jours plus tard, l'amiral anglais Nelson détruit la flotte française à Aboukir. L'armée française est coincée en Égypte. La campagne devient difficile : chaleur, maladies comme la peste, révoltes...\n\nLa plus belle réussite de l'expédition est scientifique. En 1799, des soldats français qui construisent un fort près de la ville de Rosette découvrent une grande pierre noire gravée : la [pierre de Rosette]. Elle porte le même texte écrit en trois écritures : en hiéroglyphes égyptiens, en démotique (une autre écriture égyptienne) et en grec ancien.\n\nGrâce à cette pierre, un jeune savant français, Jean-François Champollion, réussit en 1822 à déchiffrer les [hiéroglyphes], que plus personne ne savait lire depuis des siècles ! C'est la naissance de l'[égyptologie].\n\nLes savants publient ensuite La Description de l'Égypte, une immense encyclopédie illustrée.\n\nEn août 1799, Bonaparte apprend que la situation en France est mauvaise. Il abandonne son armée en Égypte et rentre discrètement en France. Il a un projet..."
+ },
+ {
+  "id": "rv-brumaire",
+  "y": "9–10 novembre 1799",
+  "era": "directoire",
+  "icon": "🗡️",
+  "img": "Coup_of_18_Brumaire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg/330px-Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg",
+  "pic": "images/revolution/rv-brumaire.jpg",
+  "title": "Le coup d'État du 18 Brumaire",
+  "refs": [
+   "Coup d'État du 18 Brumaire",
+   "Consulat (histoire de France)",
+   "Lucien Bonaparte"
+  ],
+  "text": "En octobre 1799, Bonaparte rentre d'Égypte. Sur son passage, la foule l'acclame comme un sauveur. Le Directoire est très impopulaire, et beaucoup de gens souhaitent un gouvernement plus fort.\n\nL'abbé Sieyès, l'auteur de Qu'est-ce que le tiers état ?, est devenu l'un des cinq Directeurs. Il veut changer la constitution et cherche un général pour l'aider. Il choisit Bonaparte.\n\nLe 9 novembre 1799 (18 brumaire an VIII), les conspirateurs font croire aux deux assemblées qu'un complot jacobin menace Paris. Ils les persuadent de se réunir le lendemain à Saint-Cloud, en dehors de Paris, protégées par des soldats commandés par Bonaparte. Trois Directeurs démissionnent.\n\nLe lendemain, 10 novembre (19 brumaire), à Saint-Cloud, les choses se passent mal. Bonaparte fait un discours confus devant le Conseil des Anciens. Puis il entre au Conseil des Cinq-Cents. Les députés crient : « À bas le dictateur ! Hors la loi ! » Bonaparte est bousculé et doit sortir.\n\nC'est son frère Lucien, président du Conseil des Cinq-Cents, qui sauve la situation. Il dit aux soldats que des députés armés de poignards ont menacé leur général. Les grenadiers entrent dans la salle, baïonnette en avant. Les députés s'enfuient, certains par les fenêtres !\n\nLe soir, quelques députés restés sur place votent la fin du Directoire. Le pouvoir est confié à trois [consuls] : Bonaparte, Sieyès et Roger Ducos. C'est un [coup d'État].\n\nQuelques jours plus tard, les consuls déclarent : « Citoyens, la Révolution est fixée aux principes qui l'ont commencée. Elle est finie. »\n\nTrès vite, Bonaparte devient Premier consul et prend tout le pouvoir. La Révolution est terminée. Une nouvelle époque commence."
+ },
+ {
+  "id": "rv-codecivil",
+  "y": "1804",
+  "era": "heritage",
+  "icon": "📕",
+  "img": "Napoleonic_Code",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg/330px-Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg",
+  "pic": "images/revolution/rv-codecivil.jpg",
+  "title": "Le Code civil garde des idées de la Révolution",
+  "refs": [
+   "Code civil des Français",
+   "Napoléon Ier",
+   "Premier Empire"
+  ],
+  "text": "Devenu Premier consul, Bonaparte gouverne seul. En 1804, il se fait sacrer empereur des Français sous le nom de Napoléon Ier. C'est la fin de la République. Il n'y a plus de vraie liberté de la presse ni d'élections libres.\n\nPourtant, Napoléon conserve une partie importante de l'héritage de la Révolution. Il dit lui-même : « Je suis la Révolution. »\n\nSa plus grande œuvre est le Code civil, publié le 21 mars 1804. Pendant la Révolution, les lois avaient beaucoup changé et étaient dispersées. Napoléon demande à des juristes de rassembler toutes les règles de la vie de tous les jours dans un seul livre, avec 2 281 articles.\n\nLe Code civil garde plusieurs grands principes de 1789 :\n- l'égalité de tous devant la loi : plus de privilèges de naissance ;\n- la liberté de conscience : on peut avoir la religion de son choix ;\n- le droit de propriété : ceux qui ont acheté les biens nationaux les gardent ;\n- le mariage civil, célébré à la mairie, et le divorce.\n\nMais le Code civil n'est pas égalitaire pour les femmes. La femme mariée doit obéir à son mari et ne peut rien faire sans son autorisation. Il faudra attendre le XXe siècle pour que cela change.\n\nNapoléon crée aussi d'autres institutions qui existent encore : les [lycées], les préfets dans chaque département, la Banque de France, et la Légion d'honneur, une décoration pour récompenser les mérites.\n\nLe Code civil est encore en grande partie la base du droit français aujourd'hui. Grâce aux conquêtes de Napoléon, il a été adopté ou imité dans de nombreux pays : Belgique, Italie, Espagne, Pays-Bas, Québec, Louisiane, Amérique latine, et même le Japon s'en est inspiré !"
+ },
+ {
+  "id": "rv-14juillet",
+  "y": "1880",
+  "era": "heritage",
+  "icon": "🎆",
+  "img": "Bastille_Day",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Feu_d%27artifice_du_14_juillet_2017_depuis_le_champ_de_Mars_%C3%A0_Paris%2C_devant_la_Tour_Eiffel%2C_Bastille_day_2017_%2835118978683%29.jpg/330px-Feu_d%27artifice_du_14_juillet_2017_depuis_le_champ_de_Mars_%C3%A0_Paris%2C_devant_la_Tour_Eiffel%2C_Bastille_day_2017_%2835118978683%29.jpg",
+  "pic": "images/revolution/rv-14juillet.jpg",
+  "title": "Le 14 Juillet devient la fête nationale",
+  "refs": [
+   "Fête nationale française",
+   "Défilé militaire du 14 Juillet",
+   "Troisième République"
+  ],
+  "text": "Après la Révolution, la France a connu beaucoup de régimes différents : l'Empire de Napoléon, le retour des rois, une deuxième République, un second Empire... Pendant longtemps, les souvenirs de la Révolution divisent les Français. Certains l'admirent, d'autres la détestent.\n\nEn 1870, une troisième République est proclamée. Les républicains veulent donner à la France des symboles communs, tirés de la Révolution.\n\nEn 1879, La Marseillaise redevient l'hymne national. En 1880, les députés doivent choisir une date pour la fête nationale. Laquelle ?\n\nIls choisissent le 14 juillet. La loi du 6 juillet 1880 dit simplement : « La République adopte le 14 juillet comme jour de fête nationale annuelle. »\n\nMais quel 14 juillet ? Celui de 1789, la prise de la Bastille, symbole de la liberté conquise ? Ou celui de 1790, la fête de la Fédération, symbole de l'unité des Français ? Les députés ont laissé la question ouverte, pour que chacun puisse y voir ce qu'il préfère. La prise de la Bastille rappelait aussi la violence, alors la fête de la Fédération plaisait davantage aux modérés.\n\nLe 14 juillet 1880, la première fête nationale est un grand succès. Il y a des défilés, des bals, des illuminations, des banquets dans toute la France.\n\nAujourd'hui, chaque 14 juillet, il y a :\n- un grand [défilé militaire] sur les Champs-Élysées, à Paris, devant le président de la République, avec des avions qui dessinent le drapeau tricolore dans le ciel ;\n- des bals populaires, souvent dans les casernes de pompiers ;\n- et le soir, des feux d'artifice dans toutes les villes, dont un magnifique au pied de la tour Eiffel.\n\nEn anglais, on appelle cette fête « Bastille Day », le jour de la Bastille."
+ },
+ {
+  "id": "rv-marianne",
+  "y": "aujourd'hui",
+  "era": "heritage",
+  "icon": "🇫🇷",
+  "img": "Marianne",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MariannedeTheodoreDoriot.JPG/330px-MariannedeTheodoreDoriot.JPG",
+  "pic": "images/revolution/rv-marianne.jpg",
+  "title": "Les symboles de la République",
+  "refs": [
+   "Marianne",
+   "Liberté, Égalité, Fraternité",
+   "Drapeau de la France"
+  ],
+  "text": "Beaucoup de symboles de la France d'aujourd'hui sont nés pendant la Révolution. Tu les vois tous les jours sans y penser !\n\nLe drapeau tricolore, bleu, blanc, rouge. Il vient de la cocarde de 1789, qui associait le bleu et le rouge de Paris au blanc du roi. Il devient le drapeau national en 1794, avec les couleurs dans cet ordre, dessiné par le peintre David.\n\nLa devise « [Liberté, Égalité, Fraternité] ». On l'entend dès la Révolution, mais elle ne devient la devise officielle de la République qu'en 1848, puis sous la Troisième République. Elle est inscrite sur les mairies, les écoles, les pièces de monnaie...\n\nMarianne. C'est une femme qui représente la République. Elle porte souvent un [bonnet phrygien] rouge, un bonnet que portaient, dans l'Antiquité, les esclaves libérés : c'est donc un symbole de liberté. Son buste est présent dans toutes les mairies. Des femmes célèbres lui ont prêté leur visage, comme les actrices Brigitte Bardot ou Catherine Deneuve. On la voit aussi sur les timbres.\n\nLa Marseillaise, l'hymne national, écrite en 1792.\n\nLe 14 Juillet, la fête nationale.\n\nLe coq gaulois, très ancien, était déjà utilisé pendant la Révolution. On le voit aujourd'hui sur les maillots des équipes de France.\n\nMais l'héritage de la Révolution, ce sont aussi des idées : la souveraineté du peuple (c'est le peuple qui choisit ses dirigeants), l'égalité devant la loi, les droits de l'homme, la [laïcité] qui a été préparée par la séparation entre l'État et la religion.\n\nL'article 2 de la Constitution française actuelle dit : « Le principe de la République est : gouvernement du peuple, par le peuple et pour le peuple. »"
+ },
+ {
+  "id": "rv-today",
+  "y": "aujourd'hui",
+  "era": "heritage",
+  "icon": "🌍",
+  "img": "Universal_Declaration_of_Human_Rights",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eleanor_Roosevelt_UDHR.jpg/330px-Eleanor_Roosevelt_UDHR.jpg",
+  "pic": "images/revolution/rv-today.jpg",
+  "title": "La Révolution française dans le monde d'aujourd'hui",
+  "refs": [
+   "Déclaration universelle des droits de l'homme",
+   "Bicentenaire de la Révolution française",
+   "Droits de l'homme"
+  ],
+  "text": "La Révolution française n'a pas seulement changé la France. Elle a changé le monde.\n\nSes idées ont traversé les frontières. Au XIXe siècle, de nombreux peuples d'Europe et d'Amérique latine se sont soulevés au nom de la liberté et de l'égalité. La Marseillaise a été chantée par des révolutionnaires de nombreux pays.\n\nLe 10 décembre 1948, à Paris, au palais de Chaillot, l'Organisation des Nations unies adopte la [Déclaration universelle des droits de l'homme]. Son premier article rappelle celui de 1789 : « Tous les êtres humains naissent libres et égaux en dignité et en droits. » Un Français, René Cassin, a joué un grand rôle dans sa rédaction. Il a reçu le prix Nobel de la paix pour cela.\n\nEn 1989, la France fête le [bicentenaire] de la Révolution, c'est-à-dire ses 200 ans. Le 14 juillet 1989, un immense défilé spectacle traverse Paris, et une chanteuse américaine, Jessye Norman, chante La Marseillaise, enveloppée dans un drapeau tricolore, place de la Concorde.\n\nCette même année, en Chine et en Europe de l'Est, des foules réclament la liberté. En novembre 1989, le mur de Berlin tombe.\n\nLes historiens continuent de discuter de la Révolution. Elle a apporté des idées magnifiques : la liberté, l'égalité, les droits de l'homme, la souveraineté du peuple. Mais elle a aussi connu la violence, la guerre civile et la Terreur.\n\nElle nous apprend que la liberté est précieuse et fragile, que les droits doivent s'appliquer à tous, y compris à ceux avec qui on n'est pas d'accord, et que les changements se font mieux par le débat et la loi que par la violence.\n\nAujourd'hui, c'est aux citoyens, et donc un jour à toi, de faire vivre ces idées : en votant, en débattant, en respectant les autres. Et toi, que penses-tu de la Révolution ?"
+ }
+]
