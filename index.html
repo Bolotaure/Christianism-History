@@ -123,7 +123,6 @@ html,body{overscroll-behavior-x:none}
 .body p{font-size:18px;line-height:1.6;margin:0 0 14px}
 .body ul{font-size:18px;line-height:1.55;margin:-6px 0 14px;padding-left:22px}
 .body p,.body li,#miniCard .d{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
-.body p.closehint{text-align:center}
 .term{text-decoration:underline;text-decoration-color:var(--term);text-decoration-thickness:2px;text-underline-offset:3px;color:var(--term);font-weight:600;cursor:help}
 .refs{margin:22px 0 0;padding:14px 16px;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:12px}
 .refs h3{margin:0 0 8px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-muted)}
@@ -131,10 +130,6 @@ html,body{overscroll-behavior-x:none}
 .refs ul{margin:0;padding-left:18px}
 .refs a{color:var(--gold2);font-weight:600}
 .refs small{color:var(--paper-muted)}
-.closehint{text-align:center;color:var(--paper-muted);font-size:13px;margin:18px 0 0}
-.navrow{display:flex;justify-content:space-between;gap:10px;margin-top:14px}
-.navrow button{flex:1;border:1px solid var(--line);background:rgba(255,255,255,.08);border-radius:12px;padding:10px;font-size:14px;color:var(--paper-ink);cursor:pointer}
-.navrow button[disabled]{opacity:.35}
 
 #miniLayer{z-index:20;background:rgba(0,0,0,.72);cursor:pointer}
 #miniCard{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vw,420px);max-height:80vh;overflow:auto;background:var(--bg);color:#fff;border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:20px 20px 16px;box-shadow:0 20px 60px rgba(0,0,0,.6);border-top:6px solid var(--term)}
@@ -639,8 +634,6 @@ function renderCard(n){
       <h2>${e.icon} ${esc(e.title)}</h2>
       ${html}
       <div class="refs"><h3>${t('learn')}</h3><ul>${refs}</ul><p style="margin:8px 0 0;font-size:13px;color:var(--paper-muted)">${t('kidsNote')}</p></div>
-      <div class="navrow"><button type="button" data-go="-1" ${n===0?'disabled':''}>${t('before')}</button><button type="button" data-go="1" ${n===EV.length-1?'disabled':''}>${t('next')}</button></div>
-      <p class="closehint">${t('close')}</p>
     </div>`;
   // same background as the mini cards: the timeline colour tinted with the period colour
   card.style.background = `linear-gradient(180deg,${era.color}26,${era.color}10 30%,${era.color}10 70%,${era.color}26),var(--bg)`;
