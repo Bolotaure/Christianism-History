@@ -29,12 +29,14 @@ Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche 
    - icône porte + main (5 doigts) en haut à gauche des cartes et en bas des mini-cartes (au lieu du texte « touche pour revenir ») ;
    - icône de balayage (main à 5 doigts) de 30 px en bas au centre de la frise, qui s'efface quand un repère passe dessous ;
    - téléphone en paysage : écran « Tourne ton téléphone » (le verrouillage en portrait est impossible sur iPhone) ;
-   - menus thème/langue au style « verre » ; titre de frise sur 2 lignes réservées.
+   - menus thème/langue au style « verre » ; titre de frise sur 2 lignes réservées ;
+   - cartes avec illustration dessinée (`art`) : zone d'image au format 16/9 sans fond flouté ; icône image + main (en haut à droite) qui ouvre l'image Wikipédia dans une mini-carte, avec la mention « Image : Wikimedia Commons » ;
+   - la mention « générée par IA » n'est pas sur les cartes : elle est expliquée une seule fois dans « À propos » (bouton « i » de la page principale).
 6. Le propriétaire écrit en français : répondre en français.
 
 ## Format des données (par frise)
 - `events.json` (EN), `events.fr.json`, `events.ja.json` : même liste de cartes, **même ordre** (ordre chronologique : les repères sont placés par ordre, et les périodes doivent être contiguës).
-- Champs : `id`, `y` (date affichée), `era` (clé de période définie dans `THEMES`), `icon` (emoji), `img` (titre de page Wikipédia d'origine), `image` (vignette Wikimedia, secours), `pic` (copie locale `images/<thème>/<id>.<ext>`), `title`, `refs` (pages Wikipédia/Vikidia/Kiddle proposées), `text`.
+- Champs : `id`, `y` (date affichée), `era` (clé de période définie dans `THEMES`), `icon` (emoji), `img` (titre de page Wikipédia d'origine), `image` (vignette Wikimedia, secours), `pic` (copie locale `images/<thème>/<id>.<ext>`), `art` (illustration dessinée, facultatif : `images/<thème>/<id>-dessin.jpg`), `title`, `refs` (pages Wikipédia/Vikidia/Kiddle proposées), `text`.
 - Mots soulignés : `[mot]` dans le texte → entrée `mot` (en minuscules) dans `glossary(.fr|.ja).json`. Recherche : minuscules, puis sans `s` / `es` / `x` final. Pour un autre mot-clé : `[mot affiché|clé]`. Définition en ligne possible : `[mot::définition]`.
 - Français : espaces insécables avant `: ; ! ? »` et après `«`.
 
@@ -43,6 +45,7 @@ Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche 
 - Récupération : vignette de la page Wikipédia (API REST `page/summary`), puis `python3 tools/download_images.py <thème>` qui télécharge les copies et remplit `pic`.
 - Vérifier chaque image : pas de logo, drapeau, carte générique ou photo hors sujet, pas de doublon dans une même frise. Sinon chercher une autre page (souvent sur fr.wikipedia).
 - Génération d'images (Grok Imagine, xAI) : la clé est fournie par les **API credentials** de l'environnement pour `api.x.ai` (en-tête `Authorization: Bearer …`, injecté automatiquement). Ne jamais écrire, afficher ni committer de clé. Réserver les images générées aux illustrations d'ambiance, pas aux portraits de personnes réelles.
+- Charte des illustrations dessinées : en cours de validation par le propriétaire (essai en ligne sur la carte `rp-classe`).
 
 ## Vérifications avant chaque mise en ligne
 - `node tools/check_data.js` : mêmes cartes dans les 3 langues, chaque mot souligné a sa définition, pas de définition inutilisée.
