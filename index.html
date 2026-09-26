@@ -355,7 +355,7 @@ const T = {
     learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
     before:"◀ Before", next:"Next ▶",
     close:'Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means',
-    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", rotate:"Turn your phone upright"
+    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", creditAi:"Illustration: AI-generated", rotate:"Turn your phone upright"
   },
   fr:{
     title:"L'histoire du christianisme", kicker:"Une frise pour jeunes explorateurs",
@@ -367,7 +367,7 @@ const T = {
     learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
     before:"◀ Avant", next:"Après ▶",
     close:'Touche la carte pour revenir à la frise<br>Touche un <span class="term" style="cursor:inherit">mot souligné</span> pour savoir ce qu\'il veut dire',
-    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", rotate:"Tourne ton téléphone"
+    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", creditAi:"Illustration générée par IA", rotate:"Tourne ton téléphone"
   },
   ja:{
     title:"キリスト教のれきし", kicker:"わかい探検家のためのタイムライン",
@@ -379,7 +379,7 @@ const T = {
     learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
     before:"◀ 前へ", next:"次へ ▶",
     close:'カードにタッチするとタイムラインにもどります<br><span class="term" style="cursor:inherit">下線のあることば</span>にタッチすると、意味がわかります',
-    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", rotate:"スマホをたてにしてね"
+    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", creditAi:"イラスト：AIで作成", rotate:"スマホをたてにしてね"
   }
 };
 let LANG = 'en';
@@ -607,7 +607,7 @@ function artHTML(e){
   if(!src) return emo;
   return `${emo}<img class="bg" alt="" aria-hidden="true" style="opacity:0"><img alt="${esc(e.title)}" src="${src}" data-alt="${e.pic && e.image ? e.image : ''}" referrerpolicy="no-referrer"
     onload="artShown(this)" onerror="artFailed(this)" style="opacity:0">
-    <div class="credit">${t('credit')}</div>`;
+    <div class="credit">${t(/-dessin\./.test(e.pic || '') ? 'creditAi' : 'credit')}</div>`;
 }
 
 function artShown(img){
@@ -617,7 +617,11 @@ function artShown(img){
 }
 // If the copy fails, try the Wikimedia original, then retry once before falling back to the emoji art.
 function artFailed(img){
-  if(img.dataset.alt){ const alt = img.dataset.alt; img.dataset.alt = ''; img.src = alt; return; }
+  if(img.dataset.alt){
+    const alt = img.dataset.alt; img.dataset.alt = ''; img.src = alt;
+    const c = img.parentNode && img.parentNode.querySelector('.credit'); if(c) c.textContent = t('credit');   // the fallback is a Wikimedia picture
+    return;
+  }
   if(!img.dataset.retried){
     img.dataset.retried = 1;
     const src = img.src;
