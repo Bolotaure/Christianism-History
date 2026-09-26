@@ -7,6 +7,9 @@
   "img": "Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/330px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
   "pic": "images/republique/rp-1789.jpg",
+  "picCap": "「人間と市民の権利の宣言」。1789年ごろ、ジャン＝ジャック＝フランソワ・ル・バルビエがえがいた絵。",
+  "picBy": "Jean-Jacques-François Le Barbier",
+  "picLic": "PD",
   "title": "1789年：革命が自由と平等をうたう",
   "refs": [
    "フランス革命",
@@ -23,6 +26,9 @@
   "img": "Proclamation_of_the_abolition_of_the_monarchy",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg/330px-Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg",
   "pic": "images/republique/rp-1792.jpg",
+  "picCap": "1792年9月21日、王政の終わりが宣言される場面。レオポルド・モリスの青銅の彫刻（1883年）、パリのレピュブリック広場。",
+  "picBy": "Léopold Morice ; photo Roi Boshi",
+  "picLic": "CC BY-SA 3.0",
   "title": "第一共和政の誕生",
   "refs": [
    "フランス第一共和政",
@@ -39,6 +45,9 @@
   "img": "The_Coronation_of_Napoleon",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/330px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
   "pic": "images/republique/rp-empire.jpg",
+  "picCap": "ジャック＝ルイ・ダヴィッドの大きな絵「ナポレオンの戴冠式」（1805〜1807年）。ナポレオンが皇后ジョゼフィーヌに冠をかぶせている。",
+  "picBy": "Jacques-Louis David",
+  "picLic": "PD",
   "title": "ナポレオン1世、フランス人の皇帝に",
   "refs": [
    "ナポレオン・ボナパルト",
@@ -55,6 +64,9 @@
   "img": "Bourbon_Restoration_in_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg/330px-G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
   "pic": "images/republique/rp-restauration.jpg",
+  "picCap": "戴冠式のマントを着た国王ルイ18世。1814年ごろ、フランソワ・ジェラールがえがいた絵。",
+  "picBy": "François Gérard",
+  "picLic": "PD",
   "title": "王がもどってくる",
   "refs": [
    "復古王政",
@@ -71,6 +83,9 @@
   "img": "Liberty_Leading_the_People",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/330px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
   "pic": "images/republique/rp-1830.jpg",
+  "picCap": "ウジェーヌ・ドラクロワの絵「民衆をみちびく自由の女神」。「栄光の三日間」のあと、1830年にえがかれた。",
+  "picBy": "Eugène Delacroix",
+  "picLic": "PD",
   "title": "栄光の三日間",
   "refs": [
    "七月革命",
@@ -87,6 +102,9 @@
   "img": "French_Revolution_of_1848",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag_%28cropped_3x2%29.jpg/330px-Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag_%28cropped_3x2%29.jpg",
   "pic": "images/republique/rp-1848.jpg",
+  "picCap": "1848年2月25日、詩人ラマルティーヌがパリ市庁舎の前で赤い旗をことわる場面。アンリ・フェリックス・エマニュエル・フィリポトーの絵。",
+  "picBy": "Henri Félix Emmanuel Philippoteaux",
+  "picLic": "PD",
   "title": "1848年：第二共和政と普通選挙",
   "refs": [
    "1848年のフランス革命",
@@ -103,6 +121,9 @@
   "img": "Victor_Schœlcher",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg/330px-Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg",
   "pic": "images/republique/rp-esclavage.jpg",
+  "picCap": "1848年にどれい制を廃止させたヴィクトル・シェルシェール。1832年にアンリ・ドゥケーヌがえがいた絵。",
+  "picBy": "Henri Decaisne",
+  "picLic": "PD",
   "title": "奴隷制の完全な廃止",
   "refs": [
    "ヴィクトル・シュルシェール",
@@ -119,6 +140,9 @@
   "img": "Napoleon_III",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Alexandre_Cabanel_002.jpg/330px-Alexandre_Cabanel_002.jpg",
   "pic": "images/republique/rp-secondempire.jpg",
+  "picCap": "皇帝ナポレオン3世。1865年ごろ、アレクサンドル・カバネルがえがいた絵。",
+  "picBy": "Alexandre Cabanel",
+  "picLic": "PD",
   "title": "ナポレオン3世と第二帝政",
   "refs": [
    "ナポレオン3世",
@@ -135,6 +159,9 @@
   "img": "Léon_Gambetta",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gambetta_par_%C3%89tienne_Carjat_%28photo_recadr%C3%A9e%29.jpg/330px-Gambetta_par_%C3%89tienne_Carjat_%28photo_recadr%C3%A9e%29.jpg",
   "pic": "images/republique/rp-1870.jpg",
+  "picCap": "第三共和政をつくった人のひとり、レオン・ガンベッタ。エティエンヌ・カルジャが撮った写真。",
+  "picBy": "Étienne Carjat",
+  "picLic": "PD",
   "title": "スダンの敗北と第三共和政の誕生",
   "refs": [
    "フランス第三共和政",
@@ -151,6 +178,8 @@
   "img": "Paris_Commune",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Barricade18March1871_%28cropped%29.jpg/330px-Barricade18March1871_%28cropped%29.jpg",
   "pic": "images/republique/rp-commune.jpg",
+  "picCap": "パリ・コミューンの最初の日、1871年3月18日のパリのバリケード。撮った人はわかっていない。",
+  "picLic": "PD",
   "title": "パリ・コミューン",
   "refs": [
    "パリ・コミューン",
@@ -167,6 +196,9 @@
   "img": "French_Constitutional_Laws_of_1875",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Constitution_de_1875_1_sur_5_-_Archives_Nationales_-_AE-I-29_n%C2%B015.jpg/330px-Constitution_de_1875_1_sur_5_-_Archives_Nationales_-_AE-I-29_n%C2%B015.jpg",
   "pic": "images/republique/rp-1875.jpg",
+  "picCap": "1875年の憲法的法律のひとつの原本と、「フランス人民の名において」と書かれた印。フランス国立公文書館。",
+  "picBy": "フランス国立公文書館",
+  "picLic": "PD",
   "title": "1票差で決まった共和国",
   "refs": [
    "1875年憲法",
@@ -183,6 +215,9 @@
   "img": "La_Marseillaise",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_July_2011-16a.jpg/330px-Paris_July_2011-16a.jpg",
   "pic": "images/republique/rp-symboles.jpg",
+  "picCap": "「1792年の義勇兵の出発」。「ラ・マルセイエーズ」ともよばれる。パリの凱旋門にあるフランソワ・リュードの彫刻。",
+  "picBy": "François Rude ; photo Alvesgaspar",
+  "picLic": "CC BY-SA 3.0",
   "title": "ラ・マルセイエーズと7月14日",
   "refs": [
    "ラ・マルセイエーズ",
@@ -199,6 +234,9 @@
   "img": "Marianne",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MariannedeTheodoreDoriot.JPG/330px-MariannedeTheodoreDoriot.JPG",
   "pic": "images/republique/rp-marianne.jpg",
+  "picCap": "19世紀の終わりにテオドール・ドリオがつくった、しっくいのマリアンヌの胸像。元老院にある。",
+  "picBy": "Théodore Doriot ; photo Super sapin",
+  "picLic": "CC BY-SA 3.0",
   "title": "どの町にもマリアンヌと標語を",
   "refs": [
    "マリアンヌ",
@@ -215,6 +253,9 @@
   "img": "Law_on_the_Freedom_of_the_Press_of_29_July_1881",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Die_Pressfreiheit.tiff/lossy-page1-330px-Die_Pressfreiheit.tiff.jpg",
   "pic": "images/republique/rp-1881.jpg",
+  "picCap": "「出版の自由」。新聞の検閲をからかった、ドイツのヨハン・ミヒャエル・フォルツの風刺画（1819年）。",
+  "picBy": "Johann Michael Voltz",
+  "picLic": "PD",
   "title": "新聞の自由と集会の自由",
   "refs": [
    "1881年7月29日の出版の自由に関する法律",
@@ -231,6 +272,9 @@
   "img": "French_colonial_empire",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/EmpireFrench.png/330px-EmpireFrench.png",
   "pic": "images/republique/rp-colonies.png",
+  "picCap": "フランスの植民地帝国の地図。うすい青は最初の植民地帝国、こい青はおもに1830年からつくられた二つ目の植民地帝国。",
+  "picBy": "Gd21091993",
+  "picLic": "PD",
   "title": "新しい植民地帝国",
   "refs": [
    "フランス植民地帝国",
@@ -247,6 +291,9 @@
   "img": "Eiffel_Tower",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/330px-Tour_Eiffel_Wikimedia_Commons.jpg",
   "pic": "images/republique/rp-eiffel.jpg",
+  "picCap": "パリのシャン・ド・マルス公園から見たエッフェル塔（2009年の写真）。",
+  "picBy": "Benh LIEU SONG",
+  "picLic": "PD",
   "title": "エッフェル塔、革命100周年を祝う",
   "refs": [
    "エッフェル塔",
@@ -263,6 +310,9 @@
   "img": "Panthéon,_Paris",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Pantheon_of_Paris_007.JPG/330px-Pantheon_of_Paris_007.JPG",
   "pic": "images/republique/rp-1892.jpg",
+  "picCap": "パリのパンテオン。共和国はここで、歴史に名をのこした人びとをたたえている。",
+  "picBy": "Moonik",
+  "picLic": "CC BY-SA 3.0",
   "title": "共和国、100さいの誕生日",
   "refs": [
    "フランス第一共和政",
@@ -279,6 +329,7 @@
   "img": "Jules_Ferry",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg/330px-Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg",
   "pic": "images/republique/rp-ferry.jpg",
+  "picCap": "第三共和政についての本にのった、公教育大臣ジュール・フェリーの肖像。",
   "title": "ジュール・フェリー：無償・義務・非宗教の学校",
   "refs": [
    "ジュール・フェリー",
@@ -295,6 +346,9 @@
   "img": "Jules_Ferry_laws",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jules_Ferry_Nadar.jpg/330px-Jules_Ferry_Nadar.jpg",
   "pic": "images/republique/rp-instituteur.jpg",
+  "picCap": "ナダールが撮ったジュール・フェリー。",
+  "picBy": "Nadar",
+  "picLic": "PD",
   "title": "共和国の「黒い軽騎兵」",
   "refs": [
    "黒い軽騎兵",
@@ -312,6 +366,9 @@
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/G.Bruno01.jpg/330px-G.Bruno01.jpg",
   "pic": "images/republique/rp-classe.jpg",
   "art": "images/republique/rp-classe-dessin.jpg",
+  "picCap": "G・ブリュノの本『二人の子どものフランス一周』の最初のページ。何十年ものあいだ学校で読まれた。",
+  "picBy": "G. Bruno",
+  "picLic": "PD",
   "title": "ジュール・フェリーの時代の学校の一日",
   "refs": [
    "二人の子供のフランス巡歴",
@@ -328,6 +385,9 @@
   "img": "Certificat_d'études_primaires",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Certificat_d%27%C3%A9tudes_primaires_001.jpg/330px-Certificat_d%27%C3%A9tudes_primaires_001.jpg",
   "pic": "images/republique/rp-certificat.jpg",
+  "picCap": "1921年に11さいの子どもがもらった初等教育修了証。",
+  "picBy": "André Payan-Passeron",
+  "picLic": "CC BY-SA 3.0",
   "title": "家族のほこり、初等教育修了証",
   "refs": [
    "初等教育修了証",
@@ -344,6 +404,9 @@
   "img": "Dreyfus_affair",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Alfred_Dreyfus_%281859-1935%29_-_photo_originale.jpg/330px-Alfred_Dreyfus_%281859-1935%29_-_photo_originale.jpg",
   "pic": "images/republique/rp-dreyfus.jpg",
+  "picCap": "1894年ごろのアルフレド・ドレフュス大尉。アロン・ゲルシェルが撮った写真。",
+  "picBy": "Aron Gerschel",
+  "picLic": "PD",
   "title": "ドレフュス事件と「わたしは弾劾する」",
   "refs": [
    "ドレフュス事件",
@@ -360,6 +423,9 @@
   "img": "1905_French_law_on_the_Separation_of_the_Churches_and_the_State",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Loi_de_s%C3%A9paration_des_%C3%A9glises_et_de_l%E2%80%99%C3%89tat._Page_1_-_Archives_Nationales_-_AE-II-2991.jpg/330px-Loi_de_s%C3%A9paration_des_%C3%A9glises_et_de_l%E2%80%99%C3%89tat._Page_1_-_Archives_Nationales_-_AE-II-2991.jpg",
   "pic": "images/republique/rp-1905.jpg",
+  "picCap": "1905年の政教分離法の最初のページ。フランス国立公文書館。",
+  "picBy": "フランス国立公文書館",
+  "picLic": "PD",
   "title": "教会と国家の分離",
   "refs": [
    "政教分離法 (フランス)",
@@ -376,6 +442,9 @@
   "img": "Popular_Front_(France)",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/L%C3%A9on_Blum.jpg/330px-L%C3%A9on_Blum.jpg",
   "pic": "images/republique/rp-1936.jpg",
+  "picCap": "人民戦線政府の首相レオン・ブルム。1936年、ロンドンで。",
+  "picBy": "Keystone France",
+  "picLic": "PD",
   "title": "人民戦線と有給休暇",
   "refs": [
    "人民戦線 (フランス)",
@@ -392,6 +461,9 @@
   "img": "Vichy_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Charles_de_Gaulle_au_micro_de_la_BBC.jpg/330px-Charles_de_Gaulle_au_micro_de_la_BBC.jpg",
   "pic": "images/republique/rp-1940.jpg",
+  "picCap": "1941年、ロンドンでBBCのマイクに向かって話すド・ゴール将軍。",
+  "picBy": "BBC",
+  "picLic": "PD",
   "title": "1940年：共和国がなくなる",
   "refs": [
    "ヴィシー政権",
@@ -408,6 +480,9 @@
   "img": "Women's_suffrage_in_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Agence_Rol_-_1910_-_Madame_Hubertine_Auclert.jpg/330px-Agence_Rol_-_1910_-_Madame_Hubertine_Auclert.jpg",
   "pic": "images/republique/rp-femmes.jpg",
+  "picCap": "女性の選挙権のために一生たたかったユベルティーヌ・オークレール。1910年の写真。",
+  "picBy": "Agence Rol",
+  "picLic": "PD",
   "title": "女性が投票する権利を手に入れる",
   "refs": [
    "女性参政権",
@@ -424,6 +499,8 @@
   "img": "French_Fourth_Republic",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Constitution_du_27_octobre_1946.JPG/330px-Constitution_du_27_octobre_1946.JPG",
   "pic": "images/republique/rp-1946.jpg",
+  "picCap": "法務省に展示されている、1946年10月27日の憲法の複製。",
+  "picLic": "PD",
   "title": "第四共和政と新しい権利",
   "refs": [
    "フランス第四共和政",
@@ -440,6 +517,9 @@
   "img": "Constitution_of_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Constitution_sceau.jpg/330px-Constitution_sceau.jpg",
   "pic": "images/republique/rp-1958.jpg",
+  "picCap": "1958年の憲法と、フランス共和国の印。",
+  "picBy": "Erasoft24",
+  "picLic": "CC BY 1.0",
   "title": "第五共和政",
   "refs": [
    "フランス第五共和政",
@@ -456,6 +536,9 @@
   "img": "Charles_de_Gaulle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg/330px-De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg",
   "pic": "images/republique/rp-1962.jpg",
+  "picCap": "第二次世界大戦中、1942年ごろのシャルル・ド・ゴール。のちに第五共和政の最初の大統領になる。",
+  "picBy": "Office of War Information",
+  "picLic": "PD",
   "title": "大統領を国民が直接選ぶ",
   "refs": [
    "フランス大統領選挙",
@@ -472,6 +555,9 @@
   "img": "Married_Women's_Property_Act",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Official_portrait_of_Simone_Veil_%28cropped%29.jpg/330px-Official_portrait_of_Simone_Veil_%28cropped%29.jpg",
   "pic": "images/republique/rp-1965.jpg",
+  "picCap": "シモーヌ・ヴェイユ。1979年から1982年まで議長をつとめた欧州議会の公式肖像。",
+  "picBy": "欧州議会",
+  "picLic": "© EU",
   "title": "女性が自立する",
   "refs": [
    "フランスの女性の権利",
@@ -488,6 +574,9 @@
   "img": "Age_of_majority",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg/330px-Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg",
   "pic": "images/republique/rp-1974.jpg",
+  "picCap": "1975年、共和国大統領ヴァレリー・ジスカール・デスタン。",
+  "picBy": "Christian Lambiotte",
+  "picLic": "CC BY 4.0",
   "title": "18さいで投票",
   "refs": [
    "成年",
@@ -504,6 +593,9 @@
   "img": "Robert_Badinter",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Badinter_2001_%28cropped%29.jpg/330px-Badinter_2001_%28cropped%29.jpg",
   "pic": "images/republique/rp-1981.jpg",
+  "picCap": "2001年、第1回死刑廃止世界会議でのロベール・バダンテール。",
+  "picBy": "欧州議会",
+  "picLic": "© EU",
   "title": "死刑の廃止",
   "refs": [
    "フランスの死刑廃止",
@@ -520,6 +612,9 @@
   "img": "Convention_on_the_Rights_of_the_Child",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Convention_on_the_Rights_of_the_Child.svg/330px-Convention_on_the_Rights_of_the_Child.svg.png",
   "pic": "images/republique/rp-enfant.png",
+  "picCap": "子どもの権利条約をみとめた国の地図。世界のほとんどすべての国がみとめている。",
+  "picBy": "L.tak",
+  "picLic": "CC BY-SA 3.0",
   "title": "子どもの権利条約",
   "refs": [
    "児童の権利に関する条約",
@@ -536,6 +631,9 @@
   "img": "Parity_law",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%C3%89dith_Cresson%2C_Member_of_the_EC_%281997%29_%28cropped%29.jpg/330px-%C3%89dith_Cresson%2C_Member_of_the_EC_%281997%29_%28cropped%29.jpg",
   "pic": "images/republique/rp-parite.jpg",
+  "picCap": "1997年のエディット・クレッソン。1991年、フランスで女性として初めて首相になった。",
+  "picBy": "クリスチャン・ランビオット／欧州共同体",
+  "picLic": "CC BY 4.0",
   "title": "パリテ：女性と男性を同じ数に",
   "refs": [
    "パリテ法",
@@ -552,6 +650,9 @@
   "img": "Ballot_box",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Election_room_at_Z%C5%A0_Ohradn%C3%AD_in_Michle%2C_Prague.jpg/330px-Election_room_at_Z%C5%A0_Ohradn%C3%AD_in_Michle%2C_Prague.jpg",
   "pic": "images/republique/rp-devoirs.jpg",
+  "picCap": "チェコのプラハの学校につくられた投票所（2019年）。フランスでも、よく学校で投票する。",
+  "picBy": "Jiří Sedláček",
+  "picLic": "CC BY-SA 4.0",
   "title": "市民の権利と義務",
   "refs": [
    "市民権",
@@ -568,6 +669,9 @@
   "img": "Élysée_Palace",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Fa%C3%A7ade_Palais_Bourbon_3.jpg/330px-Fa%C3%A7ade_Palais_Bourbon_3.jpg",
   "pic": "images/republique/rp-institutions.jpg",
+  "picCap": "国民議会が開かれるパリのブルボン宮。",
+  "picBy": "ZeusUpsistos",
+  "picLic": "CC BY-SA 4.0",
   "title": "共和国では、だれが決めるの？",
   "refs": [
    "フランスの政治",
@@ -584,6 +688,9 @@
   "img": "Town_hall",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray_hotel_de_ville.jpg/330px-Gray_hotel_de_ville.jpg",
   "pic": "images/republique/rp-citoyen.jpg",
+  "picCap": "オート＝ソーヌ県グレーの市役所。市役所は、その市町村に住むみんなの家。",
+  "picBy": "G CHP",
+  "picLic": "CC BY-SA 2.5",
   "title": "わたしも、小さな市民？",
   "refs": [
    "子ども議会",

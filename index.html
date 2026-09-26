@@ -79,9 +79,14 @@ header .kicker,header .sub{padding-right:64px}
 .pin.down.seen .head::after{top:auto;bottom:-6px}
 
 /* ---------- minimap ---------- */
-#mini{flex:0 0 auto;position:relative;height:34px;margin:4px 16px calc(10px + var(--safe-b));border-radius:8px;overflow:hidden;cursor:pointer;touch-action:none}
+#miniRow{flex:0 0 auto;display:flex;align-items:center;gap:8px;margin:4px 16px calc(10px + var(--safe-b))}
+#mini{flex:1 1 auto;position:relative;height:34px;border-radius:8px;overflow:hidden;cursor:pointer;touch-action:none}
 #mini .seg{position:absolute;top:0;bottom:0}
 #mini .tick{position:absolute;top:12px;width:2px;height:10px;margin-left:-1px;background:rgba(255,255,255,.55);border-radius:1px}
+#recenter{flex:0 0 auto;width:34px;height:34px;padding:5px;border-radius:8px;border:1px solid rgba(232,184,92,.35);background:rgba(20,17,15,.6);color:var(--gold);cursor:pointer;-webkit-tap-highlight-color:transparent;transition:opacity .2s}
+#recenter svg{width:100%;height:100%;display:block}
+#recenter:disabled{opacity:.35;cursor:default}
+#recenter:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
 #mini #view{position:absolute;top:0;bottom:0;border:2px solid var(--gold2);border-radius:8px;background:rgba(255,255,255,.12)}
 
 /* ---------- overlays ---------- */
@@ -144,9 +149,11 @@ html,body{overscroll-behavior-x:none}
 #miniCard .d{font-size:18px;line-height:1.55;margin:0}
 #miniCard .tap{width:30px;height:30px;padding:4px;margin:14px auto 0;border-radius:10px;color:var(--gold);background:rgba(20,17,15,.6)}
 #miniCard .tap svg{width:100%;height:100%;display:block}
-#miniCard .pic{display:block;width:100%;max-height:55vh;object-fit:contain;border-radius:10px;background:#000;margin:0 0 10px}
+#miniCard .pic{display:block;width:100%;max-height:42vh;object-fit:contain;border-radius:10px;background:#000;margin:0 0 10px}
 #miniCard .ctx:last-of-type{margin-bottom:0}
 #miniCard .d + .d{margin-top:12px}
+#miniCard .cap{font-size:16px;line-height:1.45;margin:0 0 8px}
+#miniCard .ctx a{color:var(--gold2)}
 #miniCard.about .d{font-size:16px;line-height:1.5;text-align:left}
 #miniCard .ico{display:inline-block;width:24px;height:24px;padding:3px;vertical-align:-6px;border-radius:7px;color:var(--gold);background:rgba(20,17,15,.6)}
 #miniCard .ico svg{width:100%;height:100%;display:block}
@@ -162,7 +169,7 @@ html,body{overscroll-behavior-x:none}
 @media (max-height:500px){
   #langBtn{top:calc(6px + var(--safe-t));height:30px} #langMenu{top:calc(42px + var(--safe-t))}
   .kicker,.subrow{display:none} h1{font-size:18px} header{padding-top:calc(6px + var(--safe-t))} #eras{padding-top:6px}
-  #mini{height:24px;margin-top:2px;margin-bottom:calc(6px + var(--safe-b))} #mini .tick{top:7px}
+  #miniRow{margin-top:2px;margin-bottom:calc(6px + var(--safe-b))} #mini{height:24px} #recenter{width:24px;height:24px;padding:2px} #mini .tick{top:7px}
 }
 :lang(ja) h1,:lang(ja) .body h2,:lang(ja) #miniCard .w{font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",Georgia,serif}
 :lang(ja) .body p,:lang(ja) .body li{line-height:1.75;line-break:strict}
@@ -196,7 +203,7 @@ html,body{overscroll-behavior-x:none}
 </header>
 <main id="scroller" aria-label="Timeline"><div id="track"></div></main>
 <div id="swipeIcon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h9M4 11l4-4M4 11l4 4"/><path d="M44 11h-9M44 11l-4-4M44 11l-4 4"/><path d="M18 31V10a3 3 0 0 1 6 0v12"/><path d="M24 21a3 3 0 0 1 6 0v3"/><path d="M30 23a3 3 0 0 1 6 0v2"/><path d="M36 25.5a2.6 2.6 0 0 1 5.2 0v7.5c0 5-2 8-3.5 12"/><path d="M18 31l-3.2-3.2a2.9 2.9 0 0 0-4.2 4l5.4 6.4c1.4 1.9 2 4.2 2 6.8"/></svg></div>
-<div id="mini" aria-hidden="true"><div id="view"></div></div>
+<div id="miniRow"><div id="mini" aria-hidden="true"><div id="view"></div></div><button type="button" id="recenter" aria-label="Back to my card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 12h4M3.5 9.8 5.7 12l-2.2 2.2"/><path d="M22.5 12h-4M20.5 9.8 18.3 12l2.2 2.2"/><circle cx="12" cy="12" r="5.2"/><path d="M9.6 12.1l1.6 1.6 3.2-3.3"/></svg></button></div>
 
 <div class="layer" id="cardLayer" role="dialog" aria-modal="true"><article id="card"></article></div>
 <button type="button" class="side prev" id="sidePrev" data-go="-1"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 3 5.5 8l5 5"/></svg></button>
@@ -370,7 +377,7 @@ const T = {
     learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
     before:"◀ Before", next:"Next ▶",
     close:'Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means',
-    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", photo:"See the Wikipedia picture", about:"About",
+    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", photo:"See the Wikipedia picture", recenter:"Back to my card", pd:"public domain", imgBy:"Image:", about:"About",
     aboutText:["These timelines help children around 10 years old discover history while having fun.", "The drawings at the top of the cards are illustrations made with artificial intelligence (AI). They are not documents from the time: they help you imagine the scene. Each drawing is checked so that it respects history (clothes, objects, buildings).", "To see the Wikipedia picture (painting, photo or document), touch the {icon} icon on the drawing. These pictures come from Wikimedia Commons."], rotate:"Turn your phone upright"
   },
   fr:{
@@ -383,7 +390,7 @@ const T = {
     learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
     before:"◀ Avant", next:"Après ▶",
     close:'Touche la carte pour revenir à la frise<br>Touche un <span class="term" style="cursor:inherit">mot souligné</span> pour savoir ce qu\'il veut dire',
-    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", photo:"Voir l'image de Wikipédia", about:"À propos",
+    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", photo:"Voir l'image de Wikipédia", recenter:"Revenir à ma carte", pd:"domaine public", imgBy:"Image :", about:"À propos",
     aboutText:["Ces frises aident les enfants d'environ 10 ans à découvrir l'histoire en s'amusant.", "Les dessins en haut des cartes sont des illustrations créées avec une intelligence artificielle (IA). Ce ne sont pas des documents de l'époque : ils aident à imaginer la scène. Chaque dessin est vérifié pour respecter l'histoire (vêtements, objets, bâtiments).", "Pour voir l'image de Wikipédia (tableau, photo ou document), touche l'icône {icon} sur le dessin. Ces images viennent de Wikimedia Commons."], rotate:"Tourne ton téléphone"
   },
   ja:{
@@ -396,7 +403,7 @@ const T = {
     learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
     before:"◀ 前へ", next:"次へ ▶",
     close:'カードにタッチするとタイムラインにもどります<br><span class="term" style="cursor:inherit">下線のあることば</span>にタッチすると、意味がわかります',
-    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", photo:"ウィキペディアの画像を見る", about:"このサイトについて",
+    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", photo:"ウィキペディアの画像を見る", recenter:"読んでいたカードにもどる", pd:"パブリックドメイン", imgBy:"画像：", about:"このサイトについて",
     aboutText:["このタイムラインは、10さいくらいの子どもたちが楽しみながら歴史を知るためのものです。", "カードの上の絵は、人工知能（AI）を使って作ったイラストです。その時代の本物の資料ではありませんが、場面を思いうかべる手助けになります。どの絵も、服・道具・建物などが歴史に合っているか確かめています。", "ウィキペディアの画像（絵画・写真・資料）を見るには、絵の上の{icon}にタッチしてください。これらの画像はウィキメディア・コモンズのものです。"], rotate:"スマホをたてにしてね"
   }
 };
@@ -514,7 +521,7 @@ function buildMini(){
     mini.insertBefore(s, view);
   });
   EV.forEach((e,n)=>{ const t=document.createElement('div'); t.className='tick'; t.style.left=((PAD+n*SP)/W*100)+'%'; mini.insertBefore(t, view); });
-  syncMini(); placeSwipeIcon();
+  syncMini(); placeSwipeIcon(); syncRecenter();
 }
 function syncMini(){
   const W = track.scrollWidth, vw = scroller.clientWidth;
@@ -530,6 +537,19 @@ mini.addEventListener('pointerdown', e => { mini.setPointerCapture(e.pointerId);
 mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerId)) miniJump(e.clientX); });
 
 scroller.addEventListener('scroll', () => { syncMini(); syncEraChip(); }, {passive:true});
+
+/* button next to the minimap: slides the timeline back to the pin of the card being read */
+const recenter = $('#recenter');
+function markPin(){ const id = bookmark.get(THEME); return id && document.getElementById('pin-'+id); }
+function syncRecenter(){
+  const p = markPin();
+  recenter.disabled = !p;
+  recenter.setAttribute('aria-label', t('recenter')); recenter.title = t('recenter');
+}
+recenter.addEventListener('click', () => {
+  const p = markPin();
+  if(p) scroller.scrollTo({left: parseFloat(p.style.left) - scroller.clientWidth/2, behavior:'smooth'});
+});
 
 /* swipe icon at the top right of the timeline */
 const swipeIcon = $('#swipeIcon');
@@ -738,6 +758,7 @@ function closeCard(){
     cardLayer.classList.remove('show');
     const p = document.getElementById('pin-'+EV[current].id);
     document.querySelectorAll('.pin.seen').forEach(q => q.classList.remove('seen'));
+    syncRecenter();
     if(p){ p.classList.add('seen'); scroller.scrollLeft = parseFloat(p.style.left) - scroller.clientWidth/2; }
   });
 }
@@ -791,8 +812,15 @@ function openMini(t){
 // The Wikimedia picture of a card that has a drawn illustration
 function openPhoto(){
   const e = EV[current], src = e.pic ? IMG_HOST + e.pic : e.image;
-  showMini(`<img class="pic" alt="${esc(e.title)}" src="${src}" referrerpolicy="no-referrer"${e.pic && e.image ? ` onerror="this.onerror=null;this.src='${e.image}'"` : ''}>
-    <p class="ctx">${t('credit')}</p>`, ERAS[e.era].color);
+  const by = [e.picBy, e.picLic === 'PD' ? t('pd') : e.picLic].filter(Boolean).map(esc).join(' · ');
+  const page = filePage(e.image), commons = page ? `<a href="${page}" target="_blank" rel="noopener">Wikimedia Commons</a>` : 'Wikimedia Commons';
+  showMini(`<img class="pic" alt="${esc(e.picCap || e.title)}" src="${src}" referrerpolicy="no-referrer"${e.pic && e.image ? ` onerror="this.onerror=null;this.src='${e.image}'"` : ''}>
+    ${e.picCap ? `<p class="cap">${esc(e.picCap)}</p>` : ''}<p class="ctx">${t('imgBy')}${LANG === 'ja' ? '' : ' '}${by ? by + ' · ' : ''}${commons}</p>`, ERAS[e.era].color);
+}
+// Page of a picture on Wikimedia Commons (or on the Wikipedia that hosts it), from its thumbnail address
+function filePage(u){
+  const m = /\/wikipedia\/(commons|[a-z]+)\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^\/]+)/.exec(u || '');
+  return m ? (m[1] === 'commons' ? 'https://commons.wikimedia.org' : `https://${m[1]}.wikipedia.org`) + '/wiki/File:' + m[2] : '';
 }
 function openAbout(){
   const ico = `<span class="ico" role="img" aria-label="${esc(t('photo'))}">${PHOTO_SVG}</span>`;
@@ -807,7 +835,7 @@ function showMini(html, c){
   });
 }
 $('#aboutBtn').addEventListener('click', () => { if(!busy){ closeMenus(); openAbout(); } });
-miniLayer.addEventListener('click', () => { if(!busy) fadeSwap(() => miniLayer.classList.remove('show')); });
+miniLayer.addEventListener('click', ev => { if(ev.target.closest('a')) return; if(!busy) fadeSwap(() => miniLayer.classList.remove('show')); });
 
 document.addEventListener('keydown', ev => {
   if(busy) return;

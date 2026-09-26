@@ -7,6 +7,9 @@
   "img": "Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/330px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
   "pic": "images/republique/rp-1789.jpg",
+  "picCap": "The Declaration of the Rights of Man and of the Citizen, painted by Jean-Jacques-François Le Barbier around 1789.",
+  "picBy": "Jean-Jacques-François Le Barbier",
+  "picLic": "PD",
   "title": "1789: the Revolution proclaims liberty and equality",
   "refs": [
    "French Revolution",
@@ -23,6 +26,9 @@
   "img": "Proclamation_of_the_abolition_of_the_monarchy",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg/330px-Proclamation_de_l%27abolition_de_la_royaut%C3%A9%2C_21_Septembre_1792.jpg",
   "pic": "images/republique/rp-1792.jpg",
+  "picCap": "The proclamation of the end of the monarchy on 21 September 1792. Bronze sculpture by Léopold Morice (1883), Place de la République in Paris.",
+  "picBy": "Léopold Morice ; photo Roi Boshi",
+  "picLic": "CC BY-SA 3.0",
   "title": "The birth of the First Republic",
   "refs": [
    "French First Republic",
@@ -39,6 +45,9 @@
   "img": "The_Coronation_of_Napoleon",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/330px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
   "pic": "images/republique/rp-empire.jpg",
+  "picCap": "The Coronation of Napoleon, a huge painting by Jacques-Louis David (1805-1807). Napoleon crowns Empress Joséphine.",
+  "picBy": "Jacques-Louis David",
+  "picLic": "PD",
   "title": "Napoleon I, Emperor of the French",
   "refs": [
    "Napoleon",
@@ -55,6 +64,9 @@
   "img": "Bourbon_Restoration_in_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg/330px-G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
   "pic": "images/republique/rp-restauration.jpg",
+  "picCap": "King Louis XVIII in his coronation robes, painted by François Gérard around 1814.",
+  "picBy": "François Gérard",
+  "picLic": "PD",
   "title": "The kings come back",
   "refs": [
    "Bourbon Restoration in France",
@@ -71,6 +83,9 @@
   "img": "Liberty_Leading_the_People",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/330px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
   "pic": "images/republique/rp-1830.jpg",
+  "picCap": "Liberty Leading the People, a painting by Eugène Delacroix made in 1830 after the Three Glorious Days.",
+  "picBy": "Eugène Delacroix",
+  "picLic": "PD",
   "title": "The Three Glorious Days",
   "refs": [
    "July Revolution",
@@ -87,6 +102,9 @@
   "img": "French_Revolution_of_1848",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag_%28cropped_3x2%29.jpg/330px-Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag_%28cropped_3x2%29.jpg",
   "pic": "images/republique/rp-1848.jpg",
+  "picCap": "On 25 February 1848, the poet Lamartine refuses the red flag in front of the Paris City Hall. Painting by Henri Félix Emmanuel Philippoteaux.",
+  "picBy": "Henri Félix Emmanuel Philippoteaux",
+  "picLic": "PD",
   "title": "1848: the Second Republic and universal suffrage",
   "refs": [
    "French Revolution of 1848",
@@ -103,6 +121,9 @@
   "img": "Victor_Schœlcher",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg/330px-Victor_Sch%C5%93lcher_par_Henri_Decaisne.jpg",
   "pic": "images/republique/rp-esclavage.jpg",
+  "picCap": "Victor Schœlcher, who had slavery abolished in 1848, painted by Henri Decaisne in 1832.",
+  "picBy": "Henri Decaisne",
+  "picLic": "PD",
   "title": "Slavery is abolished for good",
   "refs": [
    "Victor Schœlcher",
@@ -119,6 +140,9 @@
   "img": "Napoleon_III",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Alexandre_Cabanel_002.jpg/330px-Alexandre_Cabanel_002.jpg",
   "pic": "images/republique/rp-secondempire.jpg",
+  "picCap": "Emperor Napoleon III, painted by Alexandre Cabanel around 1865.",
+  "picBy": "Alexandre Cabanel",
+  "picLic": "PD",
   "title": "Napoleon III and the Second Empire",
   "refs": [
    "Napoleon III",
@@ -135,6 +159,9 @@
   "img": "Léon_Gambetta",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gambetta_par_%C3%89tienne_Carjat_%28photo_recadr%C3%A9e%29.jpg/330px-Gambetta_par_%C3%89tienne_Carjat_%28photo_recadr%C3%A9e%29.jpg",
   "pic": "images/republique/rp-1870.jpg",
+  "picCap": "Léon Gambetta, one of the founders of the Third Republic, photographed by Étienne Carjat.",
+  "picBy": "Étienne Carjat",
+  "picLic": "PD",
   "title": "Defeat at Sedan and the birth of the Third Republic",
   "refs": [
    "French Third Republic",
@@ -151,6 +178,8 @@
   "img": "Paris_Commune",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Barricade18March1871_%28cropped%29.jpg/330px-Barricade18March1871_%28cropped%29.jpg",
   "pic": "images/republique/rp-commune.jpg",
+  "picCap": "A barricade in Paris on 18 March 1871, the first day of the Commune. Photo by an unknown author.",
+  "picLic": "PD",
   "title": "The Paris Commune",
   "refs": [
    "Paris Commune",
@@ -167,6 +196,9 @@
   "img": "French_Constitutional_Laws_of_1875",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Constitution_de_1875_1_sur_5_-_Archives_Nationales_-_AE-I-29_n%C2%B015.jpg/330px-Constitution_de_1875_1_sur_5_-_Archives_Nationales_-_AE-I-29_n%C2%B015.jpg",
   "pic": "images/republique/rp-1875.jpg",
+  "picCap": "The original of one of the 1875 constitutional laws, with its seal “In the name of the French people”. French National Archives.",
+  "picBy": "French National Archives",
+  "picLic": "PD",
   "title": "The Republic by a single vote",
   "refs": [
    "French Constitutional Laws of 1875",
@@ -183,6 +215,9 @@
   "img": "La_Marseillaise",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_July_2011-16a.jpg/330px-Paris_July_2011-16a.jpg",
   "pic": "images/republique/rp-symboles.jpg",
+  "picCap": "The Departure of the Volunteers of 1792, also called “La Marseillaise”. Sculpture by François Rude on the Arc de Triomphe in Paris.",
+  "picBy": "François Rude ; photo Alvesgaspar",
+  "picLic": "CC BY-SA 3.0",
   "title": "La Marseillaise and 14 July",
   "refs": [
    "La Marseillaise",
@@ -199,6 +234,9 @@
   "img": "Marianne",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MariannedeTheodoreDoriot.JPG/330px-MariannedeTheodoreDoriot.JPG",
   "pic": "images/republique/rp-marianne.jpg",
+  "picCap": "A plaster bust of Marianne made by Théodore Doriot at the end of the 19th century. It is in the Senate.",
+  "picBy": "Théodore Doriot ; photo Super sapin",
+  "picLic": "CC BY-SA 3.0",
   "title": "Marianne and the motto in every town",
   "refs": [
    "Marianne",
@@ -215,6 +253,9 @@
   "img": "Law_on_the_Freedom_of_the_Press_of_29_July_1881",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Die_Pressfreiheit.tiff/lossy-page1-330px-Die_Pressfreiheit.tiff.jpg",
   "pic": "images/republique/rp-1881.jpg",
+  "picCap": "“Freedom of the Press”, a mocking drawing by the German artist Johann Michael Voltz (1819) against newspaper censorship.",
+  "picBy": "Johann Michael Voltz",
+  "picLic": "PD",
   "title": "Freedom of the press and freedom of assembly",
   "refs": [
    "Law on the Freedom of the Press of 29 July 1881",
@@ -231,6 +272,9 @@
   "img": "French_colonial_empire",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/EmpireFrench.png/330px-EmpireFrench.png",
   "pic": "images/republique/rp-colonies.png",
+  "picCap": "Map of the French colonial empire: light blue for the first colonial empire, dark blue for the second, built mostly from 1830 onwards.",
+  "picBy": "Gd21091993",
+  "picLic": "PD",
   "title": "A new colonial empire",
   "refs": [
    "French colonial empire",
@@ -247,6 +291,9 @@
   "img": "Eiffel_Tower",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/330px-Tour_Eiffel_Wikimedia_Commons.jpg",
   "pic": "images/republique/rp-eiffel.jpg",
+  "picCap": "The Eiffel Tower seen from the Champ de Mars in Paris (photo from 2009).",
+  "picBy": "Benh LIEU SONG",
+  "picLic": "PD",
   "title": "The Eiffel Tower celebrates the centenary of 1789",
   "refs": [
    "Eiffel Tower",
@@ -263,6 +310,9 @@
   "img": "Panthéon,_Paris",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Pantheon_of_Paris_007.JPG/330px-Pantheon_of_Paris_007.JPG",
   "pic": "images/republique/rp-1892.jpg",
+  "picCap": "The Panthéon in Paris. The Republic honours the great figures of its history there.",
+  "picBy": "Moonik",
+  "picLic": "CC BY-SA 3.0",
   "title": "The Republic turns one hundred",
   "refs": [
    "French First Republic",
@@ -279,6 +329,7 @@
   "img": "Jules_Ferry",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg/330px-Jules_Ferry_-_The_Evolution_of_France_under_the_Third_Republic_%28cropped%29.jpg",
   "pic": "images/republique/rp-ferry.jpg",
+  "picCap": "Jules Ferry, Minister of Public Instruction, in a book about the Third Republic.",
   "title": "Jules Ferry: free, compulsory and secular school",
   "refs": [
    "Jules Ferry",
@@ -295,6 +346,9 @@
   "img": "Jules_Ferry_laws",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jules_Ferry_Nadar.jpg/330px-Jules_Ferry_Nadar.jpg",
   "pic": "images/republique/rp-instituteur.jpg",
+  "picCap": "Jules Ferry photographed by Nadar.",
+  "picBy": "Nadar",
+  "picLic": "PD",
   "title": "The \"black hussars\" of the Republic",
   "refs": [
    "Hussards noirs",
@@ -312,6 +366,9 @@
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/G.Bruno01.jpg/330px-G.Bruno01.jpg",
   "pic": "images/republique/rp-classe.jpg",
   "art": "images/republique/rp-classe-dessin.jpg",
+  "picCap": "First page of the book “Le Tour de la France par deux enfants” (“Two Children's Tour of France”) by G. Bruno, read in schools for decades.",
+  "picBy": "G. Bruno",
+  "picLic": "PD",
   "title": "A school day in Jules Ferry's time",
   "refs": [
    "Le Tour de la France par deux enfants",
@@ -328,6 +385,9 @@
   "img": "Certificat_d'études_primaires",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Certificat_d%27%C3%A9tudes_primaires_001.jpg/330px-Certificat_d%27%C3%A9tudes_primaires_001.jpg",
   "pic": "images/republique/rp-certificat.jpg",
+  "picCap": "A primary school certificate, earned in 1921 by an eleven-year-old child.",
+  "picBy": "André Payan-Passeron",
+  "picLic": "CC BY-SA 3.0",
   "title": "The school certificate, a family's pride",
   "refs": [
    "Certificat d'études primaires",
@@ -344,6 +404,9 @@
   "img": "Dreyfus_affair",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Alfred_Dreyfus_%281859-1935%29_-_photo_originale.jpg/330px-Alfred_Dreyfus_%281859-1935%29_-_photo_originale.jpg",
   "pic": "images/republique/rp-dreyfus.jpg",
+  "picCap": "Captain Alfred Dreyfus around 1894, photographed by Aron Gerschel.",
+  "picBy": "Aron Gerschel",
+  "picLic": "PD",
   "title": "The Dreyfus affair and \"J'accuse…!\"",
   "refs": [
    "Dreyfus affair",
@@ -360,6 +423,9 @@
   "img": "1905_French_law_on_the_Separation_of_the_Churches_and_the_State",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Loi_de_s%C3%A9paration_des_%C3%A9glises_et_de_l%E2%80%99%C3%89tat._Page_1_-_Archives_Nationales_-_AE-II-2991.jpg/330px-Loi_de_s%C3%A9paration_des_%C3%A9glises_et_de_l%E2%80%99%C3%89tat._Page_1_-_Archives_Nationales_-_AE-II-2991.jpg",
   "pic": "images/republique/rp-1905.jpg",
+  "picCap": "First page of the 1905 law separating the Churches and the State. French National Archives.",
+  "picBy": "French National Archives",
+  "picLic": "PD",
   "title": "The separation of the Churches and the State",
   "refs": [
    "1905 French law on the Separation of the Churches and the State",
@@ -376,6 +442,9 @@
   "img": "Popular_Front_(France)",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/L%C3%A9on_Blum.jpg/330px-L%C3%A9on_Blum.jpg",
   "pic": "images/republique/rp-1936.jpg",
+  "picCap": "Léon Blum, head of the Popular Front government, in London in 1936.",
+  "picBy": "Keystone France",
+  "picLic": "PD",
   "title": "The Popular Front and paid holidays",
   "refs": [
    "Popular Front (France)",
@@ -392,6 +461,9 @@
   "img": "Vichy_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Charles_de_Gaulle_au_micro_de_la_BBC.jpg/330px-Charles_de_Gaulle_au_micro_de_la_BBC.jpg",
   "pic": "images/republique/rp-1940.jpg",
+  "picCap": "General de Gaulle speaks into the BBC microphone in London in 1941.",
+  "picBy": "BBC",
+  "picLic": "PD",
   "title": "1940: the Republic abolished",
   "refs": [
    "Vichy France",
@@ -408,6 +480,9 @@
   "img": "Women's_suffrage_in_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Agence_Rol_-_1910_-_Madame_Hubertine_Auclert.jpg/330px-Agence_Rol_-_1910_-_Madame_Hubertine_Auclert.jpg",
   "pic": "images/republique/rp-femmes.jpg",
+  "picCap": "Hubertine Auclert, who fought all her life for women's right to vote, photographed in 1910.",
+  "picBy": "Agence Rol",
+  "picLic": "PD",
   "title": "Women win the right to vote",
   "refs": [
    "Women's suffrage in France",
@@ -424,6 +499,8 @@
   "img": "French_Fourth_Republic",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Constitution_du_27_octobre_1946.JPG/330px-Constitution_du_27_octobre_1946.JPG",
   "pic": "images/republique/rp-1946.jpg",
+  "picCap": "A copy of the Constitution of 27 October 1946, displayed at the Ministry of Justice.",
+  "picLic": "PD",
   "title": "The Fourth Republic and new rights",
   "refs": [
    "French Fourth Republic",
@@ -440,6 +517,9 @@
   "img": "Constitution_of_France",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Constitution_sceau.jpg/330px-Constitution_sceau.jpg",
   "pic": "images/republique/rp-1958.jpg",
+  "picCap": "The 1958 Constitution and the seal of the French Republic.",
+  "picBy": "Erasoft24",
+  "picLic": "CC BY 1.0",
   "title": "The Fifth Republic",
   "refs": [
    "French Fifth Republic",
@@ -456,6 +536,9 @@
   "img": "Charles_de_Gaulle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg/330px-De_Gaulle-OWI_%28cropped%29_%28c%29%282%29.jpg",
   "pic": "images/republique/rp-1962.jpg",
+  "picCap": "Charles de Gaulle around 1942, during the Second World War. He would become the first president of the Fifth Republic.",
+  "picBy": "Office of War Information",
+  "picLic": "PD",
   "title": "Electing the president by direct universal suffrage",
   "refs": [
    "Elections in France",
@@ -472,6 +555,9 @@
   "img": "Married_Women's_Property_Act",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Official_portrait_of_Simone_Veil_%28cropped%29.jpg/330px-Official_portrait_of_Simone_Veil_%28cropped%29.jpg",
   "pic": "images/republique/rp-1965.jpg",
+  "picCap": "Simone Veil, official portrait from the European Parliament, which she presided over from 1979 to 1982.",
+  "picBy": "European Parliament",
+  "picLic": "© EU",
   "title": "Women gain their independence",
   "refs": [
    "Women's rights in France",
@@ -488,6 +574,9 @@
   "img": "Age_of_majority",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg/330px-Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg",
   "pic": "images/republique/rp-1974.jpg",
+  "picCap": "Valéry Giscard d'Estaing, President of the Republic, in 1975.",
+  "picBy": "Christian Lambiotte",
+  "picLic": "CC BY 4.0",
   "title": "Voting at 18",
   "refs": [
    "Age of majority",
@@ -504,6 +593,9 @@
   "img": "Robert_Badinter",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Badinter_2001_%28cropped%29.jpg/330px-Badinter_2001_%28cropped%29.jpg",
   "pic": "images/republique/rp-1981.jpg",
+  "picCap": "Robert Badinter in 2001, at the first World Congress against the Death Penalty.",
+  "picBy": "European Parliament",
+  "picLic": "© EU",
   "title": "The abolition of the death penalty",
   "refs": [
    "Capital punishment in France",
@@ -520,6 +612,9 @@
   "img": "Convention_on_the_Rights_of_the_Child",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Convention_on_the_Rights_of_the_Child.svg/330px-Convention_on_the_Rights_of_the_Child.svg.png",
   "pic": "images/republique/rp-enfant.png",
+  "picCap": "Map of the countries that have adopted the Convention on the Rights of the Child: almost every country in the world.",
+  "picBy": "L.tak",
+  "picLic": "CC BY-SA 3.0",
   "title": "The Convention on the Rights of the Child",
   "refs": [
    "Convention on the Rights of the Child",
@@ -536,6 +631,9 @@
   "img": "Parity_law",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%C3%89dith_Cresson%2C_Member_of_the_EC_%281997%29_%28cropped%29.jpg/330px-%C3%89dith_Cresson%2C_Member_of_the_EC_%281997%29_%28cropped%29.jpg",
   "pic": "images/republique/rp-parite.jpg",
+  "picCap": "Édith Cresson in 1997. In 1991, she became the first woman Prime Minister of France.",
+  "picBy": "Christian Lambiotte / European Communities",
+  "picLic": "CC BY 4.0",
   "title": "Parity: as many women as men",
   "refs": [
    "Parity law",
@@ -552,6 +650,9 @@
   "img": "Ballot_box",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Election_room_at_Z%C5%A0_Ohradn%C3%AD_in_Michle%2C_Prague.jpg/330px-Election_room_at_Z%C5%A0_Ohradn%C3%AD_in_Michle%2C_Prague.jpg",
   "pic": "images/republique/rp-devoirs.jpg",
+  "picCap": "A polling station set up in a school in Prague, Czech Republic (2019). In France, people often vote in schools too.",
+  "picBy": "Jiří Sedláček",
+  "picLic": "CC BY-SA 4.0",
   "title": "A citizen's rights and duties",
   "refs": [
    "French nationality law",
@@ -568,6 +669,9 @@
   "img": "Élysée_Palace",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Fa%C3%A7ade_Palais_Bourbon_3.jpg/330px-Fa%C3%A7ade_Palais_Bourbon_3.jpg",
   "pic": "images/republique/rp-institutions.jpg",
+  "picCap": "The Palais Bourbon in Paris, where the National Assembly meets.",
+  "picBy": "ZeusUpsistos",
+  "picLic": "CC BY-SA 4.0",
   "title": "Who decides in the Republic?",
   "refs": [
    "Politics of France",
@@ -584,6 +688,9 @@
   "img": "Town_hall",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray_hotel_de_ville.jpg/330px-Gray_hotel_de_ville.jpg",
   "pic": "images/republique/rp-citoyen.jpg",
+  "picCap": "The town hall of Gray, in Haute-Saône. The town hall is the house of all the people of the commune.",
+  "picBy": "G CHP",
+  "picLic": "CC BY-SA 2.5",
   "title": "And me, a young citizen?",
   "refs": [
    "Youth council",

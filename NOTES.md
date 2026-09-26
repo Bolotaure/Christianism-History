@@ -31,12 +31,14 @@ Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche 
    - téléphone en paysage : écran « Tourne ton téléphone » (le verrouillage en portrait est impossible sur iPhone) ;
    - menus thème/langue au style « verre » ; titre de frise sur 2 lignes réservées ;
    - cartes avec illustration dessinée (`art`) : zone d'image au format 16/9 sans fond flouté ; icône image + main (en haut à droite) qui ouvre l'image Wikipédia dans une mini-carte, avec la mention « Image : Wikimedia Commons » ;
+   - légende, auteur, licence et lien Commons de l'image Wikipédia sous l'image dans la mini-carte (champs `picCap`, `picBy`, `picLic`, fait pour la frise République ; à faire pour les autres frises au moment de leurs dessins) ;
+   - bouton à droite de la mini-frise (rond coché + flèches) : fait glisser la frise jusqu'au repère de la carte en cours ; grisé tant qu'aucune carte n'a été ouverte ;
    - la mention « générée par IA » n'est pas sur les cartes : elle est expliquée une seule fois dans « À propos » (bouton « i » de la page principale).
 6. Le propriétaire écrit en français : répondre en français.
 
 ## Format des données (par frise)
 - `events.json` (EN), `events.fr.json`, `events.ja.json` : même liste de cartes, **même ordre** (ordre chronologique : les repères sont placés par ordre, et les périodes doivent être contiguës).
-- Champs : `id`, `y` (date affichée), `era` (clé de période définie dans `THEMES`), `icon` (emoji), `img` (titre de page Wikipédia d'origine), `image` (vignette Wikimedia, secours), `pic` (copie locale `images/<thème>/<id>.<ext>`), `art` (illustration dessinée, facultatif : `images/<thème>/<id>-dessin.jpg`), `title`, `refs` (pages Wikipédia/Vikidia/Kiddle proposées), `text`.
+- Champs : `id`, `y` (date affichée), `era` (clé de période définie dans `THEMES`), `icon` (emoji), `img` (titre de page Wikipédia d'origine), `image` (vignette Wikimedia, secours), `pic` (copie locale `images/<thème>/<id>.<ext>`), `art` (illustration dessinée, facultatif : `images/<thème>/<id>-dessin.jpg`), `picCap` (légende de l'image Wikipédia, traduite), `picBy` (auteur) et `picLic` (licence, `PD` = domaine public), `title`, `refs` (pages Wikipédia/Vikidia/Kiddle proposées), `text`.
 - Mots soulignés : `[mot]` dans le texte → entrée `mot` (en minuscules) dans `glossary(.fr|.ja).json`. Recherche : minuscules, puis sans `s` / `es` / `x` final. Pour un autre mot-clé : `[mot affiché|clé]`. Définition en ligne possible : `[mot::définition]`.
 - Français : espaces insécables avant `: ; ! ? »` et après `«`.
 
