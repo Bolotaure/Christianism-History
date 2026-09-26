@@ -25,4 +25,5 @@ The globe button at the top right switches the language. Theme and language are 
 A link ending in `#japan`, `#france`, `#usa`, `#revolution`, `#space`, `#republique`, `#fr`, `#ja-japan`, etc. opens a specific theme and/or language.
 
 Private project: the repository is private and the site is shared only with invited people
-(Cloudflare Pages protected by a password: `functions/_middleware.js`, users in the secret variable `SITE_USERS`). Its address is not written here on purpose.
+(Cloudflare Pages with a sign-in page: `functions/_middleware.js`, users in the secret variable `SITE_USERS`;
+a signed-in device stays signed in for a year). Its address is not written here on purpose.

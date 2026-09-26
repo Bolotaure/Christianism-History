@@ -157,6 +157,7 @@ html,body{overscroll-behavior-x:none}
 #miniCard .d + .d{margin-top:12px}
 #miniCard .cap{font-size:16px;line-height:1.45;margin:0 0 8px}
 #miniCard .ctx a{color:var(--gold2)}
+#miniCard .out{margin:14px 0 0;text-align:center}
 #miniCard.about .d{font-size:16px;line-height:1.5;text-align:left}
 #miniCard .ico{display:inline-block;width:24px;height:24px;padding:3px;vertical-align:-6px;border-radius:7px;color:var(--gold);background:rgba(20,17,15,.6)}
 #miniCard .ico svg{width:100%;height:100%;display:block}
@@ -380,7 +381,7 @@ const T = {
     learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
     before:"◀ Before", next:"Next ▶",
     close:'Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means',
-    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", photo:"See the Wikipedia picture", recenter:"Back to my card", pd:"public domain", imgBy:"Image:", about:"About",
+    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", photo:"See the Wikipedia picture", recenter:"Back to my card", pd:"public domain", imgBy:"Image:", about:"About", logout:"Sign out",
     aboutText:["These timelines help children around 10 years old discover history while having fun.", "The drawings at the top of the cards are illustrations made with artificial intelligence (AI). They are not documents from the time: they help you imagine the scene. Each drawing is checked so that it respects history (clothes, objects, buildings).", "To see the Wikipedia picture (painting, photo or document), touch the {icon} icon on the drawing. These pictures come from Wikimedia Commons."], rotate:"Turn your phone upright"
   },
   fr:{
@@ -393,7 +394,7 @@ const T = {
     learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
     before:"◀ Avant", next:"Après ▶",
     close:'Touche la carte pour revenir à la frise<br>Touche un <span class="term" style="cursor:inherit">mot souligné</span> pour savoir ce qu\'il veut dire',
-    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", photo:"Voir l'image de Wikipédia", recenter:"Revenir à ma carte", pd:"domaine public", imgBy:"Image :", about:"À propos",
+    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", photo:"Voir l'image de Wikipédia", recenter:"Revenir à ma carte", pd:"domaine public", imgBy:"Image :", about:"À propos", logout:"Se déconnecter",
     aboutText:["Ces frises aident les enfants d'environ 10 ans à découvrir l'histoire en s'amusant.", "Les dessins en haut des cartes sont des illustrations créées avec une intelligence artificielle (IA). Ce ne sont pas des documents de l'époque : ils aident à imaginer la scène. Chaque dessin est vérifié pour respecter l'histoire (vêtements, objets, bâtiments).", "Pour voir l'image de Wikipédia (tableau, photo ou document), touche l'icône {icon} sur le dessin. Ces images viennent de Wikimedia Commons."], rotate:"Tourne ton téléphone"
   },
   ja:{
@@ -406,7 +407,7 @@ const T = {
     learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
     before:"◀ 前へ", next:"次へ ▶",
     close:'カードにタッチするとタイムラインにもどります<br><span class="term" style="cursor:inherit">下線のあることば</span>にタッチすると、意味がわかります',
-    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", photo:"ウィキペディアの画像を見る", recenter:"読んでいたカードにもどる", pd:"パブリックドメイン", imgBy:"画像：", about:"このサイトについて",
+    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", photo:"ウィキペディアの画像を見る", recenter:"読んでいたカードにもどる", pd:"パブリックドメイン", imgBy:"画像：", about:"このサイトについて", logout:"ログアウト",
     aboutText:["このタイムラインは、10さいくらいの子どもたちが楽しみながら歴史を知るためのものです。", "カードの上の絵は、人工知能（AI）を使って作ったイラストです。その時代の本物の資料ではありませんが、場面を思いうかべる手助けになります。どの絵も、服・道具・建物などが歴史に合っているか確かめています。", "ウィキペディアの画像（絵画・写真・資料）を見るには、絵の上の{icon}にタッチしてください。これらの画像はウィキメディア・コモンズのものです。"], rotate:"スマホをたてにしてね"
   }
 };
@@ -827,7 +828,8 @@ function filePage(u){
 }
 function openAbout(){
   const ico = `<span class="ico" role="img" aria-label="${esc(t('photo'))}">${PHOTO_SVG}</span>`;
-  showMini(`<p class="w">${esc(t('about'))}</p>` + t('aboutText').map(x => `<p class="d">${esc(x).replace('{icon}', ico)}</p>`).join(''));
+  showMini(`<p class="w">${esc(t('about'))}</p>` + t('aboutText').map(x => `<p class="d">${esc(x).replace('{icon}', ico)}</p>`).join('')
+    + `<p class="ctx out"><a href="/__logout">${esc(t('logout'))}</a></p>`);   // ends the private-site session (Cloudflare)
 }
 function showMini(html, c){
   fadeSwap(() => {
