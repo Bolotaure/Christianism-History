@@ -10,9 +10,9 @@ let fail = 0;
 for (const [w, h] of [[390, 844], [375, 560]]) for (const th of themes) for (const l of ['fr', 'en', 'ja']) {
   const ctx = await b.newContext({ ...devices['iPhone 13'], viewport: { width: w, height: h } });
   const pg = await ctx.newPage(); const errs = []; pg.on('pageerror', e => errs.push(e.message));
-  await pg.route('https://raw.githubusercontent.com/**', r => r.fulfill({ path: R + '/data/' + r.request().url().split('/main/data/')[1], contentType: 'application/json' }));
-  await pg.route('https://bolotaure.github.io/**', r => r.fulfill({ path: R + '/' + r.request().url().split('/Christianism-History/')[1] }));
-  await pg.goto(`file://${R}/index.html#${l}-${th}`); await pg.waitForTimeout(900);
+  // the page is served from a local stand-in address; its data and pictures are the files of the repository
+  await pg.route('http://frise.test/**', r => r.fulfill({ path: R + decodeURIComponent(new URL(r.request().url()).pathname) }));
+  await pg.goto(`http://frise.test/index.html#${l}-${th}`); await pg.waitForTimeout(900);
   const res = await pg.evaluate(() => {
     const pins = [...document.querySelectorAll('.pin button')].map(e => e.getBoundingClientRect()); let ov = 0;
     for (let i = 0; i < pins.length; i++) for (let j = i + 1; j < pins.length; j++) { const a = pins[i], c = pins[j]; if (a.left < c.right - 2 && c.left < a.right - 2 && a.top < c.bottom - 2 && c.top < a.bottom - 2) ov++; }
