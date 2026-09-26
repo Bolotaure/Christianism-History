@@ -154,6 +154,15 @@ html,body{overscroll-behavior-x:none}
 :lang(ja) .kicker,:lang(ja) .body .era,:lang(ja) .band .eraname{letter-spacing:.06em}
 .compact .pin .head{width:40px;height:40px;font-size:20px}
 .compact .pin .tt{-webkit-line-clamp:3}
+
+/* ---------- landscape on a phone: ask to turn it back (a web page can't lock the orientation on iOS) ---------- */
+#rotate{display:none}
+@media (orientation:landscape) and (max-height:500px){
+  #rotate{display:flex;position:fixed;inset:0;z-index:100;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:var(--bg);color:var(--gold)}
+  #rotate svg{width:72px;height:72px;animation:rot 2.4s ease-in-out infinite}
+  #rotate p{margin:0;font-size:20px;font-weight:700;color:var(--ink)}
+  @keyframes rot{0%,20%{transform:rotate(-90deg)}55%,100%{transform:rotate(0)}}
+}
 </style>
 </head>
 <body>
@@ -179,6 +188,7 @@ html,body{overscroll-behavior-x:none}
 <button type="button" class="side next" id="sideNext" data-go="1"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3l5 5-5 5"/></svg></button>
 <div class="layer" id="miniLayer" role="dialog" aria-modal="true"><div id="miniCard"></div></div>
 <div id="fader"></div>
+<div id="rotate" aria-live="polite"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="15" y="5" width="18" height="34" rx="3.5"/><path d="M22 34h4"/><path d="M8 30a18 18 0 0 0 6 10"/><path d="M14 40l.5-4.5M14 40l-4.5-.8"/></svg><p id="rotateMsg"></p></div>
 
 <script>
 const DATA_HOST = "https://raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/";
@@ -326,7 +336,7 @@ const T = {
     learn:"📚 To learn more", kidsNote:"Kiddle is an encyclopedia written for kids.", kids:"Kiddle",
     before:"◀ Before", next:"Next ▶",
     close:'Touch the card to go back to the timeline<br>Touch an <span class="term" style="cursor:inherit">underlined word</span> to learn what it means',
-    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons"
+    inCard:"in", back:"Touch to go back to the story", credit:"Image: Wikimedia Commons", rotate:"Turn your phone upright"
   },
   fr:{
     title:"L'histoire du christianisme", kicker:"Une frise pour jeunes explorateurs",
@@ -338,7 +348,7 @@ const T = {
     learn:"📚 Pour en savoir plus", kidsNote:"Vikidia est une encyclopédie écrite pour les enfants.", kids:"Vikidia",
     before:"◀ Avant", next:"Après ▶",
     close:'Touche la carte pour revenir à la frise<br>Touche un <span class="term" style="cursor:inherit">mot souligné</span> pour savoir ce qu\'il veut dire',
-    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons"
+    inCard:"dans", back:"Touche pour revenir à l'histoire", credit:"Image : Wikimedia Commons", rotate:"Tourne ton téléphone"
   },
   ja:{
     title:"キリスト教のれきし", kicker:"わかい探検家のためのタイムライン",
@@ -350,7 +360,7 @@ const T = {
     learn:"📚 もっと知りたい人へ", kidsNote:"コトバンクは、ことばや人物を調べられる辞典サイトです。", kids:"コトバンク",
     before:"◀ 前へ", next:"次へ ▶",
     close:'カードにタッチするとタイムラインにもどります<br><span class="term" style="cursor:inherit">下線のあることば</span>にタッチすると、意味がわかります',
-    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ"
+    inCard:"", back:"タッチするとお話にもどります", credit:"画像：ウィキメディア・コモンズ", rotate:"スマホをたてにしてね"
   }
 };
 let LANG = 'en';
@@ -764,6 +774,7 @@ function applyUI(){
   $('#eras').setAttribute('aria-label', t('jump'));
   scroller.setAttribute('aria-label', t('timeline'));
   $('#langBtn').setAttribute('aria-label', t('lang'));
+  $('#rotateMsg').textContent = t('rotate');
   $('#langCode').textContent = LANG.toUpperCase();
   document.querySelectorAll('#langMenu button').forEach(b => b.setAttribute('aria-checked', b.dataset.lang === LANG));
 }
@@ -847,6 +858,8 @@ loadData(THEME, LANG).then(data => { show(THEME, LANG, data); centerOnBookmark()
 });
 let rz; window.addEventListener('resize', () => {
   clearTimeout(rz);
+  // phone turned sideways: the page is hidden behind the "turn your phone" message, keep the layout as it is
+  if(matchMedia('(orientation:landscape) and (max-height:500px)').matches) return;
   rz = setTimeout(() => { fitThemeSel(); const f = scroller.scrollLeft / Math.max(1, track.scrollWidth); layout(); scroller.scrollLeft = f*track.scrollWidth; }, 150);
 });
 </script>
