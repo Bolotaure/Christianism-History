@@ -5,8 +5,8 @@ Dépôt `Bolotaure/Fiches`, branche `main`.
 **Projet privé** : le dépôt doit être privé et le site n'est partagé qu'avec les personnes choisies par le propriétaire
 (Cloudflare Pages, projet `fiches-memo`, protégé par une page de connexion : `functions/_middleware.js`, identifiants `nom:motdepasse` séparés par des virgules
 dans la variable secrète `SITE_USERS` de Cloudflare, jamais dans le dépôt ; l'appareil reste connecté 1 an (cookie signé,
-renouvelé par les visites) ; retirer une personne ou changer son mot de passe la déconnecte ; lien « Se déconnecter » dans
-« À propos » ; après toute modification de `SITE_USERS` : Deployments → Retry deployment ; « Fail open/closed » doit rester
+renouvelé par les visites) ; retirer une personne ou changer son mot de passe la déconnecte ; pas de bouton « Se déconnecter »
+(choix du propriétaire ; l'adresse `/__logout` existe pour les essais) ; après toute modification de `SITE_USERS` : Deployments → Retry deployment ; « Fail open/closed » doit rester
 sur **Fail closed**). Ne jamais écrire l'adresse du site, du dépôt ou l'e-mail du
 propriétaire dans le code, les pages, les requêtes vers d'autres services (User-Agent…) ni les messages de commit.
 Migration en cours : GitHub Pages à désactiver et dépôt à passer en privé une fois la protection Cloudflare vérifiée.
