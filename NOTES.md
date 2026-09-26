@@ -46,6 +46,7 @@ Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche 
 - Chaque carte a une image, copiée dans `images/<thème>/` (servie par GitHub Pages) avec `image` Wikimedia en secours.
 - Récupération : vignette de la page Wikipédia (API REST `page/summary`), puis `python3 tools/download_images.py <thème>` qui télécharge les copies et remplit `pic`.
 - Vérifier chaque image : pas de logo, drapeau, carte générique ou photo hors sujet, pas de doublon dans une même frise. Sinon chercher une autre page (souvent sur fr.wikipedia).
+- Requêtes vers Wikipédia/Wikimedia (ou tout autre service) : en-tête `User-Agent` générique (`timeline-images/1.0`). **Ne jamais y mettre l'e-mail du propriétaire, ni l'adresse du site ou du dépôt.**
 - Génération d'images (Grok Imagine, xAI) : la clé est fournie par les **API credentials** de l'environnement pour `api.x.ai` (en-tête `Authorization: Bearer …`, injecté automatiquement). Ne jamais écrire, afficher ni committer de clé. Réserver les images générées aux illustrations d'ambiance, pas aux portraits de personnes réelles.
 - Charte des illustrations dessinées : en cours de validation par le propriétaire (essai en ligne sur la carte `rp-classe`).
 

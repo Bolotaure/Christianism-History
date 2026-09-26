@@ -4,7 +4,7 @@ import json, os, re, sys, time, urllib.request, urllib.error
 R = os.path.join(os.path.dirname(__file__), '..')
 theme = sys.argv[1]
 data = os.path.join(R, 'data', theme); out = os.path.join(R, 'images', theme); os.makedirs(out, exist_ok=True)
-UA = {'User-Agent': 'Christianism-History-timeline/1.0 (https://github.com/Bolotaure/Christianism-History)'}
+UA = {'User-Agent': 'timeline-images/1.0'}   # generic name only: never an e-mail, site or repository address
 pics = {}
 for e in json.load(open(os.path.join(data, 'events.json'))):
     u = e.get('image')
