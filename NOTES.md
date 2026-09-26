@@ -3,9 +3,10 @@
 À lire au début de chaque nouvelle session : consignes du propriétaire du projet et façon de travailler.
 Dépôt `Bolotaure/Fiches`, branche `main`.
 **Projet privé** : le dépôt doit être privé et le site n'est partagé qu'avec les personnes choisies par le propriétaire
-(Cloudflare Pages + Cloudflare Access, liste d'e-mails autorisés). Ne jamais écrire l'adresse du site, du dépôt ou l'e-mail du
+(Cloudflare Pages, projet `fiches-memo`, protégé par mot de passe : `functions/_middleware.js`, identifiants dans la variable secrète
+`SITE_USERS` de Cloudflare, jamais dans le dépôt ; « Fail open/closed » doit rester sur **Fail closed**). Ne jamais écrire l'adresse du site, du dépôt ou l'e-mail du
 propriétaire dans le code, les pages, les requêtes vers d'autres services (User-Agent…) ni les messages de commit.
-Migration en cours : GitHub Pages (ancienne adresse) à désactiver une fois Cloudflare Access en place.
+Migration en cours : GitHub Pages à désactiver et dépôt à passer en privé une fois la protection Cloudflare vérifiée.
 
 ## Le projet
 - Frises historiques interactives pour enfants d'environ 10 ans, en **français, anglais et japonais**.
