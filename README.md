@@ -1,4 +1,4 @@
-# Christianism-History
+# Fiches
 
 Interactive timelines for 10-year-olds, in English, French and Japanese.
 
@@ -15,14 +15,14 @@ Files per theme:
 - `events.json` / `events.fr.json` / `events.ja.json`: the events (text, date, period, illustration, reference links).
 - `glossary.json` / `glossary.fr.json` / `glossary.ja.json`: explanations of the underlined words.
 
-Illustrations: copies of the Wikimedia Commons images are in `images/<theme>/<event id>.*` (served by GitHub Pages);
+Illustrations: copies of the Wikimedia Commons images are in `images/<theme>/<event id>.*` (served next to the page);
 each event's `pic` field points to its copy and `image` keeps the Wikimedia original, used as a fallback.
 
-`index.html` loads its data from `raw.githubusercontent.com/Bolotaure/Christianism-History/main/data/`.
+`index.html` loads its data and pictures with relative paths (`data/`, `images/`), so the site works at any address.
 To change a story or an explanation, edit the JSON only.
 
 The globe button at the top right switches the language. Theme and language are remembered on the device, and the last card opened in each theme is marked with a check mark (a bookmark) that the timeline scrolls to.
 A link ending in `#japan`, `#france`, `#usa`, `#revolution`, `#space`, `#republique`, `#fr`, `#ja-japan`, etc. opens a specific theme and/or language.
 
-Open it at https://bolotaure.github.io/Christianism-History/
-or https://htmlpreview.github.io/?https://github.com/Bolotaure/Christianism-History/blob/main/index.html
+Private project: the repository is private and the site is shared only with invited people
+(Cloudflare Pages protected by Cloudflare Access). Its address is not written here on purpose.

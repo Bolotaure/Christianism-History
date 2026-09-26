@@ -1,7 +1,11 @@
 # Notes de travail — frises historiques
 
 À lire au début de chaque nouvelle session : consignes du propriétaire du projet et façon de travailler.
-Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche `main`).
+Dépôt `Bolotaure/Fiches`, branche `main`.
+**Projet privé** : le dépôt doit être privé et le site n'est partagé qu'avec les personnes choisies par le propriétaire
+(Cloudflare Pages + Cloudflare Access, liste d'e-mails autorisés). Ne jamais écrire l'adresse du site, du dépôt ou l'e-mail du
+propriétaire dans le code, les pages, les requêtes vers d'autres services (User-Agent…) ni les messages de commit.
+Migration en cours : GitHub Pages (ancienne adresse) à désactiver une fois Cloudflare Access en place.
 
 ## Le projet
 - Frises historiques interactives pour enfants d'environ 10 ans, en **français, anglais et japonais**.
@@ -16,7 +20,7 @@ Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche 
   | La conquête de l'espace | `space` | `data/space/` | 50 |
   | Le temps de la République (CM2, thème 1) | `republique` | `data/republique/` | 37 |
 - Une seule page : `index.html` (CSS et JS intégrés). Chaque frise est déclarée dans l'objet `THEMES` (dossier, couleurs des périodes, titres et noms de périodes dans les 3 langues).
-- Les données sont lues depuis `raw.githubusercontent.com/.../main/data/`, les images depuis GitHub Pages.
+- Les données (`data/`) et les images (`images/`) sont lues en chemins relatifs, à côté de la page : le site marche quelle que soit son adresse. `_headers` (Cloudflare) : noindex et no-referrer.
 
 ## Consignes du propriétaire (à respecter)
 1. **Les traductions traduisent, un point c'est tout.** Le français est la référence. L'anglais et le japonais disent exactement la même chose : pas d'ajouts « pour lecteurs japonais » (exemples du Japon, noms japonais…), pas de phrases supprimées ou remplacées. Seule exception tolérée : une courte précision de vocabulaire dans le glossaire (ex. « イースター（復活祭）»).
@@ -54,7 +58,7 @@ Site : https://bolotaure.github.io/Christianism-History/ (GitHub Pages, branche 
 - `node tools/check_data.js` : mêmes cartes dans les 3 langues, chaque mot souligné a sa définition, pas de définition inutilisée.
 - `node tools/test_timeline.mjs` : ouvre toutes les frises dans les 3 langues (écrans 390×844 et 375×560), ouvre des cartes et des mini-cartes, vérifie l'absence d'erreurs JS et de repères qui se chevauchent (Playwright + Chromium préinstallé).
 - Regarder aussi une capture d'écran quand on touche à la mise en page.
-- GitHub Pages met quelques minutes à se mettre à jour.
+- Le site se met à jour quelques minutes après chaque publication sur `main`.
 
 ## Ajouter une frise
 1. Écrire les cartes en français (référence), puis les traduire fidèlement en anglais et en japonais ; glossaires dans les 3 langues.
