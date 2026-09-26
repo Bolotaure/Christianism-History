@@ -461,7 +461,7 @@
    "Spationaute",
    "Claudie Haigneré"
   ],
-  "text": "Le 24 juin 1982, Jean-Loup Chrétien, un pilote d'essai de l'armée de l'air française, décolle du cosmodrome de Baïkonour, au Kazakhstan, à bord d'une fusée soviétique Soyouz. Il devient le premier Français et le premier Européen de l'Ouest à aller dans l'espace !\n\nÀ l'époque, c'est la guerre froide, et l'Europe est coupée en deux. Mais la France entretient une coopération spatiale avec l'Union soviétique depuis les années 1960. Chrétien a dû apprendre le russe et s'entraîner pendant deux ans près de Moscou.\n\nPendant une semaine, il vit à bord de la station soviétique Saliout 7 avec quatre cosmonautes. Il fait des expériences scientifiques, notamment sur le cœur et sur l'équilibre en apesanteur.\n\nEt comme il est français, il emporte... de la bonne nourriture ! Du pâté, de la soupe et des pâtisseries, préparés par des chefs. Ce sont les premiers repas « gastronomiques » de l'espace, et les cosmonautes soviétiques se régalent !\n\nEn France, on appelle parfois les astronautes des [spationautes]. Depuis Chrétien, une dizaine de Français sont allés dans l'espace, dont :\n- Patrick Baudry, à bord de la navette américaine en 1985 ;\n- Claudie Haigneré, première Française dans l'espace en 1996, qui est ensuite devenue ministre ;\n- Thomas Pesquet, qui a vécu deux fois à bord de la Station spatiale internationale.\n\nEn 1988, Jean-Loup Chrétien retourne dans l'espace à bord de la station Mir et devient le premier non-Américain et non-Soviétique à faire une sortie dans l'espace."
+  "text": "Le 24 juin 1982, Jean-Loup Chrétien, un pilote d'essai de l'armée de l'air française, décolle du cosmodrome de Baïkonour, au Kazakhstan, à bord d'une fusée soviétique Soyouz. Il devient le premier Français et le premier Européen de l'Ouest à aller dans l'espace !\n\nÀ l'époque, c'est la guerre froide, et l'Europe est coupée en deux. Mais la France entretient une coopération spatiale avec l'Union soviétique depuis les années 1960. Chrétien a dû apprendre le russe et s'entraîner pendant deux ans près de Moscou.\n\nPendant une semaine, il vit à bord de la station soviétique Saliout 7 avec quatre cosmonautes. Il fait des expériences scientifiques, notamment sur le cœur et sur l'équilibre en apesanteur.\n\nEt comme il est français, il emporte... de la bonne nourriture ! Du pâté, de la soupe et des pâtisseries, préparés par des chefs. Ce sont les premiers repas « gastronomiques » de l'espace, et les cosmonautes soviétiques se régalent !\n\nEn France, on appelle parfois les astronautes des [spationautes]. Depuis Chrétien, une dizaine de Français sont allés dans l'espace, dont :\n- Patrick Baudry, à bord de la navette américaine en 1985 ;\n- Claudie Haigneré, première Française dans l'espace en 1996, qui est ensuite devenue ministre.\n\nEn 1988, Jean-Loup Chrétien retourne dans l'espace à bord de la station Mir et devient le premier non-Américain et non-Soviétique à faire une sortie dans l'espace."
  },
  {
   "id": "sp-challenger",
@@ -663,29 +663,13 @@
   "img": "Falcon_9",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Falcon_9_first_stage_at_LZ-1%28two%29.jpg/330px-Falcon_9_first_stage_at_LZ-1%28two%29.jpg",
   "pic": "images/space/sp-spacex.jpg",
-  "title": "Des fusées qui reviennent se poser",
+  "title": "SpaceX : des fusées qui reviennent se poser",
   "refs": [
    "Falcon 9",
    "SpaceX",
    "Lanceur réutilisable"
   ],
-  "text": "Pendant 60 ans, presque toutes les fusées ont été jetées après un seul vol. C'est comme si on jetait un avion à la poubelle après chaque voyage ! C'est pour ça que l'espace coûtait si cher.\n\nAu XXIe siècle, de nouvelles entreprises privées se lancent dans l'aventure spatiale. L'une d'elles, l'entreprise américaine SpaceX, veut rendre les fusées [réutilisables].\n\nSon idée : faire revenir le premier étage de la fusée, la partie la plus chère, pour qu'il se pose tout seul, debout, en rallumant ses moteurs et en déployant des pieds, comme dans les films de science-fiction !\n\nLes premiers essais sont des échecs spectaculaires : les étages basculent, se renversent et explosent en se posant.\n\nLe 21 décembre 2015, le premier étage d'une fusée Falcon 9 revient se poser en douceur sur une plateforme en Floride, après avoir envoyé des satellites dans l'espace. C'est une première historique ! Un mois plus tôt, la fusée New Shepard de l'entreprise Blue Origin s'était déjà reposée, mais après un simple saut dans l'espace, sans aller en orbite. Plus tard, les étages se posent même sur des barges au milieu de l'océan.\n\nAujourd'hui, certains étages ont volé plus de 25 fois. Les lancements sont devenus beaucoup moins chers et beaucoup plus nombreux.\n\nDepuis 2020, SpaceX transporte aussi des astronautes vers la Station spatiale internationale avec sa capsule Crew Dragon. Thomas Pesquet a été l'un des premiers Européens à l'utiliser. D'autres entreprises et pays développent eux aussi des fusées réutilisables.\n\nCela pose aussi des questions : des milliers de petits satellites sont lancés pour fournir Internet partout, ce qui encombre le ciel et gêne les astronomes qui observent les étoiles."
- },
- {
-  "id": "sp-pesquet",
-  "y": "2016–2017",
-  "era": "nouveau",
-  "icon": "🎷",
-  "img": "Thomas_Pesquet",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Thomas_Pesquet%2C_official_portrait_in_EMU_%282020%29_cropped.jpg/330px-Thomas_Pesquet%2C_official_portrait_in_EMU_%282020%29_cropped.jpg",
-  "pic": "images/space/sp-pesquet.jpg",
-  "title": "Thomas Pesquet dans la Station spatiale",
-  "refs": [
-   "Thomas Pesquet",
-   "Mission Proxima",
-   "Agence spatiale européenne"
-  ],
-  "text": "Thomas Pesquet est né en 1978 à Rouen, en Normandie. Quand il était enfant, il rêvait déjà de l'espace. Il devient ingénieur, puis pilote de ligne chez Air France.\n\nEn 2009, il est sélectionné par l'Agence spatiale européenne parmi plus de 8 000 candidats ! Pour devenir astronaute, il s'entraîne pendant des années : il apprend le russe, s'entraîne à marcher dans l'espace sous l'eau dans une immense piscine, étudie la survie dans la neige et en mer...\n\nLe 17 novembre 2016, il décolle de Baïkonour à bord d'une fusée Soyouz. Il devient le dixième Français dans l'espace. Sa mission s'appelle Proxima, du nom de l'étoile la plus proche du Soleil.\n\nIl passe six mois à bord de la Station spatiale internationale. Il réalise des dizaines d'expériences scientifiques et fait deux sorties dans l'espace pour réparer la station.\n\nPendant son temps libre, il photographie la Terre depuis la coupole de la station. Il partage des centaines de photos magnifiques sur Internet : des villes illuminées la nuit, des déserts, des aurores boréales, des océans. Il montre aussi les dégâts faits à la planète : incendies, fonte des glaces, pollution. Il devient très populaire, surtout auprès des jeunes.\n\nIl a même joué du saxophone à bord de la station : un instrument y avait été envoyé quelques années plus tôt !\n\nEn 2021, il repart pour une deuxième mission, Alpha, cette fois à bord de la capsule Crew Dragon de SpaceX. Il devient le premier Français commandant de la Station spatiale internationale.\n\nIl répète souvent un message : la Terre est fragile, il faut en prendre soin, car nous n'avons pas de planète de secours."
+  "text": "Pendant 60 ans, presque toutes les fusées ont été jetées après un seul vol. C'est comme si on jetait un avion à la poubelle après chaque voyage ! C'est pour ça que l'espace coûtait si cher.\n\nAu XXIe siècle, de nouvelles entreprises privées se lancent dans l'aventure spatiale. L'une d'elles, l'entreprise américaine SpaceX, veut rendre les fusées [réutilisables].\n\nSon idée : faire revenir le premier étage de la fusée, la partie la plus chère, pour qu'il se pose tout seul, debout, en rallumant ses moteurs et en déployant des pieds, comme dans les films de science-fiction !\n\nLes premiers essais sont des échecs spectaculaires : les étages basculent, se renversent et explosent en se posant.\n\nLe 21 décembre 2015, le premier étage d'une fusée Falcon 9 revient se poser en douceur sur une plateforme en Floride, après avoir envoyé des satellites dans l'espace. C'est une première historique ! Un mois plus tôt, la fusée New Shepard de l'entreprise Blue Origin s'était déjà reposée, mais après un simple saut dans l'espace, sans aller en orbite. Plus tard, les étages se posent même sur des barges au milieu de l'océan.\n\nAujourd'hui, certains étages ont volé plus de 25 fois. Les lancements sont devenus beaucoup moins chers et beaucoup plus nombreux.\n\nDepuis 2020, SpaceX transporte aussi des astronautes vers la Station spatiale internationale avec sa capsule Crew Dragon. D'autres entreprises et pays développent eux aussi des fusées réutilisables.\n\nCela pose aussi des questions : des milliers de petits satellites sont lancés pour fournir Internet partout, ce qui encombre le ciel et gêne les astronomes qui observent les étoiles."
  },
  {
   "id": "sp-change4",
@@ -759,7 +743,7 @@
   "img": "Starship_flight_test_5",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg/330px-Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg",
   "pic": "images/space/sp-starship.jpg",
-  "title": "Starship : la tour attrape la fusée géante",
+  "title": "Starship de SpaceX : la tour attrape la fusée géante",
   "refs": [
    "Starship (SpaceX)",
    "SpaceX",

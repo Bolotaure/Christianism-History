@@ -461,7 +461,7 @@
    "Claudie Haigneré",
    "Salyut 7"
   ],
-  "text": "On 24 June 1982, Jean-Loup Chrétien, a French Air Force test pilot, lifted off from the Baikonur Cosmodrome in Kazakhstan aboard a Soviet Soyuz rocket. He became the first Frenchman and the first Western European to go into space!\n\nAt the time, it was the Cold War, and Europe was split in two. But France had been working with the Soviet Union on space projects since the 1960s. Chrétien had to learn Russian and train for two years near Moscow.\n\nFor a week, he lived aboard the Soviet space station Salyut 7 with four cosmonauts. He did scientific experiments, especially on the heart and on balance in weightlessness.\n\nAnd being French, he brought... good food! Pâté, soup and pastries, prepared by chefs. They were the first \"gourmet\" meals in space, and the Soviet cosmonauts loved them!\n\nIn French, astronauts are sometimes called [spationautes]. Since Chrétien, about ten French people have gone into space, including:\n- Patrick Baudry, aboard the American Space Shuttle in 1985;\n- Claudie Haigneré, the first French woman in space in 1996, who later became a government minister;\n- Thomas Pesquet, who lived twice aboard the International Space Station.\n\nIn 1988, Jean-Loup Chrétien returned to space aboard the Mir station and became the first person who was neither American nor Soviet to do a spacewalk."
+  "text": "On 24 June 1982, Jean-Loup Chrétien, a French Air Force test pilot, lifted off from the Baikonur Cosmodrome in Kazakhstan aboard a Soviet Soyuz rocket. He became the first Frenchman and the first Western European to go into space!\n\nAt the time, it was the Cold War, and Europe was split in two. But France had been working with the Soviet Union on space projects since the 1960s. Chrétien had to learn Russian and train for two years near Moscow.\n\nFor a week, he lived aboard the Soviet space station Salyut 7 with four cosmonauts. He did scientific experiments, especially on the heart and on balance in weightlessness.\n\nAnd being French, he brought... good food! Pâté, soup and pastries, prepared by chefs. They were the first \"gourmet\" meals in space, and the Soviet cosmonauts loved them!\n\nIn French, astronauts are sometimes called [spationautes]. Since Chrétien, about ten French people have gone into space, including:\n- Patrick Baudry, aboard the American Space Shuttle in 1985;\n- Claudie Haigneré, the first French woman in space in 1996, who later became a government minister.\n\nIn 1988, Jean-Loup Chrétien returned to space aboard the Mir station and became the first person who was neither American nor Soviet to do a spacewalk."
  },
  {
   "id": "sp-challenger",
@@ -663,29 +663,13 @@
   "img": "Falcon_9",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Falcon_9_first_stage_at_LZ-1%28two%29.jpg/330px-Falcon_9_first_stage_at_LZ-1%28two%29.jpg",
   "pic": "images/space/sp-spacex.jpg",
-  "title": "Rockets that come back and land",
+  "title": "SpaceX: rockets that come back and land",
   "refs": [
    "Falcon 9",
    "SpaceX",
    "Reusable launch vehicle"
   ],
-  "text": "For 60 years, almost every rocket was thrown away after one flight. It's as if you threw a plane in the bin after each trip! That's why going to space was so expensive.\n\nIn the 21st century, new private companies joined the space adventure. One of them, the American company SpaceX, wanted to make rockets [reusable].\n\nIts idea: bring back the rocket's first stage, the most expensive part, and have it land by itself, upright, by relighting its engines and unfolding legs, like in science-fiction films!\n\nThe first tries were spectacular failures: the stages tipped over, toppled and exploded as they landed.\n\nOn 21 December 2015, the first stage of a Falcon 9 rocket came back and landed gently on a pad in Florida, after sending satellites into space. It was a historic first! A month earlier, Blue Origin's New Shepard rocket had already landed again, but after a short hop into space, without reaching orbit. Later, stages even landed on floating platforms in the middle of the ocean.\n\nToday, some stages have flown more than 25 times. Launches have become much cheaper and much more frequent.\n\nSince 2020, SpaceX has also carried astronauts to the International Space Station in its Crew Dragon capsule. Thomas Pesquet was one of the first Europeans to use it. Other companies and countries are also developing reusable rockets.\n\nThis raises questions too: thousands of small satellites are being launched to bring the Internet everywhere, which crowds the sky and gets in the way of astronomers observing the stars."
- },
- {
-  "id": "sp-pesquet",
-  "y": "2016–2017",
-  "era": "nouveau",
-  "icon": "🎷",
-  "img": "Thomas_Pesquet",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Thomas_Pesquet%2C_official_portrait_in_EMU_%282020%29_cropped.jpg/330px-Thomas_Pesquet%2C_official_portrait_in_EMU_%282020%29_cropped.jpg",
-  "pic": "images/space/sp-pesquet.jpg",
-  "title": "Thomas Pesquet on the Space Station",
-  "refs": [
-   "Thomas Pesquet",
-   "European Space Agency",
-   "International Space Station"
-  ],
-  "text": "Thomas Pesquet was born in 1978 in Rouen, in Normandy, France. As a child, he already dreamed of space. He became an engineer, then an airline pilot with Air France.\n\nIn 2009, he was selected by the European Space Agency from more than 8,000 candidates! To become an astronaut, he trained for years: he learned Russian, practised spacewalks underwater in a huge swimming pool, and studied survival in snow and at sea...\n\nOn 17 November 2016, he lifted off from Baikonur aboard a Soyuz rocket. He became the tenth French person in space. His mission was called Proxima, after the star closest to the Sun.\n\nHe spent six months aboard the International Space Station. He carried out dozens of scientific experiments and made two spacewalks to repair the station.\n\nIn his free time, he photographed the Earth from the station's big window, the Cupola. He shared hundreds of stunning photos online: cities lit up at night, deserts, northern lights, oceans. He also showed the damage done to the planet: fires, melting ice, pollution. He became very popular, especially with young people.\n\nHe even played the saxophone aboard the station: an instrument had been sent up there a few years earlier!\n\nIn 2021, he went back for a second mission, Alpha, this time aboard SpaceX's Crew Dragon capsule. He became the first French commander of the International Space Station.\n\nHe often repeats one message: the Earth is fragile, and we must take care of it, because we have no spare planet."
+  "text": "For 60 years, almost every rocket was thrown away after one flight. It's as if you threw a plane in the bin after each trip! That's why going to space was so expensive.\n\nIn the 21st century, new private companies joined the space adventure. One of them, the American company SpaceX, wanted to make rockets [reusable].\n\nIts idea: bring back the rocket's first stage, the most expensive part, and have it land by itself, upright, by relighting its engines and unfolding legs, like in science-fiction films!\n\nThe first tries were spectacular failures: the stages tipped over, toppled and exploded as they landed.\n\nOn 21 December 2015, the first stage of a Falcon 9 rocket came back and landed gently on a pad in Florida, after sending satellites into space. It was a historic first! A month earlier, Blue Origin's New Shepard rocket had already landed again, but after a short hop into space, without reaching orbit. Later, stages even landed on floating platforms in the middle of the ocean.\n\nToday, some stages have flown more than 25 times. Launches have become much cheaper and much more frequent.\n\nSince 2020, SpaceX has also carried astronauts to the International Space Station in its Crew Dragon capsule. Other companies and countries are also developing reusable rockets.\n\nThis raises questions too: thousands of small satellites are being launched to bring the Internet everywhere, which crowds the sky and gets in the way of astronomers observing the stars."
  },
  {
   "id": "sp-change4",
@@ -759,7 +743,7 @@
   "img": "Starship_flight_test_5",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg/330px-Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg",
   "pic": "images/space/sp-starship.jpg",
-  "title": "Starship: the tower catches the giant rocket",
+  "title": "SpaceX's Starship: the tower catches the giant rocket",
   "refs": [
    "SpaceX Starship",
    "SpaceX",
