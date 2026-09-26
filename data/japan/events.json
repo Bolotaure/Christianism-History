@@ -1,7 +1,7 @@
 [
  {
   "id": "jp-first",
-  "y": "c. 38,000 BC",
+  "y": "~38,000 BC",
   "era": "ancient",
   "icon": "🦣",
   "img": "Japanese_Paleolithic",
@@ -17,7 +17,7 @@
  },
  {
   "id": "jp-jomon",
-  "y": "c. 14,000 BC",
+  "y": "~14,000 BC",
   "era": "ancient",
   "icon": "🏺",
   "img": "Jōmon_pottery",
@@ -33,7 +33,7 @@
  },
  {
   "id": "jp-sannai",
-  "y": "c. 3900 BC",
+  "y": "~3900 BC",
   "era": "ancient",
   "icon": "🏘️",
   "img": "Sannai-Maruyama_site",
@@ -49,7 +49,7 @@
  },
  {
   "id": "jp-yayoi",
-  "y": "c. 300 BC",
+  "y": "~300 BC",
   "era": "yayoi",
   "icon": "🌾",
   "img": "Yayoi_period",
@@ -81,7 +81,7 @@
  },
  {
   "id": "jp-kofun",
-  "y": "c. 450",
+  "y": "~450",
   "era": "yayoi",
   "icon": "🗝️",
   "img": "Daisen_Kofun",
@@ -178,7 +178,7 @@
  },
  {
   "id": "jp-genji",
-  "y": "c. 1000",
+  "y": "~1000",
   "era": "heian",
   "icon": "✍️",
   "img": "The_Tale_of_Genji",
@@ -279,7 +279,7 @@
  },
  {
   "id": "jp-noh",
-  "y": "c. 1400",
+  "y": "~1400",
   "era": "kamakura",
   "icon": "🎭",
   "img": "Noh",

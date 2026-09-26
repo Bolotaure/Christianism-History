@@ -17,7 +17,7 @@
  },
  {
   "id": "us-cahokia",
-  "y": "v. 1050",
+  "y": "~1050",
   "era": "native",
   "icon": "🏔️",
   "img": "Cahokia",
@@ -33,7 +33,7 @@
  },
  {
   "id": "us-pueblo",
-  "y": "v. 1190–1280",
+  "y": "~1190–1280",
   "era": "native",
   "icon": "🏜️",
   "img": "Mesa_Verde_National_Park",
@@ -401,7 +401,7 @@
  },
  {
   "id": "us-underground",
-  "y": "v. 1850",
+  "y": "~1850",
   "era": "expansion",
   "icon": "🏮",
   "img": "Harriet_Tubman",

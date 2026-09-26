@@ -1,7 +1,7 @@
 [
  {
   "id": "fr-tautavel",
-  "y": "c. 450,000 BC",
+  "y": "~450,000 BC",
   "era": "prehist",
   "icon": "🦴",
   "img": "Tautavel_Man",
@@ -17,7 +17,7 @@
  },
  {
   "id": "fr-lascaux",
-  "y": "c. 17,000 BC",
+  "y": "~17,000 BC",
   "era": "prehist",
   "icon": "🐂",
   "img": "Lascaux",
@@ -33,7 +33,7 @@
  },
  {
   "id": "fr-carnac",
-  "y": "c. 4500 BC",
+  "y": "~4500 BC",
   "era": "prehist",
   "icon": "🪨",
   "img": "Carnac_stones",
@@ -81,7 +81,7 @@
  },
  {
   "id": "fr-galloromain",
-  "y": "c. 50",
+  "y": "~50",
   "era": "gaule",
   "icon": "🏛️",
   "img": "Pont_du_Gard",
@@ -97,7 +97,7 @@
  },
  {
   "id": "fr-clovis",
-  "y": "c. 496",
+  "y": "~496",
   "era": "hautma",
   "icon": "👑",
   "img": "Clovis_I",
@@ -465,7 +465,7 @@
  },
  {
   "id": "fr-colonies",
-  "y": "c. 1830–1914",
+  "y": "~1830–1914",
   "era": "xixe",
   "icon": "🗺️",
   "img": "French_colonial_empire",

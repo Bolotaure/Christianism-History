@@ -1,7 +1,7 @@
 [
  {
   "id": "abraham",
-  "y": "v. 1800 av. J.-C.",
+  "y": "~1800 av. J.-C.",
   "era": "roots",
   "icon": "⛺",
   "img": "Abraham",
@@ -17,7 +17,7 @@
  },
  {
   "id": "nativity",
-  "y": "v. 4 av. J.-C.",
+  "y": "~4 av. J.-C.",
   "era": "jesus",
   "icon": "⭐",
   "img": "Nativity_of_Jesus",
@@ -33,7 +33,7 @@
  },
  {
   "id": "baptism",
-  "y": "v. 28 apr. J.-C.",
+  "y": "~28 apr. J.-C.",
   "era": "jesus",
   "icon": "🕊️",
   "img": "Baptism_of_Jesus",
@@ -49,7 +49,7 @@
  },
  {
   "id": "teaching",
-  "y": "v. 28–30",
+  "y": "~28–30",
   "era": "jesus",
   "icon": "⛰️",
   "img": "Sermon_on_the_Mount",
@@ -65,7 +65,7 @@
  },
  {
   "id": "easter",
-  "y": "v. 30",
+  "y": "~30",
   "era": "jesus",
   "icon": "✝️",
   "img": "Resurrection_of_Jesus",
@@ -82,7 +82,7 @@
  },
  {
   "id": "pentecost",
-  "y": "v. 30",
+  "y": "~30",
   "era": "early",
   "icon": "🔥",
   "img": "Pentecost",
@@ -98,7 +98,7 @@
  },
  {
   "id": "paulconv",
-  "y": "v. 34–36",
+  "y": "~34–36",
   "era": "early",
   "icon": "⚡",
   "img": "Conversion_of_Paul_the_Apostle",
@@ -162,7 +162,7 @@
  },
  {
   "id": "catacombs",
-  "y": "v. 150",
+  "y": "~150",
   "era": "early",
   "icon": "🐟",
   "img": "Catacombs_of_Rome",
@@ -194,7 +194,7 @@
  },
  {
   "id": "anthony",
-  "y": "v. 270",
+  "y": "~270",
   "era": "early",
   "icon": "🏜️",
   "img": "Anthony_the_Great",
@@ -276,7 +276,7 @@
  },
  {
   "id": "jerome",
-  "y": "v. 400",
+  "y": "~400",
   "era": "empire",
   "icon": "🦁",
   "img": "Augustine_of_Hippo",
@@ -309,7 +309,7 @@
  },
  {
   "id": "clovis",
-  "y": "v. 496",
+  "y": "~496",
   "era": "middle",
   "icon": "👑",
   "img": "Clovis_I",
